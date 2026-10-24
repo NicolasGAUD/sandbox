@@ -1,0 +1,58 @@
+{
+  "1701113894697_USR.jpg": {
+    "type_lieu": "bateau",
+    "degradation": "degrade"
+  },
+  "1701113894705_USR.jpg": {
+    "degradation": "degrade"
+  },
+  "1701114203553_USR.jpg": {
+    "type_lieu": "paysage"
+  },
+  "1701710122127_USR.jpg": {
+    "type_lieu": "batiment",
+    "degradation": "bon_etat"
+  },
+  "1708121529484_USR.jpg": {
+    "type_lieu": "toit",
+    "graffitis": "non"
+  },
+  "1708121529490_USR.jpg": {
+    "type_lieu": "usine"
+  },
+  "1708121693010_USR.jpg": {
+    "interieur_exterieur": "interieur",
+    "graffitis": "oui"
+  },
+  "1725639873325_USR.jpg": {
+    "degradation": "degrade"
+  },
+  "1725640090313_USR.jpg": {},
+  "1725640090455_USR.jpg": {
+    "degradation": "tres_bon_etat"
+  },
+  "1725640090536_USR.jpg": {
+    "vegetation": "oui"
+  },
+  "1725640090681_USR.jpg": {
+    "type_lieu": "maison",
+    "vegetation": "non",
+    "degradation": "degrade"
+  },
+  "1725640090958_USR.jpg": {
+    "type_lieu": "maison",
+    "vegetation": "non",
+    "degradation": "degrade"
+  },
+  "1725640090064_USR.jpg": {
+    "degradation": "tres_bon_etat"
+  },
+  "1725640385782_USR.jpg": {
+    "type_lieu": "pont",
+    "degradation": "degrade"
+  },
+  "1725640386066_USR.jpg": {
+    "vegetation": "oui",
+    "degradation": "degrade"
+  }
+}
