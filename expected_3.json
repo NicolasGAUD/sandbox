@@ -36,7 +36,7 @@
     "graffiti": "no"
   },
   "Abbaye_Beauport/DSC06934-HDR.jpg": {
-    "place_type": "castle",
+    "place_type": "church",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -192,8 +192,8 @@
     "vehicle_type": "caravan"
   },
   "Abbaye_Gatines/DSC10188-HDR.jpg": {
-    "place_type": "factory",
-    "vehicle_type": null,
+    "place_type": "vehicle",
+    "vehicle_type": "truck",
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",
@@ -365,9 +365,9 @@
     "indoor_outdoor": "indoor",
     "interior_category": "archi_graphism",
     "condition": "degraded",
-    "sky": "absent",
+    "sky": "visible",
     "time_of_day": "day",
-    "weather": null,
+    "weather": "sunny",
     "vegetation": "no",
     "graffiti": "no"
   },
@@ -404,7 +404,7 @@
     "weather": null,
     "vegetation": "no",
     "graffiti": "no",
-    "place_type": "hospital",
+    "place_type": "undetermined",
     "vehicle_type": null
   },
   "Abbaye_Sees/DSC02110-HDR.jpg": {
@@ -436,7 +436,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "degraded",
+    "condition": "good",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -692,7 +692,7 @@
     "weather": null,
     "vegetation": "no",
     "graffiti": "no",
-    "place_type": "undetermined",
+    "place_type": "office",
     "vehicle_type": null
   },
   "Abbaye_Sees/DSC02306-HDR.jpg": {
@@ -811,7 +811,7 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "cloudy",
+    "weather": "mixed",
     "vegetation": "yes",
     "graffiti": "no"
   },
@@ -914,8 +914,8 @@
   "Ardoisieres_GdCarreaux/DSC08413.jpg": {
     "place_type": "factory",
     "vehicle_type": null,
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
     "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
@@ -1049,9 +1049,9 @@
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",
-    "sky": "absent",
+    "sky": "visible",
     "time_of_day": "day",
-    "weather": null,
+    "weather": "sunny",
     "vegetation": "no",
     "graffiti": "no"
   },
@@ -1516,7 +1516,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "degraded",
+    "condition": "good",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -1528,7 +1528,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "degraded",
+    "condition": "good",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -1711,7 +1711,7 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "few_clouds",
+    "weather": "sunny",
     "vegetation": "yes",
     "graffiti": "no"
   },
@@ -1721,15 +1721,15 @@
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",
-    "sky": "visible",
+    "sky": "absent",
     "time_of_day": "day",
-    "weather": "sunny",
+    "weather": null,
     "vegetation": "yes",
     "graffiti": "no"
   },
   "Ch_Angeliere/DSC05129-HDR.jpg": {
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
     "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
@@ -1802,7 +1802,7 @@
   "Ch_Angeliere/DSC05207.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "decay",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1812,9 +1812,9 @@
     "vehicle_type": null
   },
   "Ch_Angeliere/DSC05210.jpg": {
-    "indoor_outdoor": "outdoor",
+    "indoor_outdoor": "indoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1826,7 +1826,7 @@
   "Ch_Angeliere/DSC05237-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "decay",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1838,7 +1838,7 @@
   "Ch_Angeliere/DSC05251-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "decay",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1856,13 +1856,13 @@
     "weather": null,
     "vegetation": "no",
     "graffiti": "no",
-    "place_type": "wall",
+    "place_type": "house",
     "vehicle_type": null
   },
   "Ch_Angeliere/DSC05276-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "decay",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1874,7 +1874,7 @@
   "Ch_Angeliere/DSC05282-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "decay",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1886,7 +1886,7 @@
   "Ch_Angeliere/DSC05300-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "stairs",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1897,8 +1897,8 @@
   },
   "Ch_Angeliere/DSC05309-HDR.jpg": {
     "indoor_outdoor": "indoor",
-    "interior_category": null,
-    "condition": "ruin",
+    "interior_category": "rooms",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1910,7 +1910,7 @@
   "Ch_Angeliere/DSC05331-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "decay",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1924,7 +1924,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -1984,7 +1984,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -1996,7 +1996,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2006,7 +2006,7 @@
   "Ch_Bourgogne/DSC06844-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "decay",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -2018,7 +2018,7 @@
   "Ch_Bourgogne/DSC06847-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -2030,7 +2030,7 @@
   "Ch_Bourgogne/DSC06853-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -2044,7 +2044,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2054,7 +2054,7 @@
   "Ch_Bourgogne/DSC06862-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -2066,7 +2066,7 @@
   "Ch_Bourgogne/DSC06868-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "stairs",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -2080,7 +2080,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2090,7 +2090,7 @@
   "Ch_Bourgogne/DSC06880-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -2104,7 +2104,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2116,7 +2116,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2188,7 +2188,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2200,7 +2200,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2212,7 +2212,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2236,7 +2236,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2248,7 +2248,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2258,7 +2258,7 @@
   "Ch_Buzardieres/DSC05469-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -2270,13 +2270,13 @@
   "Ch_Buzardieres/DSC05491-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": null,
     "vegetation": "no",
     "graffiti": "no",
-    "place_type": "wall",
+    "place_type": "house",
     "vehicle_type": null
   },
   "Ch_Buzardieres/DSC05509-HDR.jpg": {
@@ -2284,7 +2284,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2296,7 +2296,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2440,7 +2440,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2476,7 +2476,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -2593,7 +2593,7 @@
   },
   "Ch_Cheneru/DSC05766-HDR.jpg": {
     "indoor_outdoor": "outdoor",
-    "interior_category": "decay",
+    "interior_category": null,
     "condition": "ruin",
     "sky": "visible",
     "time_of_day": "day",
@@ -2776,7 +2776,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "excellent",
+    "condition": "good",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "cloudy",
@@ -3410,7 +3410,7 @@
   "Ch_PlancheAuChef/DSC00996-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "archi_graphism",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -3422,7 +3422,7 @@
   "Ch_PlancheAuChef/DSC01017-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -3444,7 +3444,7 @@
     "graffiti": "no"
   },
   "Ch_PlancheAuChef/DSC01032-HDR.jpg": {
-    "place_type": "house",
+    "place_type": "castle",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -3602,7 +3602,7 @@
   "Ch_Roussiere/DSC01179-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -3624,7 +3624,7 @@
     "vehicle_type": null
   },
   "Ch_Roussiere/DSC01188-HDR.jpg": {
-    "indoor_outdoor": "outdoor",
+    "indoor_outdoor": "indoor",
     "interior_category": "rooms",
     "condition": "degraded",
     "sky": "absent",
@@ -4015,7 +4015,7 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "few_clouds",
+    "weather": "sunny",
     "vegetation": "yes",
     "graffiti": "no"
   },
@@ -4051,7 +4051,7 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "mixed",
+    "weather": "sunny",
     "vegetation": "yes",
     "graffiti": "no"
   },
@@ -4212,8 +4212,8 @@
     "vehicle_type": "tank"
   },
   "Chars_Auvour/DSC00287-HDR.jpg": {
-    "place_type": "detail",
-    "vehicle_type": null,
+    "place_type": "vehicle",
+    "vehicle_type": "tank",
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",
@@ -4224,8 +4224,8 @@
     "graffiti": "no"
   },
   "Chars_Auvour/DSC00296-HDR.jpg": {
-    "place_type": "detail",
-    "vehicle_type": null,
+    "place_type": "vehicle",
+    "vehicle_type": "tank",
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",
@@ -4538,7 +4538,7 @@
   "Chartreuse_Bel_Sito/DSC04807-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "archi_graphism",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -4550,7 +4550,7 @@
   "Chartreuse_Bel_Sito/DSC04810-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -4562,7 +4562,7 @@
   "Chartreuse_Bel_Sito/DSC04813-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -4576,7 +4576,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -4588,7 +4588,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -4598,7 +4598,7 @@
   "Chartreuse_Bel_Sito/DSC04849-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -4610,7 +4610,7 @@
   "Chartreuse_Bel_Sito/DSC04858-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "stairs",
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null,
@@ -4624,7 +4624,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -4636,7 +4636,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -4646,7 +4646,7 @@
   "Chartreuse_Bel_Sito/DSC04885-HDR.jpg": {
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -4660,7 +4660,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -4744,7 +4744,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -5412,7 +5412,7 @@
     "graffiti": "no"
   },
   "Ecole_Lumiere/DSC09802-HDR.jpg": {
-    "place_type": "house",
+    "place_type": "building",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5488,7 +5488,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "excellent",
+    "condition": null,
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny",
@@ -5584,7 +5584,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "degraded",
+    "condition": "ruin",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "mixed",
@@ -5628,7 +5628,7 @@
     "vehicle_type": null
   },
   "Ferme_Cellieres/DSC08145.jpg": {
-    "indoor_outdoor": "outdoor",
+    "indoor_outdoor": "indoor",
     "interior_category": "decay",
     "condition": "degraded",
     "sky": "absent",
@@ -5716,7 +5716,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "cloudy",
@@ -6156,7 +6156,7 @@
     "vehicle_type": null
   },
   "Ferme_Epinay/DSC00526-HDR.jpg": {
-    "indoor_outdoor": "outdoor",
+    "indoor_outdoor": "indoor",
     "interior_category": "archi_graphism",
     "condition": "degraded",
     "sky": "absent",
@@ -6180,7 +6180,7 @@
     "vehicle_type": null
   },
   "Ferme_Epinay/DSC00559-HDR.jpg": {
-    "indoor_outdoor": "outdoor",
+    "indoor_outdoor": "indoor",
     "interior_category": "rooms",
     "condition": "degraded",
     "sky": "absent",
@@ -6279,9 +6279,9 @@
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
     "condition": "degraded",
-    "sky": "visible",
+    "sky": "absent",
     "time_of_day": "day",
-    "weather": "sunny",
+    "weather": null,
     "vegetation": "yes",
     "graffiti": "no",
     "place_type": "factory",
@@ -6355,7 +6355,7 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "sunny",
+    "weather": "cloudy",
     "vegetation": "yes",
     "graffiti": "no"
   },
@@ -6627,7 +6627,7 @@
     "indoor_outdoor": "indoor",
     "interior_category": "stairs",
     "condition": "degraded",
-    "sky": "visible",
+    "sky": "absent",
     "time_of_day": "day",
     "weather": null,
     "vegetation": "no",
@@ -6984,7 +6984,7 @@
     "vehicle_type": null
   },
   "Izardiere/DSC07174-HDR.jpg": {
-    "indoor_outdoor": "outdoor",
+    "indoor_outdoor": "indoor",
     "interior_category": "archi_graphism",
     "condition": "degraded",
     "sky": "absent",
@@ -7244,7 +7244,7 @@
     "weather": null,
     "vegetation": "no",
     "graffiti": "no",
-    "place_type": "house",
+    "place_type": "detail",
     "vehicle_type": null
   },
   "Izardiere/DSC07374-HDR.jpg": {
@@ -7298,8 +7298,8 @@
   "LaChariere/DSC09100-HDR.jpg": {
     "place_type": "detail",
     "vehicle_type": null,
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
     "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
@@ -7541,9 +7541,9 @@
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "ruin",
-    "sky": "visible",
+    "sky": "absent",
     "time_of_day": "day",
-    "weather": "cloudy",
+    "weather": null,
     "vegetation": "no",
     "graffiti": "no"
   },
@@ -8256,8 +8256,8 @@
     "vehicle_type": null
   },
   "Maison_Bricoleur/DSC03671-HDR.jpg": {
-    "indoor_outdoor": "outdoor",
-    "interior_category": "decay",
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
     "condition": "good",
     "sky": "absent",
     "time_of_day": "day",
@@ -8672,7 +8672,7 @@
   "Maison_Echemire/DSC08052-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
-    "indoor_outdoor": "outdoor",
+    "indoor_outdoor": "indoor",
     "interior_category": "archi_graphism",
     "condition": "degraded",
     "sky": "absent",
@@ -8744,7 +8744,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "few_clouds"
@@ -8754,7 +8754,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "cloudy"
@@ -8814,7 +8814,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny"
@@ -8824,7 +8824,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny"
@@ -8834,7 +8834,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "mixed"
@@ -8844,7 +8844,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "cloudy"
@@ -9510,7 +9510,7 @@
     "weather": "cloudy"
   },
   "Manoir_Mesnil/DSC07195-HDR.jpg": {
-    "place_type": "detail",
+    "place_type": "landscape",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -9590,7 +9590,7 @@
     "weather": "few_clouds"
   },
   "Manoir_Morellerie/DSC07015-HDR.jpg": {
-    "place_type": "castle",
+    "place_type": "facade",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -10114,7 +10114,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "good",
+    "condition": null,
     "sky": "visible",
     "time_of_day": "day",
     "weather": "bad_weather"
@@ -10164,7 +10164,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny"
@@ -10174,7 +10174,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "ruin",
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny"
@@ -11472,8 +11472,8 @@
   "Projet_244/DSC03698-HDR.jpg": {
     "place_type": "factory",
     "vehicle_type": null,
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
@@ -11617,7 +11617,7 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "cloudy"
+    "weather": null
   },
   "Puits_Bernard/DSC03831-HDR.jpg": {
     "place_type": "factory",
@@ -11627,7 +11627,7 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "sunny"
+    "weather": null
   },
   "Puits_Bernard/DSC03843-HDR.jpg": {
     "place_type": "factory",
@@ -11650,7 +11650,7 @@
     "weather": "sunny"
   },
   "Puits_Bernard/DSC03904-HDR.jpg": {
-    "place_type": "facade",
+    "place_type": "factory",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -12147,14 +12147,14 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "few_clouds"
+    "weather": null
   },
   "Silo_Chatillon/DSC00879-HDR.jpg": {
     "place_type": "detail",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": null,
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "few_clouds"
@@ -12164,17 +12164,17 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "degraded",
+    "condition": null,
     "sky": "visible",
     "time_of_day": "day",
     "weather": "mixed"
   },
   "Silo_Chatillon/DSC00885-HDR.jpg": {
     "place_type": "landscape",
-    "vehicle_type": "undetermined",
+    "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "degraded",
+    "condition": null,
     "sky": "visible",
     "time_of_day": "day",
     "weather": "mixed"
@@ -12667,7 +12667,7 @@
     "condition": "excellent",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "sunny"
+    "weather": null
   },
   "Terrain_Recuperateur/DSC01068-HDR.jpg": {
     "place_type": "house",
@@ -12764,7 +12764,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "good",
+    "condition": null,
     "sky": "absent",
     "time_of_day": "day",
     "weather": null
@@ -12803,7 +12803,7 @@
     "place_type": "factory",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
-    "interior_category": null,
+    "interior_category": "archi_graphism",
     "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
@@ -13634,7 +13634,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "good",
+    "condition": null,
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny"
@@ -13870,8 +13870,8 @@
     "weather": null
   },
   "Voitures_Lhomme/DSC00431-HDR.jpg": {
-    "place_type": "vehicle",
-    "vehicle_type": "car",
+    "place_type": "house",
+    "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",

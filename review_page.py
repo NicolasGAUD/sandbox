@@ -83,7 +83,8 @@ PAGE = """<!doctype html>
   tr.changed td:first-child::after { content: " ✎"; color: #c06000; }
   tr.to-review select { background: #fff3a0; }
   tr.to-review td:first-child::after { content: " " var(--to-review); color: #9a7b00; font-size: 11px; }
-  label.filter { font-size: 14px; cursor: pointer; }
+  label.filter { font-size: 14px; }
+  label.filter select { padding: 3px 6px; }
   .score { color: #999; font-size: 11px; }
   nav { display: flex; gap: 8px; align-items: center; justify-content: center; margin: 20px 0; flex-wrap: wrap; }
   #viewer { position: fixed; inset: 0; z-index: 10; background: #000e; display: none;
@@ -97,7 +98,13 @@ __SWITCH_CSS__
 <header>
   <strong data-t="ui:review_title">CLIP review</strong>
   <span class="stats" id="stats"></span>
-  <label class="filter"><input type="checkbox" id="filter"> <span data-t="ui:filter"></span></label>
+  <label class="filter"><span data-t="ui:show"></span>
+    <select id="mode">
+      <option value="all" data-t="ui:mode_all"></option>
+      <option value="to_review" data-t="ui:filter"></option>
+      <option value="disagree" data-t="ui:mode_disagree"></option>
+    </select>
+  </label>
   <span class="actions">
     <button id="export" data-t="ui:export" data-vars='{"file": "__EXPORT_NAME__"}'></button>
     <button id="import" data-t="ui:import"></button>
@@ -121,7 +128,8 @@ const KEY = "clip-review:" + DATA.folder + ":" + DATA.version;
 const NAMES = DATA.criteria.map(([name]) => name);
 
 // state.corrections[file][criterion] = chosen value; state.checked[file] = true
-let state = { corrections: {}, checked: {}, page: 0, filter: null };
+// state.mode: "all", "to_review" or "disagree" (see computeList)
+let state = { corrections: {}, checked: {}, page: 0, mode: null };
 try { Object.assign(state, JSON.parse(localStorage.getItem(KEY)) || {}); } catch (e) {}
 // Known expected answers are the starting point; a photo is checked only if all its shown criteria are known.
 for (const [f, vals] of Object.entries(DATA.expected)) {
@@ -137,11 +145,19 @@ const value = (p, name) => (state.corrections[p.file] || {})[name] ?? p.predicte
 // Criterion to review: photo not validated yet and no value given by the user for this criterion.
 const toReview = (p, name) => !state.checked[p.file] && !(name in (state.corrections[p.file] || {}));
 const partlyKnown = p => p.file in DATA.expected;
-if (state.filter === null) state.filter = photos.some(p => partlyKnown(p) && !state.checked[p.file]);
+// Disagreement between the expected answers file given to the page and CLIP. It does not follow
+// the corrections made in the page, so that a photo corrected here stays in the list.
+const disagrees = p => p.file in DATA.expected && NAMES.some(name => name in DATA.expected[p.file]
+  && (DATA.expected[p.file][name] ?? NA) !== p.predicted[name]);
+// Progress saved by an older page: "filter" (true/false) became "mode".
+if ("filter" in state) { state.mode = state.filter ? "to_review" : "all"; delete state.filter; }
+if (state.mode === null) state.mode = photos.some(p => partlyKnown(p) && !state.checked[p.file]) ? "to_review" : "all";
 // Filter mode: only the photos already partly known but not validated yet.
 let list = [];
 function computeList() {
-  list = state.filter ? photos.filter(p => partlyKnown(p) && !state.checked[p.file]) : photos;
+  if (state.mode === "to_review") list = photos.filter(p => partlyKnown(p) && !state.checked[p.file]);
+  else if (state.mode === "disagree") list = photos.filter(disagrees);
+  else list = photos;
 }
 const nbPages = () => Math.max(1, Math.ceil(list.length / PER_PAGE));
 
@@ -151,7 +167,8 @@ function showStats() {
   for (const p of photos) for (const name of NAMES) if (value(p, name) !== p.predicted[name]) nbChanges++;
   const left = photos.filter(p => partlyKnown(p) && !state.checked[p.file]).length;
   document.getElementById("stats").textContent = t("ui:stats", {
-    page: state.page + 1, pages: nbPages(), checked: nbChecked, total: photos.length, left, changes: nbChanges });
+    page: state.page + 1, pages: nbPages(), checked: nbChecked, total: photos.length, left, changes: nbChanges,
+    disagree: photos.filter(disagrees).length });
 }
 
 function showPagination() {
@@ -227,17 +244,18 @@ function goTo(i, scroll = true) {
   if (scroll) window.scrollTo(0, 0);
 }
 
-const filter = document.getElementById("filter");
-filter.checked = state.filter;
-filter.onchange = () => { state.filter = filter.checked; goTo(0); };
+const mode = document.getElementById("mode");
+mode.value = state.mode;
+mode.onchange = () => { state.mode = mode.value; goTo(0); };
 
 document.getElementById("validate").onclick = () => {
   const page = list.slice(state.page * PER_PAGE, (state.page + 1) * PER_PAGE);
   for (const p of page) state.checked[p.file] = true;
   save();
-  // In filter mode, validated photos leave the list: the next page takes their place.
-  const next = state.filter ? state.page : state.page + 1;
-  const last = state.filter ? list.length <= page.length : state.page >= nbPages() - 1;
+  // In "to_review" mode, validated photos leave the list: the next page takes their place.
+  const shrinks = state.mode === "to_review";
+  const next = shrinks ? state.page : state.page + 1;
+  const last = shrinks ? list.length <= page.length : state.page >= nbPages() - 1;
   goTo(next);
   if (last) alert(t("ui:last_page"));
 };
