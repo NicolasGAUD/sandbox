@@ -2,3 +2,5 @@
 resultats/
 __pycache__/
 .cache/
+.idea/
+resultats_2/

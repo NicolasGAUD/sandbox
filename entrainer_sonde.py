@@ -19,7 +19,7 @@ import torch
 from PIL import Image, ImageOps
 from transformers import CLIPModel, CLIPProcessor
 
-from test_clip import INDETERMINE, encoder_image, encoder_phrases
+from test_clip import INDETERMINE, combiner, doubler_phrases, encoder_image, encoder_phrases
 
 PLIS = 5
 REGULARISATIONS = [0.01, 0.1, 1.0]  # force du rappel vers les phrases, choisie par validation croisée
@@ -94,6 +94,10 @@ def main():
         if INDETERMINE in classes:
             textes.append(torch.zeros_like(textes[0]))  # pas de phrase : appris uniquement sur les exemples
         W0 = torch.stack(textes, dim=1)
+        if zone and c.get("avec_image_entiere"):
+            cache_entiere = Path(__file__).with_name(".cache") / f"empreintes_{args.dossier.name}.pt"
+            E = combiner(E, empreintes(modele, processeur, args.dossier, fichiers, cache_entiere))
+            W0 = doubler_phrases(W0.T).T.contiguous()  # LBFGS exige des poids contigus
 
         idx = [i for i, f in enumerate(fichiers) if attendus[f].get(c["nom"]) in classes]
         X = E[idx]

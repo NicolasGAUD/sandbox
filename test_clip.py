@@ -72,6 +72,17 @@ def couleur(score):
     return f"hsl({int(score * 120)}, 70%, 40%)"
 
 
+def combiner(emb_zone, emb_image):
+    # Zone recadrée + image entière, mises bout à bout et renormalisées (option « avec_image_entiere »).
+    emb = torch.cat([emb_zone, emb_image], dim=-1)
+    return emb / emb.norm(dim=-1, keepdim=True)
+
+
+def doubler_phrases(emb_phrases):
+    # Phrases face à combiner() : le score obtenu est la moyenne de ceux de la zone et de l'image entière.
+    return torch.cat([emb_phrases, emb_phrases], dim=-1) / 2 ** 0.5
+
+
 def masque(critere, predits):
     # « sauf »: {"type_lieu": ["pont", ...]} masque le critère quand un résultat déjà calculé y figure.
     return any(predits.get(nom) in valeurs for nom, valeurs in critere.get("sauf", {}).items())
@@ -222,6 +233,8 @@ def main():
         torch.cat([encoder_phrases(modele, processeur, v, device) for v in c["options"].values()])
         for c in choix
     ]
+    emb_choix = [doubler_phrases(e) if "recadrage" in c and c.get("avec_image_entiere") else e
+                 for c, e in zip(choix, emb_choix)]
 
     lignes = []
     for i, chemin in enumerate(images, 1):
@@ -252,6 +265,8 @@ def main():
                                        int(d * image.width), int(b * image.height)))
                     emb_recadrages[cle] = encoder_image(modele, processeur, zone, device)
                 emb_zone = emb_recadrages[cle]
+                if c.get("avec_image_entiere"):
+                    emb_zone = combiner(emb_zone, emb_img)
             if c["nom"] in sondes:
                 # Sonde apprise (entrainer_sonde.py) à la place des phrases.
                 s = sondes[c["nom"]]

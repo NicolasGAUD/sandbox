@@ -33,24 +33,6 @@
         0.5,
         0.5
       ]
-    },
-    {
-      "nom": "toit_effondre",
-      "sauf": {
-        "type_lieu": [
-          "bateau",
-          "pont",
-          "paysage",
-          "mur",
-          "bunker"
-        ]
-      },
-      "oui": "a photo of a building with a collapsed roof",
-      "non": "a photo of a building with an intact roof",
-      "incertitude": [
-        0.5,
-        0.5
-      ]
     }
   ],
   "choix": [
@@ -200,24 +182,29 @@
       ],
       "options": {
         "ensoleille": [
-          "a photo of a mostly blue sky with a few clouds",
-          "a photo with a bright blue sky"
+          "a photo of a clear blue sky without any clouds",
+          "a photo of a perfectly blue sky"
+        ],
+        "peu_nuageux": [
+          "a photo of a blue sky with a few small clouds",
+          "a photo of a mostly blue sky with some clouds"
         ],
         "mitige": [
-          "a photo of a sky half blue and half cloudy",
-          "a photo of a partly cloudy sky"
+          "a photo of a blue sky with many small scattered white clouds",
+          "a photo of a sky half blue with light white clouds"
         ],
         "nuageux": [
-          "a photo of a mostly cloudy sky with small patches of blue",
-          "a photo of a sky covered with clouds"
+          "a photo of a sky covered with large white or light grey clouds",
+          "a photo of a hazy white veiled sky"
         ],
         "mauvais_temps": [
-          "a photo of a sky with dark grey clouds",
-          "a photo of a dark grey threatening sky"
+          "a photo of a sky with dark grey or black threatening clouds",
+          "a photo of a dark stormy sky"
         ]
       },
       "seuil": 0,
-      "sonde": true
+      "sonde": true,
+      "avec_image_entiere": true
     }
   ]
 }
