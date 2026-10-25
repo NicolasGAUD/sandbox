@@ -87,40 +87,37 @@
   },
   "ui": {
     "results_title": {"en": "CLIP results", "fr": "Résultats CLIP"},
-    "results_help": {
-      "en": "Hover a choice to see the score of each option. Click an image to see it full size.",
-      "fr": "Survolez un choix pour voir le score de chaque option. Cliquez sur une image pour l'afficher en entier."
-    },
-    "summary": {
-      "en": "{n} images · model {model} on {device} · {ms} ms/image on average (first one excluded)",
-      "fr": "{n} images · modèle {model} sur {device} · {ms} ms/image en moyenne (hors première)"
-    },
-    "check": {
-      "en": "{ok}/{total} expected answers correct, {undetermined} undetermined, {wrong} wrong",
-      "fr": "{ok}/{total} réponses attendues correctes, {undetermined} indéterminées, {wrong} fausses"
-    },
+    "results_help": {"en": "Hover a choice to see the score of each option. Click an image to see it full size.", "fr": "Survolez un choix pour voir le score de chaque option. Cliquez sur une image pour l'afficher en entier."},
+    "summary": {"en": "{n} images · model {model} on {device} · {ms} ms/image on average (first one excluded)", "fr": "{n} images · modèle {model} sur {device} · {ms} ms/image en moyenne (hors première)"},
+    "check": {"en": "{ok}/{total} expected answers correct, {undetermined} undetermined, {wrong} wrong", "fr": "{ok}/{total} réponses attendues correctes, {undetermined} indéterminées, {wrong} fausses"},
     "expected": {"en": "expected: {value}", "fr": "attendu : {value}"},
     "enlarge": {"en": "Click to enlarge", "fr": "Cliquer pour agrandir"},
     "back": {"en": "← Back", "fr": "← Retour"},
     "review_title": {"en": "CLIP review", "fr": "Correction CLIP"},
-    "stats": {
-      "en": "Page {page}/{pages} · {checked}/{total} photos checked · {left} to review · {changes} corrections",
-      "fr": "Page {page}/{pages} · {checked}/{total} photos vérifiées · {left} à revoir · {changes} corrections"
-    },
+    "stats": {"en": "Page {page}/{pages} · {checked}/{total} photos checked · {left} to review · {changes} corrections", "fr": "Page {page}/{pages} · {checked}/{total} photos vérifiées · {left} à revoir · {changes} corrections"},
     "filter": {"en": "Only the photos to review", "fr": "Seulement les photos à revoir"},
     "export": {"en": "Export {file}", "fr": "Exporter {file}"},
     "import": {"en": "Import…", "fr": "Importer…"},
     "validate": {"en": "Validate the page and continue →", "fr": "Valider la page et continuer →"},
     "checked": {"en": "✓ checked", "fr": "✓ vérifiée"},
     "to_review": {"en": "to review", "fr": "à revoir"},
-    "nothing_left": {
-      "en": "No photo left to review. Remember to export the file.",
-      "fr": "Plus aucune photo à revoir. Pensez à exporter le fichier."
-    },
-    "last_page": {
-      "en": "Last page validated. Remember to export the file.",
-      "fr": "Dernière page validée. Pensez à exporter le fichier."
-    },
-    "unreadable": {"en": "Unreadable file: {error}", "fr": "Fichier illisible : {error}"}
+    "nothing_left": {"en": "No photo left to review. Remember to export the file.", "fr": "Plus aucune photo à revoir. Pensez à exporter le fichier."},
+    "last_page": {"en": "Last page validated. Remember to export the file.", "fr": "Dernière page validée. Pensez à exporter le fichier."},
+    "unreadable": {"en": "Unreadable file: {error}", "fr": "Fichier illisible : {error}"},
+    "app_title": {"en": "CLIP urbex", "fr": "CLIP urbex"},
+    "upload_title": {"en": "Analyse a photo", "fr": "Analyser une photo"},
+    "drop_here": {"en": "Drop a photo here, or:", "fr": "Glissez une photo ici, ou :"},
+    "camera": {"en": "Take a photo", "fr": "Prendre une photo"},
+    "browse": {"en": "Browse…", "fr": "Parcourir…"},
+    "analysing": {"en": "Analysing…", "fr": "Analyse en cours…"},
+    "not_an_image": {"en": "This file is not an image.", "fr": "Ce fichier n'est pas une image."},
+    "analysis_failed": {"en": "The analysis failed. Is the server running?", "fr": "L'analyse a échoué. Le serveur est-il lancé ?"},
+    "other_photo": {"en": "Other photo", "fr": "Autre photo"},
+    "validate_photo": {"en": "Validate", "fr": "Valider"},
+    "save_failed": {"en": "The photo could not be saved.", "fr": "La photo n'a pas pu être enregistrée."},
+    "legend_mine": {"en": "your changes", "fr": "vos modifications"},
+    "legend_clip": {"en": "CLIP's proposal", "fr": "proposition de CLIP"},
+    "new_photo": {"en": "New photo", "fr": "Nouvelle photo"},
+    "not_assessed": {"en": "not assessed by CLIP", "fr": "non évalué par CLIP"}
   }
 }

@@ -253,6 +253,99 @@ document.addEventListener("keydown", e => {{ if (e.key === "Escape") closeViewer
     path.write_text(page, encoding="utf-8")
 
 
+class Analyzer:
+    """CLIP model, prompts and probes, loaded once; analyse() runs every criterion on one image."""
+
+    def __init__(self, criteria_path, probes_path, model_name="openai/clip-vit-base-patch16"):
+        self.yes_no, self.choices, self.rules = load_criteria(criteria_path)
+        self.shown = [c for c in self.choices + self.yes_no if not c.get("hidden")]
+        self.model_name = model_name
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        print(f"Loading {model_name} on {self.device} (downloaded on first run)…")
+        t0 = time.perf_counter()
+        self.model = CLIPModel.from_pretrained(model_name).to(self.device).eval()
+        self.processor = CLIPProcessor.from_pretrained(model_name)
+        self.scale = self.model.logit_scale.exp()
+        print(f"Model loaded in {time.perf_counter() - t0:.1f} s")
+        self.probes = {}
+        if any(c.get("probe") for c in self.choices):
+            if not Path(probes_path).exists():
+                sys.exit(f"{probes_path} not found: run train_probes.py first")
+            self.probes = {name: p for name, p in torch.load(probes_path).items()
+                           if any(c["name"] == name and c.get("probe") for c in self.choices)}
+            print(f"Probes used: {', '.join(self.probes)}")
+
+        # The prompts do not change from one image to the next: they are encoded once.
+        def prompts(texts):
+            return encode_prompts(self.model, self.processor, texts, self.device)
+
+        self.emb_yes_no = [torch.cat([prompts(c[side]) for side in ("yes", "no")]) for c in self.yes_no]
+        self.emb_choices = [torch.cat([prompts(v) for v in c["options"].values()]) for c in self.choices]
+        self.emb_choices = [double_prompts(e) if "crop" in c and c.get("with_full_image") else e
+                            for c, e in zip(self.choices, self.emb_choices)]
+
+    def analyse(self, image, all_details=False):
+        """Returns (results, details, predicted) for one RGB image.
+
+        results[name] = (value, score), or None for a criterion hidden by "except" / "only_if";
+        details[name] = score of each option; predicted[name] = value, rules applied.
+        all_details: the hidden choices are scored too (details only), so that a form can
+        offer them when the user changes an earlier answer.
+        """
+        emb_img = encode_image(self.model, self.processor, image, self.device)
+        emb_crops = {}  # a crop is encoded once per image
+        # The choices come first (in file order): the following criteria
+        # can be hidden depending on their result, with "except" and "only_if".
+        predicted = {}
+        results, details = {}, {}
+        for c, emb in zip(self.choices, self.emb_choices):
+            hidden = masked(c, predicted)
+            results[c["name"]] = None
+            if hidden and not all_details:
+                continue
+            emb_area = emb_img
+            if "crop" in c:
+                # "sky" (found in the image) or [left, top, right, bottom] as fractions of the image.
+                key = crop_key(c["crop"])
+                if key not in emb_crops:
+                    emb_crops[key] = encode_image(self.model, self.processor, crop(image, c["crop"]), self.device)
+                emb_area = emb_crops[key]
+                if c.get("with_full_image"):
+                    emb_area = combine(emb_area, emb_img)
+            if c["name"] in self.probes:
+                # Probe learnt by train_probes.py instead of the prompts.
+                probe = self.probes[c["name"]]
+                probas = (self.scale * emb_area @ probe["W"] + probe["b"]).softmax(dim=-1)[0].tolist()
+                detail = dict(zip(probe["classes"], probas))
+            else:
+                probas = (self.scale * emb_area @ emb.T).softmax(dim=-1)[0].tolist()
+                detail = dict(zip(c["options"].keys(), probas))
+            details[c["name"]] = detail
+            if hidden:
+                continue
+            winner = max(detail, key=detail.get)
+            score = detail[winner]
+            # No option convincing enough: fall back on "default", otherwise do not decide.
+            if score < c.get("threshold", 0):
+                winner = c.get("default", UNDETERMINED)
+                score = detail.get(winner, score)
+            results[c["name"]] = (winner, score)
+            predicted[c["name"]] = winner
+        for c, emb in zip(self.yes_no, self.emb_yes_no):
+            if masked(c, predicted):
+                results[c["name"]] = None
+                continue
+            p = (self.scale * emb_img @ emb.T).softmax(dim=-1)[0][0].item()
+            # Between the two "uncertainty" bounds, no guess is made.
+            low, high = c.get("uncertainty", [0.5, 0.5])
+            value = "yes" if p >= high else "no" if p <= low else UNDETERMINED
+            results[c["name"]] = (value, p)
+            predicted[c["name"]] = value
+        for name, value in apply_rules(self.rules, predicted).items():
+            results[name] = (value, results[name][1])
+        return results, details, predicted
+
+
 def main():
     parser = argparse.ArgumentParser(description="Runs CLIP on a folder of photos.")
     parser.add_argument("folder", type=Path, help="folder containing the photos")
@@ -271,38 +364,12 @@ def main():
     if not images:
         sys.exit(f"No image found in {args.folder}")
 
-    yes_no, choices, rules = load_criteria(args.criteria)
     expected_answers = {}
     if args.expected.exists():
         with open(args.expected, encoding="utf-8") as f:
             expected_answers = json.load(f)
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Loading {args.model} on {device} (downloaded on first run)…")
-    t0 = time.perf_counter()
-    model = CLIPModel.from_pretrained(args.model).to(device).eval()
-    processor = CLIPProcessor.from_pretrained(args.model)
-    scale = model.logit_scale.exp()
-    print(f"Model loaded in {time.perf_counter() - t0:.1f} s")
-    probes = {}
-    if any(c.get("probe") for c in choices):
-        if not args.probes.exists():
-            sys.exit(f"{args.probes} not found: run train_probes.py first")
-        probes = {name: p for name, p in torch.load(args.probes).items()
-                  if any(c["name"] == name and c.get("probe") for c in choices)}
-        print(f"Probes used: {', '.join(probes)}")
-
-    # The prompts do not change from one image to the next: they are encoded once.
-    emb_yes_no = [
-        torch.cat([encode_prompts(model, processor, c[side], device) for side in ("yes", "no")])
-        for c in yes_no
-    ]
-    emb_choices = [
-        torch.cat([encode_prompts(model, processor, v, device) for v in c["options"].values()])
-        for c in choices
-    ]
-    emb_choices = [double_prompts(e) if "crop" in c and c.get("with_full_image") else e
-                   for c, e in zip(choices, emb_choices)]
-    shown = [c for c in choices + yes_no if not c.get("hidden")]
+    analyzer = Analyzer(args.criteria, args.probes, args.model)
+    shown = analyzer.shown
 
     rows = []
     for i, path in enumerate(images, 1):
@@ -313,54 +380,7 @@ def main():
             continue
 
         start = time.perf_counter()
-        emb_img = encode_image(model, processor, image, device)
-        emb_crops = {}  # a crop is encoded once per image
-        # The choices come first (in file order): the following criteria
-        # can be hidden depending on their result, with "except" and "only_if".
-        predicted = {}
-        results, details = {}, {}
-        for c, emb in zip(choices, emb_choices):
-            if masked(c, predicted):
-                results[c["name"]] = None
-                continue
-            emb_area = emb_img
-            if "crop" in c:
-                # "sky" (found in the image) or [left, top, right, bottom] as fractions of the image.
-                key = crop_key(c["crop"])
-                if key not in emb_crops:
-                    emb_crops[key] = encode_image(model, processor, crop(image, c["crop"]), device)
-                emb_area = emb_crops[key]
-                if c.get("with_full_image"):
-                    emb_area = combine(emb_area, emb_img)
-            if c["name"] in probes:
-                # Probe learnt by train_probes.py instead of the prompts.
-                probe = probes[c["name"]]
-                probas = (scale * emb_area @ probe["W"] + probe["b"]).softmax(dim=-1)[0].tolist()
-                detail = dict(zip(probe["classes"], probas))
-            else:
-                probas = (scale * emb_area @ emb.T).softmax(dim=-1)[0].tolist()
-                detail = dict(zip(c["options"].keys(), probas))
-            winner = max(detail, key=detail.get)
-            score = detail[winner]
-            # No option convincing enough: fall back on "default", otherwise do not decide.
-            if score < c.get("threshold", 0):
-                winner = c.get("default", UNDETERMINED)
-                score = detail.get(winner, score)
-            results[c["name"]] = (winner, score)
-            details[c["name"]] = detail
-            predicted[c["name"]] = winner
-        for c, emb in zip(yes_no, emb_yes_no):
-            if masked(c, predicted):
-                results[c["name"]] = None
-                continue
-            p = (scale * emb_img @ emb.T).softmax(dim=-1)[0][0].item()
-            # Between the two "uncertainty" bounds, no guess is made.
-            low, high = c.get("uncertainty", [0.5, 0.5])
-            value = "yes" if p >= high else "no" if p <= low else UNDETERMINED
-            results[c["name"]] = (value, p)
-            predicted[c["name"]] = value
-        for name, value in apply_rules(rules, predicted).items():
-            results[name] = (value, results[name][1])
+        results, details, predicted = analyzer.analyse(image)
         time_ms = (time.perf_counter() - start) * 1000
 
         file = path.relative_to(args.folder).as_posix()
@@ -402,7 +422,8 @@ def main():
     # The first image often includes a warm-up time: it is left out of the average when possible.
     times = [r["time_ms"] for r in rows]
     average = sum(times[1:]) / (len(times) - 1) if len(times) > 1 else times[0]
-    summary = [("summary", {"n": len(rows), "model": args.model, "device": device, "ms": f"{average:.0f}"})]
+    summary = [("summary", {"n": len(rows), "model": args.model, "device": analyzer.device,
+                             "ms": f"{average:.0f}"})]
     checks = [(r, name, expected, ok) for r in rows for name, (expected, ok) in r["check"].items()]
     if checks:
         right = sum(ok for *_, ok in checks)
