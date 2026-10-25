@@ -20,6 +20,7 @@ import shutil
 import threading
 import time
 import uuid
+from datetime import datetime
 from pathlib import Path
 
 import uvicorn
@@ -35,6 +36,22 @@ from test_clip import EXTENSIONS, Analyzer
 HERE = Path(__file__).parent
 UPLOADS = HERE / "uploads"
 APP_BUILD = HERE / "app" / "dist" / "app" / "browser"
+
+
+def shot_name(content, name):
+    """File name from the shooting date (EXIF), e.g. 2026-10-25_18-42-07.jpg.
+
+    Phone cameras often call every photo "image.jpg"; the original name is kept only
+    when the photo has no shooting date.
+    """
+    try:
+        exif = Image.open(io.BytesIO(content)).getexif()
+        # DateTimeOriginal (Exif sub-IFD), otherwise DateTime (last change).
+        taken = exif.get_ifd(0x8769).get(36867) or exif.get(306)
+        shot = datetime.strptime(str(taken).strip("\x00 "), "%Y:%m:%d %H:%M:%S")
+    except (ValueError, TypeError, OSError, UnidentifiedImageError):
+        return name
+    return shot.strftime("%Y-%m-%d_%H-%M-%S") + Path(name).suffix.lower()
 
 
 class Validation(BaseModel):
@@ -83,7 +100,7 @@ def create_app(analyzer, photos, criteria_path):
         UPLOADS.mkdir(exist_ok=True)
         path = UPLOADS / f"{analysis_id}{suffix}"
         path.write_bytes(content)
-        pending[analysis_id] = {"path": path, "name": name}
+        pending[analysis_id] = {"path": path, "name": shot_name(content, name)}
         # value None: criterion hidden by CLIP's own answers ("except" / "only_if"); the scores
         # of its options are still given, for the case where the user changes an earlier answer.
         answers = {}
