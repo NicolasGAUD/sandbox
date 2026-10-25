@@ -144,18 +144,19 @@ const photos = DATA.photos;
 const value = (p, name) => (state.corrections[p.file] || {})[name] ?? p.predicted[name];
 // Criterion to review: photo not validated yet and no value given by the user for this criterion.
 const toReview = (p, name) => !state.checked[p.file] && !(name in (state.corrections[p.file] || {}));
-const partlyKnown = p => p.file in DATA.expected;
+const unchecked = p => !state.checked[p.file];
 // Disagreement between the expected answers file given to the page and CLIP. It does not follow
 // the corrections made in the page, so that a photo corrected here stays in the list.
 const disagrees = p => p.file in DATA.expected && NAMES.some(name => name in DATA.expected[p.file]
   && (DATA.expected[p.file][name] ?? NA) !== p.predicted[name]);
 // Progress saved by an older page: "filter" (true/false) became "mode".
 if ("filter" in state) { state.mode = state.filter ? "to_review" : "all"; delete state.filter; }
-if (state.mode === null) state.mode = photos.some(p => partlyKnown(p) && !state.checked[p.file]) ? "to_review" : "all";
-// Filter mode: only the photos already partly known but not validated yet.
+// Some photos already checked, others not: start with those left to check.
+if (state.mode === null) state.mode = photos.some(p => state.checked[p.file]) && photos.some(unchecked) ? "to_review" : "all";
+// "to_review": the photos not validated yet; "disagree": see disagrees().
 let list = [];
 function computeList() {
-  if (state.mode === "to_review") list = photos.filter(p => partlyKnown(p) && !state.checked[p.file]);
+  if (state.mode === "to_review") list = photos.filter(unchecked);
   else if (state.mode === "disagree") list = photos.filter(disagrees);
   else list = photos;
 }
@@ -165,7 +166,7 @@ function showStats() {
   const nbChecked = photos.filter(p => state.checked[p.file]).length;
   let nbChanges = 0;
   for (const p of photos) for (const name of NAMES) if (value(p, name) !== p.predicted[name]) nbChanges++;
-  const left = photos.filter(p => partlyKnown(p) && !state.checked[p.file]).length;
+  const left = photos.filter(unchecked).length;
   document.getElementById("stats").textContent = t("ui:stats", {
     page: state.page + 1, pages: nbPages(), checked: nbChecked, total: photos.length, left, changes: nbChanges,
     disagree: photos.filter(disagrees).length });
