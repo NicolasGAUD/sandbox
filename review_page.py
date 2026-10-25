@@ -1,0 +1,336 @@
+"""Builds an HTML page to check and correct the answers of CLIP, 50 photos per page.
+
+Usage:
+    python review_page.py PHOTO_FOLDER [--results results_2/results.csv]
+                          [--expected expected_2.json] [--output results_2/review.html]
+
+The page keeps the progress in the browser and exports an expected answers file
+(same format as expected.json) readable by test_clip.py --expected.
+Hidden criteria ("hidden": true) are not shown; their known answers are kept in the export.
+"""
+
+import argparse
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+from labels import SWITCH_CSS, SWITCH_HTML, load_labels, switch_js
+
+UNDETERMINED = "undetermined"
+NOT_APPLICABLE = "—"  # hidden by "except" / "only_if": exported as null
+
+
+def possible_values(criteria):
+    """For each shown criterion, in display order: (name, list of proposed values)."""
+    # Values that only a rule can produce (e.g. street_art) are proposed as well.
+    from_rules = {}
+    for rule in criteria.get("rules", []):
+        for name, value in rule["set"].items():
+            from_rules.setdefault(name, []).append(value)
+    result = []
+    for c in criteria.get("choices", []):
+        if c.get("hidden"):
+            continue
+        values = list(c["options"]) + [v for v in from_rules.get(c["name"], []) if v not in c["options"]]
+        if "threshold" in c and "default" not in c and c.get("undetermined", True):
+            values.append(UNDETERMINED)
+        result.append((c["name"], values + [NOT_APPLICABLE]))
+    for c in criteria.get("yes_no", []):
+        if not c.get("hidden"):
+            result.append((c["name"], ["yes", "no", UNDETERMINED, NOT_APPLICABLE]))
+    return result
+
+
+def read_predictions(csv_path, names):
+    photos = []
+    with open(csv_path, encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f, delimiter=";"):
+            predicted = {name: row[name] or NOT_APPLICABLE for name in names}
+            scores = {name: float(row[f"{name}_score"]) if row[f"{name}_score"] else None for name in names}
+            photos.append({"file": row["file"], "predicted": predicted, "scores": scores})
+    return photos
+
+
+PAGE = """<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CLIP review</title>
+<style>
+  :root { --to-review: "to review"; }
+  body { font-family: system-ui, sans-serif; margin: 0; background: #f4f4f4; color: #222; }
+  header { position: sticky; top: 0; z-index: 5; background: #fff; box-shadow: 0 1px 4px #0002;
+           padding: 8px 16px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+  header .stats { font-size: 14px; color: #555; }
+  header .actions { margin-left: auto; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  button, select { font: inherit; }
+  button { padding: 5px 12px; cursor: pointer; }
+  button.main { background: #2a7d2a; color: #fff; border: 0; border-radius: 4px; }
+  main { padding: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+  .card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px #0002;
+          border: 3px solid transparent; }
+  .card.checked { border-color: #2a7d2a55; }
+  .card img { width: 100%; height: 200px; object-fit: cover; display: block; cursor: zoom-in; background: #ddd; }
+  .name { padding: 6px 10px; font-weight: 600; font-size: 13px; word-break: break-all;
+          display: flex; justify-content: space-between; gap: 6px; }
+  .name .state { font-weight: normal; color: #2a7d2a; white-space: nowrap; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  td { padding: 2px 10px; border-top: 1px solid #eee; }
+  td:first-child { color: #555; width: 45%; }
+  td select { width: 100%; }
+  tr.changed select { background: #ffe2b8; font-weight: 600; }
+  tr.changed td:first-child::after { content: " ✎"; color: #c06000; }
+  tr.to-review select { background: #fff3a0; }
+  tr.to-review td:first-child::after { content: " " var(--to-review); color: #9a7b00; font-size: 11px; }
+  label.filter { font-size: 14px; cursor: pointer; }
+  .score { color: #999; font-size: 11px; }
+  nav { display: flex; gap: 8px; align-items: center; justify-content: center; margin: 20px 0; flex-wrap: wrap; }
+  #viewer { position: fixed; inset: 0; z-index: 10; background: #000e; display: none;
+            flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
+  #viewer.open { display: flex; }
+  #viewer img { max-width: 96vw; max-height: 86vh; object-fit: contain; }
+  #viewer button { font-size: 16px; padding: 8px 20px; }
+  #viewer .caption { color: #ddd; font-size: 14px; }
+__SWITCH_CSS__
+</style></head><body>
+<header>
+  <strong data-t="ui:review_title">CLIP review</strong>
+  <span class="stats" id="stats"></span>
+  <label class="filter"><input type="checkbox" id="filter"> <span data-t="ui:filter"></span></label>
+  <span class="actions">
+    <button id="export" data-t="ui:export" data-vars='{"file": "__EXPORT_NAME__"}'></button>
+    <button id="import" data-t="ui:import"></button>
+    <input type="file" id="import-file" accept=".json" hidden>
+    __SWITCH_HTML__
+  </span>
+</header>
+<main>
+  <nav class="pagination"></nav>
+  <div class="grid" id="grid"></div>
+  <nav class="pagination"></nav>
+  <nav><button class="main" id="validate" data-t="ui:validate"></button></nav>
+</main>
+<div id="viewer"><button id="back" data-t="ui:back"></button><img alt=""><div class="caption"></div></div>
+<script>
+__SWITCH_JS__
+const DATA = __DATA__;
+const PER_PAGE = 50, NA = "—";
+// The version changes with the criteria: progress saved for older criteria is ignored.
+const KEY = "clip-review:" + DATA.folder + ":" + DATA.version;
+const NAMES = DATA.criteria.map(([name]) => name);
+
+// state.corrections[file][criterion] = chosen value; state.checked[file] = true
+let state = { corrections: {}, checked: {}, page: 0, filter: null };
+try { Object.assign(state, JSON.parse(localStorage.getItem(KEY)) || {}); } catch (e) {}
+// Known expected answers are the starting point; a photo is checked only if all its shown criteria are known.
+for (const [f, vals] of Object.entries(DATA.expected)) {
+  if (state.corrections[f]) continue;
+  state.corrections[f] = {};
+  for (const [k, v] of Object.entries(vals)) if (NAMES.includes(k)) state.corrections[f][k] = v === null ? NA : v;
+  if (NAMES.every(n => n in vals)) state.checked[f] = true;
+}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+const photos = DATA.photos;
+const value = (p, name) => (state.corrections[p.file] || {})[name] ?? p.predicted[name];
+// Criterion to review: photo not validated yet and no value given by the user for this criterion.
+const toReview = (p, name) => !state.checked[p.file] && !(name in (state.corrections[p.file] || {}));
+const partlyKnown = p => p.file in DATA.expected;
+if (state.filter === null) state.filter = photos.some(p => partlyKnown(p) && !state.checked[p.file]);
+// Filter mode: only the photos already partly known but not validated yet.
+let list = [];
+function computeList() {
+  list = state.filter ? photos.filter(p => partlyKnown(p) && !state.checked[p.file]) : photos;
+}
+const nbPages = () => Math.max(1, Math.ceil(list.length / PER_PAGE));
+
+function showStats() {
+  const nbChecked = photos.filter(p => state.checked[p.file]).length;
+  let nbChanges = 0;
+  for (const p of photos) for (const name of NAMES) if (value(p, name) !== p.predicted[name]) nbChanges++;
+  const left = photos.filter(p => partlyKnown(p) && !state.checked[p.file]).length;
+  document.getElementById("stats").textContent = t("ui:stats", {
+    page: state.page + 1, pages: nbPages(), checked: nbChecked, total: photos.length, left, changes: nbChanges });
+}
+
+function showPagination() {
+  for (const nav of document.querySelectorAll(".pagination")) {
+    nav.innerHTML = "";
+    for (let i = 0; i < nbPages(); i++) {
+      const b = document.createElement("button");
+      const slice = list.slice(i * PER_PAGE, (i + 1) * PER_PAGE);
+      const done = slice.every(p => state.checked[p.file]);
+      b.textContent = (i + 1) + (done ? " ✓" : "");
+      b.disabled = i === state.page;
+      b.onclick = () => goTo(i);
+      nav.appendChild(b);
+    }
+  }
+}
+
+function card(p) {
+  const div = document.createElement("div");
+  div.className = "card" + (state.checked[p.file] ? " checked" : "");
+  const img = document.createElement("img");
+  img.loading = "lazy"; img.src = DATA.base + encodeURIComponent(p.file).replace(/%2F/g, "/");
+  img.alt = p.file;
+  img.onclick = () => openViewer(img.src, p.file);
+  div.appendChild(img);
+  const name = document.createElement("div");
+  name.className = "name";
+  name.innerHTML = `<span></span><span class="state">${state.checked[p.file] ? t("ui:checked") : ""}</span>`;
+  name.firstChild.textContent = p.file;
+  div.appendChild(name);
+  const table = document.createElement("table");
+  for (const [criterion, options] of DATA.criteria) {
+    const tr = document.createElement("tr");
+    const td1 = document.createElement("td"), td2 = document.createElement("td");
+    const sc = p.scores[criterion];
+    td1.textContent = t("c:" + criterion) + " ";
+    const score = document.createElement("span");
+    score.className = "score";
+    score.textContent = sc === null ? "" : Math.round(sc * 100) + " %";
+    td1.appendChild(score);
+    const sel = document.createElement("select");
+    for (const o of options) {
+      const opt = document.createElement("option");
+      opt.value = o;
+      opt.textContent = (o === NA ? NA : t("v:" + criterion + ":" + o)) + (o === p.predicted[criterion] ? "  (CLIP)" : "");
+      sel.appendChild(opt);
+    }
+    sel.value = value(p, criterion);
+    const mark = () => {
+      tr.classList.toggle("changed", sel.value !== p.predicted[criterion]);
+      tr.classList.toggle("to-review", toReview(p, criterion));
+    };
+    mark();
+    sel.onchange = () => {
+      state.corrections[p.file] = state.corrections[p.file] || {};
+      state.corrections[p.file][criterion] = sel.value;
+      mark(); save(); showStats();
+    };
+    td2.appendChild(sel); tr.append(td1, td2); table.appendChild(tr);
+  }
+  div.appendChild(table);
+  return div;
+}
+
+function goTo(i, scroll = true) {
+  computeList();
+  state.page = Math.max(0, Math.min(nbPages() - 1, i)); save();
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  for (const p of list.slice(state.page * PER_PAGE, (state.page + 1) * PER_PAGE)) grid.appendChild(card(p));
+  if (!list.length) grid.textContent = t("ui:nothing_left");
+  showPagination(); showStats();
+  if (scroll) window.scrollTo(0, 0);
+}
+
+const filter = document.getElementById("filter");
+filter.checked = state.filter;
+filter.onchange = () => { state.filter = filter.checked; goTo(0); };
+
+document.getElementById("validate").onclick = () => {
+  const page = list.slice(state.page * PER_PAGE, (state.page + 1) * PER_PAGE);
+  for (const p of page) state.checked[p.file] = true;
+  save();
+  // In filter mode, validated photos leave the list: the next page takes their place.
+  const next = state.filter ? state.page : state.page + 1;
+  const last = state.filter ? list.length <= page.length : state.page >= nbPages() - 1;
+  goTo(next);
+  if (last) alert(t("ui:last_page"));
+};
+
+// Export: all the values of the checked photos (confirmed or corrected); "—" becomes null.
+// Known answers of hidden criteria are kept.
+document.getElementById("export").onclick = () => {
+  const output = {};
+  for (const p of photos) {
+    if (!state.checked[p.file]) continue;
+    output[p.file] = { ...(DATA.expected[p.file] || {}) };
+    for (const name of NAMES) {
+      const v = value(p, name);
+      output[p.file][name] = v === NA ? null : v;
+    }
+  }
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(output, null, 2)], { type: "application/json" }));
+  a.download = DATA.exportName;
+  a.click();
+  URL.revokeObjectURL(a.href);
+};
+
+// Import: takes back an exported file (the photos it contains are considered checked).
+document.getElementById("import").onclick = () => document.getElementById("import-file").click();
+document.getElementById("import-file").onchange = async e => {
+  const f = e.target.files[0];
+  if (!f) return;
+  try {
+    const data = JSON.parse(await f.text());
+    for (const [file, vals] of Object.entries(data)) {
+      state.corrections[file] = {};
+      for (const [k, v] of Object.entries(vals)) if (NAMES.includes(k)) state.corrections[file][k] = v === null ? NA : v;
+      state.checked[file] = true;
+    }
+    save(); goTo(state.page);
+  } catch (err) { alert(t("ui:unreadable", { error: err.message })); }
+  e.target.value = "";
+};
+
+const viewer = document.getElementById("viewer"), large = viewer.querySelector("img");
+function openViewer(src, name) { large.src = src; viewer.querySelector(".caption").textContent = name; viewer.classList.add("open"); }
+function closeViewer() { viewer.classList.remove("open"); large.removeAttribute("src"); }
+document.getElementById("back").onclick = closeViewer;
+viewer.onclick = e => { if (e.target === viewer) closeViewer(); };
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeViewer(); });
+
+function translatePage() {
+  document.documentElement.style.setProperty("--to-review", JSON.stringify(t("ui:to_review")));
+  goTo(state.page, false);
+}
+onLanguageChange = translatePage;
+translate(); translatePage();
+</script>
+</body></html>
+"""
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Review page for the answers of CLIP.")
+    parser.add_argument("folder", type=Path, help="folder of the analysed photos")
+    parser.add_argument("--results", type=Path, default=Path("results_2/results.csv"))
+    parser.add_argument("--criteria", type=Path, default=Path(__file__).with_name("criteria.json"))
+    parser.add_argument("--expected", type=Path, default=Path(__file__).with_name("expected_2.json"))
+    parser.add_argument("--output", type=Path, default=Path("results_2/review.html"))
+    args = parser.parse_args()
+
+    with open(args.criteria, encoding="utf-8") as f:
+        criteria = json.load(f)
+    expected = {}
+    if args.expected.exists():
+        with open(args.expected, encoding="utf-8") as f:
+            expected = json.load(f)
+
+    page_criteria = possible_values(criteria)
+    data = {
+        "folder": str(args.folder.resolve()),
+        "version": hashlib.sha1(json.dumps(page_criteria).encode()).hexdigest()[:10],
+        "base": args.folder.resolve().as_uri() + "/",
+        "exportName": args.expected.name,
+        "criteria": page_criteria,
+        "photos": read_predictions(args.results, [name for name, _ in page_criteria]),
+        "expected": expected,
+    }
+    # "</" inside the JSON would close the <script> tag.
+    json_page = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+    page = (PAGE.replace("__SWITCH_CSS__", SWITCH_CSS).replace("__SWITCH_HTML__", SWITCH_HTML)
+            .replace("__SWITCH_JS__", switch_js(load_labels()))
+            .replace("__EXPORT_NAME__", args.expected.name).replace("__DATA__", json_page))
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(page, encoding="utf-8")
+    print(f"{len(data['photos'])} photos · page written: {args.output}")
+
+
+if __name__ == "__main__":
+    main()

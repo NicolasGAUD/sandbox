@@ -1,74 +1,72 @@
 {
-  "oui_non": [
+  "yes_no": [
     {
-      "nom": "vegetation",
-      "oui": [
+      "name": "vegetation",
+      "hidden": true,
+      "yes": [
         "a photo where plants, ivy, grass or trees take up a large part of the image",
         "a photo dominated by green vegetation",
         "a photo of green ivy leaves growing over a stone wall"
       ],
-      "non": [
+      "no": [
         "a photo of buildings, stone, sky or water with almost no plants",
         "a photo with only a few small weeds or no plants",
         "a photo of a painted wall, mural or sign",
         "a photo of bare stone or concrete walls"
       ],
-      "incertitude": [
-        0.5,
-        0.5
-      ]
+      "uncertainty": [0.5, 0.5]
     },
     {
-      "nom": "graffitis",
-      "oui": [
+      "name": "graffiti",
+      "hidden": true,
+      "yes": [
         "a photo of walls covered with graffiti",
         "a photo of spray paint tags and street art"
       ],
-      "non": [
+      "no": [
         "a photo of clean walls without graffiti",
         "a photo without any spray paint",
         "a photo of a painted shop sign with lettering"
       ],
-      "incertitude": [
-        0.5,
-        0.5
-      ]
+      "uncertainty": [0.5, 0.5]
     }
   ],
-  "choix": [
+  "choices": [
     {
-      "nom": "type_lieu",
-      "seuil": 0,
+      "name": "place_type",
+      "threshold": 0,
+      "probe": true,
       "options": {
-        "usine": "a photo of an abandoned factory or warehouse",
-        "maison": "a photo of an old house",
-        "hopital": "a photo of an abandoned hospital",
-        "eglise": "a photo of an abandoned church",
-        "chateau": "a photo of a castle",
-        "bureau": "a photo of an abandoned office",
-        "batiment": "a photo of a modern building",
-        "mur": [
+        "factory": "a photo of an abandoned factory or warehouse",
+        "house": "a photo of an old house",
+        "hospital": "a photo of an abandoned hospital",
+        "church": "a photo of an abandoned church",
+        "castle": "a photo of a castle",
+        "office": "a photo of an abandoned office",
+        "building": "a photo of a modern building",
+        "wall": [
           "a close-up photo of a wall",
           "a close-up photo of an old stone wall with plants"
         ],
         "bunker": "a photo of a military bunker",
-        "pont": "a photo of an old bridge or viaduct",
-        "bateau": "a photo of an old boat or shipwreck",
-        "toit": "a photo of a rooftop",
-        "paysage": "a photo of a landscape with sky, sea or countryside",
-        "vehicule": [
+        "bridge": "a photo of an old bridge or viaduct",
+        "rooftop": "a photo of a rooftop",
+        "landscape": "a photo of a landscape with sky, sea or countryside",
+        "vehicle": [
           "a photo of an abandoned car, truck, bus or train",
-          "a photo of an old rusty vehicle"
+          "a photo of an old rusty vehicle",
+          "a photo of an old boat or shipwreck",
+          "a photo of an abandoned airplane"
         ],
-        "maison_garde": [
+        "guard_house": [
           "a photo of a small old stone guard house on a coastal cliff",
           "a photo of a small stone hut by the sea"
         ],
-        "cabane_vigne": [
+        "vineyard_hut": [
           "a photo of a small isolated shed or hut in a field",
           "a photo of a small concrete hut in the countryside"
         ],
-        "phare": "a photo of a lighthouse",
+        "lighthouse": "a photo of a lighthouse",
         "detail": [
           "a close-up photo of an object or a detail",
           "a macro photo of a small detail"
@@ -78,24 +76,39 @@
           "a photo of an old door or window on a facade"
         ],
         "street": "a photo of a street lined with buildings"
-      },
-      "sonde": true
+      }
     },
     {
-      "nom": "interieur_exterieur",
+      "name": "vehicle_type",
+      "threshold": 0,
+      "only_if": {
+        "place_type": ["vehicle"]
+      },
       "options": {
-        "interieur": "a photo taken indoors",
-        "exterieur": "a photo taken outdoors"
-      },
-      "seuil": 0
+        "boat": ["a photo of an old boat or shipwreck", "a photo of an abandoned ship"],
+        "plane": "a photo of an abandoned airplane",
+        "car": "a photo of an abandoned car",
+        "truck": "a photo of an abandoned truck",
+        "bus": "a photo of an abandoned bus",
+        "tank": "a photo of an old military tank",
+        "caravan": "a photo of an abandoned caravan or camper trailer",
+        "bike": "a photo of an old bicycle"
+      }
     },
     {
-      "nom": "categorie_interieur",
-      "seuil": 0,
-      "sauf": {
-        "interieur_exterieur": [
-          "exterieur"
-        ]
+      "name": "indoor_outdoor",
+      "threshold": 0,
+      "options": {
+        "indoor": "a photo taken indoors",
+        "outdoor": "a photo taken outdoors"
+      }
+    },
+    {
+      "name": "interior_category",
+      "threshold": 0,
+      "probe": true,
+      "except": {
+        "indoor_outdoor": ["outdoor"]
       },
       "options": {
         "rooms": "a photo of an empty room inside an abandoned building",
@@ -103,36 +116,34 @@
         "office": "a photo of an abandoned office with desks and papers",
         "decay": "a photo of a decaying interior with peeling paint, rubble and rot",
         "archi_graphism": "a photo of interior architecture with graphic lines, arches, columns and symmetry",
-        "biblio": "a photo of an abandoned library with bookshelves and books",
+        "library": "a photo of an abandoned library with bookshelves and books",
         "lavatory": "a photo of abandoned toilets, a bathroom or washbasins"
-      },
-      "sonde": true
+      }
     },
     {
-      "nom": "degradation",
-      "sauf": {
-        "type_lieu": [
-          "paysage"
-        ]
+      "name": "condition",
+      "threshold": 0,
+      "except": {
+        "place_type": ["landscape"]
       },
       "options": {
-        "tres_bon_etat": [
+        "excellent": [
           "a photo of a building in perfect condition, freshly renovated, with no damage",
           "a photo of a well maintained building with a clean facade and new white windows"
         ],
-        "bon_etat": "a photo of a clean, well-kept modern building with only a little dirt",
-        "degrade": [
+        "good": "a photo of a clean, well-kept modern building with only a little dirt",
+        "degraded": [
           "a photo of an old, weathered structure with moss, stains and rust",
           "a photo of a neglected, dilapidated, abandoned structure",
           "a photo of a building with boarded up, shuttered or propped up windows"
         ],
-        "ruine": "a photo of a building in ruins with collapsed walls and no roof"
-      },
-      "seuil": 0
+        "ruin": "a photo of a building in ruins with collapsed walls and no roof"
+      }
     },
     {
-      "nom": "ciel",
-      "seuil": 0,
+      "name": "sky",
+      "threshold": 0,
+      "probe": true,
       "options": {
         "visible": [
           "a photo with the sky visible in the background",
@@ -144,67 +155,64 @@
           "a close-up photo of a wall surface, without any sky",
           "a photo taken indoors"
         ]
-      },
-      "sonde": true
+      }
     },
     {
-      "nom": "moment",
-      "seuil": 0,
+      "name": "time_of_day",
+      "threshold": 0,
+      "probe": true,
       "options": {
-        "jour": "a photo taken in daylight",
-        "crepuscule": "a photo taken at dusk or dawn, in dim evening light",
-        "nuit": "a photo taken at night"
-      },
-      "sonde": true
+        "day": "a photo taken in daylight",
+        "dusk": "a photo taken at dusk or dawn, in dim evening light",
+        "night": "a photo taken at night"
+      }
     },
     {
-      "nom": "meteo",
-      "sauf": {
-        "interieur_exterieur": [
-          "interieur"
-        ],
-        "type_lieu": [
-          "mur"
-        ],
-        "ciel": [
-          "absent"
-        ],
-        "moment": [
-          "crepuscule",
-          "nuit"
-        ]
+      "name": "weather",
+      "threshold": 0,
+      "probe": true,
+      "undetermined": false,
+      "except": {
+        "indoor_outdoor": ["indoor"],
+        "place_type": ["wall"],
+        "sky": ["absent"],
+        "time_of_day": ["dusk", "night"]
       },
-      "recadrage": [
-        0,
-        0,
-        1,
-        0.3
-      ],
+      "crop": [0, 0, 1, 0.3],
+      "with_full_image": true,
       "options": {
-        "ensoleille": [
+        "sunny": [
           "a photo of a clear blue sky without any clouds",
           "a photo of a perfectly blue sky"
         ],
-        "peu_nuageux": [
+        "few_clouds": [
           "a photo of a blue sky with a few small clouds",
           "a photo of a mostly blue sky with some clouds"
         ],
-        "mitige": [
+        "mixed": [
           "a photo of a blue sky with many small scattered white clouds",
           "a photo of a sky half blue with light white clouds"
         ],
-        "nuageux": [
+        "cloudy": [
           "a photo of a sky covered with large white or light grey clouds",
           "a photo of a hazy white veiled sky"
         ],
-        "mauvais_temps": [
+        "bad_weather": [
           "a photo of a sky with dark grey or black threatening clouds",
           "a photo of a dark stormy sky"
         ]
+      }
+    }
+  ],
+  "rules": [
+    {
+      "if": {
+        "place_type": ["wall"],
+        "graffiti": ["yes"]
       },
-      "seuil": 0,
-      "sonde": true,
-      "avec_image_entiere": true
+      "set": {
+        "place_type": "street_art"
+      }
     }
   ]
 }

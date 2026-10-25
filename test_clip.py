@@ -1,9 +1,10 @@
-"""Test de reconnaissance CLIP sur un dossier de photos.
+"""CLIP recognition test on a folder of photos.
 
-Usage :
-    python test_clip.py CHEMIN_DU_DOSSIER [--criteres criteres.json] [--sortie resultats]
+Usage:
+    python test_clip.py FOLDER [--criteria criteria.json] [--expected expected.json]
+                        [--probes probes.pt] [--output results] [--recursive]
 
-Produit resultats/resultats.csv et resultats/resultats.html (miniatures + scores).
+Writes results/results.csv and results/results.html (thumbnails, scores, FR/EN switch).
 """
 
 import argparse
@@ -16,341 +17,412 @@ import sys
 import time
 from pathlib import Path
 
+import numpy as np
 import torch
 from PIL import Image, ImageOps
 from transformers import CLIPModel, CLIPProcessor
 
+from labels import SWITCH_CSS, SWITCH_HTML, load_labels, switch_js
+
 EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tif", ".tiff"}
-INDETERMINE = "indetermine"
-TAILLE_MINIATURE = 320
+UNDETERMINED = "undetermined"
+THUMBNAIL_SIZE = 320
+FIXED_SKY_CROP = (0, 0, 1, 0.3)  # used by the "sky" crop when no sky area is found
 
 
-def charger_criteres(chemin):
-    with open(chemin, encoding="utf-8") as f:
+def load_criteria(path):
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
-    return data.get("oui_non", []), data.get("choix", [])
+    return data.get("yes_no", []), data.get("choices", []), data.get("rules", [])
 
 
-def normaliser(sortie):
-    # transformers >= 5 renvoie un objet dont pooler_output contient l'embedding projeté ;
-    # les versions antérieures renvoyaient directement le tenseur.
-    emb = sortie if isinstance(sortie, torch.Tensor) else sortie.pooler_output
+def normalize(output):
+    # transformers >= 5 returns an object whose pooler_output holds the projected embedding;
+    # older versions returned the tensor itself.
+    emb = output if isinstance(output, torch.Tensor) else output.pooler_output
     return emb / emb.norm(dim=-1, keepdim=True)
 
 
 @torch.no_grad()
-def encoder_textes(modele, processeur, textes, device):
-    entrees = processeur(text=textes, return_tensors="pt", padding=True).to(device)
-    return normaliser(modele.get_text_features(**entrees))
+def encode_texts(model, processor, texts, device):
+    inputs = processor(text=texts, return_tensors="pt", padding=True).to(device)
+    return normalize(model.get_text_features(**inputs))
 
 
-def encoder_phrases(modele, processeur, phrases, device):
-    # Une phrase ou une liste de phrases : on fait la moyenne de leurs embeddings,
-    # ce qui rend le critère moins sensible à une formulation particulière.
-    if isinstance(phrases, str):
-        phrases = [phrases]
-    emb = encoder_textes(modele, processeur, phrases, device).mean(dim=0, keepdim=True)
+def encode_prompts(model, processor, prompts, device):
+    # One prompt or a list of prompts: their embeddings are averaged,
+    # which makes the criterion less sensitive to a particular wording.
+    if isinstance(prompts, str):
+        prompts = [prompts]
+    emb = encode_texts(model, processor, prompts, device).mean(dim=0, keepdim=True)
     return emb / emb.norm(dim=-1, keepdim=True)
 
 
 @torch.no_grad()
-def encoder_image(modele, processeur, image, device):
-    entrees = processeur(images=image, return_tensors="pt").to(device)
-    return normaliser(modele.get_image_features(**entrees))
+def encode_image(model, processor, image, device):
+    inputs = processor(images=image, return_tensors="pt").to(device)
+    return normalize(model.get_image_features(**inputs))
 
 
-def miniature_base64(image):
-    mini = image.copy()
-    mini.thumbnail((TAILLE_MINIATURE, TAILLE_MINIATURE))
-    tampon = io.BytesIO()
-    mini.save(tampon, format="JPEG", quality=80)
-    return base64.b64encode(tampon.getvalue()).decode("ascii")
+def sky_box(image):
+    """Box (left, top, right, bottom, as fractions) around the sky in the upper half of the image.
+
+    Sky pixels are blue, or bright and colourless (clouds, haze): trees and walls are left out,
+    so a sky partly hidden by foliage is judged on its visible part only.
+    """
+    small = image.resize((64, max(2, round(64 * image.height / image.width))))
+    hue, sat, val = np.asarray(small.convert("HSV"), dtype=np.int16).transpose(2, 0, 1)
+    sky = ((hue >= 120) & (hue <= 185) & (sat >= 40) & (val >= 90)) | ((sat < 40) & (val >= 110))
+    height = sky.shape[0]
+    upper = sky[: height // 2]
+    band = upper[: max(1, round(height * 0.3))]
+    cols = np.flatnonzero(band.mean(axis=0) >= 0.5)
+    if len(cols) < 0.15 * 64:
+        return FIXED_SKY_CROP
+    left, right = cols[0], cols[-1] + 1
+    rows = np.flatnonzero(upper[:, left:right].mean(axis=1) >= 0.5)
+    if len(rows) < 0.1 * height:
+        return FIXED_SKY_CROP
+    return (left / 64, rows[0] / height, right / 64, (rows[-1] + 1) / height)
 
 
-def couleur(score):
-    # rouge (0) -> vert (1)
+def crop(image, box):
+    if box == "sky":
+        box = sky_box(image)
+    left, top, right, bottom = box
+    return image.crop((int(left * image.width), int(top * image.height),
+                       int(right * image.width), int(bottom * image.height)))
+
+
+def crop_key(box):
+    # Name of a crop, for caches: "sky" or "0-0-1-0.3".
+    return box if isinstance(box, str) else "-".join(str(v) for v in box)
+
+
+def thumbnail_base64(image):
+    thumb = image.copy()
+    thumb.thumbnail((THUMBNAIL_SIZE, THUMBNAIL_SIZE))
+    buffer = io.BytesIO()
+    thumb.save(buffer, format="JPEG", quality=80)
+    return base64.b64encode(buffer.getvalue()).decode("ascii")
+
+
+def color(score):
+    # red (0) -> green (1)
     return f"hsl({int(score * 120)}, 70%, 40%)"
 
 
-def combiner(emb_zone, emb_image):
-    # Zone recadrée + image entière, mises bout à bout et renormalisées (option « avec_image_entiere »).
-    emb = torch.cat([emb_zone, emb_image], dim=-1)
+def combine(emb_crop, emb_image):
+    # Cropped area + whole image, concatenated and renormalized ("with_full_image" option).
+    emb = torch.cat([emb_crop, emb_image], dim=-1)
     return emb / emb.norm(dim=-1, keepdim=True)
 
 
-def doubler_phrases(emb_phrases):
-    # Phrases face à combiner() : le score obtenu est la moyenne de ceux de la zone et de l'image entière.
-    return torch.cat([emb_phrases, emb_phrases], dim=-1) / 2 ** 0.5
+def double_prompts(emb_prompts):
+    # Prompts facing combine(): the score is the average of those of the crop and of the whole image.
+    return torch.cat([emb_prompts, emb_prompts], dim=-1) / 2 ** 0.5
 
 
-def masque(critere, predits):
-    # « sauf »: {"type_lieu": ["pont", ...]} masque le critère quand un résultat déjà calculé y figure.
-    return any(predits.get(nom) in valeurs for nom, valeurs in critere.get("sauf", {}).items())
+def masked(criterion, predicted):
+    # "except": {"place_type": ["landscape"]} hides the criterion when an earlier result is listed;
+    # "only_if": {"place_type": ["vehicle"]} hides it unless an earlier result is listed.
+    if any(predicted.get(name) in values for name, values in criterion.get("except", {}).items()):
+        return True
+    return any(predicted.get(name) not in values for name, values in criterion.get("only_if", {}).items())
 
 
-def prediction(ligne, nom):
-    res = ligne["choix"].get(nom) if nom in ligne["choix"] else ligne["scores"].get(nom)
-    return None if res is None else res[0]
+def apply_rules(rules, predicted):
+    # {"if": {"place_type": ["wall"], "graffiti": ["yes"]}, "set": {"place_type": "street_art"}}
+    changed = {}
+    for rule in rules:
+        if all(predicted.get(name) in values for name, values in rule["if"].items()):
+            changed.update(rule["set"])
+    predicted.update(changed)
+    return changed
 
 
-def marque_verif(ligne, nom):
-    # Classe CSS et mention de la valeur attendue quand la photo figure dans attendus.json.
-    if nom not in ligne["verif"]:
+def check_mark(row, name):
+    # CSS class and expected value, when the photo is listed in the expected answers file.
+    if name not in row["check"]:
         return "", ""
-    attendu, ok = ligne["verif"][nom]
+    expected, ok = row["check"][name]
     if ok:
         return ' class="ok"', ""
-    return ' class="faux"', f' <small>(attendu : {html.escape(attendu or "—")})</small>'
+    # The label of the expected value is filled in by translateCards() in the page.
+    value = "" if expected is None else f' data-v="{html.escape(name)}:{html.escape(expected)}"'
+    return ' class="wrong"', f' <small class="expected"{value}></small>'
 
 
-def ecrire_html(chemin, lignes, oui_non, choix, infos):
-    cartes = []
-    for ligne in lignes:
+def write_html(path, rows, criteria, summary, labels):
+    cards = []
+    for row in rows:
         items = []
-        for c in choix:
-            classe, attendu = marque_verif(ligne, c["nom"])
-            if ligne["choix"][c["nom"]] is None:
-                items.append(f'<li{classe}><span>{html.escape(c["nom"])}{attendu}</span><b>—</b></li>')
+        for c in criteria:
+            name = c["name"]
+            css, expected = check_mark(row, name)
+            label = f'<span><span data-t="c:{html.escape(name)}">{html.escape(name)}</span>{expected}</span>'
+            result = row["results"][name]
+            if result is None:
+                items.append(f"<li{css}>{label}<b>—</b></li>")
                 continue
-            gagnant, p = ligne["choix"][c["nom"]]
-            detail = " · ".join(
-                f"{html.escape(k)} {v:.0%}" for k, v in ligne["detail_choix"][c["nom"]].items()
-            )
+            value, p = result
+            detail = row["details"].get(name)
+            attributes = "" if not detail else f' data-detail="{html.escape(json.dumps(detail))}"'
+            style = "" if detail else f' style="color:{color(p)}"'
             items.append(
-                f'<li{classe} title="{detail}"><span>{html.escape(c["nom"])}{attendu}</span>'
-                f"<b>{html.escape(gagnant)} {p:.0%}</b></li>"
+                f'<li{css}{attributes} data-name="{html.escape(name)}">{label}'
+                f'<b{style}><span data-t="v:{html.escape(name)}:{html.escape(value)}">{html.escape(value)}</span>'
+                f" {p:.0%}</b></li>"
             )
-        for c in oui_non:
-            res = ligne["scores"][c["nom"]]
-            classe, attendu = marque_verif(ligne, c["nom"])
-            valeur = "—" if res is None else f"{res[0]} {res[1]:.0%}"
-            style = "" if res is None else f' style="color:{couleur(res[1])}"'
-            items.append(f'<li{classe}><span>{html.escape(c["nom"])}{attendu}</span><b{style}>{valeur}</b></li>')
-        cartes.append(
-            f'<div class="carte"><img src="data:image/jpeg;base64,{ligne["miniature"]}" alt="" '
-            f'data-complete="{html.escape(ligne["uri"])}" title="Cliquer pour agrandir">'
-            f'<div class="nom">{html.escape(ligne["fichier"])} '
-            f'<small>{ligne["temps_ms"]:.0f} ms</small></div><ul>{"".join(items)}</ul></div>'
+        cards.append(
+            f'<div class="card"><img src="data:image/jpeg;base64,{row["thumbnail"]}" alt="" '
+            f'data-full="{html.escape(row["uri"])}" data-t-title="ui:enlarge">'
+            f'<div class="name">{html.escape(row["file"])} '
+            f'<small>{row["time_ms"]:.0f} ms</small></div><ul>{"".join(items)}</ul></div>'
         )
+    summary_html = "".join(
+        f'<span data-t="ui:{key}" data-vars="{html.escape(json.dumps(values))}"></span>'
+        for key, values in summary
+    )
 
     page = f"""<!doctype html>
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Résultats CLIP</title>
+<title>CLIP results</title>
 <style>
   body {{ font-family: system-ui, sans-serif; margin: 16px; background: #f4f4f4; color: #222; }}
+  h1 {{ display: flex; gap: 16px; align-items: center; }}
   .infos {{ margin-bottom: 16px; }}
-  .grille {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }}
-  .carte {{ background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px #0002; }}
-  .carte img {{ width: 100%; height: 200px; object-fit: cover; display: block; }}
-  .nom {{ padding: 6px 10px; font-weight: 600; word-break: break-all; }}
-  .nom small {{ font-weight: normal; color: #888; }}
+  .infos span + span::before {{ content: " · "; }}
+  .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }}
+  .card {{ background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px #0002; }}
+  .card img {{ width: 100%; height: 200px; object-fit: cover; display: block; cursor: zoom-in; }}
+  .name {{ padding: 6px 10px; font-weight: 600; word-break: break-all; }}
+  .name small {{ font-weight: normal; color: #888; }}
   ul {{ list-style: none; margin: 0; padding: 0 10px 10px; font-size: 14px; }}
-  li {{ display: flex; justify-content: space-between; border-top: 1px solid #eee; padding: 3px 0; }}
+  li {{ display: flex; justify-content: space-between; gap: 6px; border-top: 1px solid #eee; padding: 3px 0; }}
   li.ok {{ background: #e3f6e3; }}
-  li.faux {{ background: #fbe0e0; }}
-  .carte img {{ cursor: zoom-in; }}
-  #visionneuse {{ position: fixed; inset: 0; background: #000e; display: none;
-                 flex-direction: column; align-items: center; justify-content: center; gap: 10px; }}
-  #visionneuse.ouverte {{ display: flex; }}
-  #visionneuse img {{ max-width: 96vw; max-height: 86vh; object-fit: contain; }}
-  #visionneuse button {{ font-size: 16px; padding: 8px 20px; cursor: pointer; }}
-  #visionneuse .legende {{ color: #ddd; font-size: 14px; }}
+  li.wrong {{ background: #fbe0e0; }}
+  #viewer {{ position: fixed; inset: 0; background: #000e; display: none;
+            flex-direction: column; align-items: center; justify-content: center; gap: 10px; }}
+  #viewer.open {{ display: flex; }}
+  #viewer img {{ max-width: 96vw; max-height: 86vh; object-fit: contain; }}
+  #viewer button {{ font-size: 16px; padding: 8px 20px; cursor: pointer; }}
+  #viewer .caption {{ color: #ddd; font-size: 14px; }}
+{SWITCH_CSS}
 </style></head><body>
-<h1>Résultats CLIP</h1>
-<p class="infos">{html.escape(infos)}<br>Survolez un choix unique pour voir le détail des scores.
-Cliquez sur une image pour l'afficher en entier.</p>
-<div class="grille">{"".join(cartes)}</div>
-<div id="visionneuse">
-  <button id="retour">← Retour</button>
+<h1><span data-t="ui:results_title">CLIP results</span> {SWITCH_HTML}</h1>
+<p class="infos">{summary_html}<br><span data-t="ui:results_help"></span></p>
+<div class="grid">{"".join(cards)}</div>
+<div id="viewer">
+  <button id="back" data-t="ui:back">← Back</button>
   <img alt="">
-  <div class="legende"></div>
+  <div class="caption"></div>
 </div>
 <script>
-  const vis = document.getElementById("visionneuse");
-  const grande = vis.querySelector("img");
-  const legende = vis.querySelector(".legende");
-  function fermer() {{ vis.classList.remove("ouverte"); grande.removeAttribute("src"); }}
-  document.querySelector(".grille").addEventListener("click", e => {{
-    const mini = e.target.closest(".carte img");
-    if (!mini) return;
-    grande.src = mini.dataset.complete;
-    legende.textContent = mini.parentElement.querySelector(".nom").textContent;
-    vis.classList.add("ouverte");
-  }});
-  document.getElementById("retour").addEventListener("click", fermer);
-  vis.addEventListener("click", e => {{ if (e.target === vis) fermer(); }});
-  document.addEventListener("keydown", e => {{ if (e.key === "Escape") fermer(); }});
+{switch_js(labels)}
+function translateCards() {{
+  // Expected value of a wrong answer, and score of every option in the tooltip.
+  for (const el of document.querySelectorAll("small.expected")) {{
+    const value = el.dataset.v ? t("v:" + el.dataset.v) : "—";
+    el.textContent = " (" + t("ui:expected", {{ value }}) + ")";
+  }}
+  for (const li of document.querySelectorAll("li[data-detail]")) {{
+    li.title = Object.entries(JSON.parse(li.dataset.detail))
+      .map(([v, p]) => t("v:" + li.dataset.name + ":" + v) + " " + Math.round(p * 100) + " %").join(" · ");
+  }}
+}}
+onLanguageChange = translateCards;
+translate(); translateCards();
+const viewer = document.getElementById("viewer");
+const large = viewer.querySelector("img");
+const caption = viewer.querySelector(".caption");
+function closeViewer() {{ viewer.classList.remove("open"); large.removeAttribute("src"); }}
+document.querySelector(".grid").addEventListener("click", e => {{
+  const thumb = e.target.closest(".card img");
+  if (!thumb) return;
+  large.src = thumb.dataset.full;
+  caption.textContent = thumb.parentElement.querySelector(".name").textContent;
+  viewer.classList.add("open");
+}});
+document.getElementById("back").addEventListener("click", closeViewer);
+viewer.addEventListener("click", e => {{ if (e.target === viewer) closeViewer(); }});
+document.addEventListener("keydown", e => {{ if (e.key === "Escape") closeViewer(); }});
 </script>
 </body></html>"""
-    chemin.write_text(page, encoding="utf-8")
+    path.write_text(page, encoding="utf-8")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Teste CLIP sur un dossier de photos.")
-    parser.add_argument("dossier", type=Path, help="dossier contenant les photos")
-    parser.add_argument("--criteres", type=Path, default=Path(__file__).with_name("criteres.json"))
-    parser.add_argument("--attendus", type=Path, default=Path(__file__).with_name("attendus.json"),
-                        help="réponses attendues par photo, pour mesurer les erreurs")
-    parser.add_argument("--sondes", type=Path, default=Path(__file__).with_name("sondes.pt"),
-                        help="sondes apprises par entrainer_sonde.py, pour les critères marqués « sonde »")
-    parser.add_argument("--sortie", type=Path, default=Path("resultats"))
-    parser.add_argument("--modele", default="openai/clip-vit-base-patch16")
-    parser.add_argument("--recursif", action="store_true", help="inclure les sous-dossiers")
+    parser = argparse.ArgumentParser(description="Runs CLIP on a folder of photos.")
+    parser.add_argument("folder", type=Path, help="folder containing the photos")
+    parser.add_argument("--criteria", type=Path, default=Path(__file__).with_name("criteria.json"))
+    parser.add_argument("--expected", type=Path, default=Path(__file__).with_name("expected.json"),
+                        help="expected answers per photo, to measure the errors")
+    parser.add_argument("--probes", type=Path, default=Path(__file__).with_name("probes.pt"),
+                        help="probes learnt by train_probes.py, for the criteria marked \"probe\"")
+    parser.add_argument("--output", type=Path, default=Path("results"))
+    parser.add_argument("--model", default="openai/clip-vit-base-patch16")
+    parser.add_argument("--recursive", action="store_true", help="include subfolders")
     args = parser.parse_args()
 
-    motif = "**/*" if args.recursif else "*"
-    images = sorted(p for p in args.dossier.glob(motif) if p.suffix.lower() in EXTENSIONS)
+    pattern = "**/*" if args.recursive else "*"
+    images = sorted(p for p in args.folder.glob(pattern) if p.suffix.lower() in EXTENSIONS)
     if not images:
-        sys.exit(f"Aucune image trouvée dans {args.dossier}")
+        sys.exit(f"No image found in {args.folder}")
 
-    oui_non, choix = charger_criteres(args.criteres)
-    attendus = {}
-    if args.attendus.exists():
-        with open(args.attendus, encoding="utf-8") as f:
-            attendus = json.load(f)
+    yes_no, choices, rules = load_criteria(args.criteria)
+    expected_answers = {}
+    if args.expected.exists():
+        with open(args.expected, encoding="utf-8") as f:
+            expected_answers = json.load(f)
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Chargement de {args.modele} sur {device} (téléchargement au premier lancement)…")
+    print(f"Loading {args.model} on {device} (downloaded on first run)…")
     t0 = time.perf_counter()
-    modele = CLIPModel.from_pretrained(args.modele).to(device).eval()
-    processeur = CLIPProcessor.from_pretrained(args.modele)
-    echelle = modele.logit_scale.exp()
-    print(f"Modèle chargé en {time.perf_counter() - t0:.1f} s")
-    sondes = {}
-    if any(c.get("sonde") for c in choix):
-        if not args.sondes.exists():
-            sys.exit(f"{args.sondes} introuvable : lancez d'abord entrainer_sonde.py")
-        sondes = {nom: s for nom, s in torch.load(args.sondes).items()
-                  if any(c["nom"] == nom and c.get("sonde") for c in choix)}
-        print(f"Sondes utilisées : {', '.join(sondes)}")
+    model = CLIPModel.from_pretrained(args.model).to(device).eval()
+    processor = CLIPProcessor.from_pretrained(args.model)
+    scale = model.logit_scale.exp()
+    print(f"Model loaded in {time.perf_counter() - t0:.1f} s")
+    probes = {}
+    if any(c.get("probe") for c in choices):
+        if not args.probes.exists():
+            sys.exit(f"{args.probes} not found: run train_probes.py first")
+        probes = {name: p for name, p in torch.load(args.probes).items()
+                  if any(c["name"] == name and c.get("probe") for c in choices)}
+        print(f"Probes used: {', '.join(probes)}")
 
-    # Les phrases ne changent pas d'une image à l'autre : on les encode une seule fois.
-    emb_oui_non = [
-        torch.cat([encoder_phrases(modele, processeur, c[cote], device) for cote in ("oui", "non")])
-        for c in oui_non
+    # The prompts do not change from one image to the next: they are encoded once.
+    emb_yes_no = [
+        torch.cat([encode_prompts(model, processor, c[side], device) for side in ("yes", "no")])
+        for c in yes_no
     ]
-    emb_choix = [
-        torch.cat([encoder_phrases(modele, processeur, v, device) for v in c["options"].values()])
-        for c in choix
+    emb_choices = [
+        torch.cat([encode_prompts(model, processor, v, device) for v in c["options"].values()])
+        for c in choices
     ]
-    emb_choix = [doubler_phrases(e) if "recadrage" in c and c.get("avec_image_entiere") else e
-                 for c, e in zip(choix, emb_choix)]
+    emb_choices = [double_prompts(e) if "crop" in c and c.get("with_full_image") else e
+                   for c, e in zip(choices, emb_choices)]
+    shown = [c for c in choices + yes_no if not c.get("hidden")]
 
-    lignes = []
-    for i, chemin in enumerate(images, 1):
+    rows = []
+    for i, path in enumerate(images, 1):
         try:
-            image = ImageOps.exif_transpose(Image.open(chemin)).convert("RGB")
+            image = ImageOps.exif_transpose(Image.open(path)).convert("RGB")
         except Exception as e:
-            print(f"[{i}/{len(images)}] {chemin.name} : illisible ({e})")
+            print(f"[{i}/{len(images)}] {path.name}: unreadable ({e})")
             continue
 
-        debut = time.perf_counter()
-        emb_img = encoder_image(modele, processeur, image, device)
-        emb_recadrages = {}  # un même recadrage n'est encodé qu'une fois par image
-        # Les choix passent en premier (dans l'ordre du fichier) : les critères suivants
-        # peuvent être masqués selon leur résultat, via la clé « sauf ».
-        predits = {}
-        resultats_choix, detail_choix = {}, {}
-        for c, emb in zip(choix, emb_choix):
-            if masque(c, predits):
-                resultats_choix[c["nom"]], detail_choix[c["nom"]] = None, {}
+        start = time.perf_counter()
+        emb_img = encode_image(model, processor, image, device)
+        emb_crops = {}  # a crop is encoded once per image
+        # The choices come first (in file order): the following criteria
+        # can be hidden depending on their result, with "except" and "only_if".
+        predicted = {}
+        results, details = {}, {}
+        for c, emb in zip(choices, emb_choices):
+            if masked(c, predicted):
+                results[c["name"]] = None
                 continue
-            emb_zone = emb_img
-            if "recadrage" in c:
-                # [gauche, haut, droite, bas] en fractions de l'image, ex. [0, 0, 1, 0.4] pour le ciel.
-                cle = tuple(c["recadrage"])
-                if cle not in emb_recadrages:
-                    g, h, d, b = cle
-                    zone = image.crop((int(g * image.width), int(h * image.height),
-                                       int(d * image.width), int(b * image.height)))
-                    emb_recadrages[cle] = encoder_image(modele, processeur, zone, device)
-                emb_zone = emb_recadrages[cle]
-                if c.get("avec_image_entiere"):
-                    emb_zone = combiner(emb_zone, emb_img)
-            if c["nom"] in sondes:
-                # Sonde apprise (entrainer_sonde.py) à la place des phrases.
-                s = sondes[c["nom"]]
-                probas = (echelle * emb_zone @ s["W"] + s["b"]).softmax(dim=-1)[0].tolist()
-                detail = dict(zip(s["classes"], probas))
+            emb_area = emb_img
+            if "crop" in c:
+                # "sky" (found in the image) or [left, top, right, bottom] as fractions of the image.
+                key = crop_key(c["crop"])
+                if key not in emb_crops:
+                    emb_crops[key] = encode_image(model, processor, crop(image, c["crop"]), device)
+                emb_area = emb_crops[key]
+                if c.get("with_full_image"):
+                    emb_area = combine(emb_area, emb_img)
+            if c["name"] in probes:
+                # Probe learnt by train_probes.py instead of the prompts.
+                probe = probes[c["name"]]
+                probas = (scale * emb_area @ probe["W"] + probe["b"]).softmax(dim=-1)[0].tolist()
+                detail = dict(zip(probe["classes"], probas))
             else:
-                probas = (echelle * emb_zone @ emb.T).softmax(dim=-1)[0].tolist()
+                probas = (scale * emb_area @ emb.T).softmax(dim=-1)[0].tolist()
                 detail = dict(zip(c["options"].keys(), probas))
-            gagnant = max(detail, key=detail.get)
-            score = detail[gagnant]
-            # Aucune option assez convaincante : on se rabat sur « defaut », sinon on ne tranche pas.
-            if score < c.get("seuil", 0):
-                gagnant = c.get("defaut", INDETERMINE)
-                score = detail.get(gagnant, score)
-            resultats_choix[c["nom"]] = (gagnant, score)
-            detail_choix[c["nom"]] = detail
-            predits[c["nom"]] = gagnant
-        scores = {}
-        for c, emb in zip(oui_non, emb_oui_non):
-            if masque(c, predits):
-                scores[c["nom"]] = None
+            winner = max(detail, key=detail.get)
+            score = detail[winner]
+            # No option convincing enough: fall back on "default", otherwise do not decide.
+            if score < c.get("threshold", 0):
+                winner = c.get("default", UNDETERMINED)
+                score = detail.get(winner, score)
+            results[c["name"]] = (winner, score)
+            details[c["name"]] = detail
+            predicted[c["name"]] = winner
+        for c, emb in zip(yes_no, emb_yes_no):
+            if masked(c, predicted):
+                results[c["name"]] = None
                 continue
-            p = (echelle * emb_img @ emb.T).softmax(dim=-1)[0][0].item()
-            # Entre les deux bornes d'« incertitude », on ne devine pas.
-            bas, haut = c.get("incertitude", [0.5, 0.5])
-            valeur = "oui" if p >= haut else "non" if p <= bas else INDETERMINE
-            scores[c["nom"]] = (valeur, p)
-            predits[c["nom"]] = valeur
-        temps_ms = (time.perf_counter() - debut) * 1000
+            p = (scale * emb_img @ emb.T).softmax(dim=-1)[0][0].item()
+            # Between the two "uncertainty" bounds, no guess is made.
+            low, high = c.get("uncertainty", [0.5, 0.5])
+            value = "yes" if p >= high else "no" if p <= low else UNDETERMINED
+            results[c["name"]] = (value, p)
+            predicted[c["name"]] = value
+        for name, value in apply_rules(rules, predicted).items():
+            results[name] = (value, results[name][1])
+        time_ms = (time.perf_counter() - start) * 1000
 
-        fichier = chemin.relative_to(args.dossier).as_posix()
-        verif = {nom: (val, predits.get(nom) == val) for nom, val in attendus.get(fichier, {}).items()}
+        file = path.relative_to(args.folder).as_posix()
+        check = {name: (value, predicted.get(name) == value)
+                 for name, value in expected_answers.get(file, {}).items()
+                 if any(c["name"] == name for c in shown)}
 
-        lignes.append({
-            "fichier": fichier,
-            "uri": chemin.resolve().as_uri(),  # image originale, affichée en grand dans le HTML
-            "temps_ms": temps_ms,
-            "scores": scores,
-            "choix": resultats_choix,
-            "detail_choix": detail_choix,
-            "verif": verif,
-            "miniature": miniature_base64(image),
+        rows.append({
+            "file": file,
+            "uri": path.resolve().as_uri(),  # original image, shown full size in the HTML
+            "time_ms": time_ms,
+            "results": results,
+            "details": details,
+            "check": check,
+            "thumbnail": thumbnail_base64(image),
         })
-        print(f"[{i}/{len(images)}] {chemin.name} : {temps_ms:.0f} ms")
+        print(f"[{i}/{len(images)}] {path.name}: {time_ms:.0f} ms")
 
-    if not lignes:
-        sys.exit("Aucune image n'a pu être analysée.")
+    if not rows:
+        sys.exit("No image could be analysed.")
 
-    args.sortie.mkdir(parents=True, exist_ok=True)
+    args.output.mkdir(parents=True, exist_ok=True)
 
-    # CSV en UTF-8 avec BOM et séparateur « ; » pour qu'Excel (français) l'ouvre correctement.
-    # Chaque critère occupe deux colonnes : la valeur et son score (pour un oui/non, la probabilité du « oui »).
-    entetes = ["fichier", "temps_ms"]
-    for c in choix + oui_non:
-        entetes += [c["nom"], f'{c["nom"]}_score']
-    with open(args.sortie / "resultats.csv", "w", newline="", encoding="utf-8-sig") as f:
+    # CSV in UTF-8 with BOM and ";" separator so that Excel (French) opens it correctly.
+    # Each criterion takes two columns: the value and its score (for yes/no, the probability of "yes").
+    header = ["file", "time_ms"]
+    for c in shown:
+        header += [c["name"], f'{c["name"]}_score']
+    with open(args.output / "results.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, delimiter=";")
-        w.writerow(entetes)
-        for l in lignes:
-            ligne = [l["fichier"], f'{l["temps_ms"]:.0f}']
-            resultats = [l["choix"][c["nom"]] for c in choix] + [l["scores"][c["nom"]] for c in oui_non]
-            for res in resultats:
-                ligne += ["", ""] if res is None else [res[0], f"{res[1]:.3f}"]
-            w.writerow(ligne)
+        w.writerow(header)
+        for r in rows:
+            line = [r["file"], f'{r["time_ms"]:.0f}']
+            for c in shown:
+                res = r["results"][c["name"]]
+                line += ["", ""] if res is None else [res[0], f"{res[1]:.3f}"]
+            w.writerow(line)
 
-    # La première image inclut souvent un temps de « chauffe » : on l'exclut de la moyenne si possible.
-    temps = [l["temps_ms"] for l in lignes]
-    moyenne = sum(temps[1:]) / (len(temps) - 1) if len(temps) > 1 else temps[0]
-    infos = (f"{len(lignes)} images · modèle {args.modele} sur {device} · "
-             f"{moyenne:.0f} ms/image en moyenne (hors première)")
-    verifs = [(l, nom, attendu, ok) for l in lignes for nom, (attendu, ok) in l["verif"].items()]
-    if verifs:
-        justes = sum(ok for *_, ok in verifs)
-        # « indéterminé » répondu à la place d'une vraie valeur : pas une erreur, une absence de réponse.
-        sans_reponse = sum(not ok and prediction(l, nom) == INDETERMINE for l, nom, _, ok in verifs)
-        infos += (f" · {justes}/{len(verifs)} réponses attendues correctes, "
-                  f"{sans_reponse} indéterminées, {len(verifs) - justes - sans_reponse} fausses")
-        for l, nom, attendu, ok in verifs:
-            if not ok and prediction(l, nom) != INDETERMINE:
-                print(f"  ✗ {l['fichier']} {nom} : attendu {attendu or '— (non applicable)'}")
-    ecrire_html(args.sortie / "resultats.html", lignes, oui_non, choix, infos)
+    # The first image often includes a warm-up time: it is left out of the average when possible.
+    times = [r["time_ms"] for r in rows]
+    average = sum(times[1:]) / (len(times) - 1) if len(times) > 1 else times[0]
+    summary = [("summary", {"n": len(rows), "model": args.model, "device": device, "ms": f"{average:.0f}"})]
+    checks = [(r, name, expected, ok) for r in rows for name, (expected, ok) in r["check"].items()]
+    if checks:
+        right = sum(ok for *_, ok in checks)
 
-    print(infos)
-    print(f"Résultats : {args.sortie / 'resultats.csv'} et {args.sortie / 'resultats.html'}")
+        def prediction(row, name):
+            return None if row["results"][name] is None else row["results"][name][0]
+
+        # "undetermined" given instead of a real value: not an error, an absence of answer.
+        no_answer = sum(not ok and prediction(r, name) == UNDETERMINED for r, name, _, ok in checks)
+        summary.append(("check", {"ok": right, "total": len(checks), "undetermined": no_answer,
+                                  "wrong": len(checks) - right - no_answer}))
+        for r, name, expected, ok in checks:
+            if not ok and prediction(r, name) != UNDETERMINED:
+                print(f"  ✗ {r['file']} {name}: expected {expected or '— (not applicable)'}, "
+                      f"got {prediction(r, name) or '—'}")
+    write_html(args.output / "results.html", rows, shown, summary, load_labels())
+
+    for key, values in summary:
+        print(key, values)
+    print(f"Results: {args.output / 'results.csv'} and {args.output / 'results.html'}")
 
 
 if __name__ == "__main__":
