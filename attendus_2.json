@@ -2,6 +2,7 @@
   "1697478832020_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -13,6 +14,7 @@
   "1697478832200_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -24,6 +26,7 @@
   "1697478832554_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -35,6 +38,7 @@
   "1697478832642_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -46,6 +50,7 @@
   "1697478832929_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -57,6 +62,7 @@
   "1697478832982_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "rooms",
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -67,7 +73,8 @@
   },
   "1697478833239_USR.jpg": {
     "type_lieu": "indetermine",
-    "interieur_exterieur": "exterieur",
+    "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -79,6 +86,7 @@
   "1697478833456_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -90,6 +98,7 @@
   "1697478833504_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -101,6 +110,7 @@
   "1697478833569_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "rooms",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -112,6 +122,7 @@
   "1697479383085_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -123,6 +134,7 @@
   "1697479383129_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -134,6 +146,7 @@
   "1697479383193_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -145,6 +158,7 @@
   "1697479383246_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "ruine",
     "ciel": "absent",
     "moment": "jour",
@@ -156,10 +170,11 @@
   "1697479383303_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mauvais_temps",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -167,6 +182,7 @@
   "1697479383375_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -178,6 +194,7 @@
   "1697479383455_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -189,6 +206,7 @@
   "1697479383617_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "stairs",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -200,6 +218,7 @@
   "1697479383744_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "rooms",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -211,6 +230,7 @@
   "1697479383829_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -222,6 +242,7 @@
   "1697479660397_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -233,6 +254,7 @@
   "1697479660478_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -244,6 +266,7 @@
   "1697479660543_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -255,6 +278,7 @@
   "1697479660622_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -266,6 +290,7 @@
   "1697479660708_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -277,10 +302,11 @@
   "1697479925125_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mauvais_temps",
     "vegetation": "oui",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -288,6 +314,7 @@
   "1697479925206_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -299,6 +326,7 @@
   "1697480137927_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -310,10 +338,11 @@
   "1697480137989_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mauvais_temps",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -321,6 +350,7 @@
   "1697480138043_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -332,6 +362,7 @@
   "1697480138141_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -343,6 +374,7 @@
   "1697480612801_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -354,6 +386,19 @@
   "1697480612861_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
+    "degradation": "ruine",
+    "ciel": "visible",
+    "moment": "jour",
+    "meteo": "ensoleille",
+    "vegetation": "non",
+    "graffitis": "non",
+    "toit_effondre": "non"
+  },
+  "1697480612920_USR.jpg": {
+    "type_lieu": "chateau",
+    "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -362,20 +407,10 @@
     "graffitis": "non",
     "toit_effondre": "non"
   },
-  "1697480612920_USR.jpg": {
-    "type_lieu": "chateau",
-    "interieur_exterieur": "exterieur",
-    "degradation": "ruine",
-    "ciel": "visible",
-    "moment": "jour",
-    "meteo": "nuageux",
-    "vegetation": "non",
-    "graffitis": "non",
-    "toit_effondre": "non"
-  },
   "1697480973796_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -385,8 +420,9 @@
     "toit_effondre": null
   },
   "1697480973872_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -398,6 +434,7 @@
   "1697480973966_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -409,6 +446,7 @@
   "1697480974014_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -418,8 +456,9 @@
     "toit_effondre": null
   },
   "1697481827249_USR.jpg": {
-    "type_lieu": "indetermine",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -431,6 +470,7 @@
   "1697481827262_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -442,8 +482,9 @@
   "1697481827273_USR.jpg": {
     "type_lieu": "hopital",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
-    "ciel": "visible",
+    "ciel": "absent",
     "moment": "jour",
     "meteo": null,
     "vegetation": "non",
@@ -453,6 +494,7 @@
   "1697481827286_USR.jpg": {
     "type_lieu": "hopital",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -464,6 +506,7 @@
   "1697481827296_USR.jpg": {
     "type_lieu": "hopital",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -475,6 +518,7 @@
   "1697481827308_USR.jpg": {
     "type_lieu": "hopital",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -486,6 +530,7 @@
   "1697481827341_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -497,6 +542,7 @@
   "1697481827359_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -508,6 +554,7 @@
   "1697481827371_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "stairs",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -519,6 +566,7 @@
   "1697481827383_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "stairs",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -530,6 +578,7 @@
   "1697481827395_USR.jpg": {
     "type_lieu": "hopital",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -541,6 +590,7 @@
   "1697481827407_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -552,6 +602,7 @@
   "1697481827419_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -563,6 +614,7 @@
   "1697481827430_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -574,6 +626,7 @@
   "1697481827442_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -583,8 +636,9 @@
     "toit_effondre": "non"
   },
   "1697481827454_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -596,6 +650,7 @@
   "1697481827464_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -607,6 +662,7 @@
   "1697481827478_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -618,6 +674,7 @@
   "1697481827490_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "stairs",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -629,6 +686,7 @@
   "1697481827503_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "stairs",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -640,6 +698,7 @@
   "1697481827515_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "lavatory",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -651,6 +710,7 @@
   "1697481827526_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "stairs",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -662,6 +722,7 @@
   "1697481827541_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "biblio",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -673,6 +734,7 @@
   "1697481827553_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "biblio",
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -684,6 +746,7 @@
   "1697481827564_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "lavatory",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -695,6 +758,7 @@
   "1697481827576_USR.jpg": {
     "type_lieu": "bureau",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "biblio",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -706,6 +770,7 @@
   "1697481827586_USR.jpg": {
     "type_lieu": "hopital",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -717,6 +782,7 @@
   "1697481827616_USR.jpg": {
     "type_lieu": "hopital",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -726,8 +792,9 @@
     "toit_effondre": "non"
   },
   "1697481827642_USR.jpg": {
-    "type_lieu": "indetermine",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -737,8 +804,9 @@
     "toit_effondre": "non"
   },
   "1697481827660_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -750,6 +818,7 @@
   "1697481827671_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -759,8 +828,9 @@
     "toit_effondre": "non"
   },
   "1697481827685_USR.jpg": {
-    "type_lieu": "indetermine",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -772,6 +842,7 @@
   "1697482285817_USR.jpg": {
     "type_lieu": "bureau",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "office",
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -783,6 +854,7 @@
   "1697482285829_USR.jpg": {
     "type_lieu": "bureau",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "office",
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -794,6 +866,7 @@
   "1697482285839_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -805,6 +878,7 @@
   "1697482285853_USR.jpg": {
     "type_lieu": "bureau",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "office",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -816,6 +890,7 @@
   "1697482285869_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -827,6 +902,7 @@
   "1697482285882_USR.jpg": {
     "type_lieu": "bureau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -838,6 +914,7 @@
   "1697482285895_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -849,6 +926,7 @@
   "1697482285909_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -860,6 +938,7 @@
   "1697482285920_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -871,6 +950,7 @@
   "1697482285935_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "lavatory",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -882,6 +962,7 @@
   "1697482285948_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "lavatory",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -893,6 +974,7 @@
   "1697482285960_USR.jpg": {
     "type_lieu": "bureau",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "office",
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -904,6 +986,7 @@
   "1697482713270_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -915,6 +998,7 @@
   "1697482713286_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -926,6 +1010,7 @@
   "1697482713303_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -937,6 +1022,7 @@
   "1697482713318_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -948,17 +1034,19 @@
   "1697482913642_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mauvais_temps",
     "vegetation": "oui",
     "graffitis": "non",
     "toit_effondre": "non"
   },
   "1697482913692_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -970,6 +1058,7 @@
   "1697482913753_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -981,17 +1070,19 @@
   "1697482913810_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "mauvais_temps",
+    "meteo": "mitige",
     "vegetation": "oui",
     "graffitis": "non",
     "toit_effondre": "non"
   },
   "1697483092018_USR.jpg": {
-    "type_lieu": "eglise",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1003,6 +1094,7 @@
   "1697483092068_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1014,6 +1106,7 @@
   "1697483092104_USR.jpg": {
     "type_lieu": "phare",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1025,6 +1118,7 @@
   "1697483092173_USR.jpg": {
     "type_lieu": "phare",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1036,6 +1130,7 @@
   "1697483292515_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -1047,6 +1142,7 @@
   "1697483292575_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -1058,6 +1154,7 @@
   "1697483292638_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -1069,6 +1166,7 @@
   "1698822322825_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -1080,6 +1178,7 @@
   "1698822323141_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1091,6 +1190,7 @@
   "1698822438556_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1102,6 +1202,7 @@
   "1698822438571_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1113,6 +1214,7 @@
   "1698822438587_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1124,6 +1226,7 @@
   "1698822828531_USR.jpg": {
     "type_lieu": "maison_garde",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1135,6 +1238,7 @@
   "1698822986328_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1146,6 +1250,7 @@
   "1698822986359_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1157,6 +1262,7 @@
   "1698822986382_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1168,6 +1274,7 @@
   "1698823191831_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -1179,6 +1286,7 @@
   "1698823191894_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -1188,8 +1296,9 @@
     "toit_effondre": null
   },
   "1698823191916_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -1201,10 +1310,11 @@
   "1698823368758_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mauvais_temps",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -1212,6 +1322,7 @@
   "1698823368770_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -1223,10 +1334,11 @@
   "1698823368778_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mauvais_temps",
     "vegetation": "oui",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -1234,6 +1346,7 @@
   "1698823572494_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -1245,6 +1358,7 @@
   "1698823572501_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -1256,6 +1370,7 @@
   "1698823572516_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -1267,6 +1382,7 @@
   "1698823572532_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "indetermine",
     "degradation": null,
     "ciel": "absent",
     "moment": "jour",
@@ -1278,6 +1394,7 @@
   "1698824023355_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1288,7 +1405,8 @@
   },
   "1698824023371_USR.jpg": {
     "type_lieu": "bunker",
-    "interieur_exterieur": "exterieur",
+    "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -1300,6 +1418,7 @@
   "1698824023386_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -1311,6 +1430,7 @@
   "1698824023393_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1322,6 +1442,7 @@
   "1698824023409_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1333,6 +1454,7 @@
   "1698824179779_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1344,6 +1466,7 @@
   "1698824179785_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1355,6 +1478,7 @@
   "1698824578138_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1366,6 +1490,7 @@
   "1698824578154_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1377,6 +1502,7 @@
   "1698824578169_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1388,6 +1514,7 @@
   "1698824578185_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1399,6 +1526,7 @@
   "1698824578191_USR.jpg": {
     "type_lieu": "phare",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1410,6 +1538,7 @@
   "1698824578207_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1421,6 +1550,7 @@
   "1698825103201_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1432,6 +1562,7 @@
   "1698825103217_USR.jpg": {
     "type_lieu": "maison_garde",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1443,6 +1574,7 @@
   "1698825563747_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -1454,6 +1586,7 @@
   "1698825563763_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1465,6 +1598,7 @@
   "1698825563778_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1476,6 +1610,7 @@
   "1698825563794_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1487,6 +1622,7 @@
   "1698826337668_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1498,6 +1634,7 @@
   "1698826337673_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1509,6 +1646,7 @@
   "1698826337678_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1520,6 +1658,7 @@
   "1698826337686_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1531,6 +1670,7 @@
   "1698826337692_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1542,6 +1682,7 @@
   "1698826337697_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1553,6 +1694,7 @@
   "1698826337703_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1564,6 +1706,7 @@
   "1698826337709_USR.jpg": {
     "type_lieu": "maison_garde",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1575,6 +1718,7 @@
   "1698826337717_USR.jpg": {
     "type_lieu": "phare",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1586,6 +1730,7 @@
   "1698826337723_USR.jpg": {
     "type_lieu": "phare",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1597,6 +1742,7 @@
   "1698826337728_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1608,6 +1754,7 @@
   "1698826337735_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1619,6 +1766,7 @@
   "1698826337742_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1630,6 +1778,7 @@
   "1698827885658_USR.jpg": {
     "type_lieu": "vehicule",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1641,6 +1790,7 @@
   "1698827885689_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -1652,6 +1802,7 @@
   "1698827885702_USR.jpg": {
     "type_lieu": "vehicule",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1663,7 +1814,8 @@
   "1698827885713_USR.jpg": {
     "type_lieu": "vehicule",
     "interieur_exterieur": "exterieur",
-    "degradation": null,
+    "categorie_interieur": null,
+    "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
     "meteo": "ensoleille",
@@ -1674,6 +1826,7 @@
   "1698862543687_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1685,6 +1838,7 @@
   "1698862543731_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1696,6 +1850,7 @@
   "1698862543779_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1707,6 +1862,7 @@
   "1698862789823_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1718,6 +1874,7 @@
   "1698862789849_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1729,6 +1886,7 @@
   "1698862790241_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1740,6 +1898,7 @@
   "1698862790381_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1751,6 +1910,7 @@
   "1698863040451_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1762,6 +1922,7 @@
   "1698863040530_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1773,6 +1934,7 @@
   "1698863040560_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1784,6 +1946,7 @@
   "1698863040597_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1795,6 +1958,7 @@
   "1698863040632_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1806,6 +1970,7 @@
   "1701111936611_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1817,6 +1982,7 @@
   "1701112229732_USR.jpg": {
     "type_lieu": "cabane_vigne",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1828,6 +1994,7 @@
   "1701112229743_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1839,6 +2006,7 @@
   "1701112229752_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1850,6 +2018,7 @@
   "1701112229761_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1861,6 +2030,7 @@
   "1701112594871_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1872,6 +2042,7 @@
   "1701112594932_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1883,6 +2054,7 @@
   "1701112594953_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -1894,6 +2066,7 @@
   "1701112594969_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1905,6 +2078,7 @@
   "1701112835838_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1914,8 +2088,9 @@
     "toit_effondre": "non"
   },
   "1701112835867_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1927,10 +2102,11 @@
   "1701112835879_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "mauvais_temps",
+    "meteo": "nuageux",
     "vegetation": "oui",
     "graffitis": "non",
     "toit_effondre": "oui"
@@ -1938,6 +2114,7 @@
   "1701112835891_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -1949,17 +2126,19 @@
   "1701112835901_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "mauvais_temps",
+    "meteo": "nuageux",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": "non"
   },
   "1701112835912_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -1969,8 +2148,9 @@
     "toit_effondre": "non"
   },
   "1701112835923_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -1982,6 +2162,7 @@
   "1701113058329_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -1993,6 +2174,7 @@
   "1701113058338_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -2004,6 +2186,7 @@
   "1701113058346_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2015,6 +2198,7 @@
   "1701113058357_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2026,6 +2210,7 @@
   "1701113239774_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -2037,6 +2222,7 @@
   "1701113239809_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -2048,6 +2234,7 @@
   "1701113239842_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -2059,6 +2246,7 @@
   "1701113239853_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -2070,6 +2258,7 @@
   "1701113555581_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2081,6 +2270,7 @@
   "1701113555591_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -2092,6 +2282,7 @@
   "1701113555605_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "crepuscule",
@@ -2103,6 +2294,7 @@
   "1701113555624_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -2114,6 +2306,7 @@
   "1701113555633_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -2125,6 +2318,7 @@
   "1701113555651_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -2136,6 +2330,7 @@
   "1701113555661_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -2147,6 +2342,7 @@
   "1701113894576_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2158,6 +2354,7 @@
   "1701113894586_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2169,6 +2366,7 @@
   "1701113894596_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2180,6 +2378,7 @@
   "1701113894606_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2191,6 +2390,7 @@
   "1701113894616_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2202,10 +2402,11 @@
   "1701113894627_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mitige",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": null
@@ -2213,6 +2414,7 @@
   "1701113894638_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2224,6 +2426,7 @@
   "1701113894649_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2235,10 +2438,11 @@
   "1701113894660_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mitige",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": null
@@ -2246,6 +2450,7 @@
   "1701113894697_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2257,6 +2462,7 @@
   "1701113894705_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2268,6 +2474,7 @@
   "1701114203503_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2279,6 +2486,7 @@
   "1701114203553_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2290,6 +2498,7 @@
   "1701114203563_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2301,6 +2510,7 @@
   "1701114203575_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -2312,6 +2522,7 @@
   "1701114203584_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2323,6 +2534,7 @@
   "1701114203594_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2334,6 +2546,7 @@
   "1701114203606_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2345,6 +2558,7 @@
   "1701114203621_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2356,6 +2570,7 @@
   "1701114203634_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -2367,10 +2582,11 @@
   "1701114203645_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mitige",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": null
@@ -2378,6 +2594,7 @@
   "1701114203656_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -2389,6 +2606,7 @@
   "1701114400913_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -2400,6 +2618,7 @@
   "1701114400923_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2411,6 +2630,7 @@
   "1701114400933_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2422,6 +2642,7 @@
   "1701114400956_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2433,6 +2654,7 @@
   "1701114400968_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -2444,6 +2666,7 @@
   "1701114400980_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "rooms",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -2455,6 +2678,7 @@
   "1701114400991_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2466,6 +2690,7 @@
   "1701114401001_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -2477,6 +2702,7 @@
   "1701114401016_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -2488,6 +2714,7 @@
   "1701114401028_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2499,6 +2726,7 @@
   "1701114401038_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2510,6 +2738,7 @@
   "1701114598449_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -2521,6 +2750,7 @@
   "1701114598465_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -2532,6 +2762,7 @@
   "1701114598488_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2543,6 +2774,7 @@
   "1701114598500_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2554,6 +2786,7 @@
   "1701114598511_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2565,6 +2798,7 @@
   "1701114598521_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2576,6 +2810,7 @@
   "1701114598545_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2587,6 +2822,7 @@
   "1701114598556_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2598,6 +2834,7 @@
   "1701114598566_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2609,6 +2846,7 @@
   "1701114598577_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2620,6 +2858,7 @@
   "1701114598587_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2631,6 +2870,7 @@
   "1701114598599_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2642,6 +2882,7 @@
   "1701114598608_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2653,6 +2894,7 @@
   "1701114984432_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2664,6 +2906,7 @@
   "1701114984442_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2675,6 +2918,7 @@
   "1701114984491_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2686,6 +2930,7 @@
   "1701114984507_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2697,6 +2942,7 @@
   "1701114984531_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2708,6 +2954,7 @@
   "1701114984543_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2719,6 +2966,7 @@
   "1701114984565_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2730,6 +2978,7 @@
   "1701114984586_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2741,6 +2990,7 @@
   "1701114984596_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2752,6 +3002,7 @@
   "1701114984608_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2763,6 +3014,7 @@
   "1701114984619_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2774,6 +3026,7 @@
   "1701114984630_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2785,6 +3038,7 @@
   "1701114984643_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2796,6 +3050,7 @@
   "1701115184257_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2807,6 +3062,7 @@
   "1701115184267_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2818,6 +3074,7 @@
   "1701115184276_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "rooms",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -2829,6 +3086,7 @@
   "1701115184287_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2840,6 +3098,7 @@
   "1701115184298_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2851,6 +3110,7 @@
   "1701115184325_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -2862,6 +3122,7 @@
   "1701115184338_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2873,6 +3134,7 @@
   "1701115184351_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "rooms",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -2884,6 +3146,7 @@
   "1701115184361_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -2895,6 +3158,7 @@
   "1701115580377_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2906,6 +3170,7 @@
   "1701115580388_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2917,6 +3182,7 @@
   "1701115580398_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2928,6 +3194,7 @@
   "1701115580409_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2939,6 +3206,7 @@
   "1701115580419_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2950,6 +3218,7 @@
   "1701115580430_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2961,6 +3230,7 @@
   "1701115580442_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -2972,6 +3242,7 @@
   "1701115580454_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2983,6 +3254,7 @@
   "1701115580464_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -2994,6 +3266,7 @@
   "1701115580474_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -3005,6 +3278,7 @@
   "1701115752751_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3016,6 +3290,7 @@
   "1701115752762_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3027,6 +3302,7 @@
   "1701115752772_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3038,6 +3314,7 @@
   "1701115752780_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3049,6 +3326,7 @@
   "1701115752789_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3060,6 +3338,7 @@
   "1701116066542_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3071,6 +3350,7 @@
   "1701116066553_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3082,6 +3362,7 @@
   "1701116066563_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3093,6 +3374,7 @@
   "1701116066573_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3104,6 +3386,7 @@
   "1701116066581_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3115,6 +3398,7 @@
   "1701116066589_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3126,6 +3410,7 @@
   "1701116066599_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3137,6 +3422,7 @@
   "1701116066608_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3148,6 +3434,7 @@
   "1701116066618_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3159,6 +3446,7 @@
   "1701116066628_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3170,6 +3458,7 @@
   "1701116066638_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3181,6 +3470,7 @@
   "1701707407040_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3192,6 +3482,7 @@
   "1701707407117_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3203,6 +3494,7 @@
   "1701707407152_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3214,6 +3506,7 @@
   "1701707407198_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3225,6 +3518,7 @@
   "1701707407260_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3236,6 +3530,7 @@
   "1701707407294_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3247,6 +3542,7 @@
   "1701707407326_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3258,6 +3554,7 @@
   "1701708036844_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3269,6 +3566,7 @@
   "1701708036871_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3280,6 +3578,7 @@
   "1701708036899_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3291,6 +3590,7 @@
   "1701708036945_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3302,6 +3602,7 @@
   "1701708036973_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3313,6 +3614,7 @@
   "1701708037000_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3324,6 +3626,7 @@
   "1701708184404_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3335,6 +3638,7 @@
   "1701708184433_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3346,6 +3650,7 @@
   "1701708184458_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3357,6 +3662,7 @@
   "1701708184483_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3368,6 +3674,7 @@
   "1701708184513_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3379,6 +3686,7 @@
   "1701708184543_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3390,6 +3698,7 @@
   "1701708184571_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3401,10 +3710,11 @@
   "1701708184616_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mitige",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": null
@@ -3412,6 +3722,7 @@
   "1701708184641_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3423,6 +3734,7 @@
   "1701708184669_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3434,6 +3746,7 @@
   "1701708184711_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3445,6 +3758,7 @@
   "1701708184739_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3456,6 +3770,7 @@
   "1701708184766_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3467,10 +3782,11 @@
   "1701708456427_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mauvais_temps",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -3478,6 +3794,7 @@
   "1701708456461_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3489,6 +3806,7 @@
   "1701708456505_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3500,6 +3818,7 @@
   "1701708456531_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "tres_bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -3509,8 +3828,9 @@
     "toit_effondre": "non"
   },
   "1701708456615_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -3522,6 +3842,7 @@
   "1701708456657_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3531,8 +3852,9 @@
     "toit_effondre": "non"
   },
   "1701708456722_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3544,6 +3866,7 @@
   "1701708456760_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3555,6 +3878,7 @@
   "1701708456801_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -3566,6 +3890,7 @@
   "1701708456829_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -3577,6 +3902,7 @@
   "1701708456857_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3588,6 +3914,7 @@
   "1701708456883_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3599,6 +3926,7 @@
   "1701708456911_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3610,6 +3938,7 @@
   "1701708456937_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3619,8 +3948,9 @@
     "toit_effondre": "non"
   },
   "1701708456967_USR.jpg": {
-    "type_lieu": "batiment",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -3632,6 +3962,7 @@
   "1701708678070_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3643,10 +3974,11 @@
   "1701708678083_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mitige",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": null
@@ -3654,6 +3986,7 @@
   "1701708678094_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3665,6 +3998,7 @@
   "1701708678106_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3676,6 +4010,7 @@
   "1701708678122_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3687,6 +4022,7 @@
   "1701708678144_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3698,6 +4034,7 @@
   "1701708678184_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3709,6 +4046,7 @@
   "1701708678211_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3720,6 +4058,7 @@
   "1701708678251_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3731,6 +4070,7 @@
   "1701708678280_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3742,6 +4082,7 @@
   "1701708678320_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3753,6 +4094,7 @@
   "1701708678351_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3764,6 +4106,7 @@
   "1701708678381_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3775,6 +4118,7 @@
   "1701709083962_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -3786,6 +4130,7 @@
   "1701709084008_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -3797,10 +4142,11 @@
   "1701709084046_USR.jpg": {
     "type_lieu": "maison_garde",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "mauvais_temps",
+    "meteo": "nuageux",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -3808,10 +4154,11 @@
   "1701709084080_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
-    "meteo": null,
+    "meteo": "nuageux",
     "vegetation": "non",
     "graffitis": "oui",
     "toit_effondre": null
@@ -3819,6 +4166,7 @@
   "1701709252036_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3830,6 +4178,7 @@
   "1701709252063_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3841,6 +4190,7 @@
   "1701709252087_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3852,6 +4202,7 @@
   "1701709656026_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3863,6 +4214,7 @@
   "1701709656043_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3874,6 +4226,7 @@
   "1701709656062_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -3885,6 +4238,7 @@
   "1701710120656_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "nuit",
@@ -3896,6 +4250,7 @@
   "1701710120684_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "nuit",
@@ -3905,8 +4260,9 @@
     "toit_effondre": "non"
   },
   "1701710120717_USR.jpg": {
-    "type_lieu": "indetermine",
+    "type_lieu": "street",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "nuit",
@@ -3918,6 +4274,7 @@
   "1701710120744_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -3929,6 +4286,7 @@
   "1701710120770_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -3940,6 +4298,7 @@
   "1701710120796_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -3951,6 +4310,7 @@
   "1701710120822_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -3962,6 +4322,7 @@
   "1701710120851_USR.jpg": {
     "type_lieu": "toit",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -3973,6 +4334,7 @@
   "1701710120878_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -3984,6 +4346,7 @@
   "1701710120903_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -3995,6 +4358,7 @@
   "1701710120927_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4006,6 +4370,7 @@
   "1701710120955_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4017,6 +4382,7 @@
   "1701710120984_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4028,6 +4394,7 @@
   "1701710121013_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4039,6 +4406,7 @@
   "1701710121044_USR.jpg": {
     "type_lieu": "toit",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4050,6 +4418,7 @@
   "1701710121069_USR.jpg": {
     "type_lieu": "bateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4061,6 +4430,7 @@
   "1701710121098_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4072,6 +4442,7 @@
   "1701710121126_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4083,6 +4454,7 @@
   "1701710121152_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4094,6 +4466,7 @@
   "1701710121182_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4105,6 +4478,7 @@
   "1701710121209_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -4114,12 +4488,13 @@
     "toit_effondre": null
   },
   "1701710121235_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
-    "ciel": "visible",
+    "ciel": "absent",
     "moment": "jour",
-    "meteo": "mauvais_temps",
+    "meteo": null,
     "vegetation": "non",
     "graffitis": "oui",
     "toit_effondre": "oui"
@@ -4127,6 +4502,7 @@
   "1701710121425_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4138,6 +4514,7 @@
   "1701710121454_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4149,6 +4526,7 @@
   "1701710121530_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4160,6 +4538,7 @@
   "1701710121555_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4171,6 +4550,7 @@
   "1701710121584_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4182,6 +4562,7 @@
   "1701710121612_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -4193,6 +4574,7 @@
   "1701710121638_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4204,6 +4586,7 @@
   "1701710121663_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4215,6 +4598,7 @@
   "1701710121690_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4226,6 +4610,7 @@
   "1701710121727_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4237,6 +4622,7 @@
   "1701710121762_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4248,6 +4634,7 @@
   "1701710121795_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4259,6 +4646,7 @@
   "1701710121829_USR.jpg": {
     "type_lieu": "hopital",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4270,6 +4658,7 @@
   "1701710121871_USR.jpg": {
     "type_lieu": "bureau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4279,8 +4668,9 @@
     "toit_effondre": "non"
   },
   "1701710121910_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4292,6 +4682,7 @@
   "1701710121950_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4303,6 +4694,7 @@
   "1701710121983_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4314,6 +4706,7 @@
   "1701710122014_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4325,6 +4718,7 @@
   "1701710122045_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4336,6 +4730,7 @@
   "1701710122073_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4347,6 +4742,7 @@
   "1701710122099_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4358,6 +4754,7 @@
   "1701710122127_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4369,6 +4766,7 @@
   "1701710122153_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4379,7 +4777,8 @@
   },
   "1701710122179_USR.jpg": {
     "type_lieu": "mur",
-    "interieur_exterieur": "interieur",
+    "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -4389,8 +4788,9 @@
     "toit_effondre": "oui"
   },
   "1701710122207_USR.jpg": {
-    "type_lieu": "mur",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4402,10 +4802,11 @@
   "1701710122234_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mitige",
     "vegetation": "oui",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -4413,6 +4814,7 @@
   "1701710122266_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4424,6 +4826,7 @@
   "1701710122301_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4435,6 +4838,7 @@
   "1701710122364_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4444,8 +4848,9 @@
     "toit_effondre": "non"
   },
   "1701710122419_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4457,6 +4862,7 @@
   "1701710122462_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4468,6 +4874,7 @@
   "1701710122504_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4479,6 +4886,7 @@
   "1701710122544_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -4490,6 +4898,7 @@
   "1701710122599_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4501,6 +4910,7 @@
   "1701710122640_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4512,6 +4922,7 @@
   "1701710122697_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4523,6 +4934,7 @@
   "1701710122708_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4534,6 +4946,7 @@
   "1701710122719_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4543,8 +4956,9 @@
     "toit_effondre": "non"
   },
   "1701710122734_USR.jpg": {
-    "type_lieu": "mur",
+    "type_lieu": "street",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4554,8 +4968,9 @@
     "toit_effondre": "non"
   },
   "1701710122750_USR.jpg": {
-    "type_lieu": "mur",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4565,8 +4980,9 @@
     "toit_effondre": null
   },
   "1701710122767_USR.jpg": {
-    "type_lieu": "mur",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4576,8 +4992,9 @@
     "toit_effondre": null
   },
   "1701710122784_USR.jpg": {
-    "type_lieu": "indetermine",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4587,8 +5004,9 @@
     "toit_effondre": "non"
   },
   "1701710122804_USR.jpg": {
-    "type_lieu": "bunker",
+    "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4598,8 +5016,9 @@
     "toit_effondre": null
   },
   "1701710122820_USR.jpg": {
-    "type_lieu": "bunker",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4611,6 +5030,7 @@
   "1701710122838_USR.jpg": {
     "type_lieu": "vehicule",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -4622,6 +5042,7 @@
   "1701710122853_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4633,6 +5054,7 @@
   "1701710122869_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4642,8 +5064,9 @@
     "toit_effondre": null
   },
   "1701710122888_USR.jpg": {
-    "type_lieu": "indetermine",
+    "type_lieu": "street",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4653,8 +5076,9 @@
     "toit_effondre": "non"
   },
   "1701710122906_USR.jpg": {
-    "type_lieu": "indetermine",
+    "type_lieu": "street",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -4666,6 +5090,7 @@
   "1701710122924_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4677,6 +5102,7 @@
   "1701710122944_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -4688,6 +5114,7 @@
   "1708118235034_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4699,6 +5126,7 @@
   "1708118415182_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4710,6 +5138,7 @@
   "1708118415193_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4721,6 +5150,7 @@
   "1708118811051_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4732,6 +5162,7 @@
   "1708118811114_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -4743,6 +5174,7 @@
   "1708120474620_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4754,6 +5186,7 @@
   "1708120474647_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4765,6 +5198,7 @@
   "1708120474655_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4776,6 +5210,7 @@
   "1708120474663_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4787,6 +5222,7 @@
   "1708120474670_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -4798,6 +5234,7 @@
   "1708120474678_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -4809,6 +5246,7 @@
   "1708120474685_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -4820,6 +5258,7 @@
   "1708120474692_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4831,6 +5270,7 @@
   "1708120474698_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4842,6 +5282,7 @@
   "1708120474707_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4853,6 +5294,7 @@
   "1708120474714_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4864,6 +5306,7 @@
   "1708120474722_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4875,6 +5318,7 @@
   "1708120474731_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4886,6 +5330,7 @@
   "1708120474739_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "rooms",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4897,6 +5342,7 @@
   "1708120474747_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4908,6 +5354,7 @@
   "1708120474755_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4919,6 +5366,7 @@
   "1708120474764_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4930,6 +5378,7 @@
   "1708120474777_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4941,6 +5390,7 @@
   "1708120474799_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -4952,6 +5402,7 @@
   "1708120474808_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4963,6 +5414,7 @@
   "1708120474815_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -4974,6 +5426,7 @@
   "1708120474823_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4985,6 +5438,7 @@
   "1708120474831_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -4996,6 +5450,7 @@
   "1708120474839_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "rooms",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5007,6 +5462,7 @@
   "1708120474847_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "rooms",
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5016,8 +5472,9 @@
     "toit_effondre": "non"
   },
   "1708120474856_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -5029,6 +5486,7 @@
   "1708120474863_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5040,6 +5498,7 @@
   "1708120474870_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5051,6 +5510,7 @@
   "1708120474879_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "ruine",
     "ciel": "visible",
     "moment": "jour",
@@ -5062,6 +5522,7 @@
   "1708120474886_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5073,6 +5534,7 @@
   "1708120474895_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5084,6 +5546,7 @@
   "1708120474913_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5095,6 +5558,7 @@
   "1708120474963_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5106,6 +5570,7 @@
   "1708120474994_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5117,6 +5582,7 @@
   "1708120475001_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5128,6 +5594,7 @@
   "1708120475008_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5139,6 +5606,7 @@
   "1708120475016_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5150,6 +5618,7 @@
   "1708120475038_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5161,6 +5630,7 @@
   "1708120788630_USR.jpg": {
     "type_lieu": "toit",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5172,6 +5642,7 @@
   "1708120788638_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5183,6 +5654,7 @@
   "1708120788645_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5194,6 +5666,7 @@
   "1708120788685_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5205,6 +5678,7 @@
   "1708120788692_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5216,6 +5690,7 @@
   "1708120788699_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5227,6 +5702,7 @@
   "1708120949216_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5238,6 +5714,7 @@
   "1708120949222_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5249,6 +5726,7 @@
   "1708120949229_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5260,6 +5738,7 @@
   "1708120949236_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5271,6 +5750,7 @@
   "1708120949244_USR.jpg": {
     "type_lieu": "indetermine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "office",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5282,6 +5762,7 @@
   "1708121137204_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5293,6 +5774,7 @@
   "1708121137218_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5304,6 +5786,7 @@
   "1708121137232_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5315,6 +5798,7 @@
   "1708121137243_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5326,6 +5810,7 @@
   "1708121137252_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5337,6 +5822,7 @@
   "1708121137259_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5348,6 +5834,7 @@
   "1708121137276_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5359,6 +5846,7 @@
   "1708121137282_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5370,6 +5858,7 @@
   "1708121137288_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5381,6 +5870,7 @@
   "1708121137295_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5392,6 +5882,7 @@
   "1708121137301_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5403,6 +5894,7 @@
   "1708121137308_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5414,6 +5906,7 @@
   "1708121137333_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5425,6 +5918,7 @@
   "1708121137342_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5436,6 +5930,7 @@
   "1708121137349_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -5447,6 +5942,7 @@
   "1708121529104_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5458,6 +5954,7 @@
   "1708121529136_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5469,6 +5966,7 @@
   "1708121529165_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5480,6 +5978,7 @@
   "1708121529216_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5491,6 +5990,7 @@
   "1708121529262_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5500,8 +6000,9 @@
     "toit_effondre": null
   },
   "1708121529313_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5511,8 +6012,9 @@
     "toit_effondre": "non"
   },
   "1708121529327_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -5524,6 +6026,7 @@
   "1708121529362_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -5535,6 +6038,7 @@
   "1708121529391_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5546,6 +6050,7 @@
   "1708121529439_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5557,6 +6062,7 @@
   "1708121529463_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5568,6 +6074,7 @@
   "1708121529475_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5579,6 +6086,7 @@
   "1708121529484_USR.jpg": {
     "type_lieu": "toit",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5590,6 +6098,7 @@
   "1708121529490_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5601,6 +6110,7 @@
   "1708121529511_USR.jpg": {
     "type_lieu": "vehicule",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -5612,6 +6122,7 @@
   "1708121529536_USR.jpg": {
     "type_lieu": "vehicule",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5623,6 +6134,7 @@
   "1708121529547_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -5634,6 +6146,7 @@
   "1708121529568_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5645,6 +6158,7 @@
   "1708121529578_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5656,6 +6170,7 @@
   "1708121692995_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5665,8 +6180,9 @@
     "toit_effondre": null
   },
   "1708121693003_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5678,6 +6194,7 @@
   "1708121693010_USR.jpg": {
     "type_lieu": "bureau",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "office",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5689,6 +6206,7 @@
   "1708121693017_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5700,6 +6218,7 @@
   "1708121693024_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5709,8 +6228,9 @@
     "toit_effondre": "non"
   },
   "1708121693032_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5722,6 +6242,7 @@
   "1708121693038_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5733,6 +6254,7 @@
   "1708122046002_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5744,6 +6266,7 @@
   "1708122046009_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5755,6 +6278,7 @@
   "1708122046018_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -5766,6 +6290,7 @@
   "1708122046026_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5777,6 +6302,7 @@
   "1708122046056_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5788,6 +6314,7 @@
   "1708122046082_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5799,6 +6326,7 @@
   "1708122046107_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5810,6 +6338,7 @@
   "1708122046114_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -5821,6 +6350,7 @@
   "1708122046122_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5832,6 +6362,7 @@
   "1708122046132_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5843,6 +6374,7 @@
   "1708122046140_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5854,6 +6386,7 @@
   "1708122046147_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5865,6 +6398,7 @@
   "1708122046155_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5876,6 +6410,7 @@
   "1708122046163_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5887,6 +6422,7 @@
   "1708122046173_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5898,6 +6434,7 @@
   "1708122046181_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5909,6 +6446,7 @@
   "1708122046188_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5920,6 +6458,7 @@
   "1708122046196_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5931,6 +6470,7 @@
   "1708122046204_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5942,6 +6482,7 @@
   "1708122046212_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5953,6 +6494,7 @@
   "1708122046220_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5964,6 +6506,7 @@
   "1708122046227_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5975,6 +6518,7 @@
   "1708122046235_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5986,6 +6530,7 @@
   "1708122046243_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -5997,6 +6542,7 @@
   "1708122046268_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6008,6 +6554,7 @@
   "1708122046275_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6017,8 +6564,9 @@
     "toit_effondre": "oui"
   },
   "1708122046283_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6030,6 +6578,7 @@
   "1708122046291_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6041,6 +6590,7 @@
   "1708122499029_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6052,6 +6602,7 @@
   "1708123208104_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6063,6 +6614,7 @@
   "1708123208111_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6074,6 +6626,7 @@
   "1708123208117_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6085,6 +6638,7 @@
   "1708123208130_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "crepuscule",
@@ -6096,6 +6650,7 @@
   "1708123208138_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "crepuscule",
@@ -6107,6 +6662,7 @@
   "1708123208144_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6118,6 +6674,7 @@
   "1708123208181_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6129,6 +6686,7 @@
   "1708123208204_USR.jpg": {
     "type_lieu": "bunker",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6140,6 +6698,7 @@
   "1708123391429_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -6151,6 +6710,7 @@
   "1708123391435_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -6162,10 +6722,11 @@
   "1708123391442_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "mauvais_temps",
+    "meteo": "nuageux",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -6173,6 +6734,7 @@
   "1708123391449_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6184,10 +6746,11 @@
   "1708123391476_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "mauvais_temps",
+    "meteo": "nuageux",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": null
@@ -6195,6 +6758,7 @@
   "1708123391482_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6206,6 +6770,7 @@
   "1725638593381_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -6217,6 +6782,7 @@
   "1725638593399_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -6228,6 +6794,7 @@
   "1725638593422_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6239,6 +6806,7 @@
   "1725638593445_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6250,6 +6818,7 @@
   "1725638593466_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -6261,6 +6830,7 @@
   "1725638963991_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6272,6 +6842,7 @@
   "1725638964018_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6283,6 +6854,7 @@
   "1725638964043_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6294,6 +6866,7 @@
   "1725638964084_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6305,6 +6878,7 @@
   "1725638964107_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6316,6 +6890,7 @@
   "1725638964126_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6327,6 +6902,7 @@
   "1725639873114_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6338,6 +6914,7 @@
   "1725639873166_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6349,6 +6926,7 @@
   "1725639873201_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6360,6 +6938,7 @@
   "1725639873253_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6371,6 +6950,7 @@
   "1725639873287_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6382,6 +6962,7 @@
   "1725639873325_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6393,6 +6974,7 @@
   "1725639873360_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6404,6 +6986,7 @@
   "1725639873394_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6415,6 +6998,7 @@
   "1725639873428_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6426,6 +7010,7 @@
   "1725639873460_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6437,6 +7022,7 @@
   "1725640090064_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6448,6 +7034,7 @@
   "1725640090098_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6459,6 +7046,7 @@
   "1725640090139_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6468,8 +7056,9 @@
     "toit_effondre": "non"
   },
   "1725640090180_USR.jpg": {
-    "type_lieu": "maison",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6481,6 +7070,7 @@
   "1725640090226_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6492,6 +7082,7 @@
   "1725640090266_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6501,8 +7092,9 @@
     "toit_effondre": null
   },
   "1725640090313_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6512,12 +7104,13 @@
     "toit_effondre": null
   },
   "1725640090358_USR.jpg": {
-    "type_lieu": "maison",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mitige",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": "non"
@@ -6525,6 +7118,7 @@
   "1725640090398_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
@@ -6536,6 +7130,7 @@
   "1725640090430_USR.jpg": {
     "type_lieu": "batiment",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6547,6 +7142,7 @@
   "1725640090455_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6558,6 +7154,7 @@
   "1725640090476_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6569,6 +7166,7 @@
   "1725640090536_USR.jpg": {
     "type_lieu": "detail",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6578,8 +7176,9 @@
     "toit_effondre": null
   },
   "1725640090559_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -6591,6 +7190,7 @@
   "1725640090581_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6602,6 +7202,7 @@
   "1725640090610_USR.jpg": {
     "type_lieu": "eglise",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "archi_graphism",
     "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6611,8 +7212,9 @@
     "toit_effondre": "non"
   },
   "1725640090631_USR.jpg": {
-    "type_lieu": "maison",
+    "type_lieu": "street",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
     "ciel": "visible",
     "moment": "jour",
@@ -6622,31 +7224,10 @@
     "toit_effondre": "non"
   },
   "1725640090656_USR.jpg": {
-    "type_lieu": "maison",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "tres_bon_etat",
-    "ciel": "visible",
-    "moment": "jour",
-    "meteo": "nuageux",
-    "vegetation": "non",
-    "graffitis": "non",
-    "toit_effondre": "non"
-  },
-  "1725640090681_USR.jpg": {
-    "type_lieu": "maison",
-    "interieur_exterieur": "exterieur",
-    "degradation": "degrade",
-    "ciel": "visible",
-    "moment": "jour",
-    "meteo": "nuageux",
-    "vegetation": "non",
-    "graffitis": "non",
-    "toit_effondre": "non"
-  },
-  "1725640090706_USR.jpg": {
-    "type_lieu": "detail",
-    "interieur_exterieur": "exterieur",
-    "degradation": "bon_etat",
     "ciel": "visible",
     "moment": "jour",
     "meteo": "mauvais_temps",
@@ -6654,9 +7235,34 @@
     "graffitis": "non",
     "toit_effondre": "non"
   },
+  "1725640090681_USR.jpg": {
+    "type_lieu": "facade",
+    "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
+    "degradation": "degrade",
+    "ciel": "visible",
+    "moment": "jour",
+    "meteo": "mauvais_temps",
+    "vegetation": "non",
+    "graffitis": "non",
+    "toit_effondre": "non"
+  },
+  "1725640090706_USR.jpg": {
+    "type_lieu": "detail",
+    "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
+    "degradation": "bon_etat",
+    "ciel": "visible",
+    "moment": "jour",
+    "meteo": "ensoleille",
+    "vegetation": "non",
+    "graffitis": "non",
+    "toit_effondre": "non"
+  },
   "1725640090726_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6668,6 +7274,7 @@
   "1725640090748_USR.jpg": {
     "type_lieu": "chateau",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6679,6 +7286,7 @@
   "1725640090772_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6690,6 +7298,7 @@
   "1725640090796_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6701,10 +7310,11 @@
   "1725640090814_USR.jpg": {
     "type_lieu": "paysage",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": null,
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "mauvais_temps",
+    "meteo": "nuageux",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": null
@@ -6712,6 +7322,7 @@
   "1725640090844_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6723,6 +7334,7 @@
   "1725640090871_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6733,7 +7345,8 @@
   },
   "1725640090893_USR.jpg": {
     "type_lieu": "maison",
-    "interieur_exterieur": "exterieur",
+    "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6745,6 +7358,7 @@
   "1725640090913_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6756,6 +7370,7 @@
   "1725640090935_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "interieur",
+    "categorie_interieur": "decay",
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6767,6 +7382,7 @@
   "1725640090958_USR.jpg": {
     "type_lieu": "maison",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6778,17 +7394,19 @@
   "1725640090976_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mitige",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": "non"
   },
   "1725640090994_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6798,8 +7416,9 @@
     "toit_effondre": "non"
   },
   "1725640091016_USR.jpg": {
-    "type_lieu": "porte_fenetre",
+    "type_lieu": "facade",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6811,6 +7430,7 @@
   "1725640385662_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6822,6 +7442,7 @@
   "1725640385697_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6833,6 +7454,7 @@
   "1725640385748_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6844,6 +7466,7 @@
   "1725640385782_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6855,6 +7478,7 @@
   "1725640385829_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6866,6 +7490,7 @@
   "1725640385864_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6877,6 +7502,7 @@
   "1725640385903_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6888,10 +7514,11 @@
   "1725640385932_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
-    "meteo": "nuageux",
+    "meteo": "mitige",
     "vegetation": "non",
     "graffitis": "non",
     "toit_effondre": null
@@ -6899,6 +7526,7 @@
   "1725640385965_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6910,6 +7538,7 @@
   "1725640386034_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6921,6 +7550,7 @@
   "1725640386066_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6932,6 +7562,7 @@
   "1725640386097_USR.jpg": {
     "type_lieu": "pont",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -6943,6 +7574,7 @@
   "1725642281647_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6954,6 +7586,7 @@
   "1725642281670_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6965,6 +7598,7 @@
   "1725642281697_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6976,6 +7610,7 @@
   "1725642281728_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "absent",
     "moment": "jour",
@@ -6987,6 +7622,7 @@
   "1725642281760_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "bon_etat",
     "ciel": "absent",
     "moment": "jour",
@@ -6998,6 +7634,7 @@
   "1725642281826_USR.jpg": {
     "type_lieu": "mur",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -7009,6 +7646,7 @@
   "1725642281861_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -7020,6 +7658,7 @@
   "1725642281888_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",
@@ -7031,6 +7670,7 @@
   "1725642281919_USR.jpg": {
     "type_lieu": "usine",
     "interieur_exterieur": "exterieur",
+    "categorie_interieur": null,
     "degradation": "degrade",
     "ciel": "visible",
     "moment": "jour",

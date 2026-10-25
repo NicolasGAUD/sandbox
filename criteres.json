@@ -12,6 +12,10 @@
         "a photo with only a few small weeds or no plants",
         "a photo of a painted wall, mural or sign",
         "a photo of bare stone or concrete walls"
+      ],
+      "incertitude": [
+        0.5,
+        0.5
       ]
     },
     {
@@ -24,6 +28,10 @@
         "a photo of clean walls without graffiti",
         "a photo without any spray paint",
         "a photo of a painted shop sign with lettering"
+      ],
+      "incertitude": [
+        0.5,
+        0.5
       ]
     },
     {
@@ -38,13 +46,17 @@
         ]
       },
       "oui": "a photo of a building with a collapsed roof",
-      "non": "a photo of a building with an intact roof"
+      "non": "a photo of a building with an intact roof",
+      "incertitude": [
+        0.5,
+        0.5
+      ]
     }
   ],
   "choix": [
     {
       "nom": "type_lieu",
-      "seuil": 0.3,
+      "seuil": 0,
       "options": {
         "usine": "a photo of an abandoned factory or warehouse",
         "maison": "a photo of an old house",
@@ -75,22 +87,44 @@
           "a photo of a small concrete hut in the countryside"
         ],
         "phare": "a photo of a lighthouse",
-        "porte_fenetre": [
-          "a close-up photo of an old door",
-          "a close-up photo of an old window"
-        ],
         "detail": [
           "a close-up photo of an object or a detail",
           "a macro photo of a small detail"
-        ]
-      }
+        ],
+        "facade": [
+          "a photo of a building facade",
+          "a photo of an old door or window on a facade"
+        ],
+        "street": "a photo of a street lined with buildings"
+      },
+      "sonde": true
     },
     {
       "nom": "interieur_exterieur",
       "options": {
         "interieur": "a photo taken indoors",
         "exterieur": "a photo taken outdoors"
-      }
+      },
+      "seuil": 0
+    },
+    {
+      "nom": "categorie_interieur",
+      "seuil": 0,
+      "sauf": {
+        "interieur_exterieur": [
+          "exterieur"
+        ]
+      },
+      "options": {
+        "rooms": "a photo of an empty room inside an abandoned building",
+        "stairs": "a photo of a staircase",
+        "office": "a photo of an abandoned office with desks and papers",
+        "decay": "a photo of a decaying interior with peeling paint, rubble and rot",
+        "archi_graphism": "a photo of interior architecture with graphic lines, arches, columns and symmetry",
+        "biblio": "a photo of an abandoned library with bookshelves and books",
+        "lavatory": "a photo of abandoned toilets, a bathroom or washbasins"
+      },
+      "sonde": true
     },
     {
       "nom": "degradation",
@@ -111,12 +145,12 @@
           "a photo of a building with boarded up, shuttered or propped up windows"
         ],
         "ruine": "a photo of a building in ruins with collapsed walls and no roof"
-      }
+      },
+      "seuil": 0
     },
     {
       "nom": "ciel",
-      "seuil": 0.9,
-      "defaut": "visible",
+      "seuil": 0,
       "options": {
         "visible": [
           "a photo with the sky visible in the background",
@@ -128,17 +162,18 @@
           "a close-up photo of a wall surface, without any sky",
           "a photo taken indoors"
         ]
-      }
+      },
+      "sonde": true
     },
     {
       "nom": "moment",
-      "seuil": 0.85,
-      "defaut": "jour",
+      "seuil": 0,
       "options": {
         "jour": "a photo taken in daylight",
         "crepuscule": "a photo taken at dusk or dawn, in dim evening light",
         "nuit": "a photo taken at night"
-      }
+      },
+      "sonde": true
     },
     {
       "nom": "meteo",
@@ -177,10 +212,12 @@
           "a photo of a sky covered with clouds"
         ],
         "mauvais_temps": [
-          "a photo of a completely overcast grey sky with no blue at all",
-          "a photo of a uniformly grey sky"
+          "a photo of a sky with dark grey clouds",
+          "a photo of a dark grey threatening sky"
         ]
-      }
+      },
+      "seuil": 0,
+      "sonde": true
     }
   ]
 }

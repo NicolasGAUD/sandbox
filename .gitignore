@@ -1,3 +1,4 @@
 .venv/
 resultats/
 __pycache__/
+.cache/

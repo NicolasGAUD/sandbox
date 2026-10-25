@@ -77,6 +77,11 @@ def masque(critere, predits):
     return any(predits.get(nom) in valeurs for nom, valeurs in critere.get("sauf", {}).items())
 
 
+def prediction(ligne, nom):
+    res = ligne["choix"].get(nom) if nom in ligne["choix"] else ligne["scores"].get(nom)
+    return None if res is None else res[0]
+
+
 def marque_verif(ligne, nom):
     # Classe CSS et mention de la valeur attendue quand la photo figure dans attendus.json.
     if nom not in ligne["verif"]:
@@ -105,10 +110,10 @@ def ecrire_html(chemin, lignes, oui_non, choix, infos):
                 f"<b>{html.escape(gagnant)} {p:.0%}</b></li>"
             )
         for c in oui_non:
-            p = ligne["scores"][c["nom"]]
+            res = ligne["scores"][c["nom"]]
             classe, attendu = marque_verif(ligne, c["nom"])
-            valeur = "—" if p is None else f'{"oui" if p >= 0.5 else "non"} {p:.0%}'
-            style = "" if p is None else f' style="color:{couleur(p)}"'
+            valeur = "—" if res is None else f"{res[0]} {res[1]:.0%}"
+            style = "" if res is None else f' style="color:{couleur(res[1])}"'
             items.append(f'<li{classe}><span>{html.escape(c["nom"])}{attendu}</span><b{style}>{valeur}</b></li>')
         cartes.append(
             f'<div class="carte"><img src="data:image/jpeg;base64,{ligne["miniature"]}" alt="" '
@@ -176,6 +181,8 @@ def main():
     parser.add_argument("--criteres", type=Path, default=Path(__file__).with_name("criteres.json"))
     parser.add_argument("--attendus", type=Path, default=Path(__file__).with_name("attendus.json"),
                         help="réponses attendues par photo, pour mesurer les erreurs")
+    parser.add_argument("--sondes", type=Path, default=Path(__file__).with_name("sondes.pt"),
+                        help="sondes apprises par entrainer_sonde.py, pour les critères marqués « sonde »")
     parser.add_argument("--sortie", type=Path, default=Path("resultats"))
     parser.add_argument("--modele", default="openai/clip-vit-base-patch16")
     parser.add_argument("--recursif", action="store_true", help="inclure les sous-dossiers")
@@ -198,6 +205,13 @@ def main():
     processeur = CLIPProcessor.from_pretrained(args.modele)
     echelle = modele.logit_scale.exp()
     print(f"Modèle chargé en {time.perf_counter() - t0:.1f} s")
+    sondes = {}
+    if any(c.get("sonde") for c in choix):
+        if not args.sondes.exists():
+            sys.exit(f"{args.sondes} introuvable : lancez d'abord entrainer_sonde.py")
+        sondes = {nom: s for nom, s in torch.load(args.sondes).items()
+                  if any(c["nom"] == nom and c.get("sonde") for c in choix)}
+        print(f"Sondes utilisées : {', '.join(sondes)}")
 
     # Les phrases ne changent pas d'une image à l'autre : on les encode une seule fois.
     emb_oui_non = [
@@ -238,8 +252,14 @@ def main():
                                        int(d * image.width), int(b * image.height)))
                     emb_recadrages[cle] = encoder_image(modele, processeur, zone, device)
                 emb_zone = emb_recadrages[cle]
-            probas = (echelle * emb_zone @ emb.T).softmax(dim=-1)[0].tolist()
-            detail = dict(zip(c["options"].keys(), probas))
+            if c["nom"] in sondes:
+                # Sonde apprise (entrainer_sonde.py) à la place des phrases.
+                s = sondes[c["nom"]]
+                probas = (echelle * emb_zone @ s["W"] + s["b"]).softmax(dim=-1)[0].tolist()
+                detail = dict(zip(s["classes"], probas))
+            else:
+                probas = (echelle * emb_zone @ emb.T).softmax(dim=-1)[0].tolist()
+                detail = dict(zip(c["options"].keys(), probas))
             gagnant = max(detail, key=detail.get)
             score = detail[gagnant]
             # Aucune option assez convaincante : on se rabat sur « defaut », sinon on ne tranche pas.
@@ -254,9 +274,12 @@ def main():
             if masque(c, predits):
                 scores[c["nom"]] = None
                 continue
-            probas = (echelle * emb_img @ emb.T).softmax(dim=-1)[0]
-            scores[c["nom"]] = probas[0].item()
-            predits[c["nom"]] = "oui" if scores[c["nom"]] >= 0.5 else "non"
+            p = (echelle * emb_img @ emb.T).softmax(dim=-1)[0][0].item()
+            # Entre les deux bornes d'« incertitude », on ne devine pas.
+            bas, haut = c.get("incertitude", [0.5, 0.5])
+            valeur = "oui" if p >= haut else "non" if p <= bas else INDETERMINE
+            scores[c["nom"]] = (valeur, p)
+            predits[c["nom"]] = valeur
         temps_ms = (time.perf_counter() - debut) * 1000
 
         fichier = chemin.relative_to(args.dossier).as_posix()
@@ -280,18 +303,17 @@ def main():
     args.sortie.mkdir(parents=True, exist_ok=True)
 
     # CSV en UTF-8 avec BOM et séparateur « ; » pour qu'Excel (français) l'ouvre correctement.
+    # Chaque critère occupe deux colonnes : la valeur et son score (pour un oui/non, la probabilité du « oui »).
     entetes = ["fichier", "temps_ms"]
-    entetes += [c["nom"] for c in oui_non]
-    for c in choix:
+    for c in choix + oui_non:
         entetes += [c["nom"], f'{c["nom"]}_score']
     with open(args.sortie / "resultats.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, delimiter=";")
         w.writerow(entetes)
         for l in lignes:
             ligne = [l["fichier"], f'{l["temps_ms"]:.0f}']
-            ligne += ["" if l["scores"][c["nom"]] is None else f'{l["scores"][c["nom"]]:.3f}' for c in oui_non]
-            for c in choix:
-                res = l["choix"][c["nom"]]
+            resultats = [l["choix"][c["nom"]] for c in choix] + [l["scores"][c["nom"]] for c in oui_non]
+            for res in resultats:
                 ligne += ["", ""] if res is None else [res[0], f"{res[1]:.3f}"]
             w.writerow(ligne)
 
@@ -300,13 +322,16 @@ def main():
     moyenne = sum(temps[1:]) / (len(temps) - 1) if len(temps) > 1 else temps[0]
     infos = (f"{len(lignes)} images · modèle {args.modele} sur {device} · "
              f"{moyenne:.0f} ms/image en moyenne (hors première)")
-    verifs = [(l["fichier"], nom, attendu, ok) for l in lignes for nom, (attendu, ok) in l["verif"].items()]
+    verifs = [(l, nom, attendu, ok) for l in lignes for nom, (attendu, ok) in l["verif"].items()]
     if verifs:
         justes = sum(ok for *_, ok in verifs)
-        infos += f" · {justes}/{len(verifs)} réponses attendues correctes"
-        for fichier, nom, attendu, ok in verifs:
-            if not ok:
-                print(f"  ✗ {fichier} {nom} : attendu {attendu or '— (non applicable)'}")
+        # « indéterminé » répondu à la place d'une vraie valeur : pas une erreur, une absence de réponse.
+        sans_reponse = sum(not ok and prediction(l, nom) == INDETERMINE for l, nom, _, ok in verifs)
+        infos += (f" · {justes}/{len(verifs)} réponses attendues correctes, "
+                  f"{sans_reponse} indéterminées, {len(verifs) - justes - sans_reponse} fausses")
+        for l, nom, attendu, ok in verifs:
+            if not ok and prediction(l, nom) != INDETERMINE:
+                print(f"  ✗ {l['fichier']} {nom} : attendu {attendu or '— (non applicable)'}")
     ecrire_html(args.sortie / "resultats.html", lignes, oui_non, choix, infos)
 
     print(infos)

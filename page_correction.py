@@ -27,26 +27,17 @@ def valeurs_possibles(criteres):
             valeurs.append(INDETERMINE)
         liste.append((c["nom"], valeurs + [NON_APPLICABLE]))
     for c in criteres.get("oui_non", []):
-        liste.append((c["nom"], ["oui", "non", NON_APPLICABLE]))
+        liste.append((c["nom"], ["oui", "non", INDETERMINE, NON_APPLICABLE]))
     return liste
 
 
 def lire_predictions(chemin_csv, criteres):
-    choix = {c["nom"] for c in criteres.get("choix", [])}
+    noms = [c["nom"] for c in criteres.get("choix", []) + criteres.get("oui_non", [])]
     photos = []
     with open(chemin_csv, encoding="utf-8-sig") as f:
         for ligne in csv.DictReader(f, delimiter=";"):
-            predits, scores = {}, {}
-            for nom in choix:
-                predits[nom] = ligne[nom] or NON_APPLICABLE
-                scores[nom] = float(ligne[f"{nom}_score"]) if ligne[f"{nom}_score"] else None
-            for c in criteres.get("oui_non", []):
-                brut = ligne[c["nom"]]
-                if brut:
-                    p = float(brut)
-                    predits[c["nom"]], scores[c["nom"]] = ("oui" if p >= 0.5 else "non"), p
-                else:
-                    predits[c["nom"]], scores[c["nom"]] = NON_APPLICABLE, None
+            predits = {nom: ligne[nom] or NON_APPLICABLE for nom in noms}
+            scores = {nom: float(ligne[f"{nom}_score"]) if ligne[f"{nom}_score"] else None for nom in noms}
             photos.append({"fichier": ligne["fichier"], "predits": predits, "scores": scores})
     return photos
 
