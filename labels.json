@@ -94,8 +94,14 @@
     "enlarge": {"en": "Click to enlarge", "fr": "Cliquer pour agrandir"},
     "back": {"en": "← Back", "fr": "← Retour"},
     "review_title": {"en": "CLIP review", "fr": "Correction CLIP"},
-    "stats": {"en": "Page {page}/{pages} · {checked}/{total} photos checked · {left} to review · {changes} corrections", "fr": "Page {page}/{pages} · {checked}/{total} photos vérifiées · {left} à revoir · {changes} corrections"},
+    "stats": {
+      "en": "Page {page}/{pages} · {checked}/{total} photos checked · {left} to review · {disagree} photos in disagreement with CLIP · {changes} corrections",
+      "fr": "Page {page}/{pages} · {checked}/{total} photos vérifiées · {left} à revoir · {disagree} photos en désaccord avec CLIP · {changes} corrections"
+    },
     "filter": {"en": "Only the photos to review", "fr": "Seulement les photos à revoir"},
+    "show": {"en": "Show:", "fr": "Afficher :"},
+    "mode_all": {"en": "All the photos", "fr": "Toutes les photos"},
+    "mode_disagree": {"en": "Only the disagreements with CLIP", "fr": "Seulement les désaccords avec CLIP"},
     "export": {"en": "Export {file}", "fr": "Exporter {file}"},
     "import": {"en": "Import…", "fr": "Importer…"},
     "validate": {"en": "Validate the page and continue →", "fr": "Valider la page et continuer →"},

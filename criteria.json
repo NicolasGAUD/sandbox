@@ -81,6 +81,7 @@
     {
       "name": "vehicle_type",
       "threshold": 0,
+      "probe": true,
       "only_if": {
         "place_type": ["vehicle"]
       },
@@ -98,6 +99,7 @@
     {
       "name": "indoor_outdoor",
       "threshold": 0,
+      "probe": true,
       "options": {
         "indoor": "a photo taken indoors",
         "outdoor": "a photo taken outdoors"
