@@ -4,12 +4,14 @@
     "vehicle_type": {"en": "Vehicle type", "fr": "Type de véhicule"},
     "indoor_outdoor": {"en": "Indoor / outdoor", "fr": "Intérieur / extérieur"},
     "interior_category": {"en": "Interior category", "fr": "Catégorie d'intérieur"},
+    "exterior_category": {"en": "Exterior category", "fr": "Catégorie d'extérieur"},
     "condition": {"en": "Condition", "fr": "État"},
     "sky": {"en": "Sky", "fr": "Ciel"},
     "time_of_day": {"en": "Time of day", "fr": "Moment"},
     "weather": {"en": "Weather", "fr": "Météo"},
     "vegetation": {"en": "Vegetation", "fr": "Végétation"},
-    "graffiti": {"en": "Graffiti", "fr": "Graffitis"}
+    "graffiti": {"en": "Graffiti", "fr": "Graffitis"},
+    "blurry": {"en": "Blurry", "fr": "Flou"}
   },
   "values": {
     "*": {
@@ -35,7 +37,15 @@
       "guard_house": {"en": "Guard house", "fr": "Maison de garde"},
       "vineyard_hut": {"en": "Vineyard hut", "fr": "Cabane de vigne"},
       "lighthouse": {"en": "Lighthouse", "fr": "Phare"},
-      "detail": {"en": "Detail", "fr": "Détail"},
+      "farm": {"en": "Farm", "fr": "Ferme"},
+      "railway": {"en": "Railway", "fr": "Rails"},
+      "cave": {"en": "Cave", "fr": "Grotte"},
+      "cellar": {"en": "Cellar", "fr": "Cave"},
+      "mill": {"en": "Mill", "fr": "Moulin"},
+      "animal": {"en": "Animal", "fr": "Animal"},
+      "graphic": {"en": "Graphic", "fr": "Graphisme"},
+      "macro": {"en": "Macro", "fr": "Macro"},
+      "sculpture": {"en": "Sculpture", "fr": "Sculpture"},
       "facade": {"en": "Facade", "fr": "Façade"},
       "street": {"en": "Street", "fr": "Rue"}
     },
@@ -47,18 +57,18 @@
       "bus": {"en": "Bus", "fr": "Bus"},
       "tank": {"en": "Tank", "fr": "Char d'assaut"},
       "caravan": {"en": "Caravan", "fr": "Caravane"},
-      "bike": {"en": "Bicycle", "fr": "Vélo"}
+      "bike": {"en": "Bicycle", "fr": "Vélo"},
+      "tractor": {"en": "Tractor", "fr": "Tracteur"},
+      "train": {"en": "Train", "fr": "Train"}
     },
     "indoor_outdoor": {
       "indoor": {"en": "Indoor", "fr": "Intérieur"},
       "outdoor": {"en": "Outdoor", "fr": "Extérieur"}
     },
     "interior_category": {
-      "rooms": {"en": "Rooms", "fr": "Pièces"},
-      "stairs": {"en": "Stairs", "fr": "Escaliers"},
-      "office": {"en": "Office", "fr": "Bureau"},
+      "room": {"en": "Room", "fr": "Pièce"},
+      "staircase": {"en": "Staircase", "fr": "Escalier"},
       "decay": {"en": "Decay", "fr": "Délabrement"},
-      "archi_graphism": {"en": "Architecture & graphism", "fr": "Architecture et graphisme"},
       "library": {"en": "Library", "fr": "Bibliothèque"},
       "lavatory": {"en": "Lavatory", "fr": "Sanitaires"}
     },
@@ -110,6 +120,8 @@
     "nothing_left": {"en": "No photo left to review. Remember to export the file.", "fr": "Plus aucune photo à revoir. Pensez à exporter le fichier."},
     "last_page": {"en": "Last page validated. Remember to export the file.", "fr": "Dernière page validée. Pensez à exporter le fichier."},
     "unreadable": {"en": "Unreadable file: {error}", "fr": "Fichier illisible : {error}"},
+    "new_value": {"en": "+ New value…", "fr": "+ Nouvelle valeur…"},
+    "new_value_prompt": {"en": "New value for « {criterion} »:", "fr": "Nouvelle valeur pour « {criterion} » :"},
     "app_title": {"en": "CLIP urbex", "fr": "CLIP urbex"},
     "upload_title": {"en": "Analyse a photo", "fr": "Analyser une photo"},
     "drop_here": {"en": "Drop a photo here, or:", "fr": "Glissez une photo ici, ou :"},

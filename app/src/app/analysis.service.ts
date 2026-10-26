@@ -57,7 +57,8 @@ export class AnalysisService {
   async loadConfig(): Promise<void> {
     if (this.labels()) return;
     const config = await firstValueFrom(this.http.get<{ criteria: Criterion[]; labels: Labels }>('/api/config'));
-    this.criteria.set(config.criteria);
+    // A criterion without values yet (filled in the review page only) is left out of the form.
+    this.criteria.set(config.criteria.filter(c => c.values.length));
     this.labels.set(config.labels);
   }
 

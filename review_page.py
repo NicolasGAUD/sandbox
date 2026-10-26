@@ -7,6 +7,8 @@ Usage:
 The page keeps the progress in the browser and exports an expected answers file
 (same format as expected.json) readable by test_clip.py --expected.
 Hidden criteria ("hidden": true) are not shown; their known answers are kept in the export.
+A "free" criterion gets a "+ New value…" entry: the values typed there are offered on every photo
+and exported like the others. Photos answered "yes" for "blurry" stand out with another background.
 """
 
 import argparse
@@ -71,6 +73,8 @@ PAGE = """<!doctype html>
   .card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px #0002;
           border: 3px solid transparent; }
   .card.checked { border-color: #2a7d2a55; }
+  .card.blurry { background: #e9ddff; }
+  .card.blurry table td { border-top-color: #d6c6f5; }
   .card img { width: 100%; height: 200px; object-fit: cover; display: block; cursor: zoom-in; background: #ddd; }
   .name { padding: 6px 10px; font-weight: 600; font-size: 13px; word-break: break-all;
           display: flex; justify-content: space-between; gap: 6px; }
@@ -122,15 +126,17 @@ __SWITCH_CSS__
 <script>
 __SWITCH_JS__
 const DATA = __DATA__;
-const PER_PAGE = 50, NA = "—";
+const PER_PAGE = 50, NA = "—", NEW_VALUE = "\\u0000new";
 // The version changes with the criteria: progress saved for older criteria is ignored.
 const KEY = "clip-review:" + DATA.folder + ":" + DATA.version;
 const NAMES = DATA.criteria.map(([name]) => name);
 
 // state.corrections[file][criterion] = chosen value; state.checked[file] = true
 // state.mode: "all", "to_review" or "disagree" (see computeList)
-let state = { corrections: {}, checked: {}, page: 0, mode: null };
+// state.added[criterion] = values typed with "+ New value…" (free criteria)
+let state = { corrections: {}, checked: {}, page: 0, mode: null, added: {} };
 try { Object.assign(state, JSON.parse(localStorage.getItem(KEY)) || {}); } catch (e) {}
+state.added = state.added || {};
 // Known expected answers are the starting point; a photo is checked only if all its shown criteria are known.
 for (const [f, vals] of Object.entries(DATA.expected)) {
   if (state.corrections[f]) continue;
@@ -139,6 +145,18 @@ for (const [f, vals] of Object.entries(DATA.expected)) {
   if (NAMES.every(n => n in vals)) state.checked[f] = true;
 }
 function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+// Values of a criterion: those of criteria.json, then for a free criterion the values already
+// in the expected answers file and those typed in this page, "—" staying last.
+function optionsOf(criterion, options) {
+  if (!DATA.free.includes(criterion)) return options;
+  const known = new Set(options);
+  const extra = [];
+  const add = v => { if (v !== null && v !== undefined && !known.has(v)) { known.add(v); extra.push(v); } };
+  for (const vals of Object.values(DATA.expected)) add(vals[criterion]);
+  for (const v of state.added[criterion] || []) add(v);
+  return [...options.filter(o => o !== NA), ...extra.sort(), NA];
+}
 
 const photos = DATA.photos;
 const value = (p, name) => (state.corrections[p.file] || {})[name] ?? p.predicted[name];
@@ -190,6 +208,8 @@ function showPagination() {
 function card(p) {
   const div = document.createElement("div");
   div.className = "card" + (state.checked[p.file] ? " checked" : "");
+  const markBlurry = () => div.classList.toggle("blurry", value(p, "blurry") === "yes");
+  markBlurry();
   const img = document.createElement("img");
   img.loading = "lazy"; img.src = DATA.base + encodeURIComponent(p.file).replace(/%2F/g, "/");
   img.alt = p.file;
@@ -211,10 +231,16 @@ function card(p) {
     score.textContent = sc === null ? "" : Math.round(sc * 100) + " %";
     td1.appendChild(score);
     const sel = document.createElement("select");
-    for (const o of options) {
+    for (const o of optionsOf(criterion, options)) {
       const opt = document.createElement("option");
       opt.value = o;
       opt.textContent = (o === NA ? NA : t("v:" + criterion + ":" + o)) + (o === p.predicted[criterion] ? "  (CLIP)" : "");
+      sel.appendChild(opt);
+    }
+    if (DATA.free.includes(criterion)) {
+      const opt = document.createElement("option");
+      opt.value = NEW_VALUE;
+      opt.textContent = t("ui:new_value");
       sel.appendChild(opt);
     }
     sel.value = value(p, criterion);
@@ -224,9 +250,18 @@ function card(p) {
     };
     mark();
     sel.onchange = () => {
+      let chosen = sel.value;
+      if (chosen === NEW_VALUE) {
+        chosen = (prompt(t("ui:new_value_prompt", { criterion: t("c:" + criterion) })) || "").trim();
+        if (!chosen || chosen === NA) { sel.value = value(p, criterion); return; }
+        state.added[criterion] = [...new Set([...(state.added[criterion] || []), chosen])];
+      }
       state.corrections[p.file] = state.corrections[p.file] || {};
-      state.corrections[p.file][criterion] = sel.value;
-      mark(); save(); showStats();
+      state.corrections[p.file][criterion] = chosen;
+      save();
+      // A new value is offered on every card of the page: they are redrawn.
+      if (sel.value === NEW_VALUE) { goTo(state.page, false); return; }
+      mark(); markBlurry(); showStats();
     };
     td2.appendChild(sel); tr.append(td1, td2); table.appendChild(tr);
   }
@@ -291,6 +326,8 @@ document.getElementById("import-file").onchange = async e => {
       state.corrections[file] = {};
       for (const [k, v] of Object.entries(vals)) if (NAMES.includes(k)) state.corrections[file][k] = v === null ? NA : v;
       state.checked[file] = true;
+      // Values typed in another copy of the page: offered here too.
+      for (const k of DATA.free) if (vals[k] != null) state.added[k] = [...new Set([...(state.added[k] || []), vals[k]])];
     }
     save(); goTo(state.page);
   } catch (err) { alert(t("ui:unreadable", { error: err.message })); }
@@ -338,6 +375,7 @@ def main():
         "base": args.folder.resolve().as_uri() + "/",
         "exportName": args.expected.name,
         "criteria": page_criteria,
+        "free": [c["name"] for c in criteria.get("choices", []) if c.get("free")],
         "photos": read_predictions(args.results, [name for name, _ in page_criteria]),
         "expected": expected,
     }

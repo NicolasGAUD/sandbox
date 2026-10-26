@@ -280,7 +280,9 @@ class Analyzer:
             return encode_prompts(self.model, self.processor, texts, self.device)
 
         self.emb_yes_no = [torch.cat([prompts(c[side]) for side in ("yes", "no")]) for c in self.yes_no]
-        self.emb_choices = [torch.cat([prompts(v) for v in c["options"].values()]) for c in self.choices]
+        # A criterion without options yet ("free": values added in the review page) has no prompts.
+        self.emb_choices = [torch.cat([prompts(v) for v in c["options"].values()]) if c["options"] else None
+                            for c in self.choices]
         self.emb_choices = [double_prompts(e) if "crop" in c and c.get("with_full_image") else e
                             for c, e in zip(self.choices, self.emb_choices)]
 
@@ -301,7 +303,8 @@ class Analyzer:
         for c, emb in zip(self.choices, self.emb_choices):
             hidden = masked(c, predicted)
             results[c["name"]] = None
-            if hidden and not all_details:
+            # No options: not assessed by CLIP (result None, as for a hidden criterion).
+            if (hidden and not all_details) or emb is None:
                 continue
             emb_area = emb_img
             if "crop" in c:

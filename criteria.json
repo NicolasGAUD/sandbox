@@ -29,6 +29,18 @@
         "a photo of a painted shop sign with lettering"
       ],
       "uncertainty": [0.5, 0.5]
+    },
+    {
+      "name": "blurry",
+      "yes": [
+        "a blurry, out of focus photo",
+        "a photo with motion blur from camera shake"
+      ],
+      "no": [
+        "a sharp, in focus photo",
+        "a crisp, detailed photo"
+      ],
+      "uncertainty": [0.5, 0.5]
     }
   ],
   "choices": [
@@ -52,8 +64,17 @@
         "bridge": "a photo of an old bridge or viaduct",
         "rooftop": "a photo of a rooftop",
         "landscape": "a photo of a landscape with sky, sea or countryside",
+        "farm": "a photo of an abandoned farm or barn",
+        "railway": [
+          "a photo of railway tracks",
+          "a photo of an abandoned railway line"
+        ],
+        "cave": "a photo inside a natural cave or grotto",
+        "cellar": "a photo of an underground vaulted cellar",
+        "mill": "a photo of an old mill or watermill",
         "vehicle": [
           "a photo of an abandoned car, truck, bus or train",
+          "a photo of an old tractor or farm machine",
           "a photo of an old rusty vehicle",
           "a photo of an old boat or shipwreck",
           "a photo of an abandoned airplane"
@@ -67,10 +88,16 @@
           "a photo of a small concrete hut in the countryside"
         ],
         "lighthouse": "a photo of a lighthouse",
-        "detail": [
+        "animal": "a photo of an animal, a bird or an insect",
+        "graphic": [
+          "a photo of graphic architecture with lines, patterns and symmetry",
+          "a close-up photo of geometric shapes and patterns"
+        ],
+        "macro": [
           "a close-up photo of an object or a detail",
           "a macro photo of a small detail"
         ],
+        "sculpture": "a photo of a statue or a sculpture",
         "facade": [
           "a photo of a building facade",
           "a photo of an old door or window on a facade"
@@ -93,7 +120,9 @@
         "bus": "a photo of an abandoned bus",
         "tank": "a photo of an old military tank",
         "caravan": "a photo of an abandoned caravan or camper trailer",
-        "bike": "a photo of an old bicycle"
+        "bike": "a photo of an old bicycle",
+        "tractor": "a photo of an old tractor",
+        "train": "a photo of an abandoned train or locomotive"
       }
     },
     {
@@ -113,14 +142,20 @@
         "indoor_outdoor": ["outdoor"]
       },
       "options": {
-        "rooms": "a photo of an empty room inside an abandoned building",
-        "stairs": "a photo of a staircase",
-        "office": "a photo of an abandoned office with desks and papers",
+        "room": "a photo of an empty room inside an abandoned building",
+        "staircase": "a photo of a staircase",
         "decay": "a photo of a decaying interior with peeling paint, rubble and rot",
-        "archi_graphism": "a photo of interior architecture with graphic lines, arches, columns and symmetry",
         "library": "a photo of an abandoned library with bookshelves and books",
         "lavatory": "a photo of abandoned toilets, a bathroom or washbasins"
       }
+    },
+    {
+      "name": "exterior_category",
+      "free": true,
+      "except": {
+        "indoor_outdoor": ["indoor"]
+      },
+      "options": {}
     },
     {
       "name": "condition",
@@ -178,7 +213,7 @@
         "indoor_outdoor": ["indoor"],
         "place_type": ["wall"],
         "sky": ["absent"],
-        "time_of_day": ["dusk", "night"]
+        "time_of_day": ["night"]
       },
       "crop": [0, 0, 1, 0.3],
       "with_full_image": true,

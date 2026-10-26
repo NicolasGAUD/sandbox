@@ -2,65 +2,98 @@
   "1701113894697_USR.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "boat",
-    "condition": "degraded"
+    "condition": "degraded",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1701113894705_USR.jpg": {
-    "condition": "degraded"
+    "condition": "degraded",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1701114203553_USR.jpg": {
     "place_type": "landscape",
-    "vehicle_type": null
+    "vehicle_type": null,
+    "blurry": "no",
+    "exterior_category": null
   },
   "1701710122127_USR.jpg": {
     "place_type": "building",
     "vehicle_type": null,
-    "condition": "good"
+    "condition": "good",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1708121529484_USR.jpg": {
     "place_type": "rooftop",
     "vehicle_type": null,
-    "graffiti": "no"
+    "graffiti": "no",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1708121529490_USR.jpg": {
     "place_type": "factory",
-    "vehicle_type": null
+    "vehicle_type": null,
+    "blurry": "no",
+    "exterior_category": null
   },
   "1708121693010_USR.jpg": {
     "indoor_outdoor": "indoor",
-    "graffiti": "yes"
+    "graffiti": "yes",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1725639873325_USR.jpg": {
-    "condition": "degraded"
+    "condition": "degraded",
+    "blurry": "no",
+    "exterior_category": null
   },
-  "1725640090313_USR.jpg": {},
+  "1725640090313_USR.jpg": {
+    "blurry": "no",
+    "exterior_category": null
+  },
   "1725640090455_USR.jpg": {
-    "condition": "excellent"
+    "condition": "excellent",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1725640090536_USR.jpg": {
-    "vegetation": "yes"
+    "vegetation": "yes",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1725640090681_USR.jpg": {
     "place_type": "facade",
     "vehicle_type": null,
     "condition": "degraded",
-    "vegetation": "no"
+    "vegetation": "no",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1725640090958_USR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
     "condition": "degraded",
-    "vegetation": "no"
+    "vegetation": "no",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1725640090064_USR.jpg": {
-    "condition": "excellent"
+    "condition": "excellent",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1725640385782_USR.jpg": {
     "place_type": "bridge",
     "vehicle_type": null,
-    "condition": "degraded"
+    "condition": "degraded",
+    "blurry": "no",
+    "exterior_category": null
   },
   "1725640386066_USR.jpg": {
     "condition": "degraded",
-    "vegetation": "yes"
+    "vegetation": "yes",
+    "blurry": "no",
+    "exterior_category": null
   }
 }
