@@ -11,6 +11,7 @@
 - Export partiel des corrections du dossier 4 enregistré.
 - Nouveaux critères : flou, catégorie d'extérieur, nouveaux types de lieu et de véhicule, météo au crépuscule. Les catégories `detail`, `office` (intérieur) et `archi_graphism` sont supprimées.
 - Fichiers de réponses migrés, sondes réapprises, page de correction du dossier 4 régénérée.
+- « Type de lieu » renommé « Type ». La page de correction affiche ou masque les critères selon les réponses.
 
 ## 2. Réglages de Claude Code
 
@@ -37,9 +38,18 @@
 | Serveur Python | `start_server.bat` | `http://<IP du PC>:8000/` | Version compilée de l'application (`app\dist`) et API |
 | Serveur de développement | `npm start` dans `app/` | `http://<IP du PC>:4200/` | Version de développement, rechargée à chaque modification. Les appels `/api` sont relayés vers le port 8000, qui doit donc tourner aussi. |
 
-L'adresse IP du PC était **192.168.0.112** ce jour-là. La box l'avait changée depuis la veille (192.168.1.167) : la vérifier avec `ipconfig`.
+L'adresse IP du PC a changé deux fois dans la journée : 192.168.0.112 l'après-midi, puis de nouveau 192.168.1.167 le soir. La vérifier avec `ipconfig` avant chaque test.
 
-Pendant la session, les deux serveurs lancés en arrière-plan ont été coupés par Claude Code, faute de mémoire sur le PC. `ng serve` a pourtant survécu à cet arrêt et a dû être arrêté à la main. Le service Angular de WebStorm peut occuper jusqu'à 3 Go.
+Pendant la session, les deux serveurs lancés en arrière-plan ont été coupés par Claude Code, faute de mémoire sur le PC. Le service Angular de WebStorm peut occuper jusqu'à 3 Go.
+
+**`ng serve` survit à l'arrêt de `npm start`** : c'est arrivé deux fois. Seule la fenêtre ou la tâche s'arrête, le processus `node … ng.js serve` continue d'occuper le port 4200, et un nouveau `npm start` échoue avec « Port 4200 is already in use ». Il faut alors retrouver ce processus et l'arrêter :
+
+```powershell
+Get-NetTCPConnection -LocalPort 4200 -State Listen | Select-Object OwningProcess
+Stop-Process -Id <PID>
+```
+
+Le serveur Python, lui, s'arrête normalement.
 
 ## 5. Nouveaux critères
 
@@ -47,11 +57,11 @@ Les clés restent en anglais et au singulier. Les libellés français sont dans 
 
 | Critère | Changement |
 |---|---|
-| Type de lieu | `detail` supprimé, remplacé par `animal` (Animal), `graphic` (Graphisme), `macro` (Macro) et `sculpture` (Sculpture). Ajout de `farm` (Ferme), `railway` (Rails), `cave` (Grotte), `cellar` (Cave) et `mill` (Moulin). |
+| Type (anciennement « Type de lieu ») | `detail` supprimé, remplacé par `animal` (Animal), `graphic` (Graphisme), `macro` (Macro) et `sculpture` (Sculpture). Ajout de `farm` (Ferme), `railway` (Rails), `cave` (Grotte), `cellar` (Cave) et `mill` (Moulin). |
 | Type de véhicule | Ajout de `tractor` (Tracteur) et `train` (Train). |
 | Catégorie d'intérieur | `rooms` → `room` (Pièce), `stairs` → `staircase` (Escalier). `office` supprimé : c'est déjà un type de lieu. `archi_graphism` supprimé. |
 | Catégorie d'extérieur | Nouveau critère, en extérieur seulement, **sans valeur pour l'instant**. |
-| Météo | Demandée aussi au crépuscule, avec les mêmes valeurs que le jour. Toujours masquée la nuit. |
+| Météo | Demandée aussi au crépuscule, avec les mêmes valeurs que le jour. Affichée seulement si le ciel est visible. Toujours masquée en intérieur, sur un mur et la nuit. |
 | Flou | Nouveau critère oui / non, compté dans les scores. |
 
 Attention aux faux amis : en anglais, une grotte se dit *cave* et une cave à vin *cellar*.
@@ -61,6 +71,19 @@ Attention aux faux amis : en anglais, une grotte se dit *cave* et une cave à vi
 - **Photos floues :** une photo marquée floue a un fond violet.
 - **Saisie libre :** un critère marqué `"free": true` dans `criteria.json` (pour l'instant la catégorie d'extérieur) propose « + Nouvelle valeur… » dans sa liste. La valeur tapée est ensuite proposée sur toutes les photos et part dans l'export. Elle est aussi retrouvée à l'import d'un fichier.
 - Un critère sans option n'est pas évalué par CLIP (`test_clip.py`), et l'application mobile ne l'affiche pas.
+- **Affichage selon les réponses :** la page applique les règles `except` et `only_if` de `criteria.json` aux réponses en cours, comme le faisait déjà l'application mobile. Avant, elle affichait tous les critères.
+
+| Critère | Affiché seulement si |
+|---|---|
+| Type de véhicule | Type = Véhicule |
+| Catégorie d'intérieur | Intérieur / extérieur = Intérieur |
+| Catégorie d'extérieur | Intérieur / extérieur = Extérieur |
+| Météo | Ciel = Visible, et ni intérieur, ni mur, ni nuit |
+| État | Type différent de Paysage |
+
+Un critère masqué est exporté vide (`null`), même s'il avait une valeur. Un critère qui apparaît sans réponse est marqué « à revoir ». C'est le cas quand CLIP l'avait lui-même masqué, par exemple le type de véhicule quand on choisit « Véhicule ».
+
+Avec la nouvelle règle de météo, 7 photos validées ont une météo alors que leur ciel n'est pas visible (2 dans le dossier 2, 1 dans le dossier 3, 4 dans le dossier 4). Celles du dossier 4 perdront leur météo au prochain export. Celles des dossiers 2 et 3 la gardent dans les fichiers.
 
 ## 6. Migration des fichiers de réponses
 
@@ -111,8 +134,10 @@ Analyse CLIP des 4 465 photos : environ 50 minutes sur le processeur, sans GPU.
 | `baed653` | Vite forcé en 8.3.5 |
 | `315ebbb` | Export partiel des corrections du dossier 4, tel quel |
 | `fb29f95` | Nouveaux critères, migration des réponses, sondes réapprises |
+| `5ab45fa` | Première version de ce compte rendu |
+| `e37f218` | « Type », critères affichés selon les réponses, météo seulement si le ciel est visible |
 
-Tous les commits de la session, y compris ce compte rendu, sont poussés sur GitHub.
+Tous ces commits sont poussés sur GitHub.
 
 ## 10. Suites possibles
 
