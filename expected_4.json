@@ -1,4 +1,404 @@
 {
+  "001.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "002.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "003.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "004.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "005.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "006.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "007.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "008.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "009.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "010.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "011.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "012.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "013.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "014.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "015.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "016.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "017.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "018.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "020.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "021.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "022.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "024.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "025.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "026.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "027.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "028.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "030.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "031.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "032.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "033.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "034.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "035.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "_Chateau de LAngenardière.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "Chateau de LAngenardière.JPG": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "Chateau de LAngenardière_2.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "Chateau de LAngenardière_3.JPG": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "Chateau de LAngenardière_4.JPG": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "Chateau de LAngenardière_5.JPG": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "Chateau de LAngenardière_6.JPG": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "Chateau de LAngenardière_7.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC00017-HDR.jpg": {
     "place_type": "church",
     "vehicle_type": null,
@@ -19,7 +419,7 @@
     "condition": "excellent",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "few_clouds",
+    "weather": "sunny",
     "vegetation": "no",
     "graffiti": "no"
   },
@@ -35,6 +435,36 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC00044_8mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00049_10mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00054_14mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC00057-HDR.jpg": {
     "place_type": "facade",
     "vehicle_type": null,
@@ -46,6 +476,46 @@
     "weather": null,
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC00058_17mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00063_20mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00068_24mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00073_28mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC00075-HDR.jpg": {
     "place_type": "church",
@@ -59,6 +529,66 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC00078_35mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00083_50mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00088_70mm_f11.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00094_105mm_f11.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00096-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00099.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
   "DSC00102-HDR.jpg": {
     "place_type": "church",
     "vehicle_type": null,
@@ -70,6 +600,156 @@
     "weather": "sunny",
     "vegetation": "yes",
     "graffiti": "no"
+  },
+  "DSC00110-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00116-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00117-HDR.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "boat",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00119-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00129-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00138-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00139.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00144-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00150.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00153-HDR.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "car",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00153.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00154.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00155-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00159-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00162-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
   },
   "DSC00185-HDR.jpg": {
     "place_type": "factory",
@@ -83,6 +763,16 @@
     "vegetation": "no",
     "graffiti": "yes"
   },
+  "DSC00186-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC00188-HDR.jpg": {
     "place_type": "bridge",
     "vehicle_type": null,
@@ -94,6 +784,16 @@
     "weather": null,
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC00195-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC00197-HDR.jpg": {
     "place_type": "building",
@@ -107,6 +807,26 @@
     "vegetation": "no",
     "graffiti": "yes"
   },
+  "DSC00201-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00209-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC00212-HDR.jpg": {
     "place_type": "building",
     "vehicle_type": null,
@@ -118,6 +838,36 @@
     "weather": "sunny",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC00215.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00219-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "undetermined",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00225.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC00227-HDR.jpg": {
     "place_type": "building",
@@ -131,6 +881,306 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC00239-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00242-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00242.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "undetermined",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00245.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "undetermined",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00248-HDR.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "caravan",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00251-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00254.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00257.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00258-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00264-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00265.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00267-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00270-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00273-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00273.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00276-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00277-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00280.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00282-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00285.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00291-HDR.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "boat",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00294-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00295-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00297-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00301.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00303.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00305.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00306.jpg": {
+    "place_type": "church",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00310.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00311.jpg": {
+    "place_type": "church",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
   "DSC00312-HDR.jpg": {
     "place_type": "factory",
     "vehicle_type": null,
@@ -140,6 +1190,36 @@
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny"
+  },
+  "DSC00316-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00321-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00325.jpg": {
+    "place_type": "church",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
   },
   "DSC00327-HDR.jpg": {
     "place_type": "factory",
@@ -151,6 +1231,26 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC00327.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00335.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC00344.jpg": {
     "place_type": "house",
     "vehicle_type": null,
@@ -160,6 +1260,26 @@
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny"
+  },
+  "DSC00351-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00351.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC00354-HDR.jpg": {
     "place_type": "house",
@@ -171,6 +1291,276 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC00360-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00361.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC00362.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00366-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00366.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00367.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00372-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00380.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00381.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00385-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00389.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00390.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00392.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00393.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00395.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00397.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00402-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00404.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00406.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00410.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00411.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00416.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00418-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00420-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00421-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00424-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00426-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
   "DSC00435-HDR.jpg": {
     "place_type": "bunker",
     "vehicle_type": null,
@@ -180,6 +1570,56 @@
     "sky": "visible",
     "time_of_day": "day",
     "weather": "mixed"
+  },
+  "DSC00441-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC00442.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00446.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00447-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00452.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
   },
   "DSC00455-HDR.jpg": {
     "place_type": "landscape",
@@ -221,6 +1661,136 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC00476.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00481.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00484.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00486.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00487.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00489.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00494-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00500-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00507.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00508.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": "sunny"
+  },
+  "DSC00510.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00512.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00513.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
   "DSC00514-HDR.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "boat",
@@ -251,6 +1821,26 @@
     "time_of_day": "day",
     "weather": "few_clouds"
   },
+  "DSC00536.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "undetermined",
+    "interior_category": "undetermined",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00546.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC00547-HDR.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "boat",
@@ -261,6 +1851,16 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC00552.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
   "DSC00556-HDR.jpg": {
     "place_type": "landscape",
     "vehicle_type": null,
@@ -270,6 +1870,566 @@
     "sky": "visible",
     "time_of_day": "day",
     "weather": "cloudy"
+  },
+  "DSC00556.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00561.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00565.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00571-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC00571.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00574.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00581.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00584.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00596.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00602.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00606.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "undetermined",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00609.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC00616.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00626.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00629.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC00636.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00638.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC00643.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00646.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00648-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00664.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00679.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC00684.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC00695-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00698-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00699.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00700.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00703.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00704-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00704.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00710.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00721.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00722.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00725.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00731.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00734.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00735.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00737.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00740.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00741.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00745.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00749.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00751.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00759.jpg": {
+    "place_type": "office",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00766.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00777.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00784-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00795.jpg": {
+    "place_type": "office",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00801.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00805.jpg": {
+    "place_type": "office",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00813.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00815.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00820-HDR.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00821.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00827.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00828.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
   },
   "DSC00830-HDR.jpg": {
     "place_type": "vehicle",
@@ -293,6 +2453,36 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC00833-HDR.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00841.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00850.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
   "DSC00851-HDR.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "car",
@@ -302,6 +2492,76 @@
     "sky": "visible",
     "time_of_day": "day",
     "weather": "cloudy"
+  },
+  "DSC00866-HDR.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00867.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00872-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00872.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00876.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00880.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00881-HDR.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "night",
+    "weather": null
   },
   "DSC00887.jpg": {
     "place_type": "landscape",
@@ -314,6 +2574,16 @@
     "weather": "bad_weather",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC00891.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
   },
   "DSC00892.jpg": {
     "place_type": "landscape",
@@ -339,6 +2609,66 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC00902.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC00906-HDR.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00906.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC00907.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC00916.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC00917.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
   "DSC00921.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "truck",
@@ -347,6 +2677,96 @@
     "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00926.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00932.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00933.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00936.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00937.jpg": {
+    "place_type": "church",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00939.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00941.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC00946.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00948-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
     "weather": null
   },
   "DSC00952.jpg": {
@@ -361,6 +2781,66 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC00961.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC00962.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00964-HDR.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "night",
+    "weather": null
+  },
+  "DSC00966-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00970-HDR-2.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC00970-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC00971.jpg": {
     "place_type": "church",
     "vehicle_type": null,
@@ -373,6 +2853,26 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC00976.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC00977-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC00977.jpg": {
     "place_type": "church",
     "vehicle_type": null,
@@ -384,6 +2884,26 @@
     "weather": "cloudy",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC00981-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00981.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
   },
   "DSC00982.jpg": {
     "place_type": "church",
@@ -415,11 +2935,31 @@
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "excellent",
-    "sky": "visible",
+    "sky": "absent",
     "time_of_day": "day",
     "weather": null,
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC00989.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "truck",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00990-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC00991.jpg": {
     "place_type": "facade",
@@ -433,6 +2973,26 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC00992.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC00993-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC00996-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "archi_graphism",
@@ -444,6 +3004,186 @@
     "graffiti": "yes",
     "place_type": "house",
     "vehicle_type": null
+  },
+  "DSC00996.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC00997.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC010000.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01001.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01002.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "car",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC010021.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC010039.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01005.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC010071.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC010100.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC010105.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01011-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "ruin",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC010115.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01012.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC010131.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01014.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC010146.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01016.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
   },
   "DSC01017-HDR.jpg": {
     "indoor_outdoor": "indoor",
@@ -457,8 +3197,78 @@
     "place_type": "house",
     "vehicle_type": null
   },
+  "DSC010176.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC010186.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01020-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "ruin",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01021.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01022.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01023-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01026.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "truck",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
   "DSC01029-HDR.jpg": {
-    "place_type": "house",
+    "place_type": "castle",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -468,6 +3278,26 @@
     "weather": "sunny",
     "vegetation": "yes",
     "graffiti": "no"
+  },
+  "DSC01031.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC010313.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01032-HDR.jpg": {
     "place_type": "castle",
@@ -481,6 +3311,96 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC01032.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC01034.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01035-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01037.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC010378.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01039.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC010408.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01041-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01041.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "car",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
   "DSC01044-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
@@ -493,6 +3413,46 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC010458.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01046.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "truck",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01047.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": "few_clouds"
+  },
+  "DSC010472.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC01048.jpg": {
     "place_type": "house",
     "vehicle_type": null,
@@ -502,6 +3462,186 @@
     "sky": "absent",
     "time_of_day": "day",
     "weather": null
+  },
+  "DSC010488.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC010503.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01053.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC010536.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC010552.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01057.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC010573.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01058.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC010582.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC010587.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01059-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC010628.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC010638.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01065-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC010653.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC010658.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01067.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC010678.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
   },
   "DSC01068-HDR.jpg": {
     "place_type": "house",
@@ -515,6 +3655,16 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC010688.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01071-HDR.jpg": {
     "place_type": "castle",
     "vehicle_type": null,
@@ -527,12 +3677,62 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01072.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01074.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01077.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "undetermined",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01078-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
     "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01078.jpg": {
+    "place_type": "church",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01080-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "excellent",
     "sky": "absent",
     "time_of_day": "day",
     "weather": null
@@ -559,6 +3759,36 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC01083-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01084-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01088.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC01089-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
@@ -581,6 +3811,96 @@
     "time_of_day": "day",
     "weather": null
   },
+  "DSC01091.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC01092-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01093.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01095-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "ruin",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01097-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01097.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01098-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "ruin",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01100-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01101-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01101.jpg": {
     "place_type": "church",
     "vehicle_type": null,
@@ -592,6 +3912,26 @@
     "weather": "mixed",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01106-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01108.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01111.jpg": {
     "place_type": "landscape",
@@ -605,6 +3945,66 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC01113-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01115-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01117.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": "sunny"
+  },
+  "DSC01118-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01119.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01121-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01122-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
@@ -616,6 +4016,46 @@
     "weather": null,
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01127-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01128.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01131-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01133.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01134-HDR.jpg": {
     "place_type": "house",
@@ -629,6 +4069,96 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01134.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "undetermined",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01137-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01138.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01139.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01140-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01142-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01143-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01148.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01149.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC01151.jpg": {
     "place_type": "church",
     "vehicle_type": null,
@@ -640,6 +4170,46 @@
     "weather": "mixed",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01152-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01153.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01154-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01157-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01158-HDR.jpg": {
     "place_type": "vineyard_hut",
@@ -653,6 +4223,36 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC01158.jpg": {
+    "place_type": "office",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "office",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01159.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01160.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC01161-HDR.jpg": {
     "place_type": "castle",
     "vehicle_type": null,
@@ -664,6 +4264,26 @@
     "weather": "few_clouds",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01161.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": null
+  },
+  "DSC01163.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01164-HDR.jpg": {
     "place_type": "castle",
@@ -677,6 +4297,86 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01167-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01168.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01169.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01173-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01173.jpg": {
+    "place_type": "guard_house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01176-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01178.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01179.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
   "DSC01182-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
@@ -688,6 +4388,16 @@
     "weather": "sunny",
     "vegetation": "yes",
     "graffiti": "no"
+  },
+  "DSC01183.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01186-HDR.jpg": {
     "place_type": "house",
@@ -701,6 +4411,26 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC01188.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01189.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC01190.jpg": {
     "place_type": "church",
     "vehicle_type": null,
@@ -709,9 +4439,49 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "sunny",
+    "weather": "few_clouds",
     "vegetation": "yes",
     "graffiti": "no"
+  },
+  "DSC01191-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01193.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01197-HDR.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01198.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01200.jpg": {
     "place_type": "landscape",
@@ -721,9 +4491,29 @@
     "condition": null,
     "sky": "visible",
     "time_of_day": "dusk",
-    "weather": null,
+    "weather": "bad_weather",
     "vegetation": "yes",
     "graffiti": "no"
+  },
+  "DSC01203-HDR.jpg": {
+    "place_type": "church",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01203.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01204-HDR.jpg": {
     "place_type": "house",
@@ -745,9 +4535,79 @@
     "condition": null,
     "sky": "visible",
     "time_of_day": "dusk",
-    "weather": null,
+    "weather": "cloudy",
     "vegetation": "yes",
     "graffiti": "no"
+  },
+  "DSC01208.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01209.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01210-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01212.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01213.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01214.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01215-HDR.jpg": {
+    "place_type": "church",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
   },
   "DSC01216-HDR.jpg": {
     "place_type": "facade",
@@ -758,6 +4618,26 @@
     "sky": "absent",
     "time_of_day": "day",
     "weather": null
+  },
+  "DSC01219-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01219.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01222-HDR.jpg": {
     "place_type": "house",
@@ -774,6 +4654,66 @@
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01227-HDR.jpg": {
+    "place_type": "church",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01227.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01228.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01229.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01230-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01231-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
     "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
@@ -796,16 +4736,76 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "condition": "degraded",
+    "condition": "ruin",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "few_clouds"
+  },
+  "DSC01236-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01237-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01237.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC01239.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01242-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01243-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01243.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
     "condition": "degraded",
     "sky": "absent",
     "time_of_day": "day",
@@ -823,6 +4823,26 @@
     "vegetation": "yes",
     "graffiti": "no"
   },
+  "DSC01248.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01253.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "lavatory",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01255-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
@@ -833,6 +4853,146 @@
     "time_of_day": "day",
     "weather": null
   },
+  "DSC01256-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01259-HDR.jpg": {
+    "place_type": "bunker",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01259.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01262-HDR.jpg": {
+    "place_type": "bunker",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01263-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01264.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01269.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01271-HDR.jpg": {
+    "place_type": "wall",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01272-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01274-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01275-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01278-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01279.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01283-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
   "DSC01284-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
@@ -842,6 +5002,16 @@
     "sky": "absent",
     "time_of_day": "day",
     "weather": null
+  },
+  "DSC01284.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
   },
   "DSC01287-HDR.jpg": {
     "place_type": "house",
@@ -859,6 +5029,16 @@
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01289.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "few_clouds"
@@ -885,6 +5065,16 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC01294.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC01295.jpg": {
     "place_type": "church",
     "vehicle_type": null,
@@ -897,6 +5087,46 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01299-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01302-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01304-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01305-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC01307-HDR.jpg": {
     "place_type": "church",
     "vehicle_type": null,
@@ -904,10 +5134,60 @@
     "interior_category": null,
     "condition": "good",
     "sky": "visible",
-    "time_of_day": "day",
+    "time_of_day": "dusk",
     "weather": "few_clouds",
     "vegetation": "yes",
     "graffiti": "no"
+  },
+  "DSC01308-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01309.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01311-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01314-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01317-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01320.jpg": {
     "place_type": "church",
@@ -921,6 +5201,46 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01323.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01324.jpg": {
+    "place_type": "office",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01325-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01325.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01326-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "archi_graphism",
@@ -932,6 +5252,56 @@
     "graffiti": "no",
     "place_type": "castle",
     "vehicle_type": null
+  },
+  "DSC01328-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01330.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01338-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01344.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01345.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01347-HDR.jpg": {
     "indoor_outdoor": "indoor",
@@ -945,6 +5315,76 @@
     "place_type": "undetermined",
     "vehicle_type": null
   },
+  "DSC01352.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01353-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01355.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01358.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01359-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01364.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01365.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01368.jpg": {
     "place_type": "landscape",
     "vehicle_type": null,
@@ -953,9 +5393,99 @@
     "condition": null,
     "sky": "visible",
     "time_of_day": "dusk",
-    "weather": null,
+    "weather": "few_clouds",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01369.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01370.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01374.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01376.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01380.jpg": {
+    "place_type": "church",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01383.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01388-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01389.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01391-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
   },
   "DSC01393.jpg": {
     "place_type": "bridge",
@@ -965,9 +5495,109 @@
     "condition": "good",
     "sky": "visible",
     "time_of_day": "dusk",
-    "weather": null,
+    "weather": "few_clouds",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01395-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01395.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01396.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": "cloudy"
+  },
+  "DSC01401-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01404.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01409.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01410-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01411.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01413.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC01415.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01416-HDR.jpg": {
     "indoor_outdoor": "indoor",
@@ -981,6 +5611,16 @@
     "place_type": "undetermined",
     "vehicle_type": null
   },
+  "DSC01418.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": "cloudy"
+  },
   "DSC01419-HDR.jpg": {
     "indoor_outdoor": "indoor",
     "interior_category": "archi_graphism",
@@ -992,6 +5632,46 @@
     "graffiti": "no",
     "place_type": "undetermined",
     "vehicle_type": null
+  },
+  "DSC01424.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01425-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01427.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01430.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01431-HDR.jpg": {
     "indoor_outdoor": "indoor",
@@ -1005,6 +5685,76 @@
     "place_type": "undetermined",
     "vehicle_type": null
   },
+  "DSC01433-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC01434-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01436.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": "cloudy"
+  },
+  "DSC01440.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01442-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01451.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01453.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01454-HDR.jpg": {
     "place_type": "building",
     "vehicle_type": null,
@@ -1014,6 +5764,16 @@
     "sky": "visible",
     "time_of_day": "day",
     "weather": "cloudy"
+  },
+  "DSC01456-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01457-HDR.jpg": {
     "place_type": "house",
@@ -1026,7 +5786,7 @@
     "weather": "cloudy"
   },
   "DSC01458.jpg": {
-    "place_type": "building",
+    "place_type": "detail",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -1036,6 +5796,26 @@
     "weather": "cloudy",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01465.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01470.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
   },
   "DSC01472-HDR.jpg": {
     "place_type": "house",
@@ -1047,12 +5827,92 @@
     "time_of_day": "day",
     "weather": "mixed"
   },
+  "DSC01477-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01480-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01481-HDR.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "caravan",
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01484.jpg": {
+    "place_type": "office",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "office",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01486-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01487-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01489-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01490-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01490.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
     "sky": "visible",
     "time_of_day": "day",
     "weather": "few_clouds"
@@ -1065,7 +5925,147 @@
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
-    "weather": "sunny"
+    "weather": "few_clouds"
+  },
+  "DSC01494.jpg": {
+    "place_type": "office",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "office",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01495-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "rooms",
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01495.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01498-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01499.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01504-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01505.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01507-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01507.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01508.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": "cloudy"
+  },
+  "DSC01509.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "decay",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01510-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01513-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01513.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "ruin",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01514-HDR.jpg": {
     "place_type": "house",
@@ -1077,6 +6077,26 @@
     "time_of_day": "day",
     "weather": null
   },
+  "DSC01514.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC01515.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
   "DSC01517-HDR.jpg": {
     "place_type": "castle",
     "vehicle_type": null,
@@ -1087,6 +6107,26 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC01520.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01522-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "stairs",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01523.jpg": {
     "place_type": "castle",
     "vehicle_type": null,
@@ -1096,6 +6136,66 @@
     "sky": "visible",
     "time_of_day": "day",
     "weather": "few_clouds"
+  },
+  "DSC01524.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01525-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01525.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01528-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01530.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01533.jpg": {
+    "place_type": "office",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "office",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01534-HDR.jpg": {
     "indoor_outdoor": "indoor",
@@ -1121,6 +6221,26 @@
     "place_type": "undetermined",
     "vehicle_type": null
   },
+  "DSC01539.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01543-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01543.jpg": {
     "place_type": "landscape",
     "vehicle_type": null,
@@ -1129,9 +6249,39 @@
     "condition": null,
     "sky": "visible",
     "time_of_day": "dusk",
-    "weather": null,
+    "weather": "few_clouds",
     "vegetation": "yes",
     "graffiti": "no"
+  },
+  "DSC01545.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01546-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01549.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01552-HDR.jpg": {
     "indoor_outdoor": "indoor",
@@ -1145,6 +6295,26 @@
     "place_type": "undetermined",
     "vehicle_type": null
   },
+  "DSC01554.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01564-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC01565.jpg": {
     "place_type": "landscape",
     "vehicle_type": null,
@@ -1156,6 +6326,16 @@
     "weather": null,
     "vegetation": "yes",
     "graffiti": "no"
+  },
+  "DSC01566.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01570-HDR.jpg": {
     "place_type": "vehicle",
@@ -1169,6 +6349,26 @@
     "graffiti": "no",
     "vehicle_type": "tank"
   },
+  "DSC01570.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01571.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01573-HDR.jpg": {
     "place_type": "vehicle",
     "indoor_outdoor": "outdoor",
@@ -1180,6 +6380,16 @@
     "vegetation": "yes",
     "graffiti": "no",
     "vehicle_type": "tank"
+  },
+  "DSC01574.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01576-HDR.jpg": {
     "place_type": "vehicle",
@@ -1193,6 +6403,16 @@
     "graffiti": "no",
     "vehicle_type": "tank"
   },
+  "DSC01578.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
   "DSC01579-HDR.jpg": {
     "place_type": "vehicle",
     "indoor_outdoor": "outdoor",
@@ -1204,6 +6424,26 @@
     "vegetation": "yes",
     "graffiti": "no",
     "vehicle_type": "tank"
+  },
+  "DSC01580.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01588-HDR.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "tank",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01594-HDR.jpg": {
     "place_type": "vehicle",
@@ -1229,6 +6469,26 @@
     "graffiti": "no",
     "vehicle_type": "tank"
   },
+  "DSC01599.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01601.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
   "DSC01604-HDR-2.jpg": {
     "place_type": "vehicle",
     "indoor_outdoor": "outdoor",
@@ -1253,6 +6513,16 @@
     "graffiti": "no",
     "vehicle_type": "tank"
   },
+  "DSC01605.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
   "DSC01607-HDR.jpg": {
     "place_type": "vehicle",
     "indoor_outdoor": "outdoor",
@@ -1264,6 +6534,86 @@
     "vegetation": "yes",
     "graffiti": "no",
     "vehicle_type": "tank"
+  },
+  "DSC01609.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC01610.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01616.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01619-HDR.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "tank",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01619.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01622-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01625.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01626.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
   },
   "DSC01628-HDR.jpg": {
     "place_type": "house",
@@ -1285,12 +6635,62 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC01634-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01636.JPG": {
+    "place_type": "wall",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01637-HDR.jpg": {
     "place_type": "wall",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01640.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01644.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01645.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
     "sky": "absent",
     "time_of_day": "day",
     "weather": null
@@ -1317,6 +6717,16 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC01650.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01651-HDR.jpg": {
     "place_type": "detail",
     "vehicle_type": null,
@@ -1326,6 +6736,16 @@
     "sky": "absent",
     "time_of_day": "day",
     "weather": null
+  },
+  "DSC01651.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "undetermined",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
   },
   "DSC01652.jpg": {
     "place_type": "vehicle",
@@ -1339,12 +6759,62 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01654.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01655.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01656.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01659.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
   "DSC01660-HDR.jpg": {
     "place_type": "castle",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01660.jpg": {
+    "place_type": "factory",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
     "sky": "visible",
     "time_of_day": "day",
     "weather": "sunny"
@@ -1371,6 +6841,26 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01672-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01672.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01675-HDR.jpg": {
     "place_type": "castle",
     "vehicle_type": null,
@@ -1381,7 +6871,57 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC01676.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01678-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01683.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01684-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01685.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01687-HDR.jpg": {
     "place_type": "castle",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
@@ -1413,6 +6953,16 @@
     "time_of_day": "day",
     "weather": "sunny"
   },
+  "DSC01693.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01694.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "boat",
@@ -1424,6 +6974,66 @@
     "weather": "cloudy",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01696.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01698.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01699-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01701.JPG": {
+    "place_type": "wall",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01702-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01702.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01704.jpg": {
     "place_type": "vehicle",
@@ -1437,6 +7047,66 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01706.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01708-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01711-HDR.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01711.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01712.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "indoor",
+    "interior_category": "archi_graphism",
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01716.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
   "DSC01719.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "boat",
@@ -1448,6 +7118,206 @@
     "weather": "bad_weather",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01720-HDR.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01721.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01722.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01723-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01723.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01726.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01729.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01731.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01735.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01736.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01742.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "dusk",
+    "weather": "mixed"
+  },
+  "DSC01744-HDR.jpg": {
+    "place_type": "castle",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
+  },
+  "DSC01744.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01750.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01756.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01757.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01759-HDR.jpg": {
+    "place_type": "undetermined",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01761.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01765-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01765.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
   },
   "DSC01766.jpg": {
     "place_type": "vehicle",
@@ -1461,6 +7331,86 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01768.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01774-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01776.jpg": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01777-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01779.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01783-HDR copie.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01783-HDR-NB.JPG": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01783-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01785.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "boat",
@@ -1473,6 +7423,56 @@
     "vegetation": "no",
     "graffiti": "no"
   },
+  "DSC01787.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "mixed"
+  },
+  "DSC01790.jpg": {
+    "place_type": "landscape",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": null,
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "few_clouds"
+  },
+  "DSC01791.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01792-HDR.jpg": {
+    "place_type": "house",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01798-HDR.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
   "DSC01801.jpg": {
     "place_type": "vehicle",
     "vehicle_type": "boat",
@@ -1484,6 +7484,186 @@
     "weather": "sunny",
     "vegetation": "no",
     "graffiti": "no"
+  },
+  "DSC01802.jpg": {
+    "place_type": "building",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01806.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "ruin",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01807-HDR-NB.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01807-HDR.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01813.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01819-HDR.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01819.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01821.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "truck",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01822-HDR.jpg": {
+    "place_type": "vehicle",
+    "vehicle_type": "car",
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01825.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01827.jpg": {
+    "place_type": "facade",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01830.jpg": {
+    "place_type": "street_art",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01831.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01837.JPG": {
+    "place_type": "detail",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": null
+  },
+  "DSC01838-HDR.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "good",
+    "sky": "absent",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01844-HDR.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "excellent",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "cloudy"
+  },
+  "DSC01846.jpg": {
+    "place_type": "bridge",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "sunny"
+  },
+  "DSC01847-HDR.jpg": {
+    "place_type": "street",
+    "vehicle_type": null,
+    "indoor_outdoor": "outdoor",
+    "interior_category": null,
+    "condition": "degraded",
+    "sky": "visible",
+    "time_of_day": "day",
+    "weather": "bad_weather"
   },
   "DSC01887.jpg": {
     "place_type": "landscape",
@@ -5451,17 +11631,6 @@
     "vegetation": "no",
     "graffiti": "no"
   },
-  "DSC05847-HDR.jpg": {
-    "place_type": "vehicle",
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
-    "condition": "degraded",
-    "sky": "visible",
-    "time_of_day": "day",
-    "weather": "sunny",
-    "vegetation": "yes",
-    "graffiti": "no"
-  },
   "DSC05859-HDR.jpg": {
     "place_type": "detail",
     "vehicle_type": null,
@@ -5509,28 +11678,6 @@
     "graffiti": "yes",
     "place_type": "factory",
     "vehicle_type": null
-  },
-  "DSC05879-HDR.jpg": {
-    "place_type": "vehicle",
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
-    "condition": "degraded",
-    "sky": "visible",
-    "time_of_day": "day",
-    "weather": "sunny",
-    "vegetation": "no",
-    "graffiti": "no"
-  },
-  "DSC05885-HDR.jpg": {
-    "place_type": "vehicle",
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
-    "condition": "degraded",
-    "sky": "visible",
-    "time_of_day": "day",
-    "weather": "sunny",
-    "vegetation": "yes",
-    "graffiti": "no"
   },
   "DSC05885.jpg": {
     "place_type": "building",
@@ -6107,17 +12254,6 @@
     "weather": "mixed",
     "vegetation": "yes",
     "graffiti": "no"
-  },
-  "DSC06162.jpg": {
-    "place_type": "vehicle",
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
-    "condition": "good",
-    "sky": "absent",
-    "time_of_day": "day",
-    "weather": null,
-    "vegetation": "no",
-    "graffiti": "yes"
   },
   "DSC06172.jpg": {
     "place_type": "street_art",
@@ -9955,17 +16091,6 @@
     "time_of_day": "day",
     "weather": null
   },
-  "DSC08775.jpg": {
-    "place_type": "vehicle",
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
-    "condition": "good",
-    "sky": "absent",
-    "time_of_day": "day",
-    "weather": null,
-    "vegetation": "no",
-    "graffiti": "yes"
-  },
   "DSC08781-HDR.jpg": {
     "place_type": "house",
     "vehicle_type": null,
@@ -9975,17 +16100,6 @@
     "sky": "absent",
     "time_of_day": "day",
     "weather": null
-  },
-  "DSC08789.jpg": {
-    "place_type": "vehicle",
-    "indoor_outdoor": "outdoor",
-    "interior_category": null,
-    "condition": "good",
-    "sky": "visible",
-    "time_of_day": "day",
-    "weather": "sunny",
-    "vegetation": "no",
-    "graffiti": "no"
   },
   "DSC08790-HDR.jpg": {
     "place_type": "house",
