@@ -160,6 +160,14 @@ function optionsOf(criterion, options) {
 
 const photos = DATA.photos;
 const value = (p, name) => (state.corrections[p.file] || {})[name] ?? p.predicted[name];
+// "except" / "only_if" of criteria.json, applied to the current answers of the photo (as in the app):
+// a criterion hidden this way is not shown and its answer is "—".
+function shown(p, name) {
+  const { except = {}, only_if = {} } = DATA.conditions[name] || {};
+  if (Object.entries(except).some(([n, values]) => values.includes(answer(p, n)))) return false;
+  return Object.entries(only_if).every(([n, values]) => values.includes(answer(p, n)));
+}
+const answer = (p, name) => shown(p, name) ? value(p, name) : NA;
 // Criterion to review: photo not validated yet and no value given by the user for this criterion.
 const toReview = (p, name) => !state.checked[p.file] && !(name in (state.corrections[p.file] || {}));
 const unchecked = p => !state.checked[p.file];
@@ -183,7 +191,7 @@ const nbPages = () => Math.max(1, Math.ceil(list.length / PER_PAGE));
 function showStats() {
   const nbChecked = photos.filter(p => state.checked[p.file]).length;
   let nbChanges = 0;
-  for (const p of photos) for (const name of NAMES) if (value(p, name) !== p.predicted[name]) nbChanges++;
+  for (const p of photos) for (const name of NAMES) if (answer(p, name) !== p.predicted[name]) nbChanges++;
   const left = photos.filter(unchecked).length;
   document.getElementById("stats").textContent = t("ui:stats", {
     page: state.page + 1, pages: nbPages(), checked: nbChecked, total: photos.length, left, changes: nbChanges,
@@ -221,6 +229,7 @@ function card(p) {
   name.firstChild.textContent = p.file;
   div.appendChild(name);
   const table = document.createElement("table");
+  const marks = [];
   for (const [criterion, options] of DATA.criteria) {
     const tr = document.createElement("tr");
     const td1 = document.createElement("td"), td2 = document.createElement("td");
@@ -244,11 +253,14 @@ function card(p) {
       sel.appendChild(opt);
     }
     sel.value = value(p, criterion);
+    // A criterion that becomes visible with no answer ("—", e.g. hidden by CLIP's own answers)
+    // is to review too; a free criterion may stay empty.
     const mark = () => {
+      tr.hidden = !shown(p, criterion);
       tr.classList.toggle("changed", sel.value !== p.predicted[criterion]);
-      tr.classList.toggle("to-review", toReview(p, criterion));
+      tr.classList.toggle("to-review", toReview(p, criterion) || (sel.value === NA && !DATA.free.includes(criterion)));
     };
-    mark();
+    marks.push(mark);
     sel.onchange = () => {
       let chosen = sel.value;
       if (chosen === NEW_VALUE) {
@@ -261,10 +273,13 @@ function card(p) {
       save();
       // A new value is offered on every card of the page: they are redrawn.
       if (sel.value === NEW_VALUE) { goTo(state.page, false); return; }
-      mark(); markBlurry(); showStats();
+      // An answer can show or hide the following criteria (e.g. vehicle -> vehicle type).
+      for (const m of marks) m();
+      markBlurry(); showStats();
     };
     td2.appendChild(sel); tr.append(td1, td2); table.appendChild(tr);
   }
+  for (const m of marks) m();
   div.appendChild(table);
   return div;
 }
@@ -296,15 +311,15 @@ document.getElementById("validate").onclick = () => {
   if (last) alert(t("ui:last_page"));
 };
 
-// Export: all the values of the checked photos (confirmed or corrected); "—" becomes null.
-// Known answers of hidden criteria are kept.
+// Export: all the values of the checked photos (confirmed or corrected); "—" becomes null, as does
+// a criterion hidden by the answers. Known answers of hidden criteria ("hidden": true) are kept.
 document.getElementById("export").onclick = () => {
   const output = {};
   for (const p of photos) {
     if (!state.checked[p.file]) continue;
     output[p.file] = { ...(DATA.expected[p.file] || {}) };
     for (const name of NAMES) {
-      const v = value(p, name);
+      const v = answer(p, name);
       output[p.file][name] = v === NA ? null : v;
     }
   }
@@ -376,6 +391,8 @@ def main():
         "exportName": args.expected.name,
         "criteria": page_criteria,
         "free": [c["name"] for c in criteria.get("choices", []) if c.get("free")],
+        "conditions": {c["name"]: {k: c[k] for k in ("except", "only_if") if k in c}
+                       for c in criteria.get("choices", []) + criteria.get("yes_no", [])},
         "photos": read_predictions(args.results, [name for name, _ in page_criteria]),
         "expected": expected,
     }

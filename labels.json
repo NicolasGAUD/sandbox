@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "place_type": {"en": "Place type", "fr": "Type de lieu"},
+    "place_type": {"en": "Type", "fr": "Type"},
     "vehicle_type": {"en": "Vehicle type", "fr": "Type de véhicule"},
     "indoor_outdoor": {"en": "Indoor / outdoor", "fr": "Intérieur / extérieur"},
     "interior_category": {"en": "Interior category", "fr": "Catégorie d'intérieur"},

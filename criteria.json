@@ -209,10 +209,12 @@
       "threshold": 0,
       "probe": true,
       "undetermined": false,
+      "only_if": {
+        "sky": ["visible"]
+      },
       "except": {
         "indoor_outdoor": ["indoor"],
         "place_type": ["wall"],
-        "sky": ["absent"],
         "time_of_day": ["night"]
       },
       "crop": [0, 0, 1, 0.3],
