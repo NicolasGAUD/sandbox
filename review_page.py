@@ -361,10 +361,15 @@ document.getElementById("validate").onclick = () => {
 
 // Export: all the values of the checked photos (confirmed or corrected); "—" becomes null, as does
 // a criterion hidden by the answers. Known answers of hidden criteria ("hidden": true) are kept.
+// A photo of the expected answers file not validated again here (e.g. one that lost a criterion
+// when the criteria changed) is exported as it was in that file, so that the export loses nothing.
 document.getElementById("export").onclick = () => {
   const output = {};
   for (const p of photos) {
-    if (!state.checked[p.file]) continue;
+    if (!state.checked[p.file]) {
+      if (p.file in DATA.expected) output[p.file] = DATA.expected[p.file];
+      continue;
+    }
     output[p.file] = { ...(DATA.expected[p.file] || {}) };
     for (const name of NAMES) {
       const v = answer(p, name);
@@ -378,7 +383,8 @@ document.getElementById("export").onclick = () => {
   URL.revokeObjectURL(a.href);
 };
 
-// Import: takes back an exported file (the photos it contains are considered checked).
+// Import: takes back an exported file. As when the page opens, a photo is checked only if all its
+// shown criteria are known: the others (exported as they were) stay to review.
 document.getElementById("import").onclick = () => document.getElementById("import-file").click();
 document.getElementById("import-file").onchange = async e => {
   const f = e.target.files[0];
@@ -388,7 +394,8 @@ document.getElementById("import-file").onchange = async e => {
     for (const [file, vals] of Object.entries(data)) {
       state.corrections[file] = {};
       for (const [k, v] of Object.entries(vals)) if (NAMES.includes(k)) state.corrections[file][k] = v === null ? NA : v;
-      state.checked[file] = true;
+      if (NAMES.every(n => n in vals)) state.checked[file] = true;
+      else delete state.checked[file];
       // Values typed in another copy of the page: offered here too.
       for (const k of DATA.free) if (vals[k] != null) state.added[k] = [...new Set([...(state.added[k] || []), vals[k]])];
     }
