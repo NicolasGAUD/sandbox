@@ -16,12 +16,10 @@ app/), it is served at the root, so a phone on the same network only needs http:
 import argparse
 import io
 import json
-import math
 import shutil
 import threading
 import time
 import uuid
-from datetime import datetime
 from pathlib import Path
 
 import uvicorn
@@ -31,69 +29,13 @@ from PIL import Image, ImageOps, UnidentifiedImageError
 from pydantic import BaseModel
 
 from labels import load_labels
+from photo_exif import exif_for_page, read_exif
 from review_page import NOT_APPLICABLE, possible_values
 from test_clip import EXTENSIONS, Analyzer
 
 HERE = Path(__file__).parent
 UPLOADS = HERE / "uploads"
 APP_BUILD = HERE / "app" / "dist" / "app" / "browser"
-
-
-# EXIF tags: in the main IFD, then in the Exif sub-IFD.
-MAKE, MODEL, DATE_CHANGED, EXIF_IFD = 271, 272, 306, 0x8769
-EXPOSURE_TIME, F_NUMBER, ISO, DATE_TAKEN, OFFSET_TAKEN, FOCAL_LENGTH = 33434, 33437, 34855, 36867, 36881, 37386
-
-
-def read_exif(content):
-    """Shooting date and camera settings of the photo; None for what its EXIF does not give."""
-    try:
-        exif = Image.open(io.BytesIO(content)).getexif()
-    except (OSError, UnidentifiedImageError):
-        exif = Image.Exif()
-    sub = exif.get_ifd(EXIF_IFD)
-    iso = sub.get(ISO)
-    return {
-        # DateTimeOriginal, otherwise DateTime (last change).
-        "taken": shot_date(sub.get(DATE_TAKEN) or exif.get(DATE_CHANGED), sub.get(OFFSET_TAKEN)),
-        "camera": camera_name(exif.get(MAKE), exif.get(MODEL)),
-        "exposure_time": positive(sub.get(EXPOSURE_TIME)),
-        "f_number": positive(sub.get(F_NUMBER)),
-        "focal_length": positive(sub.get(FOCAL_LENGTH)),
-        "iso": positive(iso[0] if isinstance(iso, tuple) else iso),
-    }
-
-
-def shot_date(taken, offset):
-    """EXIF date, with its UTC offset when the camera wrote one (otherwise read as the PC's local time)."""
-    try:
-        date = datetime.strptime(text(taken), "%Y:%m:%d %H:%M:%S")
-    except (ValueError, TypeError):
-        return None
-    try:
-        return date.replace(tzinfo=datetime.strptime(text(offset), "%z").tzinfo)
-    except (ValueError, TypeError):
-        return date
-
-
-def camera_name(make, model):
-    """"Canon EOS 5D", "SONY ILCE-7M3": the model often repeats the make."""
-    make, model = text(make), text(model)
-    if model.lower().startswith(make.lower()):
-        return model or None
-    return f"{make} {model}".strip() or None
-
-
-def text(value):
-    return "" if value is None else str(value).strip("\x00 ")
-
-
-def positive(value):
-    """EXIF number (often a fraction), or None when missing or meaningless (0, division by zero)."""
-    try:
-        number = float(value)
-    except (TypeError, ValueError, ZeroDivisionError):
-        return None
-    return number if math.isfinite(number) and number > 0 else None
 
 
 def file_name(taken, suffix):
@@ -151,10 +93,8 @@ def create_app(analyzer, photos, criteria_path):
         UPLOADS.mkdir(exist_ok=True)
         path = UPLOADS / f"{analysis_id}{suffix}"
         path.write_bytes(content)
-        exif = read_exif(content)
+        exif = read_exif(io.BytesIO(content))
         pending[analysis_id] = {"path": path, "name": file_name(exif["taken"], suffix)}
-        # The date is sent as written by the camera (its local time), to be shown as is.
-        taken = exif["taken"] and exif["taken"].replace(tzinfo=None).isoformat()
         # value None: criterion hidden by CLIP's own answers ("except" / "only_if"); the scores
         # of its options are still given, for the case where the user changes an earlier answer.
         answers = {}
@@ -166,7 +106,7 @@ def create_app(analyzer, photos, criteria_path):
                 "detail": details.get(c["name"], {}),
             }
         return {"id": analysis_id, "name": name, "time_ms": round(time_ms), "answers": answers,
-                "exif": {**exif, "taken": taken}}
+                "exif": exif_for_page(exif)}
 
     @api.post("/api/analyses/{analysis_id}/validate")
     def validate(analysis_id: str, validation: Validation):

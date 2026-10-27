@@ -9,6 +9,8 @@ The page keeps the progress in the browser and exports an expected answers file
 Hidden criteria ("hidden": true) are not shown; their known answers are kept in the export.
 A "free" criterion gets a "+ New value…" entry: the values typed there are offered on every photo
 and exported like the others. Photos answered "yes" for "blurry" stand out with another background.
+Each card shows the shooting date and the camera settings read in the EXIF of the photo, and its
+image gets a text alternative built from the answers.
 """
 
 import argparse
@@ -18,6 +20,7 @@ import json
 from pathlib import Path
 
 from labels import SWITCH_CSS, SWITCH_HTML, load_labels, switch_js
+from photo_exif import exif_for_page, read_exif
 
 UNDETERMINED = "undetermined"
 NOT_APPLICABLE = "—"  # hidden by "except" / "only_if": exported as null
@@ -79,6 +82,7 @@ PAGE = """<!doctype html>
   .name { padding: 6px 10px; font-weight: 600; font-size: 13px; word-break: break-all;
           display: flex; justify-content: space-between; gap: 6px; }
   .name .state { font-weight: normal; color: #2a7d2a; white-space: nowrap; }
+  .exif { padding: 0 10px 6px; font-size: 12px; color: #555; }
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   td { padding: 2px 10px; border-top: 1px solid #eee; }
   td:first-child { color: #555; width: 45%; }
@@ -220,15 +224,24 @@ function card(p) {
   markBlurry();
   const img = document.createElement("img");
   img.loading = "lazy"; img.src = DATA.base + encodeURIComponent(p.file).replace(/%2F/g, "/");
-  img.alt = p.file;
-  img.onclick = () => openViewer(img.src, p.file);
+  img.alt = altText(p);
+  img.onclick = () => openViewer(img.src, p.file, img.alt);
   div.appendChild(img);
   const name = document.createElement("div");
   name.className = "name";
   name.innerHTML = `<span></span><span class="state">${state.checked[p.file] ? t("ui:checked") : ""}</span>`;
   name.firstChild.textContent = p.file;
   div.appendChild(name);
+  if (exifText(p.exif)) {
+    const exif = document.createElement("div");
+    exif.className = "exif";
+    exif.textContent = exifText(p.exif);
+    div.appendChild(exif);
+  }
   const table = document.createElement("table");
+  const date = table.insertRow();
+  date.insertCell().textContent = t("ui:date");
+  date.insertCell().textContent = takenText(p.exif);
   const marks = [];
   for (const [criterion, options] of DATA.criteria) {
     const tr = document.createElement("tr");
@@ -275,13 +288,48 @@ function card(p) {
       if (sel.value === NEW_VALUE) { goTo(state.page, false); return; }
       // An answer can show or hide the following criteria (e.g. vehicle -> vehicle type).
       for (const m of marks) m();
-      markBlurry(); showStats();
+      markBlurry(); img.alt = altText(p); showStats();
     };
     td2.appendChild(sel); tr.append(td1, td2); table.appendChild(tr);
   }
   for (const m of marks) m();
   div.appendChild(table);
   return div;
+}
+
+// "11 septembre 2024 à 14:26" in the chosen language; only an EXIF date is shown.
+function takenText(exif) {
+  if (!exif.taken) return t("ui:unknown_date");
+  // Read and shown as UTC: the camera's local time stays as it was written.
+  return new Intl.DateTimeFormat(lang, { dateStyle: "long", timeStyle: "short", timeZone: "UTC" })
+    .format(new Date(exif.taken + "Z"));
+}
+
+// "SONY ILCA-68 · 1/500 s · f/8 · 20 mm · ISO 100", with only what the EXIF gives.
+function exifText(exif) {
+  const number = n => n.toLocaleString(lang, { maximumFractionDigits: 1 });
+  const s = exif.exposure_time;
+  return [
+    exif.camera,
+    s && (s < 1 ? `1/${Math.round(1 / s)} s` : `${number(s)} s`),
+    exif.f_number && `f/${number(exif.f_number)}`,
+    exif.focal_length && `${number(exif.focal_length)} mm`,
+    exif.iso && `ISO ${Math.round(exif.iso)}`,
+  ].filter(Boolean).join(" · ");
+}
+
+// Text alternative built from the answers, e.g. "Image d'un château en ruine sous le soleil".
+// A French adjective agrees with the gender of the subject (labels.json, "alt").
+function altText(p) {
+  const pick = name => (LABELS.alt[name] || {})[answer(p, name)];
+  const subject = pick("vehicle_type") || pick("place_type") || LABELS.alt.place_type.undetermined;
+  const phrase = name => {
+    const entry = pick(name);
+    if (!entry) return "";
+    return lang === "en" || typeof entry.fr === "string" ? entry[lang] : entry.fr[subject.gender || "m"] || "";
+  };
+  const words = ["condition", "weather", "time_of_day"].map(phrase).filter(Boolean);
+  return [t("ui:photo_alt", { subject: subject[lang] }), ...words].join(" ");
 }
 
 function goTo(i, scroll = true) {
@@ -350,7 +398,7 @@ document.getElementById("import-file").onchange = async e => {
 };
 
 const viewer = document.getElementById("viewer"), large = viewer.querySelector("img");
-function openViewer(src, name) { large.src = src; viewer.querySelector(".caption").textContent = name; viewer.classList.add("open"); }
+function openViewer(src, name, alt) { large.src = src; large.alt = alt; viewer.querySelector(".caption").textContent = name; viewer.classList.add("open"); }
 function closeViewer() { viewer.classList.remove("open"); large.removeAttribute("src"); }
 document.getElementById("back").onclick = closeViewer;
 viewer.onclick = e => { if (e.target === viewer) closeViewer(); };
@@ -384,6 +432,9 @@ def main():
             expected = json.load(f)
 
     page_criteria = possible_values(criteria)
+    photos = read_predictions(args.results, [name for name, _ in page_criteria])
+    for photo in photos:
+        photo["exif"] = exif_for_page(read_exif(args.folder / photo["file"]))
     data = {
         "folder": str(args.folder.resolve()),
         "version": hashlib.sha1(json.dumps(page_criteria).encode()).hexdigest()[:10],
@@ -393,7 +444,7 @@ def main():
         "free": [c["name"] for c in criteria.get("choices", []) if c.get("free")],
         "conditions": {c["name"]: {k: c[k] for k in ("except", "only_if") if k in c}
                        for c in criteria.get("choices", []) + criteria.get("yes_no", [])},
-        "photos": read_predictions(args.results, [name for name, _ in page_criteria]),
+        "photos": photos,
         "expected": expected,
     }
     # "</" inside the JSON would close the <script> tag.
