@@ -46,6 +46,7 @@
   "choices": [
     {
       "name": "place_type",
+      "sorted": true,
       "threshold": 0,
       "probe": true,
       "options": {
@@ -107,6 +108,7 @@
     },
     {
       "name": "vehicle_type",
+      "sorted": true,
       "threshold": 0,
       "probe": true,
       "only_if": {
@@ -136,6 +138,7 @@
     },
     {
       "name": "interior_category",
+      "sorted": true,
       "threshold": 0,
       "probe": true,
       "except": {
@@ -151,6 +154,7 @@
     },
     {
       "name": "exterior_category",
+      "sorted": true,
       "free": true,
       "except": {
         "indoor_outdoor": ["indoor"]

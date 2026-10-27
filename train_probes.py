@@ -6,6 +6,7 @@ recognised by its prompt. An expected "undetermined" answer becomes a learnt cla
 
 Usage:
     python train_probes.py --data FOLDER EXPECTED [--data FOLDER EXPECTED ...] [--evaluate]
+                           [--exclude FOLDER duplicates_4.json]
 
 Several folders can be combined (subfolders included: the keys of the expected files are
 relative paths). --evaluate measures with cross-validation (each photo judged by a probe that
@@ -20,7 +21,8 @@ import torch
 from PIL import Image, ImageOps
 from transformers import CLIPModel, CLIPProcessor
 
-from test_clip import UNDETERMINED, combine, crop, crop_key, double_prompts, encode_image, encode_prompts
+from test_clip import (UNDETERMINED, combine, crop, crop_key, double_prompts, encode_image, encode_prompts,
+                       load_exclusions)
 
 FOLDS = 5
 REGULARIZATIONS = [0.01, 0.1, 1.0]  # strength of the pull towards the prompts, chosen by cross-validation
@@ -80,7 +82,10 @@ def main():
     parser.add_argument("--output", type=Path, default=Path(__file__).with_name("probes.pt"))
     parser.add_argument("--model", default="openai/clip-vit-base-patch16")
     parser.add_argument("--evaluate", action="store_true")
+    parser.add_argument("--exclude", nargs=2, action="append", default=[], metavar=("FOLDER", "EXCLUDE"),
+                        help="photos of FOLDER to leave out, listed in a JSON file such as duplicates_4.json (repeatable)")
     args = parser.parse_args()
+    excluded = {Path(folder).resolve(): load_exclusions(path) for folder, path in args.exclude}
 
     with open(args.criteria, encoding="utf-8") as f:
         all_criteria = json.load(f)
@@ -90,7 +95,8 @@ def main():
     for folder, expected_path in args.data:
         with open(expected_path, encoding="utf-8") as f:
             expected = json.load(f)
-        datasets.append((Path(folder), sorted(expected), expected))
+        left_out = excluded.get(Path(folder).resolve(), set())
+        datasets.append((Path(folder), sorted(set(expected) - left_out), expected))
 
     model = CLIPModel.from_pretrained(args.model).eval()
     processor = CLIPProcessor.from_pretrained(args.model)
