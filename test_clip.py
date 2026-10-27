@@ -3,6 +3,7 @@
 Usage:
     python test_clip.py FOLDER [--criteria criteria.json] [--expected expected.json]
                         [--probes probes.pt] [--output results] [--recursive]
+                        [--exclude duplicates_4.json]
 
 Writes results/results.csv and results/results.html (thumbnails, scores, FR/EN switch).
 """
@@ -349,6 +350,12 @@ class Analyzer:
         return results, details, predicted
 
 
+def load_exclusions(path):
+    """Photos to leave out (paths relative to their folder): the keys of a JSON object, or a JSON list."""
+    with open(path, encoding="utf-8") as f:
+        return set(json.load(f))
+
+
 def main():
     parser = argparse.ArgumentParser(description="Runs CLIP on a folder of photos.")
     parser.add_argument("folder", type=Path, help="folder containing the photos")
@@ -360,10 +367,16 @@ def main():
     parser.add_argument("--output", type=Path, default=Path("results"))
     parser.add_argument("--model", default="openai/clip-vit-base-patch16")
     parser.add_argument("--recursive", action="store_true", help="include subfolders")
+    parser.add_argument("--exclude", type=Path,
+                        help="JSON file whose keys (or items) are photos to leave out, e.g. duplicates_4.json")
     args = parser.parse_args()
 
     pattern = "**/*" if args.recursive else "*"
-    images = sorted(p for p in args.folder.glob(pattern) if p.suffix.lower() in EXTENSIONS)
+    excluded = load_exclusions(args.exclude) if args.exclude else set()
+    found = sorted(p for p in args.folder.glob(pattern) if p.suffix.lower() in EXTENSIONS)
+    images = [p for p in found if p.relative_to(args.folder).as_posix() not in excluded]
+    if excluded:
+        print(f"{len(found) - len(images)} photos left out ({args.exclude.name})")
     if not images:
         sys.exit(f"No image found in {args.folder}")
 
