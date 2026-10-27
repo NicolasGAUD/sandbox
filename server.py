@@ -3,7 +3,7 @@
 Usage:
     python server.py [--photos photos] [--host 0.0.0.0] [--port 8000]
 
-    POST /api/analyses                 photo (multipart "photo") -> CLIP answers for every criterion
+    POST /api/analyses                 photo (multipart "photo") -> CLIP answers for every criterion, EXIF
     POST /api/analyses/{id}/validate   {"answers": {...}} -> photo copied into --photos, answers saved
     GET  /api/config                   shown criteria and FR/EN labels
 
@@ -16,6 +16,7 @@ app/), it is served at the root, so a phone on the same network only needs http:
 import argparse
 import io
 import json
+import math
 import shutil
 import threading
 import time
@@ -38,20 +39,70 @@ UPLOADS = HERE / "uploads"
 APP_BUILD = HERE / "app" / "dist" / "app" / "browser"
 
 
-def shot_name(content, name):
-    """File name from the shooting date (EXIF), e.g. 2026-10-25_18-42-07.jpg.
+# EXIF tags: in the main IFD, then in the Exif sub-IFD.
+MAKE, MODEL, DATE_CHANGED, EXIF_IFD = 271, 272, 306, 0x8769
+EXPOSURE_TIME, F_NUMBER, ISO, DATE_TAKEN, OFFSET_TAKEN, FOCAL_LENGTH = 33434, 33437, 34855, 36867, 36881, 37386
 
-    Phone cameras often call every photo "image.jpg"; the original name is kept only
-    when the photo has no shooting date.
-    """
+
+def read_exif(content):
+    """Shooting date and camera settings of the photo; None for what its EXIF does not give."""
     try:
         exif = Image.open(io.BytesIO(content)).getexif()
-        # DateTimeOriginal (Exif sub-IFD), otherwise DateTime (last change).
-        taken = exif.get_ifd(0x8769).get(36867) or exif.get(306)
-        shot = datetime.strptime(str(taken).strip("\x00 "), "%Y:%m:%d %H:%M:%S")
-    except (ValueError, TypeError, OSError, UnidentifiedImageError):
-        return name
-    return shot.strftime("%Y-%m-%d_%H-%M-%S") + Path(name).suffix.lower()
+    except (OSError, UnidentifiedImageError):
+        exif = Image.Exif()
+    sub = exif.get_ifd(EXIF_IFD)
+    iso = sub.get(ISO)
+    return {
+        # DateTimeOriginal, otherwise DateTime (last change).
+        "taken": shot_date(sub.get(DATE_TAKEN) or exif.get(DATE_CHANGED), sub.get(OFFSET_TAKEN)),
+        "camera": camera_name(exif.get(MAKE), exif.get(MODEL)),
+        "exposure_time": positive(sub.get(EXPOSURE_TIME)),
+        "f_number": positive(sub.get(F_NUMBER)),
+        "focal_length": positive(sub.get(FOCAL_LENGTH)),
+        "iso": positive(iso[0] if isinstance(iso, tuple) else iso),
+    }
+
+
+def shot_date(taken, offset):
+    """EXIF date, with its UTC offset when the camera wrote one (otherwise read as the PC's local time)."""
+    try:
+        date = datetime.strptime(text(taken), "%Y:%m:%d %H:%M:%S")
+    except (ValueError, TypeError):
+        return None
+    try:
+        return date.replace(tzinfo=datetime.strptime(text(offset), "%z").tzinfo)
+    except (ValueError, TypeError):
+        return date
+
+
+def camera_name(make, model):
+    """"Canon EOS 5D", "SONY ILCE-7M3": the model often repeats the make."""
+    make, model = text(make), text(model)
+    if model.lower().startswith(make.lower()):
+        return model or None
+    return f"{make} {model}".strip() or None
+
+
+def text(value):
+    return "" if value is None else str(value).strip("\x00 ")
+
+
+def positive(value):
+    """EXIF number (often a fraction), or None when missing or meaningless (0, division by zero)."""
+    try:
+        number = float(value)
+    except (TypeError, ValueError, ZeroDivisionError):
+        return None
+    return number if math.isfinite(number) and number > 0 else None
+
+
+def file_name(taken, suffix):
+    """Timestamp in milliseconds: of the shooting date, otherwise of the upload, e.g. 1497097388000.jpg.
+
+    Phone cameras often call every photo "image.jpg": the original name is never kept.
+    """
+    moment = taken.timestamp() if taken else time.time()
+    return f"{round(moment * 1000)}{suffix}"
 
 
 class Validation(BaseModel):
@@ -100,7 +151,10 @@ def create_app(analyzer, photos, criteria_path):
         UPLOADS.mkdir(exist_ok=True)
         path = UPLOADS / f"{analysis_id}{suffix}"
         path.write_bytes(content)
-        pending[analysis_id] = {"path": path, "name": shot_name(content, name)}
+        exif = read_exif(content)
+        pending[analysis_id] = {"path": path, "name": file_name(exif["taken"], suffix)}
+        # The date is sent as written by the camera (its local time), to be shown as is.
+        taken = exif["taken"] and exif["taken"].replace(tzinfo=None).isoformat()
         # value None: criterion hidden by CLIP's own answers ("except" / "only_if"); the scores
         # of its options are still given, for the case where the user changes an earlier answer.
         answers = {}
@@ -111,7 +165,8 @@ def create_app(analyzer, photos, criteria_path):
                 "score": None if result is None else result[1],
                 "detail": details.get(c["name"], {}),
             }
-        return {"id": analysis_id, "name": name, "time_ms": round(time_ms), "answers": answers}
+        return {"id": analysis_id, "name": name, "time_ms": round(time_ms), "answers": answers,
+                "exif": {**exif, "taken": taken}}
 
     @api.post("/api/analyses/{analysis_id}/validate")
     def validate(analysis_id: str, validation: Validation):

@@ -7,10 +7,18 @@ import { AnalysisService } from './analysis.service';
   selector: 'app-summary-page',
   template: `
     @if (s.analysis(); as analysis) {
-      <div class="card">
-        <img class="photo" [src]="s.photoUrl()" alt="">
-        <div class="name">{{ s.savedAs() }}</div>
+      <div class="card" [class.blurry]="s.blurry()">
+        <img class="photo" [src]="s.photoUrl()" [alt]="s.altText()">
+        <div class="name">
+          {{ s.savedAs() }}
+          @if (s.blurry()) { <span class="badge">{{ s.t('ui:blurry_badge') }}</span> }
+          @if (s.exifText()) { <small class="exif">{{ s.exifText() }}</small> }
+        </div>
         <ul class="summary">
+          <li>
+            <span class="criterion">{{ s.t('ui:date') }}</span>
+            <span class="values">{{ s.takenText() }}</span>
+          </li>
           @for (row of rows(); track row.name) {
             <li [class.changed]="row.changed">
               <span class="criterion">{{ s.t('c:' + row.name) }}</span>

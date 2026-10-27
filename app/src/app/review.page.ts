@@ -7,10 +7,18 @@ import { AnalysisService } from './analysis.service';
   selector: 'app-review-page',
   template: `
     @if (s.analysis(); as analysis) {
-      <div class="card">
-        <img class="photo" [src]="s.photoUrl()" alt="">
-        <div class="name">{{ analysis.name }} <small>{{ analysis.time_ms }} ms</small></div>
+      <div class="card" [class.blurry]="s.blurry()">
+        <img class="photo" [src]="s.photoUrl()" [alt]="s.altText()">
+        <div class="name">
+          {{ analysis.name }} <small>{{ analysis.time_ms }} ms</small>
+          @if (s.blurry()) { <span class="badge">{{ s.t('ui:blurry_badge') }}</span> }
+          @if (s.exifText()) { <small class="exif">{{ s.exifText() }}</small> }
+        </div>
         <form (submit)="$event.preventDefault(); validate()">
+          <div class="row">
+            <span class="criterion">{{ s.t('ui:date') }}</span>
+            <span>{{ s.takenText() }}</span>
+          </div>
           @for (c of s.visible(); track c.name) {
             @let clip = analysis.answers[c.name];
             <label class="row" [class.changed]="s.answers()[c.name] !== clip.value">
