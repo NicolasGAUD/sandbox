@@ -83,28 +83,29 @@ export class AnalysisService {
 
   readonly blurry = computed(() => this.answerOf('blurry') === 'yes');
 
-  /** Shooting date in the chosen language; only an EXIF date is shown. */
+  /** Shooting day in the chosen language, without the time; only an EXIF date is shown. */
   readonly takenText = computed(() => {
     const taken = this.analysis()?.exif.taken;
     if (!taken) return this.t('ui:unknown_date');
     // Read and shown as UTC: the camera's local time stays as it was written.
-    return new Intl.DateTimeFormat(this.lang(), { dateStyle: 'long', timeStyle: 'short', timeZone: 'UTC' })
+    return new Intl.DateTimeFormat(this.lang(), { dateStyle: 'long', timeZone: 'UTC' })
       .format(new Date(taken + 'Z'));
   });
 
-  /** "SONY ILCA-68 · 1/500 s · f/8 · 20 mm · ISO 100", with only what the EXIF gives. */
+  /** "SONY ILCA-68 · 1/500 s · f/8 · 20 mm · ISO 100", with only what the EXIF gives; "No EXIF" without any. */
   readonly exifText = computed(() => {
     const exif = this.analysis()?.exif;
     if (!exif) return '';
     const number = (n: number) => n.toLocaleString(this.lang(), { maximumFractionDigits: 1 });
     const t = exif.exposure_time;
-    return [
+    const settings = [
       exif.camera,
       t && (t < 1 ? `1/${Math.round(1 / t)} s` : `${number(t)} s`),
       exif.f_number && `f/${number(exif.f_number)}`,
       exif.focal_length && `${number(exif.focal_length)} mm`,
       exif.iso && `ISO ${Math.round(exif.iso)}`,
-    ].filter(Boolean).join(' · ');
+    ].filter(Boolean);
+    return settings.length || exif.taken ? settings.join(' · ') : this.t('ui:no_exif');
   });
 
   /** Text alternative built from the answers, e.g. "Image d'un château en ruine sous le soleil". */

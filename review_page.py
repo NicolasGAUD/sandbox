@@ -82,6 +82,8 @@ PAGE = """<!doctype html>
   .name { padding: 6px 10px; font-weight: 600; font-size: 13px; word-break: break-all;
           display: flex; justify-content: space-between; gap: 6px; }
   .name .state { font-weight: normal; color: #2a7d2a; white-space: nowrap; }
+  .alt { padding: 6px 10px 0; font-weight: 600; font-size: 13px; }
+  .alt + .name { padding-top: 2px; font-weight: normal; }
   .exif { padding: 0 10px 6px; font-size: 12px; color: #555; }
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   td { padding: 2px 10px; border-top: 1px solid #eee; }
@@ -232,6 +234,10 @@ function card(p) {
   img.alt = altText(p);
   img.onclick = () => openViewer(img.src, p.file, img.alt);
   div.appendChild(img);
+  const alt = document.createElement("div");
+  alt.className = "alt";
+  alt.textContent = img.alt;
+  div.appendChild(alt);
   const name = document.createElement("div");
   name.className = "name";
   name.innerHTML = `<span></span><span class="state">${state.checked[p.file] ? t("ui:checked") : ""}</span>`;
@@ -293,7 +299,7 @@ function card(p) {
       if (sel.value === NEW_VALUE) { goTo(state.page, false); return; }
       // An answer can show or hide the following criteria (e.g. vehicle -> vehicle type).
       for (const m of marks) m();
-      markBlurry(); img.alt = altText(p); showStats();
+      markBlurry(); img.alt = alt.textContent = altText(p); showStats();
     };
     td2.appendChild(sel); tr.append(td1, td2); table.appendChild(tr);
   }
@@ -302,25 +308,26 @@ function card(p) {
   return div;
 }
 
-// "11 septembre 2024 à 14:26" in the chosen language; only an EXIF date is shown.
+// "11 septembre 2024" in the chosen language, without the time; only an EXIF date is shown.
 function takenText(exif) {
   if (!exif.taken) return t("ui:unknown_date");
   // Read and shown as UTC: the camera's local time stays as it was written.
-  return new Intl.DateTimeFormat(lang, { dateStyle: "long", timeStyle: "short", timeZone: "UTC" })
+  return new Intl.DateTimeFormat(lang, { dateStyle: "long", timeZone: "UTC" })
     .format(new Date(exif.taken + "Z"));
 }
 
-// "SONY ILCA-68 · 1/500 s · f/8 · 20 mm · ISO 100", with only what the EXIF gives.
+// "SONY ILCA-68 · 1/500 s · f/8 · 20 mm · ISO 100", with only what the EXIF gives; "No EXIF" without any.
 function exifText(exif) {
   const number = n => n.toLocaleString(lang, { maximumFractionDigits: 1 });
   const s = exif.exposure_time;
-  return [
+  const settings = [
     exif.camera,
     s && (s < 1 ? `1/${Math.round(1 / s)} s` : `${number(s)} s`),
     exif.f_number && `f/${number(exif.f_number)}`,
     exif.focal_length && `${number(exif.focal_length)} mm`,
     exif.iso && `ISO ${Math.round(exif.iso)}`,
-  ].filter(Boolean).join(" · ");
+  ].filter(Boolean);
+  return settings.length || exif.taken ? settings.join(" · ") : t("ui:no_exif");
 }
 
 // Text alternative built from the answers, e.g. "Image d'un château en ruine sous le soleil".

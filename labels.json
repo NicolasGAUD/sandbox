@@ -139,6 +139,7 @@
     "not_assessed": {"en": "not assessed by CLIP", "fr": "non évalué par CLIP"},
     "date": {"en": "Date", "fr": "Date"},
     "unknown_date": {"en": "Unknown date", "fr": "Date inconnue"},
+    "no_exif": {"en": "No EXIF", "fr": "Pas d'EXIF"},
     "blurry_badge": {"en": "Blurry", "fr": "Floue"},
     "dark_theme": {"en": "Dark theme", "fr": "Thème sombre"},
     "language": {"en": "Language", "fr": "Langue"},

@@ -113,6 +113,10 @@ button:disabled { opacity: .6; cursor: default; }
 .name { padding: 10px 16px; font-weight: 700; word-break: break-all; }
 .name small, .score { font-weight: normal; color: var(--muted); font-size: .8rem; }
 .name .exif { display: block; word-break: normal; }
+/* Description of the photo: above its name while reviewing, in place of it once validated. */
+.alt { padding: 10px 16px 0; font-weight: 700; }
+.alt + .name { padding-top: 2px; font-weight: normal; }
+.name.alt { padding-bottom: 10px; word-break: normal; }
 
 .row {
   display: grid; grid-template-columns: 1fr 1.3fr; align-items: center; gap: 8px;

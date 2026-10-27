@@ -9,6 +9,7 @@ import { AnalysisService } from './analysis.service';
     @if (s.analysis(); as analysis) {
       <div class="card" [class.blurry]="s.blurry()">
         <img class="photo" [src]="s.photoUrl()" [alt]="s.altText()">
+        <div class="alt">{{ s.altText() }}</div>
         <div class="name">
           {{ analysis.name }} <small>{{ analysis.time_ms }} ms</small>
           @if (s.blurry()) { <span class="badge">{{ s.t('ui:blurry_badge') }}</span> }
