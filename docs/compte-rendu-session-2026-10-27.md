@@ -2,7 +2,7 @@
 
 **Date :** 27 octobre 2026
 **Projet :** `D:\WebstormProjects\sandbox` (dépôt `NicolasGAUD/sandbox`)
-**Branche :** `feature/exif-theme-ui`, créée depuis `feature/photo-upload-app`
+**Branche :** `feature/exif-theme-ui`, créée depuis `feature/photo-upload-app` et fusionnée dedans en fin de session
 
 ## 1. Résumé
 
@@ -181,12 +181,20 @@ L'adresse IP du PC était **192.168.0.115** ce jour : `http://192.168.0.115:4200
 | `aa324bd` | Option `--exclude` et `duplicates_4.json` |
 | `74f0cd8` | Compte rendu complété |
 | `4d1957c` | Listes du type, du type de véhicule et des catégories triées |
+| `282764c` | Tri des listes ajouté à ce compte rendu |
 
-La branche `feature/exif-theme-ui` est poussée sur GitHub.
+### Fusion dans `feature/photo-upload-app`
+
+| Commit | Contenu |
+|---|---|
+| `9cd4ee1` | Pull request #1 fusionnée sur GitHub : les deux premiers commits (`3029107`, `6b388d3`) |
+| `6943c82` | Fusion locale des six commits suivants, de `4b8a1b5` à `282764c`, sans conflit |
+
+La branche `feature/exif-theme-ui` est entièrement fusionnée dans `feature/photo-upload-app`.
 
 ## 12. Suites possibles
 
 1. Reprendre la correction du dossier 4 dans `results_4/review.html` : les 235 photos à revoir, puis les 2 928 jamais vues. L'export peut maintenant être fait à tout moment.
 2. Mesurer un score honnête. Retirer les doublons ne suffit pas : il faut aussi que les sondes ne soient pas entraînées sur les photos évaluées. Il y a deux solutions : `train_probes.py --evaluate`, qui fait une validation croisée, ou une évaluation sur les seules photos jamais vues, une fois corrigées.
 3. Contrôler l'accessibilité à la main : parcours au clavier, VoiceOver ou TalkBack, zoom à 200 %. Aucune page n'est déclarée conforme RGAA.
-4. Fusionner `feature/exif-theme-ui` dans `feature/photo-upload-app`, puis décider de la fusion dans `main`.
+4. Décider de la fusion de `feature/photo-upload-app` dans `main`. La branche `feature/exif-theme-ui` peut être supprimée.
