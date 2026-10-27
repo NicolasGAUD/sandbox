@@ -10,6 +10,8 @@ export interface Criterion {
   except: Record<string, string[]>;
   /** Hidden unless an earlier answer is in the list, e.g. vehicle_type only if vehicle. */
   only_if: Record<string, string[]>;
+  /** Values sorted by their label (place type, categories); otherwise in the order of criteria.json. */
+  sorted: boolean;
 }
 
 type Label = { en: string; fr: string };
@@ -155,6 +157,15 @@ export class AnalysisService {
 
   value(criterion: string, value: string | null): string {
     return value === null ? '—' : this.t(`v:${criterion}:${value}`);
+  }
+
+  /** Values of a "sorted" criterion sorted by their label in the chosen language; "undetermined" stays last. */
+  sortedValues(criterion: Criterion): string[] {
+    if (!criterion.sorted) return criterion.values;
+    const collator = new Intl.Collator(this.lang());
+    const last = (v: string) => Number(v === 'undetermined');
+    return [...criterion.values].sort((a, b) => last(a) - last(b)
+      || collator.compare(this.value(criterion.name, a), this.value(criterion.name, b)));
   }
 
   async analyse(file: File): Promise<void> {

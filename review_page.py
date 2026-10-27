@@ -130,7 +130,7 @@ __SWITCH_CSS__
 <script>
 __SWITCH_JS__
 const DATA = __DATA__;
-const PER_PAGE = 50, NA = "—", NEW_VALUE = "\\u0000new";
+const PER_PAGE = 50, NA = "—", UNDETERMINED = "undetermined", NEW_VALUE = "\\u0000new";
 // The version changes with the criteria: progress saved for older criteria is ignored.
 const KEY = "clip-review:" + DATA.folder + ":" + DATA.version;
 const NAMES = DATA.criteria.map(([name]) => name);
@@ -150,16 +150,21 @@ for (const [f, vals] of Object.entries(DATA.expected)) {
 }
 function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
 
-// Values of a criterion: those of criteria.json, then for a free criterion the values already
-// in the expected answers file and those typed in this page, "—" staying last.
+// Values of a criterion: those of criteria.json, plus for a free criterion the values already in the
+// expected answers file and those typed in this page. A "sorted" criterion of criteria.json has its values
+// sorted by their label in the chosen language, the others keep their order; "undetermined" and "—" stay last.
 function optionsOf(criterion, options) {
-  if (!DATA.free.includes(criterion)) return options;
-  const known = new Set(options);
-  const extra = [];
-  const add = v => { if (v !== null && v !== undefined && !known.has(v)) { known.add(v); extra.push(v); } };
-  for (const vals of Object.values(DATA.expected)) add(vals[criterion]);
-  for (const v of state.added[criterion] || []) add(v);
-  return [...options.filter(o => o !== NA), ...extra.sort(), NA];
+  const values = new Set(options.filter(o => o !== NA));
+  if (DATA.free.includes(criterion)) {
+    const add = v => { if (v !== null && v !== undefined && v !== NA) values.add(v); };
+    for (const vals of Object.values(DATA.expected)) add(vals[criterion]);
+    for (const v of state.added[criterion] || []) add(v);
+  }
+  if (!DATA.sorted.includes(criterion)) return [...values, NA];
+  const collator = new Intl.Collator(lang);
+  const label = v => t("v:" + criterion + ":" + v);
+  return [...[...values].sort((a, b) => (a === UNDETERMINED) - (b === UNDETERMINED)
+    || collator.compare(label(a), label(b))), NA];
 }
 
 const photos = DATA.photos;
@@ -449,6 +454,7 @@ def main():
         "exportName": args.expected.name,
         "criteria": page_criteria,
         "free": [c["name"] for c in criteria.get("choices", []) if c.get("free")],
+        "sorted": [c["name"] for c in criteria.get("choices", []) if c.get("sorted")],
         "conditions": {c["name"]: {k: c[k] for k in ("except", "only_if") if k in c}
                        for c in criteria.get("choices", []) + criteria.get("yes_no", [])},
         "photos": photos,

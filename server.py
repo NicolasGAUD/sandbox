@@ -58,7 +58,8 @@ def create_app(analyzer, photos, criteria_path):
     config = {
         "criteria": [
             {"name": name, "values": [v for v in values if v != NOT_APPLICABLE],
-             "except": by_name[name].get("except", {}), "only_if": by_name[name].get("only_if", {})}
+             "except": by_name[name].get("except", {}), "only_if": by_name[name].get("only_if", {}),
+             "sorted": by_name[name].get("sorted", False)}
             for name, values in possible_values(criteria)
         ],
         "labels": load_labels(),

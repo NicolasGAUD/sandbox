@@ -27,7 +27,7 @@ import { AnalysisService } from './analysis.service';
                 @if (clip.score !== null) { <small class="score">{{ percent(clip.score) }}</small> }
               </span>
               <select [value]="s.answers()[c.name]" (change)="change(c.name, $event)">
-                @for (v of c.values; track v) {
+                @for (v of s.sortedValues(c); track v) {
                   <option [value]="v" [selected]="v === s.answers()[c.name]">
                     {{ s.value(c.name, v) }}{{ v === clip.value ? ' (CLIP)' : '' }}
                   </option>
