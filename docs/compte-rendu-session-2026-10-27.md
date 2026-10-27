@@ -16,6 +16,7 @@
 - La page de correction affiche elle aussi la date, les EXIF et un texte alternatif.
 - Défaut de l'export de la page de correction corrigé : il perdait les photos pas encore revalidées.
 - 939 photos du dossier 4 sont des doublons des dossiers 2 et 3. Elles sont listées dans `duplicates_4.json`, et une option `--exclude` permet de les écarter.
+- Les listes du type, du type de véhicule et des deux catégories sont triées par ordre alphabétique, dans l'application et dans la page de correction.
 
 ## 2. Nom de la photo (`server.py`)
 
@@ -125,28 +126,51 @@ Les 6 359 images des dossiers 2, 3 et 4 ont été comparées de deux façons.
 - `train_probes.py` demande le dossier en plus du fichier : une photo du dossier 2 qui porterait le même nom n'est pas écartée par erreur. L'option peut être répétée.
 - Le filtrage a été vérifié sans relancer CLIP.
 
-## 8. Fichiers modifiés
+## 8. Ordre des listes déroulantes
+
+Un critère marqué `"sorted": true` dans `criteria.json` a ses valeurs triées par ordre alphabétique de leur libellé. Le tri suit la langue choisie, accents compris : « Église » se range parmi les E. « Indéterminé » reste en fin de liste, avec « — » tout en dernier dans la page de correction. Les valeurs saisies librement sont triées avec les autres.
+
+| Liste | Ordre |
+|---|---|
+| Type | Alphabétique : Animal, Bâtiment, Bunker… Usine, Véhicule, Indéterminé |
+| Type de véhicule | Alphabétique : Avion, Bateau, Bus, Camion… Vélo, Voiture, Indéterminé |
+| Catégorie d'intérieur | Alphabétique : Bibliothèque, Délabrement, Escalier, Pièce, Sanitaires, Indéterminé |
+| Catégorie d'extérieur | Alphabétique, pour les valeurs qui seront ajoutées |
+| État | Très bon état, Bon état, Dégradé, Ruine |
+| Moment | Jour, Crépuscule, Nuit |
+| Météo | Ensoleillé, Peu nuageux, Mitigé, Nuageux, Mauvais temps |
+| Flou | Oui, Non, Indéterminé |
+
+- Le choix s'est fait en deux temps. Le premier essai triait toutes les listes, mais la météo perdait son ordre logique, du plus beau au plus mauvais temps. Seules les listes de types et de catégories sont restées triées.
+- Le serveur transmet l'indicateur à l'application (`GET /api/config`), et la page de correction le lit aussi.
+- Le serveur Python ne lit `criteria.json` qu'au démarrage : il faut le relancer après un changement.
+- `results_4/review.html` est régénéré. La progression enregistrée dans le navigateur est conservée.
+
+## 9. Fichiers modifiés
 
 | Fichier | Changement |
 |---|---|
 | `server.py` | Nom en millisecondes, objet `exif` dans la réponse |
 | `photo_exif.py` | Nouveau : lecture des EXIF, partagée par le serveur et la page de correction |
-| `review_page.py` | Date, EXIF et texte alternatif sur les cartes. Export et import corrigés. |
+| `review_page.py` | Date, EXIF et texte alternatif sur les cartes. Export et import corrigés. Listes triées. |
+| `criteria.json` | Indicateur `"sorted": true` sur le type, le type de véhicule et les deux catégories |
 | `test_clip.py`, `train_probes.py` | Option `--exclude` |
 | `duplicates_4.json` | Nouveau : les 939 doublons du dossier 4 |
 | `labels.json` | Libellés de l'interface et section `alt` |
-| `app/src/app/analysis.service.ts` | Date, ligne EXIF, texte alternatif, flou, thème |
+| `app/src/app/analysis.service.ts` | Date, ligne EXIF, texte alternatif, flou, thème, tri des listes |
 | `app/src/app/app.ts` | Bouton de thème |
 | `app/src/app/review.page.ts`, `summary.page.ts`, `upload.page.ts` | Date, EXIF, badge, `alt` |
 | `app/src/index.html` | Thème appliqué avant l'affichage |
 | `app/src/styles.css` | Charte myurbex, deux thèmes, carte floue |
 | `docs/copie-photo-serveur.md` | Nouveau nommage. Les numéros de lignes sont remplacés par des noms de fonctions. |
 
-## 9. Serveur
+## 10. Serveurs
 
-L'adresse IP du PC était **192.168.0.115** ce jour : `http://192.168.0.115:8000/` depuis le téléphone. Elle change souvent : la vérifier avec `ipconfig`.
+L'adresse IP du PC était **192.168.0.115** ce jour : `http://192.168.0.115:4200/` (développement) ou `http://192.168.0.115:8000/` (version compilée) depuis le téléphone. Elle change souvent : la vérifier avec `ipconfig`.
 
-## 10. Historique git
+À chacun des trois arrêts de la journée, `ng serve` a continué d'occuper le port 4200 après l'arrêt de `npm start`. Il a fallu chaque fois arrêter son processus à la main (voir le compte rendu du 26 octobre).
+
+## 11. Historique git
 
 | Commit | Contenu |
 |---|---|
@@ -155,10 +179,12 @@ L'adresse IP du PC était **192.168.0.115** ce jour : `http://192.168.0.115:8000
 | `4b8a1b5` | Date, EXIF et texte alternatif dans la page de correction, module `photo_exif.py` |
 | `550031d` | Correction de l'export et de l'import de la page de correction |
 | `aa324bd` | Option `--exclude` et `duplicates_4.json` |
+| `74f0cd8` | Compte rendu complété |
+| `4d1957c` | Listes du type, du type de véhicule et des catégories triées |
 
 La branche `feature/exif-theme-ui` est poussée sur GitHub.
 
-## 11. Suites possibles
+## 12. Suites possibles
 
 1. Reprendre la correction du dossier 4 dans `results_4/review.html` : les 235 photos à revoir, puis les 2 928 jamais vues. L'export peut maintenant être fait à tout moment.
 2. Mesurer un score honnête. Retirer les doublons ne suffit pas : il faut aussi que les sondes ne soient pas entraînées sur les photos évaluées. Il y a deux solutions : `train_probes.py --evaluate`, qui fait une validation croisée, ou une évaluation sur les seules photos jamais vues, une fois corrigées.
