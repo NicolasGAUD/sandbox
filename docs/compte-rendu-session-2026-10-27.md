@@ -13,6 +13,9 @@
 - Un bouton permet de passer du thème clair au thème sombre.
 - Le CSS reprend l'identité de l'ancienne application, `D:\WebstormProjects\myurbex_angular`.
 - Test réussi sur le téléphone, puis commit et push.
+- La page de correction affiche elle aussi la date, les EXIF et un texte alternatif.
+- Défaut de l'export de la page de correction corrigé : il perdait les photos pas encore revalidées.
+- 939 photos du dossier 4 sont des doublons des dossiers 2 et 3. Elles sont listées dans `duplicates_4.json`, et une option `--exclude` permet de les écarter.
 
 ## 2. Nom de la photo (`server.py`)
 
@@ -24,7 +27,7 @@
 
 - Le fuseau horaire vient de `OffsetTimeOriginal` quand l'appareil l'a écrit. Sinon, la date est lue comme une heure locale du PC.
 - Le nom d'origine n'est plus jamais gardé. Avant, il servait quand la date manquait.
-- Nouvelles fonctions : `read_exif`, `shot_date`, `camera_name`, `positive`, `file_name`. Elles remplacent `shot_name`.
+- Nouvelles fonctions : `file_name` dans `server.py`, et `read_exif`, `shot_date`, `camera_name`, `positive` dans `photo_exif.py` (voir la section 6). Elles remplacent `shot_name`.
 - La réponse de `POST /api/analyses` contient un objet `exif` : `taken`, `camera`, `exposure_time`, `f_number`, `focal_length`, `iso`. La date est envoyée telle qu'écrite par l'appareil, sans fuseau, pour être affichée sans décalage.
 
 **Vérification :** sur 7 photos du dossier 4, toutes les valeurs sont lues (exemple : `SONY ILCA-68 · 1/500 s · f/8 · 20 mm · ISO 100`). L'API a été testée avec un faux analyseur à la place de CLIP : nommage, doublon et image sans EXIF.
@@ -67,11 +70,70 @@ Le texte se met à jour à chaque changement de réponse. Exemples : « Image d'
 
 Seuils WCAG AA : 4,5:1 pour le texte, 3:1 pour les bordures des composants.
 
-## 6. Fichiers modifiés
+## 6. Page de correction (`review_page.py`)
+
+### Date, EXIF et texte alternatif
+
+- Chaque carte commence par une ligne « Date », avec « Date inconnue » sans date EXIF.
+- Sous le nom de la photo, une ligne donne l'appareil et les réglages.
+- L'image a un texte alternatif construit à partir des réponses, comme dans l'application. Il change avec les listes et sert aussi dans la vue agrandie.
+- La lecture des EXIF est passée dans un module partagé, `photo_exif.py`, utilisé par `server.py` et `review_page.py`.
+- Sur les 4 465 photos du dossier 4, 4 455 ont une date et 4 440 un appareil. La génération de la page prend 8 secondes, sans relancer CLIP.
+- La version de la page n'a pas changé : la progression enregistrée dans le navigateur est conservée.
+
+### Défaut de l'export
+
+Un export partiel de `expected_4.json` contenait **223 photos de moins** que la version commitée : 1 314 contre 1 537. C'étaient toutes des photos « à revoir » depuis la migration du 26 octobre, parmi les 235 qui avaient perdu leur type (anciens `detail`) ou leur météo (crépuscule).
+
+- **Cause :** l'export ne gardait que les photos validées dans la page. Une photo pas encore revalidée disparaissait du fichier, avec ses réponses déjà connues.
+- **Rattrapage :** l'export partiel a été supprimé. `expected_4.json` est revenu identique à la version commitée, avec les 1 537 photos.
+- **Correction :** une photo du fichier de réponses qui n'a pas été revalidée est exportée telle qu'elle était. À l'import, une photo n'est marquée « vérifiée » que si elle a une réponse pour tous les critères. Avant, toutes les photos importées l'étaient.
+- **Test :** le script de la page a tourné dans Node avec un faux navigateur, en validant une page de 50 photos. L'export contient les 1 537 photos, contre 1 352 avant le correctif. Les 185 photos incomplètes restantes sont exportées sans changement et restent « à revoir » après réimport.
+
+## 7. Doublons entre les dossiers
+
+Les 6 359 images des dossiers 2, 3 et 4 ont été comparées de deux façons.
+
+| Doublons | Fichiers identiques | Même prise de vue (date EXIF et appareil) |
+|---|---|---|
+| Entre les dossiers 2 et 4 | 0 | 526 |
+| Entre les dossiers 3 et 4 | 0 | 406 |
+| Entre les dossiers 2 et 3 | 48 | 48 |
+| À l'intérieur du dossier 2 | 23 | 3 |
+| À l'intérieur du dossier 4 | 26 | 43 |
+| **Copies en trop** | **97** | **1 055** |
+
+- **Dossier 4 :** 939 de ses 4 465 photos existent aussi dans le dossier 2 ou 3. Ce chiffre est proche des 925 doublons notés le 26 octobre. Aucune n'est identique octet pour octet : elles ont été réexportées.
+- **Faux doublons possibles :** les 43 groupes à l'intérieur du dossier 4 sont sans doute des rafales ou du bracketing HDR pris dans la même seconde. Ils ne sont pas comptés comme doublons.
+- **Photos non comptées :** une photo sans date EXIF ne peut pas être repérée par cette méthode. C'est le cas d'une dizaine de photos du dossier 4.
+
+### `duplicates_4.json` et l'option `--exclude`
+
+`duplicates_4.json` donne, pour chacune des 939 photos, ses copies dans les autres dossiers :
+
+```json
+"DSC00017-HDR.jpg": ["3/Chapelle_Trescouet/DSC00017-HDR.jpg"],
+```
+
+920 d'entre elles ont une réponse validée dans `expected_4.json`, et 19 n'ont jamais été vues. Sans les doublons et sans les photos validées, il reste **2 909 photos jamais vues**.
+
+| Script | Commande | Effet sur le dossier 4 |
+|---|---|---|
+| `test_clip.py` | `--exclude duplicates_4.json` | 4 465 photos trouvées, 939 écartées, 3 526 analysées |
+| `train_probes.py` | `--exclude D:\_Urbex\_tmpEntrainementMdl_4 duplicates_4.json` | 617 des 1 537 réponses gardées |
+
+- `train_probes.py` demande le dossier en plus du fichier : une photo du dossier 2 qui porterait le même nom n'est pas écartée par erreur. L'option peut être répétée.
+- Le filtrage a été vérifié sans relancer CLIP.
+
+## 8. Fichiers modifiés
 
 | Fichier | Changement |
 |---|---|
-| `server.py` | Lecture des EXIF, nom en millisecondes, objet `exif` dans la réponse |
+| `server.py` | Nom en millisecondes, objet `exif` dans la réponse |
+| `photo_exif.py` | Nouveau : lecture des EXIF, partagée par le serveur et la page de correction |
+| `review_page.py` | Date, EXIF et texte alternatif sur les cartes. Export et import corrigés. |
+| `test_clip.py`, `train_probes.py` | Option `--exclude` |
+| `duplicates_4.json` | Nouveau : les 939 doublons du dossier 4 |
 | `labels.json` | Libellés de l'interface et section `alt` |
 | `app/src/app/analysis.service.ts` | Date, ligne EXIF, texte alternatif, flou, thème |
 | `app/src/app/app.ts` | Bouton de thème |
@@ -80,21 +142,25 @@ Seuils WCAG AA : 4,5:1 pour le texte, 3:1 pour les bordures des composants.
 | `app/src/styles.css` | Charte myurbex, deux thèmes, carte floue |
 | `docs/copie-photo-serveur.md` | Nouveau nommage. Les numéros de lignes sont remplacés par des noms de fonctions. |
 
-## 7. Serveur
+## 9. Serveur
 
 L'adresse IP du PC était **192.168.0.115** ce jour : `http://192.168.0.115:8000/` depuis le téléphone. Elle change souvent : la vérifier avec `ipconfig`.
 
-## 8. Historique git
+## 10. Historique git
 
 | Commit | Contenu |
 |---|---|
 | `3029107` | EXIF, texte alternatif, cartes floues et thème clair / sombre |
+| `6b388d3` | Première version de ce compte rendu |
+| `4b8a1b5` | Date, EXIF et texte alternatif dans la page de correction, module `photo_exif.py` |
+| `550031d` | Correction de l'export et de l'import de la page de correction |
+| `aa324bd` | Option `--exclude` et `duplicates_4.json` |
 
 La branche `feature/exif-theme-ui` est poussée sur GitHub.
 
-## 9. Suites possibles
+## 11. Suites possibles
 
-1. Contrôler l'accessibilité à la main : parcours au clavier, VoiceOver ou TalkBack, zoom à 200 %. Aucune page n'est déclarée conforme RGAA.
-2. Donner aussi un texte alternatif aux images de la page de correction (`review.html`), qui ont encore `alt=""`.
-3. Fusionner `feature/exif-theme-ui` dans `feature/photo-upload-app`, puis décider de la fusion dans `main`.
-4. Reprendre la correction du dossier 4 (voir le compte rendu du 26 octobre).
+1. Reprendre la correction du dossier 4 dans `results_4/review.html` : les 235 photos à revoir, puis les 2 928 jamais vues. L'export peut maintenant être fait à tout moment.
+2. Mesurer un score honnête. Retirer les doublons ne suffit pas : il faut aussi que les sondes ne soient pas entraînées sur les photos évaluées. Il y a deux solutions : `train_probes.py --evaluate`, qui fait une validation croisée, ou une évaluation sur les seules photos jamais vues, une fois corrigées.
+3. Contrôler l'accessibilité à la main : parcours au clavier, VoiceOver ou TalkBack, zoom à 200 %. Aucune page n'est déclarée conforme RGAA.
+4. Fusionner `feature/exif-theme-ui` dans `feature/photo-upload-app`, puis décider de la fusion dans `main`.
