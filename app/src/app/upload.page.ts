@@ -9,7 +9,7 @@ import { AnalysisService } from './analysis.service';
     <h1>{{ s.t('ui:upload_title') }}</h1>
     @if (busy()) {
       <div class="card busy">
-        @if (s.photoUrl(); as url) { <img class="photo" [src]="url" alt=""> }
+        @if (s.photoUrl(); as url) { <img class="photo" [src]="url" [alt]="s.t('ui:analysing_alt')"> }
         <p class="center"><span class="spinner"></span> {{ s.t('ui:analysing') }}</p>
       </div>
     } @else {

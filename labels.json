@@ -136,6 +136,75 @@
     "legend_mine": {"en": "your changes", "fr": "vos modifications"},
     "legend_clip": {"en": "CLIP's proposal", "fr": "proposition de CLIP"},
     "new_photo": {"en": "New photo", "fr": "Nouvelle photo"},
-    "not_assessed": {"en": "not assessed by CLIP", "fr": "non évalué par CLIP"}
+    "not_assessed": {"en": "not assessed by CLIP", "fr": "non évalué par CLIP"},
+    "date": {"en": "Date", "fr": "Date"},
+    "unknown_date": {"en": "Unknown date", "fr": "Date inconnue"},
+    "blurry_badge": {"en": "Blurry", "fr": "Floue"},
+    "dark_theme": {"en": "Dark theme", "fr": "Thème sombre"},
+    "language": {"en": "Language", "fr": "Langue"},
+    "photo_alt": {"en": "Image of {subject}", "fr": "Image {subject}"},
+    "analysing_alt": {"en": "Photo being analysed", "fr": "Photo en cours d'analyse"}
+  },
+  "alt": {
+    "place_type": {
+      "undetermined": {"en": "a place", "fr": "d'un lieu"},
+      "factory": {"en": "a factory", "fr": "d'une usine", "gender": "f"},
+      "house": {"en": "a house", "fr": "d'une maison", "gender": "f"},
+      "hospital": {"en": "a hospital", "fr": "d'un hôpital"},
+      "church": {"en": "a church", "fr": "d'une église", "gender": "f"},
+      "castle": {"en": "a castle", "fr": "d'un château"},
+      "office": {"en": "an office", "fr": "d'un bureau"},
+      "building": {"en": "a building", "fr": "d'un bâtiment"},
+      "wall": {"en": "a wall", "fr": "d'un mur"},
+      "street_art": {"en": "street art", "fr": "de street-art"},
+      "bunker": {"en": "a bunker", "fr": "d'un bunker"},
+      "bridge": {"en": "a bridge", "fr": "d'un pont"},
+      "rooftop": {"en": "a rooftop", "fr": "d'un toit"},
+      "landscape": {"en": "a landscape", "fr": "d'un paysage"},
+      "vehicle": {"en": "a vehicle", "fr": "d'un véhicule"},
+      "guard_house": {"en": "a guard house", "fr": "d'une maison de garde", "gender": "f"},
+      "vineyard_hut": {"en": "a vineyard hut", "fr": "d'une cabane de vigne", "gender": "f"},
+      "lighthouse": {"en": "a lighthouse", "fr": "d'un phare"},
+      "farm": {"en": "a farm", "fr": "d'une ferme", "gender": "f"},
+      "railway": {"en": "railway tracks", "fr": "de rails", "gender": "mp"},
+      "cave": {"en": "a cave", "fr": "d'une grotte", "gender": "f"},
+      "cellar": {"en": "a cellar", "fr": "d'une cave", "gender": "f"},
+      "mill": {"en": "a mill", "fr": "d'un moulin"},
+      "animal": {"en": "an animal", "fr": "d'un animal"},
+      "graphic": {"en": "graphic shapes", "fr": "de formes graphiques", "gender": "fp"},
+      "macro": {"en": "a close-up detail", "fr": "d'un détail en gros plan"},
+      "sculpture": {"en": "a sculpture", "fr": "d'une sculpture", "gender": "f"},
+      "facade": {"en": "a facade", "fr": "d'une façade", "gender": "f"},
+      "street": {"en": "a street", "fr": "d'une rue", "gender": "f"}
+    },
+    "vehicle_type": {
+      "boat": {"en": "a boat", "fr": "d'un bateau"},
+      "plane": {"en": "a plane", "fr": "d'un avion"},
+      "car": {"en": "a car", "fr": "d'une voiture", "gender": "f"},
+      "truck": {"en": "a truck", "fr": "d'un camion"},
+      "bus": {"en": "a bus", "fr": "d'un bus"},
+      "tank": {"en": "a tank", "fr": "d'un char d'assaut"},
+      "caravan": {"en": "a caravan", "fr": "d'une caravane", "gender": "f"},
+      "bike": {"en": "a bicycle", "fr": "d'un vélo"},
+      "tractor": {"en": "a tractor", "fr": "d'un tracteur"},
+      "train": {"en": "a train", "fr": "d'un train"}
+    },
+    "condition": {
+      "excellent": {"en": "in very good condition", "fr": "en très bon état"},
+      "good": {"en": "in good condition", "fr": "en bon état"},
+      "degraded": {"en": "in poor condition", "fr": {"m": "délabré", "f": "délabrée", "mp": "délabrés", "fp": "délabrées"}},
+      "ruin": {"en": "in ruins", "fr": "en ruine"}
+    },
+    "weather": {
+      "sunny": {"en": "in the sun", "fr": "sous le soleil"},
+      "few_clouds": {"en": "under a partly cloudy sky", "fr": "sous un ciel peu nuageux"},
+      "mixed": {"en": "under a changeable sky", "fr": "sous un ciel mitigé"},
+      "cloudy": {"en": "under a cloudy sky", "fr": "sous un ciel nuageux"},
+      "bad_weather": {"en": "in bad weather", "fr": "par mauvais temps"}
+    },
+    "time_of_day": {
+      "dusk": {"en": "at dusk", "fr": "au crépuscule"},
+      "night": {"en": "at night", "fr": "de nuit"}
+    }
   }
 }

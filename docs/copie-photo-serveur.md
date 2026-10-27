@@ -7,7 +7,7 @@ La photo passe par trois étapes. À aucun moment elle n'est recompressée : c'e
 
 ## 1. Le téléphone envoie la photo
 
-Fichier `app/src/app/analysis.service.ts`, lignes 89 à 91 :
+Fichier `app/src/app/analysis.service.ts`, méthode `analyse` :
 
 ```
 const form = new FormData();
@@ -19,7 +19,7 @@ Le fichier choisi, ou pris avec l'appareil photo, part tel quel dans une requêt
 
 ## 2. Le serveur l'analyse, puis la met en attente
 
-Fichier `server.py`, lignes 84 à 103 :
+Fichier `server.py`, fonction `analyse` :
 
 ```
 content = photo.file.read()                                   # octets bruts du fichier reçu
@@ -29,7 +29,8 @@ results, details, _ = analyzer.analyse(image, all_details=True)   # analyse en m
 analysis_id = uuid.uuid4().hex
 path = UPLOADS / f"{analysis_id}{suffix}"                     # uploads/<identifiant>.jpg
 path.write_bytes(content)                                     # copie exacte du fichier reçu
-pending[analysis_id] = {"path": path, "name": shot_name(content, name)}
+exif = read_exif(content)
+pending[analysis_id] = {"path": path, "name": file_name(exif["taken"], suffix)}
 ```
 
 - L'analyse se fait sur une image décodée en mémoire, qui ne sert qu'à CLIP.
@@ -38,7 +39,7 @@ pending[analysis_id] = {"path": path, "name": shot_name(content, name)}
 
 ## 3. À la validation, la photo est rangée
 
-Fichier `server.py`, lignes 117 à 133 :
+Fichier `server.py`, fonction `validate` :
 
 ```
 upload = pending.pop(analysis_id)
@@ -56,22 +57,17 @@ Le fichier est **déplacé** de `uploads/` vers le dossier `--photos`. Les répo
 
 ## Nom de la photo rangée
 
-Les appareils photo des téléphones appellent souvent toutes leurs photos `image.jpg`. C'est le cas sur iPhone, par exemple. La photo est donc nommée d'après sa date de prise de vue, lue dans ses données EXIF (fichier `server.py`, lignes 41 à 54) :
+Les appareils photo des téléphones appellent souvent toutes leurs photos `image.jpg`. C'est le cas sur iPhone, par exemple. Le nom d'origine n'est donc jamais gardé : la photo est nommée par un **timestamp en millisecondes** (fonctions `read_exif` et `file_name` de `server.py`) :
 
-```
-exif = Image.open(io.BytesIO(content)).getexif()
-# DateTimeOriginal (Exif sub-IFD), otherwise DateTime (last change).
-taken = exif.get_ifd(0x8769).get(36867) or exif.get(306)
-shot = datetime.strptime(str(taken).strip("\x00 "), "%Y:%m:%d %H:%M:%S")
-return shot.strftime("%Y-%m-%d_%H-%M-%S") + Path(name).suffix.lower()
-```
+- **Avec une date EXIF** (`DateTimeOriginal`, sinon `DateTime`), c'est le timestamp de la prise de vue. Exemple : `DSC03383.jpg`, prise le 11 septembre 2024 à 14 h 26 min 39 s, devient `1726057599000.jpg`.
+- L'EXIF n'indique pas toujours le fuseau horaire. S'il est présent (`OffsetTimeOriginal`), il est utilisé. Sinon, la date est lue comme une heure locale du PC.
+- **Sans date EXIF**, c'est le timestamp de l'envoi de la photo.
+- Deux photos prises dans la même seconde ne s'écrasent pas : la seconde devient `1726057599000 (2).jpg`.
 
-- Exemple : `DSC03077-HDR.jpg`, prise le 10 juin 2017 à 14 h 23 min 08 s, devient `2017-06-10_14-23-08.jpg`.
-- Une photo sans date de prise de vue garde son nom d'origine.
-- Deux photos prises dans la même seconde ne s'écrasent pas : la seconde devient `2017-06-10_14-23-08 (2).jpg`.
+L'analyse renvoie aussi au téléphone, dans `exif`, la date telle qu'écrite par l'appareil, la marque et le modèle, la vitesse, l'ouverture, la focale et l'ISO. L'application les affiche sur la carte. Sans date EXIF, elle affiche « Date inconnue ».
 
 ## Limites à connaître
 
-- **Date absente :** certains navigateurs retirent les données EXIF à l'envoi. La photo garde alors son nom d'origine, parfois `image.jpg`, et les suivantes deviennent `image (2).jpg`, `image (3).jpg`…
+- **Date absente :** certains navigateurs retirent les données EXIF à l'envoi. La photo est alors nommée d'après l'heure d'envoi, et la carte affiche « Date inconnue ».
 - **Photos non validées :** si l'utilisateur clique sur « Autre photo » ou ferme la page, la photo reste dans `uploads/` jusqu'au prochain démarrage du serveur, qui vide ce dossier.
 - **Redémarrage :** la liste des photos en attente n'existe qu'en mémoire. Si le serveur redémarre entre l'analyse et la validation, la validation échoue avec « La photo n'a pas pu être enregistrée ».

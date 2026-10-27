@@ -3,8 +3,15 @@
 <head>
   <meta charset="utf-8">
   <title>CLIP urbex</title>
-  <meta name="theme-color" content="#1f2a24">
+  <meta name="theme-color" content="#22282f">
   <base href="/">
+  <script>
+    // Theme set before the first paint: the user's choice, otherwise the phone's.
+    try {
+      document.documentElement.dataset.theme = localStorage.getItem('clip-theme')
+        || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    } catch (e) { document.documentElement.dataset.theme = 'light'; }
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
