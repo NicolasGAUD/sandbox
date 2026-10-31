@@ -17,6 +17,7 @@
 - Défaut de l'export de la page de correction corrigé : il perdait les photos pas encore revalidées.
 - 939 photos du dossier 4 sont des doublons des dossiers 2 et 3. Elles sont listées dans `duplicates_4.json`, et une option `--exclude` permet de les écarter.
 - Les listes du type, du type de véhicule et des deux catégories sont triées par ordre alphabétique, dans l'application et dans la page de correction.
+- En fin de journée, sur les cartes : date sans l'heure, texte alternatif au-dessus du nom de la photo (à la place du nom une fois la photo validée) et mention « Pas d'EXIF ».
 
 ## 2. Nom de la photo (`server.py`)
 
@@ -146,31 +147,47 @@ Un critère marqué `"sorted": true` dans `criteria.json` a ses valeurs triées 
 - Le serveur Python ne lit `criteria.json` qu'au démarrage : il faut le relancer après un changement.
 - `results_4/review.html` est régénéré. La progression enregistrée dans le navigateur est conservée.
 
-## 9. Fichiers modifiés
+## 9. Date, texte alternatif et « Pas d'EXIF » sur les cartes
+
+Dernière demande de la journée, faite sur `feature/photo-upload-app` après la fusion. Elle concerne l'application (pages 2 et 3) et la page de correction.
+
+| Élément | Avant | Après |
+|---|---|---|
+| Date | « 11 septembre 2024 à 14:26 » | « 11 septembre 2024 », sans l'heure |
+| Texte alternatif | Seulement dans l'attribut `alt` de l'image | Écrit en gras au-dessus du nom de la photo |
+| Page 3 (photo validée) | Nom du fichier enregistré, par exemple `1726057599000.jpg` | Texte alternatif à la place du nom |
+| Photo sans EXIF | Pas de ligne sous le nom | « Pas d'EXIF » / « No EXIF » sous le nom |
+
+- **Texte alternatif :** il suit les réponses, comme celui de l'image. Dans la page de correction, il change dès qu'une liste est modifiée.
+- **« Pas d'EXIF » :** la mention apparaît quand la photo n'a ni date ni réglages. Une photo qui a une date mais aucun réglage n'a toujours pas de ligne sous le nom. Le libellé est dans `labels.json` (`ui.no_exif`). Dans le dossier 4, 10 photos sur 4 465 sont dans ce cas.
+- **Vérification :** l'application compile sans erreur. Le script de `results_4/review.html`, régénéré, passe le contrôle de syntaxe de Node. La progression enregistrée dans le navigateur est conservée.
+- Les serveurs ont été relancés pour un test sur le téléphone.
+
+## 10. Fichiers modifiés
 
 | Fichier | Changement |
 |---|---|
 | `server.py` | Nom en millisecondes, objet `exif` dans la réponse |
 | `photo_exif.py` | Nouveau : lecture des EXIF, partagée par le serveur et la page de correction |
-| `review_page.py` | Date, EXIF et texte alternatif sur les cartes. Export et import corrigés. Listes triées. |
+| `review_page.py` | Date, EXIF et texte alternatif sur les cartes. Export et import corrigés. Listes triées. Date sans l'heure, texte alternatif au-dessus du nom, « Pas d'EXIF ». |
 | `criteria.json` | Indicateur `"sorted": true` sur le type, le type de véhicule et les deux catégories |
 | `test_clip.py`, `train_probes.py` | Option `--exclude` |
 | `duplicates_4.json` | Nouveau : les 939 doublons du dossier 4 |
-| `labels.json` | Libellés de l'interface et section `alt` |
-| `app/src/app/analysis.service.ts` | Date, ligne EXIF, texte alternatif, flou, thème, tri des listes |
+| `labels.json` | Libellés de l'interface (dont « Pas d'EXIF ») et section `alt` |
+| `app/src/app/analysis.service.ts` | Date (sans l'heure), ligne EXIF ou « Pas d'EXIF », texte alternatif, flou, thème, tri des listes |
 | `app/src/app/app.ts` | Bouton de thème |
-| `app/src/app/review.page.ts`, `summary.page.ts`, `upload.page.ts` | Date, EXIF, badge, `alt` |
+| `app/src/app/review.page.ts`, `summary.page.ts`, `upload.page.ts` | Date, EXIF, badge, `alt`. Texte alternatif au-dessus du nom (page 2) ou à sa place (page 3). |
 | `app/src/index.html` | Thème appliqué avant l'affichage |
-| `app/src/styles.css` | Charte myurbex, deux thèmes, carte floue |
+| `app/src/styles.css` | Charte myurbex, deux thèmes, carte floue, ligne du texte alternatif |
 | `docs/copie-photo-serveur.md` | Nouveau nommage. Les numéros de lignes sont remplacés par des noms de fonctions. |
 
-## 10. Serveurs
+## 11. Serveurs
 
-L'adresse IP du PC était **192.168.0.115** ce jour : `http://192.168.0.115:4200/` (développement) ou `http://192.168.0.115:8000/` (version compilée) depuis le téléphone. Elle change souvent : la vérifier avec `ipconfig`.
+L'adresse IP du PC était **192.168.0.115** dans la journée, puis **192.168.1.167** en soirée : `http://192.168.1.167:4200/` (développement) ou `http://192.168.1.167:8000/` (version compilée) depuis le téléphone. Elle change souvent : la vérifier avec `ipconfig`.
 
-À chacun des trois arrêts de la journée, `ng serve` a continué d'occuper le port 4200 après l'arrêt de `npm start`. Il a fallu chaque fois arrêter son processus à la main (voir le compte rendu du 26 octobre).
+À chacun des cinq arrêts de la journée, `ng serve` a continué d'occuper le port 4200 après l'arrêt de `npm start`. Il a fallu chaque fois arrêter son processus à la main (voir le compte rendu du 26 octobre).
 
-## 11. Historique git
+## 12. Historique git
 
 | Commit | Contenu |
 |---|---|
@@ -189,12 +206,19 @@ L'adresse IP du PC était **192.168.0.115** ce jour : `http://192.168.0.115:4200
 |---|---|
 | `9cd4ee1` | Pull request #1 fusionnée sur GitHub : les deux premiers commits (`3029107`, `6b388d3`) |
 | `6943c82` | Fusion locale des six commits suivants, de `4b8a1b5` à `282764c`, sans conflit |
+| `6026303` | Fusion ajoutée à ce compte rendu |
 
-La branche `feature/exif-theme-ui` est entièrement fusionnée dans `feature/photo-upload-app`.
+La branche `feature/exif-theme-ui` est entièrement fusionnée dans `feature/photo-upload-app`. Elle a été supprimée, en local et sur GitHub.
 
-## 12. Suites possibles
+### Après la fusion, sur `feature/photo-upload-app`
+
+| Commit | Contenu |
+|---|---|
+| `640183a` | Date sans l'heure, texte alternatif au-dessus du nom, « Pas d'EXIF » |
+
+## 13. Suites possibles
 
 1. Reprendre la correction du dossier 4 dans `results_4/review.html` : les 235 photos à revoir, puis les 2 928 jamais vues. L'export peut maintenant être fait à tout moment.
 2. Mesurer un score honnête. Retirer les doublons ne suffit pas : il faut aussi que les sondes ne soient pas entraînées sur les photos évaluées. Il y a deux solutions : `train_probes.py --evaluate`, qui fait une validation croisée, ou une évaluation sur les seules photos jamais vues, une fois corrigées.
 3. Contrôler l'accessibilité à la main : parcours au clavier, VoiceOver ou TalkBack, zoom à 200 %. Aucune page n'est déclarée conforme RGAA.
-4. Décider de la fusion de `feature/photo-upload-app` dans `main`. La branche `feature/exif-theme-ui` peut être supprimée.
+4. Décider de la fusion de `feature/photo-upload-app` dans `main`.
