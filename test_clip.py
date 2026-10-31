@@ -18,86 +18,13 @@ import sys
 import time
 from pathlib import Path
 
-import numpy as np
-import torch
 from PIL import Image, ImageOps
-from transformers import CLIPModel, CLIPProcessor
 
+from analyzer import CLIP_MODEL, UNDETERMINED, Analyzer
 from labels import SWITCH_CSS, SWITCH_HTML, load_labels, switch_js
 
 EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tif", ".tiff"}
-UNDETERMINED = "undetermined"
 THUMBNAIL_SIZE = 320
-FIXED_SKY_CROP = (0, 0, 1, 0.3)  # used by the "sky" crop when no sky area is found
-
-
-def load_criteria(path):
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    return data.get("yes_no", []), data.get("choices", []), data.get("rules", [])
-
-
-def normalize(output):
-    # transformers >= 5 returns an object whose pooler_output holds the projected embedding;
-    # older versions returned the tensor itself.
-    emb = output if isinstance(output, torch.Tensor) else output.pooler_output
-    return emb / emb.norm(dim=-1, keepdim=True)
-
-
-@torch.no_grad()
-def encode_texts(model, processor, texts, device):
-    inputs = processor(text=texts, return_tensors="pt", padding=True).to(device)
-    return normalize(model.get_text_features(**inputs))
-
-
-def encode_prompts(model, processor, prompts, device):
-    # One prompt or a list of prompts: their embeddings are averaged,
-    # which makes the criterion less sensitive to a particular wording.
-    if isinstance(prompts, str):
-        prompts = [prompts]
-    emb = encode_texts(model, processor, prompts, device).mean(dim=0, keepdim=True)
-    return emb / emb.norm(dim=-1, keepdim=True)
-
-
-@torch.no_grad()
-def encode_image(model, processor, image, device):
-    inputs = processor(images=image, return_tensors="pt").to(device)
-    return normalize(model.get_image_features(**inputs))
-
-
-def sky_box(image):
-    """Box (left, top, right, bottom, as fractions) around the sky in the upper half of the image.
-
-    Sky pixels are blue, or bright and colourless (clouds, haze): trees and walls are left out,
-    so a sky partly hidden by foliage is judged on its visible part only.
-    """
-    small = image.resize((64, max(2, round(64 * image.height / image.width))))
-    hue, sat, val = np.asarray(small.convert("HSV"), dtype=np.int16).transpose(2, 0, 1)
-    sky = ((hue >= 120) & (hue <= 185) & (sat >= 40) & (val >= 90)) | ((sat < 40) & (val >= 110))
-    height = sky.shape[0]
-    upper = sky[: height // 2]
-    band = upper[: max(1, round(height * 0.3))]
-    cols = np.flatnonzero(band.mean(axis=0) >= 0.5)
-    if len(cols) < 0.15 * 64:
-        return FIXED_SKY_CROP
-    left, right = cols[0], cols[-1] + 1
-    rows = np.flatnonzero(upper[:, left:right].mean(axis=1) >= 0.5)
-    if len(rows) < 0.1 * height:
-        return FIXED_SKY_CROP
-    return (left / 64, rows[0] / height, right / 64, (rows[-1] + 1) / height)
-
-
-def crop(image, box):
-    if box == "sky":
-        box = sky_box(image)
-    left, top, right, bottom = box
-    return image.crop((int(left * image.width), int(top * image.height),
-                       int(right * image.width), int(bottom * image.height)))
-
-
-def crop_key(box):
-    # Name of a crop, for caches: "sky" or "0-0-1-0.3".
-    return box if isinstance(box, str) else "-".join(str(v) for v in box)
 
 
 def thumbnail_base64(image):
@@ -111,35 +38,6 @@ def thumbnail_base64(image):
 def color(score):
     # red (0) -> green (1)
     return f"hsl({int(score * 120)}, 70%, 40%)"
-
-
-def combine(emb_crop, emb_image):
-    # Cropped area + whole image, concatenated and renormalized ("with_full_image" option).
-    emb = torch.cat([emb_crop, emb_image], dim=-1)
-    return emb / emb.norm(dim=-1, keepdim=True)
-
-
-def double_prompts(emb_prompts):
-    # Prompts facing combine(): the score is the average of those of the crop and of the whole image.
-    return torch.cat([emb_prompts, emb_prompts], dim=-1) / 2 ** 0.5
-
-
-def masked(criterion, predicted):
-    # "except": {"place_type": ["landscape"]} hides the criterion when an earlier result is listed;
-    # "only_if": {"place_type": ["vehicle"]} hides it unless an earlier result is listed.
-    if any(predicted.get(name) in values for name, values in criterion.get("except", {}).items()):
-        return True
-    return any(predicted.get(name) not in values for name, values in criterion.get("only_if", {}).items())
-
-
-def apply_rules(rules, predicted):
-    # {"if": {"place_type": ["wall"], "graffiti": ["yes"]}, "set": {"place_type": "street_art"}}
-    changed = {}
-    for rule in rules:
-        if all(predicted.get(name) in values for name, values in rule["if"].items()):
-            changed.update(rule["set"])
-    predicted.update(changed)
-    return changed
 
 
 def check_mark(row, name):
@@ -254,100 +152,6 @@ document.addEventListener("keydown", e => {{ if (e.key === "Escape") closeViewer
     path.write_text(page, encoding="utf-8")
 
 
-class Analyzer:
-    """CLIP model, prompts and probes, loaded once; analyse() runs every criterion on one image."""
-
-    def __init__(self, criteria_path, probes_path, model_name="openai/clip-vit-base-patch16"):
-        self.yes_no, self.choices, self.rules = load_criteria(criteria_path)
-        self.shown = [c for c in self.choices + self.yes_no if not c.get("hidden")]
-        self.model_name = model_name
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        print(f"Loading {model_name} on {self.device} (downloaded on first run)…")
-        t0 = time.perf_counter()
-        self.model = CLIPModel.from_pretrained(model_name).to(self.device).eval()
-        self.processor = CLIPProcessor.from_pretrained(model_name)
-        self.scale = self.model.logit_scale.exp()
-        print(f"Model loaded in {time.perf_counter() - t0:.1f} s")
-        self.probes = {}
-        if any(c.get("probe") for c in self.choices):
-            if not Path(probes_path).exists():
-                sys.exit(f"{probes_path} not found: run train_probes.py first")
-            self.probes = {name: p for name, p in torch.load(probes_path).items()
-                           if any(c["name"] == name and c.get("probe") for c in self.choices)}
-            print(f"Probes used: {', '.join(self.probes)}")
-
-        # The prompts do not change from one image to the next: they are encoded once.
-        def prompts(texts):
-            return encode_prompts(self.model, self.processor, texts, self.device)
-
-        self.emb_yes_no = [torch.cat([prompts(c[side]) for side in ("yes", "no")]) for c in self.yes_no]
-        # A criterion without options yet ("free": values added in the review page) has no prompts.
-        self.emb_choices = [torch.cat([prompts(v) for v in c["options"].values()]) if c["options"] else None
-                            for c in self.choices]
-        self.emb_choices = [double_prompts(e) if "crop" in c and c.get("with_full_image") else e
-                            for c, e in zip(self.choices, self.emb_choices)]
-
-    def analyse(self, image, all_details=False):
-        """Returns (results, details, predicted) for one RGB image.
-
-        results[name] = (value, score), or None for a criterion hidden by "except" / "only_if";
-        details[name] = score of each option; predicted[name] = value, rules applied.
-        all_details: the hidden choices are scored too (details only), so that a form can
-        offer them when the user changes an earlier answer.
-        """
-        emb_img = encode_image(self.model, self.processor, image, self.device)
-        emb_crops = {}  # a crop is encoded once per image
-        # The choices come first (in file order): the following criteria
-        # can be hidden depending on their result, with "except" and "only_if".
-        predicted = {}
-        results, details = {}, {}
-        for c, emb in zip(self.choices, self.emb_choices):
-            hidden = masked(c, predicted)
-            results[c["name"]] = None
-            # No options: not assessed by CLIP (result None, as for a hidden criterion).
-            if (hidden and not all_details) or emb is None:
-                continue
-            emb_area = emb_img
-            if "crop" in c:
-                # "sky" (found in the image) or [left, top, right, bottom] as fractions of the image.
-                key = crop_key(c["crop"])
-                if key not in emb_crops:
-                    emb_crops[key] = encode_image(self.model, self.processor, crop(image, c["crop"]), self.device)
-                emb_area = emb_crops[key]
-                if c.get("with_full_image"):
-                    emb_area = combine(emb_area, emb_img)
-            if c["name"] in self.probes:
-                # Probe learnt by train_probes.py instead of the prompts.
-                probe = self.probes[c["name"]]
-                probas = (self.scale * emb_area @ probe["W"] + probe["b"]).softmax(dim=-1)[0].tolist()
-                detail = dict(zip(probe["classes"], probas))
-            else:
-                probas = (self.scale * emb_area @ emb.T).softmax(dim=-1)[0].tolist()
-                detail = dict(zip(c["options"].keys(), probas))
-            details[c["name"]] = detail
-            if hidden:
-                continue
-            winner = max(detail, key=detail.get)
-            score = detail[winner]
-            # No option convincing enough: fall back on "default", otherwise do not decide.
-            if score < c.get("threshold", 0):
-                winner = c.get("default", UNDETERMINED)
-                score = detail.get(winner, score)
-            results[c["name"]] = (winner, score)
-            predicted[c["name"]] = winner
-        for c, emb in zip(self.yes_no, self.emb_yes_no):
-            if masked(c, predicted):
-                results[c["name"]] = None
-                continue
-            p = (self.scale * emb_img @ emb.T).softmax(dim=-1)[0][0].item()
-            # Between the two "uncertainty" bounds, no guess is made.
-            low, high = c.get("uncertainty", [0.5, 0.5])
-            value = "yes" if p >= high else "no" if p <= low else UNDETERMINED
-            results[c["name"]] = (value, p)
-            predicted[c["name"]] = value
-        for name, value in apply_rules(self.rules, predicted).items():
-            results[name] = (value, results[name][1])
-        return results, details, predicted
 
 
 def load_exclusions(path):
@@ -365,7 +169,7 @@ def main():
     parser.add_argument("--probes", type=Path, default=Path(__file__).with_name("probes.pt"),
                         help="probes learnt by train_probes.py, for the criteria marked \"probe\"")
     parser.add_argument("--output", type=Path, default=Path("results"))
-    parser.add_argument("--model", default="openai/clip-vit-base-patch16")
+    parser.add_argument("--model", default=CLIP_MODEL)
     parser.add_argument("--recursive", action="store_true", help="include subfolders")
     parser.add_argument("--exclude", type=Path,
                         help="JSON file whose keys (or items) are photos to leave out, e.g. duplicates_4.json")

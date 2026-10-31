@@ -21,32 +21,9 @@ import hashlib
 import json
 from pathlib import Path
 
+from analyzer import NOT_APPLICABLE, UNDETERMINED, possible_values
 from labels import SWITCH_CSS, SWITCH_HTML, load_labels, switch_js
 from photo_exif import exif_for_page, read_exif
-
-UNDETERMINED = "undetermined"
-NOT_APPLICABLE = "—"  # hidden by "except" / "only_if": exported as null
-
-
-def possible_values(criteria):
-    """For each shown criterion, in display order: (name, list of proposed values)."""
-    # Values that only a rule can produce (e.g. street_art) are proposed as well.
-    from_rules = {}
-    for rule in criteria.get("rules", []):
-        for name, value in rule["set"].items():
-            from_rules.setdefault(name, []).append(value)
-    result = []
-    for c in criteria.get("choices", []):
-        if c.get("hidden"):
-            continue
-        values = list(c["options"]) + [v for v in from_rules.get(c["name"], []) if v not in c["options"]]
-        if "threshold" in c and "default" not in c and c.get("undetermined", True):
-            values.append(UNDETERMINED)
-        result.append((c["name"], values + [NOT_APPLICABLE]))
-    for c in criteria.get("yes_no", []):
-        if not c.get("hidden"):
-            result.append((c["name"], ["yes", "no", UNDETERMINED, NOT_APPLICABLE]))
-    return result
 
 
 def read_predictions(csv_path, names):

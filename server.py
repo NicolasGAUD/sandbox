@@ -28,10 +28,10 @@ from fastapi.staticfiles import StaticFiles
 from PIL import Image, ImageOps, UnidentifiedImageError
 from pydantic import BaseModel
 
+from analyzer import Analyzer, analysis_answers, criteria_config
 from labels import load_labels
 from photo_exif import exif_for_page, read_exif
-from review_page import NOT_APPLICABLE, possible_values
-from test_clip import EXTENSIONS, Analyzer
+from test_clip import EXTENSIONS
 
 HERE = Path(__file__).parent
 UPLOADS = HERE / "uploads"
@@ -54,16 +54,7 @@ class Validation(BaseModel):
 def create_app(analyzer, photos, criteria_path):
     with open(criteria_path, encoding="utf-8") as f:
         criteria = json.load(f)
-    by_name = {c["name"]: c for c in criteria["choices"] + criteria["yes_no"]}
-    config = {
-        "criteria": [
-            {"name": name, "values": [v for v in values if v != NOT_APPLICABLE],
-             "except": by_name[name].get("except", {}), "only_if": by_name[name].get("only_if", {}),
-             "sorted": by_name[name].get("sorted", False)}
-            for name, values in possible_values(criteria)
-        ],
-        "labels": load_labels(),
-    }
+    config = {"criteria": criteria_config(criteria), "labels": load_labels()}
     pending = {}  # id -> uploaded file and original name, until validated
     shutil.rmtree(UPLOADS, ignore_errors=True)  # photos left unvalidated by an earlier run
     lock = threading.Lock()  # one analysis at a time: the model is shared
@@ -96,17 +87,8 @@ def create_app(analyzer, photos, criteria_path):
         path.write_bytes(content)
         exif = read_exif(io.BytesIO(content))
         pending[analysis_id] = {"path": path, "name": file_name(exif["taken"], suffix)}
-        # value None: criterion hidden by CLIP's own answers ("except" / "only_if"); the scores
-        # of its options are still given, for the case where the user changes an earlier answer.
-        answers = {}
-        for c in config["criteria"]:
-            result = results.get(c["name"])
-            answers[c["name"]] = {
-                "value": None if result is None else result[0],
-                "score": None if result is None else result[1],
-                "detail": details.get(c["name"], {}),
-            }
-        return {"id": analysis_id, "name": name, "time_ms": round(time_ms), "answers": answers,
+        return {"id": analysis_id, "name": name, "time_ms": round(time_ms),
+                "answers": analysis_answers(config["criteria"], results, details),
                 "exif": exif_for_page(exif)}
 
     @api.post("/api/analyses/{analysis_id}/validate")
