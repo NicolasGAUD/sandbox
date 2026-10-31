@@ -107,7 +107,8 @@
           "a photo of a building facade",
           "a photo of an old door or window on a facade"
         ],
-        "street": "a photo of a street lined with buildings"
+        "street": "a photo of a street lined with buildings",
+        "urban_landscape": "a photo of an urban landscape with city buildings and infrastructure"
       }
     },
     {
@@ -188,7 +189,7 @@
       "name": "condition",
       "threshold": 0,
       "except": {
-        "place_type": ["landscape", "street", "animal", "street_art", "macro"]
+        "place_type": ["landscape", "street", "animal", "street_art", "macro", "urban_landscape"]
       },
       "options": {
         "excellent": [
@@ -272,7 +273,7 @@
       "name": "person",
       "threshold": 0,
       "except": {
-        "place_type": ["macro", "street_art", "graphic"]
+        "place_type": ["macro", "street_art"]
       },
       "options": {
         "front": "a photo of a person facing the camera",

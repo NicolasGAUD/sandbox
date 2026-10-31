@@ -48,7 +48,8 @@
       "macro": {"en": "Macro", "fr": "Macro"},
       "plastic_arts": {"en": "Plastic arts", "fr": "Art-Plastiques"},
       "facade": {"en": "Facade", "fr": "Façade"},
-      "street": {"en": "Street", "fr": "Rue"}
+      "street": {"en": "Street", "fr": "Rue"},
+      "urban_landscape": {"en": "Urban landscape", "fr": "Paysage urbain"}
     },
     "vehicle_type": {
       "boat": {"en": "Boat", "fr": "Bateau"},
@@ -196,7 +197,8 @@
       "macro": {"en": "a close-up detail", "fr": "d'un détail en gros plan"},
       "plastic_arts": {"en": "a work of art", "fr": "d'une œuvre d'art", "gender": "f"},
       "facade": {"en": "a facade", "fr": "d'une façade", "gender": "f"},
-      "street": {"en": "a street", "fr": "d'une rue", "gender": "f"}
+      "street": {"en": "a street", "fr": "d'une rue", "gender": "f"},
+      "urban_landscape": {"en": "an urban landscape", "fr": "d'un paysage urbain"}
     },
     "vehicle_type": {
       "boat": {"en": "a boat", "fr": "d'un bateau"},
