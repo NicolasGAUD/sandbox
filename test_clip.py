@@ -369,6 +369,7 @@ def main():
     parser.add_argument("--recursive", action="store_true", help="include subfolders")
     parser.add_argument("--exclude", type=Path,
                         help="JSON file whose keys (or items) are photos to leave out, e.g. duplicates_4.json")
+    parser.add_argument("--no-html", action="store_true", help="write results.csv only, without the results page")
     args = parser.parse_args()
 
     pattern = "**/*" if args.recursive else "*"
@@ -455,11 +456,12 @@ def main():
             if not ok and prediction(r, name) != UNDETERMINED:
                 print(f"  ✗ {r['file']} {name}: expected {expected or '— (not applicable)'}, "
                       f"got {prediction(r, name) or '—'}")
-    write_html(args.output / "results.html", rows, shown, summary, load_labels())
+    if not args.no_html:
+        write_html(args.output / "results.html", rows, shown, summary, load_labels())
 
     for key, values in summary:
         print(key, values)
-    print(f"Results: {args.output / 'results.csv'} and {args.output / 'results.html'}")
+    print(f"Results: {args.output}")
 
 
 if __name__ == "__main__":

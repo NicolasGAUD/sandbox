@@ -11,7 +11,8 @@
     "weather": {"en": "Weather", "fr": "Météo"},
     "vegetation": {"en": "Vegetation", "fr": "Végétation"},
     "graffiti": {"en": "Graffiti", "fr": "Graffitis"},
-    "blurry": {"en": "Blurry", "fr": "Flou"}
+    "blurry": {"en": "Blurry", "fr": "Flou"},
+    "person": {"en": "Person", "fr": "Présence d'un personnage"}
   },
   "values": {
     "*": {
@@ -26,8 +27,7 @@
       "church": {"en": "Church", "fr": "Église"},
       "castle": {"en": "Castle", "fr": "Château"},
       "office": {"en": "Office", "fr": "Bureau"},
-      "building": {"en": "Building", "fr": "Bâtiment"},
-      "wall": {"en": "Wall", "fr": "Mur"},
+      "architecture": {"en": "Architecture", "fr": "Architecture"},
       "street_art": {"en": "Street art", "fr": "Street-art"},
       "bunker": {"en": "Bunker", "fr": "Bunker"},
       "bridge": {"en": "Bridge", "fr": "Pont"},
@@ -42,10 +42,11 @@
       "cave": {"en": "Cave", "fr": "Grotte"},
       "cellar": {"en": "Cellar", "fr": "Cave"},
       "mill": {"en": "Mill", "fr": "Moulin"},
+      "cemetery": {"en": "Cemetery", "fr": "Cimetière"},
       "animal": {"en": "Animal", "fr": "Animal"},
       "graphic": {"en": "Graphic", "fr": "Graphisme"},
       "macro": {"en": "Macro", "fr": "Macro"},
-      "sculpture": {"en": "Sculpture", "fr": "Sculpture"},
+      "plastic_arts": {"en": "Plastic arts", "fr": "Art-Plastiques"},
       "facade": {"en": "Facade", "fr": "Façade"},
       "street": {"en": "Street", "fr": "Rue"}
     },
@@ -68,9 +69,24 @@
     "interior_category": {
       "room": {"en": "Room", "fr": "Pièce"},
       "staircase": {"en": "Staircase", "fr": "Escalier"},
+      "corridor": {"en": "Corridor", "fr": "Couloir"},
       "decay": {"en": "Decay", "fr": "Délabrement"},
       "library": {"en": "Library", "fr": "Bibliothèque"},
-      "lavatory": {"en": "Lavatory", "fr": "Sanitaires"}
+      "lavatory": {"en": "Lavatory", "fr": "Sanitaires"},
+      "door_window": {"en": "Door / window", "fr": "Porte / fenêtre"},
+      "street": {"en": "Street", "fr": "Rue"},
+      "sculpture": {"en": "Sculpture", "fr": "Sculpture"},
+      "photo": {"en": "Photo", "fr": "Photo"},
+      "collage": {"en": "Collage", "fr": "Collage"},
+      "painting": {"en": "Painting", "fr": "Peinture"}
+    },
+    "exterior_category": {
+      "door_window": {"en": "Door / window", "fr": "Porte / fenêtre"},
+      "street": {"en": "Street", "fr": "Rue"},
+      "sculpture": {"en": "Sculpture", "fr": "Sculpture"},
+      "photo": {"en": "Photo", "fr": "Photo"},
+      "collage": {"en": "Collage", "fr": "Collage"},
+      "painting": {"en": "Painting", "fr": "Peinture"}
     },
     "condition": {
       "excellent": {"en": "Excellent", "fr": "Très bon état"},
@@ -93,6 +109,10 @@
       "mixed": {"en": "Mixed", "fr": "Mitigé"},
       "cloudy": {"en": "Cloudy", "fr": "Nuageux"},
       "bad_weather": {"en": "Bad weather", "fr": "Mauvais temps"}
+    },
+    "person": {
+      "front": {"en": "Yes, from the front", "fr": "Oui, de face"},
+      "back": {"en": "Yes, from behind", "fr": "Oui, de dos"}
     }
   },
   "ui": {
@@ -155,8 +175,7 @@
       "church": {"en": "a church", "fr": "d'une église", "gender": "f"},
       "castle": {"en": "a castle", "fr": "d'un château"},
       "office": {"en": "an office", "fr": "d'un bureau"},
-      "building": {"en": "a building", "fr": "d'un bâtiment"},
-      "wall": {"en": "a wall", "fr": "d'un mur"},
+      "architecture": {"en": "a piece of architecture", "fr": "d'une architecture", "gender": "f"},
       "street_art": {"en": "street art", "fr": "de street-art"},
       "bunker": {"en": "a bunker", "fr": "d'un bunker"},
       "bridge": {"en": "a bridge", "fr": "d'un pont"},
@@ -171,10 +190,11 @@
       "cave": {"en": "a cave", "fr": "d'une grotte", "gender": "f"},
       "cellar": {"en": "a cellar", "fr": "d'une cave", "gender": "f"},
       "mill": {"en": "a mill", "fr": "d'un moulin"},
+      "cemetery": {"en": "a cemetery", "fr": "d'un cimetière"},
       "animal": {"en": "an animal", "fr": "d'un animal"},
       "graphic": {"en": "graphic shapes", "fr": "de formes graphiques", "gender": "fp"},
       "macro": {"en": "a close-up detail", "fr": "d'un détail en gros plan"},
-      "sculpture": {"en": "a sculpture", "fr": "d'une sculpture", "gender": "f"},
+      "plastic_arts": {"en": "a work of art", "fr": "d'une œuvre d'art", "gender": "f"},
       "facade": {"en": "a facade", "fr": "d'une façade", "gender": "f"},
       "street": {"en": "a street", "fr": "d'une rue", "gender": "f"}
     },

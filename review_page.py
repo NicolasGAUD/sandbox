@@ -7,8 +7,10 @@ Usage:
 The page keeps the progress in the browser and exports an expected answers file
 (same format as expected.json) readable by test_clip.py --expected.
 Hidden criteria ("hidden": true) are not shown; their known answers are kept in the export.
-A "free" criterion gets a "+ New value…" entry: the values typed there are offered on every photo
-and exported like the others. Photos answered "yes" for "blurry" stand out with another background.
+Every list has a "+ New value…" entry: the values typed there are offered on every photo and exported
+like the others. A criterion with "values_if" offers other values depending on an earlier answer, and
+"manual_values" are offered on the page only: CLIP does not assess them.
+Photos answered "yes" for "blurry" or with a person ("front", "back") stand out with another background.
 Each card shows the shooting date and the camera settings read in the EXIF of the photo, and its
 image gets a text alternative built from the answers.
 """
@@ -78,6 +80,8 @@ PAGE = """<!doctype html>
   .card.checked { border-color: #2a7d2a55; }
   .card.blurry { background: #e9ddff; }
   .card.blurry table td { border-top-color: #d6c6f5; }
+  .card.person { background: #ffdcdc; }
+  .card.person table td { border-top-color: #f5c6c6; }
   .card img { width: 100%; height: 200px; object-fit: cover; display: block; cursor: zoom-in; background: #ddd; }
   .name { padding: 6px 10px; font-weight: 600; font-size: 13px; word-break: break-all;
           display: flex; justify-content: space-between; gap: 6px; }
@@ -139,7 +143,7 @@ const NAMES = DATA.criteria.map(([name]) => name);
 
 // state.corrections[file][criterion] = chosen value; state.checked[file] = true
 // state.mode: "all", "to_review" or "disagree" (see computeList)
-// state.added[criterion] = values typed with "+ New value…" (free criteria)
+// state.added[criterion] = values typed with "+ New value…"
 let state = { corrections: {}, checked: {}, page: 0, mode: null, added: {} };
 try { Object.assign(state, JSON.parse(localStorage.getItem(KEY)) || {}); } catch (e) {}
 state.added = state.added || {};
@@ -152,16 +156,24 @@ for (const [f, vals] of Object.entries(DATA.expected)) {
 }
 function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
 
-// Values of a criterion: those of criteria.json, plus for a free criterion the values already in the
-// expected answers file and those typed in this page. A "sorted" criterion of criteria.json has its values
-// sorted by their label in the chosen language, the others keep their order; "undetermined" and "—" stay last.
-function optionsOf(criterion, options) {
-  const values = new Set(options.filter(o => o !== NA));
-  if (DATA.free.includes(criterion)) {
-    const add = v => { if (v !== null && v !== undefined && v !== NA) values.add(v); };
-    for (const vals of Object.values(DATA.expected)) add(vals[criterion]);
-    for (const v of state.added[criterion] || []) add(v);
-  }
+// Values that are not in criteria.json: found in the expected answers file or typed in this page.
+const conditionalValues = name => Object.values(DATA.valuesIf[name] || {}).flatMap(by => Object.values(by).flat());
+const known = Object.fromEntries(DATA.criteria.map(([name, options]) => [name, new Set([...options, ...conditionalValues(name)])]));
+const extras = Object.fromEntries(NAMES.map(name => [name, new Set()]));
+function addExtra(name, v) { if (v !== null && v !== undefined && v !== NA && !known[name].has(v)) extras[name].add(v); }
+function addValue(name, v) { addExtra(name, v); state.added[name] = [...extras[name]]; }
+for (const [name, values] of Object.entries(DATA.manual)) for (const v of values) addExtra(name, v);
+for (const vals of Object.values(DATA.expected)) for (const name of NAMES) addExtra(name, vals[name]);
+for (const [name, values] of Object.entries(state.added)) if (name in extras) for (const v of values) addExtra(name, v);
+
+// Values of a criterion for a photo: those of criteria.json ("values_if" replaces them depending on the
+// answers of the photo), the extra values, and the current answer so that it is never lost. A "sorted"
+// criterion has its values sorted by their label in the chosen language, the others keep their order;
+// "undetermined" and "—" stay last.
+function optionsOf(criterion, options, p) {
+  const special = Object.entries(DATA.valuesIf[criterion] || {}).flatMap(([name, by]) => by[answer(p, name)] || []);
+  const values = new Set([...(special.length ? special : options.filter(o => o !== NA)), ...extras[criterion]]);
+  if (value(p, criterion) !== NA) values.add(value(p, criterion));
   if (!DATA.sorted.includes(criterion)) return [...values, NA];
   const collator = new Intl.Collator(lang);
   const label = v => t("v:" + criterion + ":" + v);
@@ -227,8 +239,11 @@ function showPagination() {
 function card(p) {
   const div = document.createElement("div");
   div.className = "card" + (state.checked[p.file] ? " checked" : "");
-  const markBlurry = () => div.classList.toggle("blurry", value(p, "blurry") === "yes");
-  markBlurry();
+  const markCard = () => {
+    div.classList.toggle("blurry", value(p, "blurry") === "yes");
+    div.classList.toggle("person", ["front", "back"].includes(answer(p, "person")));
+  };
+  markCard();
   const img = document.createElement("img");
   img.loading = "lazy"; img.src = DATA.base + encodeURIComponent(p.file).replace(/%2F/g, "/");
   img.alt = altText(p);
@@ -264,22 +279,26 @@ function card(p) {
     score.textContent = sc === null ? "" : Math.round(sc * 100) + " %";
     td1.appendChild(score);
     const sel = document.createElement("select");
-    for (const o of optionsOf(criterion, options)) {
-      const opt = document.createElement("option");
-      opt.value = o;
-      opt.textContent = (o === NA ? NA : t("v:" + criterion + ":" + o)) + (o === p.predicted[criterion] ? "  (CLIP)" : "");
-      sel.appendChild(opt);
-    }
-    if (DATA.free.includes(criterion)) {
+    const fill = () => {
+      sel.replaceChildren();
+      for (const o of optionsOf(criterion, options, p)) {
+        const opt = document.createElement("option");
+        opt.value = o;
+        // No score: the value does not come from CLIP.
+        opt.textContent = (o === NA ? NA : t("v:" + criterion + ":" + o)) + (o === p.predicted[criterion] && sc !== null ? "  (CLIP)" : "");
+        sel.appendChild(opt);
+      }
       const opt = document.createElement("option");
       opt.value = NEW_VALUE;
       opt.textContent = t("ui:new_value");
       sel.appendChild(opt);
-    }
-    sel.value = value(p, criterion);
+      sel.value = value(p, criterion);
+    };
+    fill();
     // A criterion that becomes visible with no answer ("—", e.g. hidden by CLIP's own answers)
     // is to review too; a free criterion may stay empty.
     const mark = () => {
+      if (criterion in DATA.valuesIf) fill();
       tr.hidden = !shown(p, criterion);
       tr.classList.toggle("changed", sel.value !== p.predicted[criterion]);
       tr.classList.toggle("to-review", toReview(p, criterion) || (sel.value === NA && !DATA.free.includes(criterion)));
@@ -290,7 +309,7 @@ function card(p) {
       if (chosen === NEW_VALUE) {
         chosen = (prompt(t("ui:new_value_prompt", { criterion: t("c:" + criterion) })) || "").trim();
         if (!chosen || chosen === NA) { sel.value = value(p, criterion); return; }
-        state.added[criterion] = [...new Set([...(state.added[criterion] || []), chosen])];
+        addValue(criterion, chosen);
       }
       state.corrections[p.file] = state.corrections[p.file] || {};
       state.corrections[p.file][criterion] = chosen;
@@ -299,7 +318,7 @@ function card(p) {
       if (sel.value === NEW_VALUE) { goTo(state.page, false); return; }
       // An answer can show or hide the following criteria (e.g. vehicle -> vehicle type).
       for (const m of marks) m();
-      markBlurry(); img.alt = alt.textContent = altText(p); showStats();
+      markCard(); img.alt = alt.textContent = altText(p); showStats();
     };
     td2.appendChild(sel); tr.append(td1, td2); table.appendChild(tr);
   }
@@ -409,7 +428,7 @@ document.getElementById("import-file").onchange = async e => {
       if (NAMES.every(n => n in vals)) state.checked[file] = true;
       else delete state.checked[file];
       // Values typed in another copy of the page: offered here too.
-      for (const k of DATA.free) if (vals[k] != null) state.added[k] = [...new Set([...(state.added[k] || []), vals[k]])];
+      for (const k of NAMES) addValue(k, vals[k]);
     }
     save(); goTo(state.page);
   } catch (err) { alert(t("ui:unreadable", { error: err.message })); }
@@ -462,6 +481,8 @@ def main():
         "criteria": page_criteria,
         "free": [c["name"] for c in criteria.get("choices", []) if c.get("free")],
         "sorted": [c["name"] for c in criteria.get("choices", []) if c.get("sorted")],
+        "valuesIf": {c["name"]: c["values_if"] for c in criteria.get("choices", []) if "values_if" in c},
+        "manual": {c["name"]: c["manual_values"] for c in criteria.get("choices", []) if "manual_values" in c},
         "conditions": {c["name"]: {k: c[k] for k in ("except", "only_if") if k in c}
                        for c in criteria.get("choices", []) + criteria.get("yes_no", [])},
         "photos": photos,

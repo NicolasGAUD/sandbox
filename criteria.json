@@ -56,10 +56,10 @@
         "church": "a photo of an abandoned church",
         "castle": "a photo of a castle",
         "office": "a photo of an abandoned office",
-        "building": "a photo of a modern building",
-        "wall": [
-          "a close-up photo of a wall",
-          "a close-up photo of an old stone wall with plants"
+        "architecture": "a photo of a modern building",
+        "street_art": [
+          "a photo of a wall covered with graffiti",
+          "a photo of a large mural or street art"
         ],
         "bunker": "a photo of a military bunker",
         "bridge": "a photo of an old bridge or viaduct",
@@ -73,6 +73,7 @@
         "cave": "a photo inside a natural cave or grotto",
         "cellar": "a photo of an underground vaulted cellar",
         "mill": "a photo of an old mill or watermill",
+        "cemetery": "a photo of a cemetery with graves and tombstones",
         "vehicle": [
           "a photo of an abandoned car, truck, bus or train",
           "a photo of an old tractor or farm machine",
@@ -98,7 +99,10 @@
           "a close-up photo of an object or a detail",
           "a macro photo of a small detail"
         ],
-        "sculpture": "a photo of a statue or a sculpture",
+        "plastic_arts": [
+          "a photo of a statue or a sculpture",
+          "a photo of a painting, a collage or an art installation"
+        ],
         "facade": [
           "a photo of a building facade",
           "a photo of an old door or window on a facade"
@@ -139,25 +143,44 @@
     {
       "name": "interior_category",
       "sorted": true,
+      "manual_values": ["street"],
       "threshold": 0,
       "probe": true,
       "except": {
-        "indoor_outdoor": ["outdoor"]
+        "indoor_outdoor": ["outdoor"],
+        "place_type": ["street_art", "church"]
+      },
+      "values_if": {
+        "place_type": {
+          "plastic_arts": ["sculpture", "photo", "collage", "painting"]
+        }
       },
       "options": {
         "room": "a photo of an empty room inside an abandoned building",
         "staircase": "a photo of a staircase",
+        "corridor": "a photo of a long corridor or hallway",
         "decay": "a photo of a decaying interior with peeling paint, rubble and rot",
         "library": "a photo of an abandoned library with bookshelves and books",
-        "lavatory": "a photo of abandoned toilets, a bathroom or washbasins"
+        "lavatory": "a photo of abandoned toilets, a bathroom or washbasins",
+        "door_window": [
+          "a photo of an old door",
+          "a photo of a window seen from inside"
+        ]
       }
     },
     {
       "name": "exterior_category",
       "sorted": true,
+      "manual_values": ["street"],
       "free": true,
       "except": {
-        "indoor_outdoor": ["indoor"]
+        "indoor_outdoor": ["indoor"],
+        "place_type": ["street_art", "church", "landscape"]
+      },
+      "values_if": {
+        "place_type": {
+          "plastic_arts": ["sculpture", "photo", "collage", "painting"]
+        }
       },
       "options": {}
     },
@@ -165,7 +188,7 @@
       "name": "condition",
       "threshold": 0,
       "except": {
-        "place_type": ["landscape"]
+        "place_type": ["landscape", "street", "animal", "street_art", "macro"]
       },
       "options": {
         "excellent": [
@@ -218,7 +241,6 @@
       },
       "except": {
         "indoor_outdoor": ["indoor"],
-        "place_type": ["wall"],
         "time_of_day": ["night"]
       },
       "crop": [0, 0, 1, 0.3],
@@ -245,17 +267,19 @@
           "a photo of a dark stormy sky"
         ]
       }
-    }
-  ],
-  "rules": [
+    },
     {
-      "if": {
-        "place_type": ["wall"],
-        "graffiti": ["yes"]
+      "name": "person",
+      "threshold": 0,
+      "except": {
+        "place_type": ["macro", "street_art", "graphic"]
       },
-      "set": {
-        "place_type": "street_art"
+      "options": {
+        "front": "a photo of a person facing the camera",
+        "back": "a photo of a person seen from behind",
+        "no": "a photo of an empty place with nobody in it"
       }
     }
-  ]
+  ],
+  "rules": []
 }
