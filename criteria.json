@@ -291,8 +291,7 @@
       "options": {
         "USI": "a photo of an abandoned factory or industrial building",
         "MAI": "a photo of an abandoned house",
-        "CHT": "a photo of an abandoned castle or manor",
-        "RUC": "a photo of the ruins of a castle",
+        "CHT": ["a photo of an abandoned castle or manor", "a photo of the ruins of a castle"],
         "REL": "a photo of an abandoned church, chapel or abbey",
         "HOT": "a photo of an abandoned hotel",
         "PIS": "a photo of an abandoned swimming pool or thermal baths",
