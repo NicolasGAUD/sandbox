@@ -28371,7 +28371,7 @@
   },
   "DSC04987.jpg": {
     "place_type": "vehicle",
-    "vehicle_type": "bike",
+    "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "exterior_category": "Detail",
@@ -28466,7 +28466,7 @@
   },
   "DSC04998.jpg": {
     "place_type": "vehicle",
-    "vehicle_type": "bike",
+    "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "exterior_category": "door_window",
@@ -28831,7 +28831,7 @@
   },
   "DSC05056.jpg": {
     "place_type": "vehicle",
-    "vehicle_type": "bike",
+    "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "exterior_category": "Detail",
@@ -28926,7 +28926,7 @@
   },
   "DSC05063.jpg": {
     "place_type": "vehicle",
-    "vehicle_type": "bike",
+    "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "exterior_category": "Detail",
@@ -28939,7 +28939,7 @@
   },
   "DSC05066.jpg": {
     "place_type": "vehicle",
-    "vehicle_type": "bike",
+    "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "exterior_category": "Detail",
@@ -48553,7 +48553,7 @@
   },
   "DSC08663.jpg": {
     "place_type": "vehicle",
-    "vehicle_type": "bike",
+    "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "exterior_category": "Detail",
