@@ -113,7 +113,8 @@
     },
     "person": {
       "front": {"en": "Yes, from the front", "fr": "Oui, de face"},
-      "back": {"en": "Yes, from behind", "fr": "Oui, de dos"}
+      "back": {"en": "Yes, from behind", "fr": "Oui, de dos"},
+      "profile": {"en": "Yes, in profile", "fr": "Oui, de profil"}
     }
   },
   "ui": {

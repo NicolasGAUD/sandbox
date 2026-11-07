@@ -271,6 +271,7 @@
     },
     {
       "name": "person",
+      "probe": true,
       "threshold": 0,
       "except": {
         "place_type": ["macro", "street_art"]
@@ -278,6 +279,7 @@
       "options": {
         "front": "a photo of a person facing the camera",
         "back": "a photo of a person seen from behind",
+        "profile": "a photo of a person seen from the side, in profile",
         "no": "a photo of an empty place with nobody in it"
       }
     }

@@ -10,7 +10,7 @@ Hidden criteria ("hidden": true) are not shown; their known answers are kept in 
 Every list has a "+ New value…" entry: the values typed there are offered on every photo and exported
 like the others. A criterion with "values_if" offers other values depending on an earlier answer, and
 "manual_values" are offered on the page only: CLIP does not assess them.
-Photos answered "yes" for "blurry" or with a person ("front", "back") stand out with another background.
+Photos answered "yes" for "blurry" or with a person ("front", "back", "profile") stand out with another background.
 Each card shows the shooting date and the camera settings read in the EXIF of the photo, and its
 image gets a text alternative built from the answers.
 """
@@ -218,7 +218,7 @@ function card(p) {
   div.className = "card" + (state.checked[p.file] ? " checked" : "");
   const markCard = () => {
     div.classList.toggle("blurry", value(p, "blurry") === "yes");
-    div.classList.toggle("person", ["front", "back"].includes(answer(p, "person")));
+    div.classList.toggle("person", ["front", "back", "profile"].includes(answer(p, "person")));
   };
   markCard();
   const img = document.createElement("img");
