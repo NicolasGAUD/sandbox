@@ -11034,7 +11034,7 @@
   },
   "Maison_Ruines_Vernoil/DSC07509.jpg": {
     "place_type": "vehicle",
-    "vehicle_type": "bike",
+    "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
     "condition": "degraded",
