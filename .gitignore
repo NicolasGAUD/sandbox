@@ -5,3 +5,7 @@ __pycache__/
 results/
 results_2/
 results_3/
+uploads/
+photos/
+*.docx
+results_4/

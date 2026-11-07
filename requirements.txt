@@ -1,3 +1,7 @@
 torch
 transformers
 pillow
+fastapi
+uvicorn
+python-multipart
+-e D:/_Urbex/myurbex/myurbex-ai

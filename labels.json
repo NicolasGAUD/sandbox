@@ -1,15 +1,18 @@
 {
   "criteria": {
-    "place_type": {"en": "Place type", "fr": "Type de lieu"},
+    "place_type": {"en": "Type", "fr": "Type"},
     "vehicle_type": {"en": "Vehicle type", "fr": "Type de véhicule"},
     "indoor_outdoor": {"en": "Indoor / outdoor", "fr": "Intérieur / extérieur"},
     "interior_category": {"en": "Interior category", "fr": "Catégorie d'intérieur"},
+    "exterior_category": {"en": "Exterior category", "fr": "Catégorie d'extérieur"},
     "condition": {"en": "Condition", "fr": "État"},
     "sky": {"en": "Sky", "fr": "Ciel"},
     "time_of_day": {"en": "Time of day", "fr": "Moment"},
     "weather": {"en": "Weather", "fr": "Météo"},
     "vegetation": {"en": "Vegetation", "fr": "Végétation"},
-    "graffiti": {"en": "Graffiti", "fr": "Graffitis"}
+    "graffiti": {"en": "Graffiti", "fr": "Graffitis"},
+    "blurry": {"en": "Blurry", "fr": "Flou"},
+    "person": {"en": "Person", "fr": "Présence d'un personnage"}
   },
   "values": {
     "*": {
@@ -24,8 +27,7 @@
       "church": {"en": "Church", "fr": "Église"},
       "castle": {"en": "Castle", "fr": "Château"},
       "office": {"en": "Office", "fr": "Bureau"},
-      "building": {"en": "Building", "fr": "Bâtiment"},
-      "wall": {"en": "Wall", "fr": "Mur"},
+      "architecture": {"en": "Architecture", "fr": "Architecture"},
       "street_art": {"en": "Street art", "fr": "Street-art"},
       "bunker": {"en": "Bunker", "fr": "Bunker"},
       "bridge": {"en": "Bridge", "fr": "Pont"},
@@ -35,9 +37,19 @@
       "guard_house": {"en": "Guard house", "fr": "Maison de garde"},
       "vineyard_hut": {"en": "Vineyard hut", "fr": "Cabane de vigne"},
       "lighthouse": {"en": "Lighthouse", "fr": "Phare"},
-      "detail": {"en": "Detail", "fr": "Détail"},
+      "farm": {"en": "Farm", "fr": "Ferme"},
+      "railway": {"en": "Railway", "fr": "Rails"},
+      "cave": {"en": "Cave", "fr": "Grotte"},
+      "cellar": {"en": "Cellar", "fr": "Cave"},
+      "mill": {"en": "Mill", "fr": "Moulin"},
+      "cemetery": {"en": "Cemetery", "fr": "Cimetière"},
+      "animal": {"en": "Animal", "fr": "Animal"},
+      "graphic": {"en": "Graphic", "fr": "Graphisme"},
+      "macro": {"en": "Macro", "fr": "Macro"},
+      "plastic_arts": {"en": "Plastic arts", "fr": "Art-Plastiques"},
       "facade": {"en": "Facade", "fr": "Façade"},
-      "street": {"en": "Street", "fr": "Rue"}
+      "street": {"en": "Street", "fr": "Rue"},
+      "urban_landscape": {"en": "Urban landscape", "fr": "Paysage urbain"}
     },
     "vehicle_type": {
       "boat": {"en": "Boat", "fr": "Bateau"},
@@ -47,20 +59,35 @@
       "bus": {"en": "Bus", "fr": "Bus"},
       "tank": {"en": "Tank", "fr": "Char d'assaut"},
       "caravan": {"en": "Caravan", "fr": "Caravane"},
-      "bike": {"en": "Bicycle", "fr": "Vélo"}
+      "bike": {"en": "Bicycle", "fr": "Vélo"},
+      "tractor": {"en": "Tractor", "fr": "Tracteur"},
+      "train": {"en": "Train", "fr": "Train"}
     },
     "indoor_outdoor": {
       "indoor": {"en": "Indoor", "fr": "Intérieur"},
       "outdoor": {"en": "Outdoor", "fr": "Extérieur"}
     },
     "interior_category": {
-      "rooms": {"en": "Rooms", "fr": "Pièces"},
-      "stairs": {"en": "Stairs", "fr": "Escaliers"},
-      "office": {"en": "Office", "fr": "Bureau"},
+      "room": {"en": "Room", "fr": "Pièce"},
+      "staircase": {"en": "Staircase", "fr": "Escalier"},
+      "corridor": {"en": "Corridor", "fr": "Couloir"},
       "decay": {"en": "Decay", "fr": "Délabrement"},
-      "archi_graphism": {"en": "Architecture & graphism", "fr": "Architecture et graphisme"},
       "library": {"en": "Library", "fr": "Bibliothèque"},
-      "lavatory": {"en": "Lavatory", "fr": "Sanitaires"}
+      "lavatory": {"en": "Lavatory", "fr": "Sanitaires"},
+      "door_window": {"en": "Door / window", "fr": "Porte / fenêtre"},
+      "street": {"en": "Street", "fr": "Rue"},
+      "sculpture": {"en": "Sculpture", "fr": "Sculpture"},
+      "photo": {"en": "Photo", "fr": "Photo"},
+      "collage": {"en": "Collage", "fr": "Collage"},
+      "painting": {"en": "Painting", "fr": "Peinture"}
+    },
+    "exterior_category": {
+      "door_window": {"en": "Door / window", "fr": "Porte / fenêtre"},
+      "street": {"en": "Street", "fr": "Rue"},
+      "sculpture": {"en": "Sculpture", "fr": "Sculpture"},
+      "photo": {"en": "Photo", "fr": "Photo"},
+      "collage": {"en": "Collage", "fr": "Collage"},
+      "painting": {"en": "Painting", "fr": "Peinture"}
     },
     "condition": {
       "excellent": {"en": "Excellent", "fr": "Très bon état"},
@@ -83,22 +110,18 @@
       "mixed": {"en": "Mixed", "fr": "Mitigé"},
       "cloudy": {"en": "Cloudy", "fr": "Nuageux"},
       "bad_weather": {"en": "Bad weather", "fr": "Mauvais temps"}
+    },
+    "person": {
+      "front": {"en": "Yes, from the front", "fr": "Oui, de face"},
+      "back": {"en": "Yes, from behind", "fr": "Oui, de dos"},
+      "profile": {"en": "Yes, in profile", "fr": "Oui, de profil"}
     }
   },
   "ui": {
     "results_title": {"en": "CLIP results", "fr": "Résultats CLIP"},
-    "results_help": {
-      "en": "Hover a choice to see the score of each option. Click an image to see it full size.",
-      "fr": "Survolez un choix pour voir le score de chaque option. Cliquez sur une image pour l'afficher en entier."
-    },
-    "summary": {
-      "en": "{n} images · model {model} on {device} · {ms} ms/image on average (first one excluded)",
-      "fr": "{n} images · modèle {model} sur {device} · {ms} ms/image en moyenne (hors première)"
-    },
-    "check": {
-      "en": "{ok}/{total} expected answers correct, {undetermined} undetermined, {wrong} wrong",
-      "fr": "{ok}/{total} réponses attendues correctes, {undetermined} indéterminées, {wrong} fausses"
-    },
+    "results_help": {"en": "Hover a choice to see the score of each option. Click an image to see it full size.", "fr": "Survolez un choix pour voir le score de chaque option. Cliquez sur une image pour l'afficher en entier."},
+    "summary": {"en": "{n} images · model {model} on {device} · {ms} ms/image on average (first one excluded)", "fr": "{n} images · modèle {model} sur {device} · {ms} ms/image en moyenne (hors première)"},
+    "check": {"en": "{ok}/{total} expected answers correct, {undetermined} undetermined, {wrong} wrong", "fr": "{ok}/{total} réponses attendues correctes, {undetermined} indéterminées, {wrong} fausses"},
     "expected": {"en": "expected: {value}", "fr": "attendu : {value}"},
     "enlarge": {"en": "Click to enlarge", "fr": "Cliquer pour agrandir"},
     "back": {"en": "← Back", "fr": "← Retour"},
@@ -116,14 +139,96 @@
     "validate": {"en": "Validate the page and continue →", "fr": "Valider la page et continuer →"},
     "checked": {"en": "✓ checked", "fr": "✓ vérifiée"},
     "to_review": {"en": "to review", "fr": "à revoir"},
-    "nothing_left": {
-      "en": "No photo left to review. Remember to export the file.",
-      "fr": "Plus aucune photo à revoir. Pensez à exporter le fichier."
+    "nothing_left": {"en": "No photo left to review. Remember to export the file.", "fr": "Plus aucune photo à revoir. Pensez à exporter le fichier."},
+    "last_page": {"en": "Last page validated. Remember to export the file.", "fr": "Dernière page validée. Pensez à exporter le fichier."},
+    "unreadable": {"en": "Unreadable file: {error}", "fr": "Fichier illisible : {error}"},
+    "new_value": {"en": "+ New value…", "fr": "+ Nouvelle valeur…"},
+    "new_value_prompt": {"en": "New value for « {criterion} »:", "fr": "Nouvelle valeur pour « {criterion} » :"},
+    "app_title": {"en": "CLIP urbex", "fr": "CLIP urbex"},
+    "upload_title": {"en": "Analyse a photo", "fr": "Analyser une photo"},
+    "drop_here": {"en": "Drop a photo here, or:", "fr": "Glissez une photo ici, ou :"},
+    "camera": {"en": "Take a photo", "fr": "Prendre une photo"},
+    "browse": {"en": "Browse…", "fr": "Parcourir…"},
+    "analysing": {"en": "Analysing…", "fr": "Analyse en cours…"},
+    "not_an_image": {"en": "This file is not an image.", "fr": "Ce fichier n'est pas une image."},
+    "analysis_failed": {"en": "The analysis failed. Is the server running?", "fr": "L'analyse a échoué. Le serveur est-il lancé ?"},
+    "other_photo": {"en": "Other photo", "fr": "Autre photo"},
+    "validate_photo": {"en": "Validate", "fr": "Valider"},
+    "save_failed": {"en": "The photo could not be saved.", "fr": "La photo n'a pas pu être enregistrée."},
+    "legend_mine": {"en": "your changes", "fr": "vos modifications"},
+    "legend_clip": {"en": "CLIP's proposal", "fr": "proposition de CLIP"},
+    "new_photo": {"en": "New photo", "fr": "Nouvelle photo"},
+    "not_assessed": {"en": "not assessed by CLIP", "fr": "non évalué par CLIP"},
+    "date": {"en": "Date", "fr": "Date"},
+    "unknown_date": {"en": "Unknown date", "fr": "Date inconnue"},
+    "no_exif": {"en": "No EXIF", "fr": "Pas d'EXIF"},
+    "blurry_badge": {"en": "Blurry", "fr": "Floue"},
+    "dark_theme": {"en": "Dark theme", "fr": "Thème sombre"},
+    "language": {"en": "Language", "fr": "Langue"},
+    "photo_alt": {"en": "Image of {subject}", "fr": "Image {subject}"},
+    "analysing_alt": {"en": "Photo being analysed", "fr": "Photo en cours d'analyse"}
+  },
+  "alt": {
+    "place_type": {
+      "undetermined": {"en": "a place", "fr": "d'un lieu"},
+      "factory": {"en": "a factory", "fr": "d'une usine", "gender": "f"},
+      "house": {"en": "a house", "fr": "d'une maison", "gender": "f"},
+      "hospital": {"en": "a hospital", "fr": "d'un hôpital"},
+      "church": {"en": "a church", "fr": "d'une église", "gender": "f"},
+      "castle": {"en": "a castle", "fr": "d'un château"},
+      "office": {"en": "an office", "fr": "d'un bureau"},
+      "architecture": {"en": "a piece of architecture", "fr": "d'une architecture", "gender": "f"},
+      "street_art": {"en": "street art", "fr": "de street-art"},
+      "bunker": {"en": "a bunker", "fr": "d'un bunker"},
+      "bridge": {"en": "a bridge", "fr": "d'un pont"},
+      "rooftop": {"en": "a rooftop", "fr": "d'un toit"},
+      "landscape": {"en": "a landscape", "fr": "d'un paysage"},
+      "vehicle": {"en": "a vehicle", "fr": "d'un véhicule"},
+      "guard_house": {"en": "a guard house", "fr": "d'une maison de garde", "gender": "f"},
+      "vineyard_hut": {"en": "a vineyard hut", "fr": "d'une cabane de vigne", "gender": "f"},
+      "lighthouse": {"en": "a lighthouse", "fr": "d'un phare"},
+      "farm": {"en": "a farm", "fr": "d'une ferme", "gender": "f"},
+      "railway": {"en": "railway tracks", "fr": "de rails", "gender": "mp"},
+      "cave": {"en": "a cave", "fr": "d'une grotte", "gender": "f"},
+      "cellar": {"en": "a cellar", "fr": "d'une cave", "gender": "f"},
+      "mill": {"en": "a mill", "fr": "d'un moulin"},
+      "cemetery": {"en": "a cemetery", "fr": "d'un cimetière"},
+      "animal": {"en": "an animal", "fr": "d'un animal"},
+      "graphic": {"en": "graphic shapes", "fr": "de formes graphiques", "gender": "fp"},
+      "macro": {"en": "a close-up detail", "fr": "d'un détail en gros plan"},
+      "plastic_arts": {"en": "a work of art", "fr": "d'une œuvre d'art", "gender": "f"},
+      "facade": {"en": "a facade", "fr": "d'une façade", "gender": "f"},
+      "street": {"en": "a street", "fr": "d'une rue", "gender": "f"},
+      "urban_landscape": {"en": "an urban landscape", "fr": "d'un paysage urbain"}
     },
-    "last_page": {
-      "en": "Last page validated. Remember to export the file.",
-      "fr": "Dernière page validée. Pensez à exporter le fichier."
+    "vehicle_type": {
+      "boat": {"en": "a boat", "fr": "d'un bateau"},
+      "plane": {"en": "a plane", "fr": "d'un avion"},
+      "car": {"en": "a car", "fr": "d'une voiture", "gender": "f"},
+      "truck": {"en": "a truck", "fr": "d'un camion"},
+      "bus": {"en": "a bus", "fr": "d'un bus"},
+      "tank": {"en": "a tank", "fr": "d'un char d'assaut"},
+      "caravan": {"en": "a caravan", "fr": "d'une caravane", "gender": "f"},
+      "bike": {"en": "a bicycle", "fr": "d'un vélo"},
+      "tractor": {"en": "a tractor", "fr": "d'un tracteur"},
+      "train": {"en": "a train", "fr": "d'un train"}
     },
-    "unreadable": {"en": "Unreadable file: {error}", "fr": "Fichier illisible : {error}"}
+    "condition": {
+      "excellent": {"en": "in very good condition", "fr": "en très bon état"},
+      "good": {"en": "in good condition", "fr": "en bon état"},
+      "degraded": {"en": "in poor condition", "fr": {"m": "délabré", "f": "délabrée", "mp": "délabrés", "fp": "délabrées"}},
+      "ruin": {"en": "in ruins", "fr": "en ruine"}
+    },
+    "weather": {
+      "sunny": {"en": "in the sun", "fr": "sous le soleil"},
+      "few_clouds": {"en": "under a partly cloudy sky", "fr": "sous un ciel peu nuageux"},
+      "mixed": {"en": "under a changeable sky", "fr": "sous un ciel mitigé"},
+      "cloudy": {"en": "under a cloudy sky", "fr": "sous un ciel nuageux"},
+      "bad_weather": {"en": "in bad weather", "fr": "par mauvais temps"}
+    },
+    "time_of_day": {
+      "dusk": {"en": "at dusk", "fr": "au crépuscule"},
+      "night": {"en": "at night", "fr": "de nuit"}
+    }
   }
 }
