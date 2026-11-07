@@ -43557,7 +43557,7 @@
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
-    "exterior_category": "Graphisme",
+    "exterior_category": "door_window",
     "condition": "degraded",
     "sky": "visible",
     "time_of_day": "day",
