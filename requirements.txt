@@ -4,4 +4,5 @@ pillow
 fastapi
 uvicorn
 python-multipart
+pymysql
 -e D:/_Urbex/myurbex/myurbex-ai
