@@ -3168,7 +3168,7 @@
     "blurry": "no",
     "exterior_category": "Paysage Urbain",
     "person": "no",
-    "site_type": "CIV"
+    "site_type": "VEH"
   },
   "DSC00841.jpg": {
     "vehicle_type": null,
@@ -3208,7 +3208,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "CIV"
+    "site_type": "VEH"
   },
   "DSC00866-HDR.jpg": {
     "place_type": "architecture",
@@ -3287,7 +3287,7 @@
     "exterior_category": "Délabrement",
     "place_type": "graphic",
     "person": "no",
-    "site_type": "CIV"
+    "site_type": "VEH"
   },
   "DSC00881-HDR.jpg": {
     "place_type": "architecture",
@@ -3450,7 +3450,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "CIV"
+    "site_type": "VEH"
   },
   "DSC00926.jpg": {
     "vehicle_type": null,
@@ -38059,7 +38059,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06521.jpg": {
     "place_type": "street_art",
@@ -38088,7 +38088,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06523.jpg": {
     "place_type": "bunker",
@@ -38210,7 +38210,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06546-HDR.jpg": {
     "place_type": "vehicle",
@@ -38252,7 +38252,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06555-HDR.jpg": {
     "place_type": "vehicle",
@@ -38268,7 +38268,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06558-HDR.jpg": {
     "place_type": "factory",
@@ -38324,7 +38324,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06564.jpg": {
     "place_type": "graphic",
@@ -38353,7 +38353,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06573-HDR.jpg": {
     "place_type": "vehicle",
@@ -38369,7 +38369,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06574.jpg": {
     "place_type": "urban_landscape",
@@ -38428,7 +38428,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06583.jpg": {
     "place_type": "facade",
@@ -38459,7 +38459,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06590.jpg": {
     "place_type": "graphic",
@@ -38488,7 +38488,7 @@
     "exterior_category": "Graphisme",
     "person": "no",
     "place_type": "vehicle",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06593.jpg": {
     "place_type": "landscape",
@@ -38745,7 +38745,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC06647-HDR.jpg": {
     "place_type": "vehicle",
@@ -40074,7 +40074,7 @@
     "weather": "sunny",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIV"
+    "site_type": "VEH"
   },
   "DSC06889-HDR.jpg": {
     "place_type": "house",
@@ -50976,7 +50976,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC08952.jpg": {
     "place_type": "landscape",
@@ -51297,7 +51297,7 @@
     "blurry": "no",
     "exterior_category": "Paysage",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09007.jpg": {
     "place_type": "landscape",
@@ -51391,7 +51391,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09022-HDR.jpg": {
     "place_type": "vehicle",
@@ -51498,7 +51498,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09037-HDR.jpg": {
     "place_type": "vehicle",
@@ -51514,7 +51514,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09037.jpg": {
     "place_type": "landscape",
@@ -51751,7 +51751,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09081.jpg": {
     "place_type": "animal",
@@ -51912,7 +51912,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09111.jpg": {
     "place_type": "factory",
@@ -52010,7 +52010,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09127.jpg": {
     "place_type": "landscape",
@@ -53241,7 +53241,8 @@
     "vehicle_type": "plane",
     "blurry": "no",
     "exterior_category": "Paysage",
-    "person": "no"
+    "person": "no",
+    "site_type": "VEH"
   },
   "DSC09337.jpg": {
     "place_type": "landscape",
@@ -53461,7 +53462,8 @@
     "vehicle_type": "plane",
     "blurry": "no",
     "exterior_category": "Graphisme",
-    "person": "no"
+    "person": "no",
+    "site_type": "VEH"
   },
   "DSC09372.jpg": {
     "place_type": "landscape",
@@ -53489,7 +53491,8 @@
     "vehicle_type": "plane",
     "blurry": "no",
     "exterior_category": "Detail",
-    "person": "no"
+    "person": "no",
+    "site_type": "VEH"
   },
   "DSC09373.jpg": {
     "place_type": "landscape",
@@ -53516,7 +53519,7 @@
     "weather": "sunny",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09377.jpg": {
     "place_type": "landscape",
@@ -53556,7 +53559,7 @@
     "weather": "mixed",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09388.jpg": {
     "place_type": "landscape",
@@ -53583,7 +53586,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09393.jpg": {
     "place_type": "bridge",
@@ -53692,7 +53695,7 @@
     "weather": "sunny",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09426-HDR.jpg": {
     "vehicle_type": "plane",
@@ -53707,7 +53710,8 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "place_type": "vehicle"
+    "place_type": "vehicle",
+    "site_type": "VEH"
   },
   "DSC09427.jpg": {
     "place_type": "landscape",
@@ -53761,7 +53765,8 @@
     "blurry": "no",
     "exterior_category": "Detail",
     "person": "no",
-    "place_type": "graphic"
+    "place_type": "graphic",
+    "site_type": "VEH"
   },
   "DSC09434.jpg": {
     "place_type": "landscape",
@@ -53787,7 +53792,8 @@
     "time_of_day": "day",
     "weather": null,
     "person": "no",
-    "blurry": "no"
+    "blurry": "no",
+    "site_type": "VEH"
   },
   "DSC09435.jpg": {
     "place_type": "vehicle",
@@ -53801,7 +53807,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09438-HDR.jpg": {
     "vehicle_type": "plane",
@@ -53816,7 +53822,8 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "place_type": "vehicle"
+    "place_type": "vehicle",
+    "site_type": "VEH"
   },
   "DSC09438.jpg": {
     "place_type": "graphic",
@@ -53843,7 +53850,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09448.jpg": {
     "place_type": "landscape",
@@ -53870,7 +53877,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09458.jpg": {
     "place_type": "graphic",
@@ -53910,7 +53917,7 @@
     "weather": null,
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09463.jpg": {
     "place_type": "church",
@@ -53938,7 +53945,7 @@
     "weather": "cloudy",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09483.jpg": {
     "place_type": "graphic",
@@ -53965,7 +53972,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09493.jpg": {
     "place_type": "undetermined",
@@ -53992,7 +53999,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09498.jpg": {
     "place_type": "animal",
@@ -54006,7 +54013,7 @@
     "weather": null,
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09504.jpg": {
     "place_type": "landscape",
@@ -54020,7 +54027,7 @@
     "weather": "mixed",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09508.jpg": {
     "place_type": "street_art",
@@ -54060,7 +54067,7 @@
     "weather": "mixed",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09518.jpg": {
     "place_type": "landscape",
@@ -54210,7 +54217,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CIB"
+    "site_type": "VEH"
   },
   "DSC09557-HDR.jpg": {
     "place_type": "church",
@@ -56313,7 +56320,8 @@
     "time_of_day": "day",
     "weather": "mixed",
     "person": "no",
-    "blurry": "no"
+    "blurry": "no",
+    "site_type": "VEH"
   },
   "DSC09985.jpg": {
     "place_type": "landscape",

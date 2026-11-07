@@ -298,8 +298,10 @@
         "PIS": "a photo of an abandoned swimming pool or thermal baths",
         "VIL": "a photo of an abandoned village",
         "MIL": "a photo of an abandoned military bunker or fort",
-        "CIB": "a photo of a graveyard of old boat wrecks",
-        "CIV": "a photo of a graveyard of old rusty cars"
+        "VEH": [
+          "a photo of an abandoned vehicle, car, truck, boat wreck, plane or train",
+          "a photo of a graveyard of old rusty vehicles"
+        ]
       }
     }
   ],

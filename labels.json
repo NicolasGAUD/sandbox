@@ -126,8 +126,7 @@
       "PIS": {"en": "Swimming pool / Baths", "fr": "Piscine / Thermes"},
       "VIL": {"en": "Town / village", "fr": "Ville / Village"},
       "MIL": {"en": "Military", "fr": "Militaire"},
-      "CIB": {"en": "Boat graveyard", "fr": "Cimetière Bateaux"},
-      "CIV": {"en": "Car graveyard", "fr": "Cimetière Voitures"}
+      "VEH": {"en": "Vehicle", "fr": "Véhicule"}
     }
   },
   "ui": {
