@@ -2,7 +2,7 @@
 of the place each photo belongs to.
 
 Usage:
-    python site_types.py expected_2.json expected_3.json expected_4.json [--db urbex] [--port 3307]
+    python site_types.py expected_2.json expected_3.json expected_4.json [--db urbex_test] [--port 3307]
 
 A photo gets the code of its place when places.json gives its marker and that marker's type is one of
 the options of "site_type" in criteria.json. Otherwise its "site_type" answer is removed. The database
@@ -38,7 +38,7 @@ def main():
     parser.add_argument("--port", type=int, default=3307)
     parser.add_argument("--user", default="root")
     parser.add_argument("--password", default="")
-    parser.add_argument("--db", default="urbex")
+    parser.add_argument("--db", default="urbex_test")  # at V14: REL and its sub-types
     args = parser.parse_args()
 
     criteria = json.loads(args.criteria.read_text(encoding="utf-8"))
