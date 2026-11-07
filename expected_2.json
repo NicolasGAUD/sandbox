@@ -556,7 +556,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1697480973872_USR.jpg": {
     "place_type": "facade",
@@ -572,7 +572,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1697480973966_USR.jpg": {
     "place_type": "church",
@@ -588,7 +588,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1697480974014_USR.jpg": {
     "place_type": "landscape",
@@ -604,7 +604,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1697481827249_USR.jpg": {
     "place_type": "facade",
@@ -620,7 +620,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827262_USR.jpg": {
     "place_type": "undetermined",
@@ -636,7 +636,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827273_USR.jpg": {
     "place_type": "hospital",
@@ -652,7 +652,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827286_USR.jpg": {
     "place_type": "hospital",
@@ -668,7 +668,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827296_USR.jpg": {
     "place_type": "hospital",
@@ -684,7 +684,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827308_USR.jpg": {
     "place_type": "hospital",
@@ -700,7 +700,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827341_USR.jpg": {
     "place_type": "undetermined",
@@ -716,7 +716,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827359_USR.jpg": {
     "place_type": "undetermined",
@@ -732,7 +732,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827371_USR.jpg": {
     "place_type": "undetermined",
@@ -748,7 +748,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827383_USR.jpg": {
     "place_type": "undetermined",
@@ -764,7 +764,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827395_USR.jpg": {
     "place_type": "hospital",
@@ -780,7 +780,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827407_USR.jpg": {
     "place_type": "undetermined",
@@ -796,7 +796,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827419_USR.jpg": {
     "vehicle_type": null,
@@ -811,7 +811,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827430_USR.jpg": {
     "place_type": "undetermined",
@@ -827,7 +827,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827442_USR.jpg": {
     "place_type": "undetermined",
@@ -843,7 +843,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827454_USR.jpg": {
     "place_type": "facade",
@@ -859,7 +859,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827464_USR.jpg": {
     "place_type": "undetermined",
@@ -875,7 +875,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827478_USR.jpg": {
     "place_type": "undetermined",
@@ -891,7 +891,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827490_USR.jpg": {
     "place_type": "undetermined",
@@ -907,7 +907,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827503_USR.jpg": {
     "place_type": "undetermined",
@@ -923,7 +923,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827515_USR.jpg": {
     "place_type": "undetermined",
@@ -939,7 +939,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827526_USR.jpg": {
     "place_type": "undetermined",
@@ -955,7 +955,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827541_USR.jpg": {
     "place_type": "undetermined",
@@ -971,7 +971,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827553_USR.jpg": {
     "place_type": "undetermined",
@@ -987,7 +987,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827564_USR.jpg": {
     "place_type": "undetermined",
@@ -1003,7 +1003,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827576_USR.jpg": {
     "place_type": "office",
@@ -1019,7 +1019,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827586_USR.jpg": {
     "place_type": "hospital",
@@ -1035,7 +1035,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827616_USR.jpg": {
     "place_type": "hospital",
@@ -1051,7 +1051,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827642_USR.jpg": {
     "place_type": "facade",
@@ -1067,7 +1067,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827660_USR.jpg": {
     "place_type": "facade",
@@ -1083,7 +1083,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827671_USR.jpg": {
     "place_type": "factory",
@@ -1099,7 +1099,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697481827685_USR.jpg": {
     "place_type": "facade",
@@ -1115,7 +1115,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697482285817_USR.jpg": {
     "place_type": "office",
@@ -1449,7 +1449,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697483092068_USR.jpg": {
     "place_type": "landscape",
@@ -1464,7 +1464,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697483092104_USR.jpg": {
     "place_type": "lighthouse",
@@ -1480,7 +1480,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697483092173_USR.jpg": {
     "place_type": "lighthouse",
@@ -1496,7 +1496,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "1697483292515_USR.jpg": {
     "place_type": "church",
@@ -1512,7 +1512,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1697483292575_USR.jpg": {
     "place_type": "church",
@@ -1528,7 +1528,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1697483292638_USR.jpg": {
     "place_type": "church",
@@ -1544,7 +1544,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1698822322825_USR.jpg": {
     "place_type": "bridge",
@@ -1694,7 +1694,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698823191894_USR.jpg": {
     "vehicle_type": null,
@@ -1709,7 +1709,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698823191916_USR.jpg": {
     "place_type": "facade",
@@ -1725,7 +1725,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698823368758_USR.jpg": {
     "place_type": "church",
@@ -1741,7 +1741,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1698823368770_USR.jpg": {
     "place_type": "church",
@@ -1757,7 +1757,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1698823368778_USR.jpg": {
     "place_type": "church",
@@ -1773,7 +1773,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1698823572494_USR.jpg": {
     "place_type": "church",
@@ -1789,7 +1789,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698823572501_USR.jpg": {
     "vehicle_type": null,
@@ -1804,7 +1804,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698823572516_USR.jpg": {
     "place_type": "church",
@@ -1820,7 +1820,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698823572532_USR.jpg": {
     "place_type": "undetermined",
@@ -1836,7 +1836,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698824023355_USR.jpg": {
     "place_type": "landscape",
@@ -2483,7 +2483,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698863040530_USR.jpg": {
     "place_type": "landscape",
@@ -2499,7 +2499,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698863040560_USR.jpg": {
     "place_type": "landscape",
@@ -2515,7 +2515,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698863040597_USR.jpg": {
     "place_type": "landscape",
@@ -2531,7 +2531,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1698863040632_USR.jpg": {
     "place_type": "church",
@@ -2547,7 +2547,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1701111936611_USR.jpg": {
     "place_type": "church",
@@ -2563,7 +2563,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1701112229732_USR.jpg": {
     "place_type": "vineyard_hut",
@@ -2699,7 +2699,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701112835867_USR.jpg": {
     "place_type": "facade",
@@ -2715,7 +2715,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701112835879_USR.jpg": {
     "place_type": "church",
@@ -2731,7 +2731,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701112835891_USR.jpg": {
     "place_type": "church",
@@ -2747,7 +2747,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701112835901_USR.jpg": {
     "place_type": "church",
@@ -2763,7 +2763,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701112835912_USR.jpg": {
     "place_type": "facade",
@@ -2779,7 +2779,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701112835923_USR.jpg": {
     "place_type": "facade",
@@ -2795,7 +2795,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701113058329_USR.jpg": {
     "place_type": "landscape",
@@ -2810,7 +2810,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701113058338_USR.jpg": {
     "place_type": "landscape",
@@ -2825,7 +2825,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701113058346_USR.jpg": {
     "place_type": "church",
@@ -2841,7 +2841,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701113058357_USR.jpg": {
     "place_type": "church",
@@ -2857,7 +2857,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701113239774_USR.jpg": {
     "place_type": "church",
@@ -2873,7 +2873,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701113239809_USR.jpg": {
     "place_type": "church",
@@ -2889,7 +2889,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701113239842_USR.jpg": {
     "place_type": "church",
@@ -2905,7 +2905,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701113239853_USR.jpg": {
     "place_type": "church",
@@ -2921,7 +2921,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701113555581_USR.jpg": {
     "place_type": "landscape",
@@ -4566,7 +4566,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1701708036871_USR.jpg": {
     "place_type": "landscape",
@@ -4582,7 +4582,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1701708036899_USR.jpg": {
     "place_type": "landscape",
@@ -4598,7 +4598,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1701708036945_USR.jpg": {
     "place_type": "landscape",
@@ -4614,7 +4614,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1701708036973_USR.jpg": {
     "place_type": "landscape",
@@ -4630,7 +4630,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1701708037000_USR.jpg": {
     "place_type": "church",
@@ -4646,7 +4646,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1701708184404_USR.jpg": {
     "place_type": "landscape",
@@ -4857,7 +4857,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456461_USR.jpg": {
     "place_type": "church",
@@ -4873,7 +4873,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456505_USR.jpg": {
     "place_type": "church",
@@ -4889,7 +4889,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456531_USR.jpg": {
     "place_type": "church",
@@ -4905,7 +4905,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456615_USR.jpg": {
     "place_type": "facade",
@@ -4921,7 +4921,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456657_USR.jpg": {
     "place_type": "church",
@@ -4937,7 +4937,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456722_USR.jpg": {
     "place_type": "facade",
@@ -4953,7 +4953,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456760_USR.jpg": {
     "place_type": "church",
@@ -4969,7 +4969,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456801_USR.jpg": {
     "place_type": "castle",
@@ -4985,7 +4985,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456829_USR.jpg": {
     "place_type": "architecture",
@@ -5001,7 +5001,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456857_USR.jpg": {
     "place_type": "landscape",
@@ -5017,7 +5017,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456883_USR.jpg": {
     "place_type": "landscape",
@@ -5033,7 +5033,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456911_USR.jpg": {
     "place_type": "landscape",
@@ -5049,7 +5049,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456937_USR.jpg": {
     "place_type": "house",
@@ -5065,7 +5065,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708456967_USR.jpg": {
     "place_type": "facade",
@@ -5081,7 +5081,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1701708678070_USR.jpg": {
     "place_type": "landscape",
@@ -6599,7 +6599,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1708118415182_USR.jpg": {
     "place_type": "church",
@@ -6615,7 +6615,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1708118415193_USR.jpg": {
     "place_type": "church",
@@ -6631,7 +6631,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1708118811051_USR.jpg": {
     "place_type": "church",
@@ -6647,7 +6647,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1708118811114_USR.jpg": {
     "place_type": "church",
@@ -6663,7 +6663,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "1708120474620_USR.jpg": {
     "place_type": "architecture",
@@ -8656,7 +8656,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1708123391435_USR.jpg": {
     "place_type": "landscape",
@@ -8672,7 +8672,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1708123391442_USR.jpg": {
     "place_type": "church",
@@ -8688,7 +8688,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1708123391449_USR.jpg": {
     "place_type": "church",
@@ -8704,7 +8704,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1708123391476_USR.jpg": {
     "place_type": "landscape",
@@ -8720,7 +8720,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1708123391482_USR.jpg": {
     "place_type": "church",
@@ -8736,7 +8736,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "1725638593381_USR.jpg": {
     "place_type": "landscape",

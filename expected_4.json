@@ -520,7 +520,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC00020-HDR.jpg": {
     "place_type": "church",
@@ -536,7 +536,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC00042-HDR.jpg": {
     "place_type": "church",
@@ -552,7 +552,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC00044_8mm_f11.jpg": {
     "place_type": "landscape",
@@ -607,7 +607,7 @@
     "blurry": "no",
     "exterior_category": "door_window",
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC00058_17mm_f11.jpg": {
     "place_type": "landscape",
@@ -675,7 +675,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC00078_35mm_f11.jpg": {
     "place_type": "landscape",
@@ -769,7 +769,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC00110-HDR.jpg": {
     "place_type": "facade",
@@ -5960,7 +5960,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01219-HDR.jpg": {
     "place_type": "house",
@@ -6000,7 +6000,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01225-HDR.jpg": {
     "place_type": "house",
@@ -6014,7 +6014,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01227-HDR.jpg": {
     "place_type": "church",
@@ -6121,7 +6121,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01236-HDR.jpg": {
     "place_type": "cemetery",
@@ -6201,7 +6201,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01243.jpg": {
     "place_type": "street_art",
@@ -6271,7 +6271,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01256-HDR.jpg": {
     "place_type": "house",
@@ -6468,7 +6468,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01284.jpg": {
     "place_type": "bridge",
@@ -6495,7 +6495,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01289-HDR.jpg": {
     "place_type": "church",
@@ -6509,7 +6509,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01289.jpg": {
     "place_type": "bridge",
@@ -6551,7 +6551,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC01294.jpg": {
     "place_type": "factory",
@@ -17868,7 +17868,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC03111.jpg": {
     "place_type": "factory",
@@ -17988,7 +17988,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC03130.jpg": {
     "place_type": "factory",
@@ -18225,7 +18225,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC03162.jpg": {
     "place_type": "landscape",
@@ -18291,7 +18291,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC03172.jpg": {
     "place_type": "landscape",
@@ -18489,7 +18489,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC03202.jpg": {
     "place_type": "landscape",
@@ -18621,7 +18621,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC03219.jpg": {
     "place_type": "macro",
@@ -18780,7 +18780,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC03242.jpg": {
     "place_type": "landscape",
@@ -19002,7 +19002,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC03272.jpg": {
     "place_type": "landscape",
@@ -24223,7 +24223,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04147.jpg": {
     "place_type": "castle",
@@ -24397,7 +24397,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04184.jpg": {
     "place_type": "house",
@@ -24504,7 +24504,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04209.jpg": {
     "place_type": "undetermined",
@@ -26274,7 +26274,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04539.jpg": {
     "place_type": "landscape",
@@ -26353,7 +26353,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04556.jpg": {
     "place_type": "landscape",
@@ -26458,7 +26458,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04580.jpg": {
     "place_type": "church",
@@ -26511,7 +26511,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04589.jpg": {
     "place_type": "church",
@@ -26538,7 +26538,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04597.jpg": {
     "place_type": "church",
@@ -26593,7 +26593,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04618.jpg": {
     "place_type": "graphic",
@@ -26869,7 +26869,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04674.jpg": {
     "place_type": "landscape",
@@ -26896,7 +26896,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04683.jpg": {
     "place_type": "street_art",
@@ -27693,7 +27693,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC04824.jpg": {
     "place_type": "facade",
@@ -27722,7 +27722,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC04827.jpg": {
     "place_type": "facade",
@@ -27762,7 +27762,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC04831.jpg": {
     "place_type": "facade",
@@ -27843,7 +27843,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC04845.jpg": {
     "place_type": "undetermined",
@@ -28028,7 +28028,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04886.jpg": {
     "place_type": "factory",
@@ -28081,7 +28081,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04895.jpg": {
     "place_type": "castle",
@@ -28136,7 +28136,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04907.jpg": {
     "place_type": "facade",
@@ -28217,7 +28217,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04922.jpg": {
     "place_type": "facade",
@@ -28272,7 +28272,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04931.jpg": {
     "place_type": "graphic",
@@ -28312,7 +28312,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04940-HDR.jpg": {
     "place_type": "graphic",
@@ -28326,7 +28326,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": null,
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04942.jpg": {
     "place_type": "graphic",
@@ -28381,7 +28381,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04951.jpg": {
     "place_type": "facade",
@@ -28408,7 +28408,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04957.jpg": {
     "place_type": "facade",
@@ -28461,7 +28461,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04962.jpg": {
     "place_type": "street_art",
@@ -28501,7 +28501,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04973.jpg": {
     "place_type": "street_art",
@@ -28541,7 +28541,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04980.jpg": {
     "place_type": "church",
@@ -28570,7 +28570,7 @@
     "weather": "sunny",
     "blurry": "no",
     "person": "no",
-    "site_type": "EGL"
+    "site_type": "REL"
   },
   "DSC04983.jpg": {
     "place_type": "factory",
@@ -28826,7 +28826,7 @@
     "weather": "mixed",
     "blurry": "no",
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC05015.jpg": {
     "place_type": "graphic",
@@ -28866,7 +28866,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC05022.jpg": {
     "place_type": "street_art",
@@ -28893,7 +28893,7 @@
     "weather": null,
     "blurry": "no",
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC05025.jpg": {
     "place_type": "facade",
@@ -28937,7 +28937,7 @@
     "weather": "few_clouds",
     "blurry": "no",
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC05030.jpg": {
     "place_type": "graphic",
@@ -29207,7 +29207,8 @@
     "time_of_day": "day",
     "weather": null,
     "blurry": "no",
-    "person": "no"
+    "person": "no",
+    "site_type": "REL"
   },
   "DSC05071.jpg": {
     "place_type": "facade",
@@ -29276,7 +29277,8 @@
     "time_of_day": "day",
     "weather": null,
     "blurry": "no",
-    "person": "no"
+    "person": "no",
+    "site_type": "REL"
   },
   "DSC05082-HDR.jpg": {
     "place_type": "street",
@@ -29302,7 +29304,8 @@
     "time_of_day": "day",
     "weather": null,
     "blurry": "yes",
-    "person": "no"
+    "person": "no",
+    "site_type": "REL"
   },
   "DSC05085-HDR.jpg": {
     "place_type": "bridge",
@@ -29369,7 +29372,8 @@
     "time_of_day": "day",
     "weather": null,
     "blurry": "no",
-    "person": "no"
+    "person": "no",
+    "site_type": "REL"
   },
   "DSC05094-HDR.jpg": {
     "place_type": "castle",
@@ -29395,7 +29399,8 @@
     "time_of_day": "day",
     "weather": null,
     "person": "no",
-    "blurry": "no"
+    "blurry": "no",
+    "site_type": "REL"
   },
   "DSC05096.jpg": {
     "place_type": "graphic",
@@ -29434,7 +29439,8 @@
     "time_of_day": "day",
     "weather": null,
     "person": "no",
-    "blurry": "no"
+    "blurry": "no",
+    "site_type": "REL"
   },
   "DSC05098.jpg": {
     "place_type": "architecture",
@@ -29460,7 +29466,8 @@
     "time_of_day": "day",
     "weather": null,
     "person": "no",
-    "blurry": "no"
+    "blurry": "no",
+    "site_type": "REL"
   },
   "DSC05108.jpg": {
     "place_type": "architecture",
@@ -29504,7 +29511,7 @@
     "weather": null,
     "person": "no",
     "blurry": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC05112.jpg": {
     "place_type": "street_art",
@@ -35464,7 +35471,7 @@
     "blurry": "no",
     "exterior_category": "Délabrement",
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC05982-HDR.jpg": {
     "place_type": "factory",
@@ -37604,7 +37611,7 @@
     "weather": "sunny",
     "person": "no",
     "blurry": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC06438-HDR.jpg": {
     "place_type": "factory",
@@ -37784,7 +37791,8 @@
     "time_of_day": "day",
     "weather": "few_clouds",
     "person": "no",
-    "blurry": "no"
+    "blurry": "no",
+    "site_type": "REL"
   },
   "DSC06471-HDR.jpg": {
     "place_type": "church",
@@ -37800,7 +37808,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC06474-HDR.jpg": {
     "place_type": "church",
@@ -37816,7 +37824,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC06480-HDR.jpg": {
     "place_type": "church",
@@ -37832,7 +37840,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC06481.jpg": {
     "place_type": "factory",
@@ -38721,7 +38729,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC06645.jpg": {
     "indoor_outdoor": "indoor",
@@ -39268,7 +39276,7 @@
     "weather": "sunny",
     "person": "no",
     "blurry": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC06745.jpg": {
     "place_type": "landscape",
@@ -39526,7 +39534,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC06794-HDR.jpg": {
     "place_type": "landscape",
@@ -39922,7 +39930,7 @@
     "weather": "few_clouds",
     "person": "no",
     "blurry": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC06859-HDR.jpg": {
     "place_type": "house",
@@ -40306,7 +40314,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC06930.jpg": {
     "place_type": "landscape",
@@ -40350,7 +40358,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC06936.jpg": {
     "place_type": "architecture",
@@ -40379,7 +40387,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC06940-HDR.jpg": {
     "place_type": "church",
@@ -40395,7 +40403,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC06943-HDR.jpg": {
     "place_type": "facade",
@@ -40411,7 +40419,7 @@
     "blurry": "no",
     "exterior_category": "Graphisme",
     "person": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC06946-HDR.jpg": {
     "place_type": "landscape",
@@ -50381,7 +50389,7 @@
     "weather": "cloudy",
     "person": "no",
     "blurry": "no",
-    "site_type": "ABB"
+    "site_type": "REL"
   },
   "DSC08867.jpg": {
     "place_type": "landscape",
@@ -50410,7 +50418,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC08872.jpg": {
     "place_type": "landscape",
@@ -50465,7 +50473,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC08879.jpg": {
     "place_type": "architecture",
@@ -50520,7 +50528,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC08885.jpg": {
     "place_type": "landscape",
@@ -50549,7 +50557,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC08887.jpg": {
     "place_type": "landscape",
@@ -50604,7 +50612,7 @@
     "exterior_category": "Paysage",
     "person": "no",
     "place_type": "cemetery",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC08897.jpg": {
     "place_type": "landscape",
@@ -53916,7 +53924,7 @@
     "weather": "sunny",
     "person": "no",
     "blurry": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC09478.jpg": {
     "place_type": "factory",
@@ -54162,7 +54170,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC09543.jpg": {
     "place_type": "factory",
@@ -54218,7 +54226,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC09563-HDR.jpg": {
     "place_type": "church",
@@ -54234,7 +54242,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC09564.jpg": {
     "place_type": "street_art",
@@ -54356,7 +54364,7 @@
     "blurry": "no",
     "exterior_category": null,
     "person": "no",
-    "site_type": "CHA"
+    "site_type": "REL"
   },
   "DSC09589.jpg": {
     "place_type": "house",
