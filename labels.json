@@ -12,7 +12,8 @@
     "vegetation": {"en": "Vegetation", "fr": "Végétation"},
     "graffiti": {"en": "Graffiti", "fr": "Graffitis"},
     "blurry": {"en": "Blurry", "fr": "Flou"},
-    "person": {"en": "Person", "fr": "Présence d'un personnage"}
+    "person": {"en": "Person", "fr": "Présence d'un personnage"},
+    "site_type": {"en": "Site type", "fr": "Type de lieu"}
   },
   "values": {
     "*": {
@@ -114,6 +115,19 @@
       "front": {"en": "Yes, from the front", "fr": "Oui, de face"},
       "back": {"en": "Yes, from behind", "fr": "Oui, de dos"},
       "profile": {"en": "Yes, in profile", "fr": "Oui, de profil"}
+    },
+    "site_type": {
+      "USI": {"en": "Factory", "fr": "Usine"},
+      "MAI": {"en": "House", "fr": "Maison"},
+      "CHT": {"en": "Castle", "fr": "Château"},
+      "RUC": {"en": "Castle ruins", "fr": "Ruines Château"},
+      "EGL": {"en": "Church", "fr": "Église"},
+      "CHA": {"en": "Chapel", "fr": "Chapelle"},
+      "ABB": {"en": "Abbey", "fr": "Abbaye"},
+      "VIL": {"en": "Town / village", "fr": "Ville / Village"},
+      "MIL": {"en": "Military", "fr": "Militaire"},
+      "CIB": {"en": "Boat graveyard", "fr": "Cimetière Bateaux"},
+      "CIV": {"en": "Car graveyard", "fr": "Cimetière Voitures"}
     }
   },
   "ui": {

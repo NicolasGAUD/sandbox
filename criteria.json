@@ -281,6 +281,26 @@
         "profile": "a photo of a person seen from the side, in profile",
         "no": "a photo of an empty place with nobody in it"
       }
+    },
+    {
+      "name": "site_type",
+      "hidden": true,
+      "in_answers": true,
+      "probe": true,
+      "threshold": 0.4,
+      "options": {
+        "USI": "a photo of an abandoned factory or industrial building",
+        "MAI": "a photo of an abandoned house",
+        "CHT": "a photo of an abandoned castle or manor",
+        "RUC": "a photo of the ruins of a castle",
+        "EGL": "a photo of an abandoned church",
+        "CHA": "a photo of an abandoned chapel",
+        "ABB": "a photo of an abandoned abbey or monastery",
+        "VIL": "a photo of an abandoned village",
+        "MIL": "a photo of an abandoned military bunker or fort",
+        "CIB": "a photo of a graveyard of old boat wrecks",
+        "CIV": "a photo of a graveyard of old rusty cars"
+      }
     }
   ],
   "rules": []
