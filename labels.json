@@ -2,15 +2,12 @@
   "criteria": {
     "place_type": {"en": "Type", "fr": "Type"},
     "vehicle_type": {"en": "Vehicle type", "fr": "Type de véhicule"},
+    "art_type": {"en": "Art type", "fr": "Type d'art"},
     "indoor_outdoor": {"en": "Indoor / outdoor", "fr": "Intérieur / extérieur"},
-    "interior_category": {"en": "Interior category", "fr": "Catégorie d'intérieur"},
-    "exterior_category": {"en": "Exterior category", "fr": "Catégorie d'extérieur"},
     "condition": {"en": "Condition", "fr": "État"},
     "sky": {"en": "Sky", "fr": "Ciel"},
     "time_of_day": {"en": "Time of day", "fr": "Moment"},
     "weather": {"en": "Weather", "fr": "Météo"},
-    "vegetation": {"en": "Vegetation", "fr": "Végétation"},
-    "graffiti": {"en": "Graffiti", "fr": "Graffitis"},
     "blurry": {"en": "Blurry", "fr": "Flou"},
     "person": {"en": "Person", "fr": "Présence d'un personnage"},
     "site_type": {"en": "Site type", "fr": "Type de lieu"}
@@ -25,14 +22,13 @@
       "factory": {"en": "Factory", "fr": "Usine"},
       "house": {"en": "House", "fr": "Maison"},
       "hospital": {"en": "Hospital", "fr": "Hôpital"},
-      "church": {"en": "Church", "fr": "Église"},
+      "religious": {"en": "Religious", "fr": "Religieux"},
       "castle": {"en": "Castle", "fr": "Château"},
       "office": {"en": "Office", "fr": "Bureau"},
       "architecture": {"en": "Architecture", "fr": "Architecture"},
       "street_art": {"en": "Street art", "fr": "Street-art"},
       "bunker": {"en": "Bunker", "fr": "Bunker"},
       "bridge": {"en": "Bridge", "fr": "Pont"},
-      "rooftop": {"en": "Rooftop", "fr": "Toit"},
       "landscape": {"en": "Landscape", "fr": "Paysage"},
       "vehicle": {"en": "Vehicle", "fr": "Véhicule"},
       "guard_house": {"en": "Guard house", "fr": "Maison de garde"},
@@ -63,31 +59,15 @@
       "tractor": {"en": "Tractor", "fr": "Tracteur"},
       "train": {"en": "Train", "fr": "Train"}
     },
+    "art_type": {
+      "sculpture": {"en": "Sculpture", "fr": "Sculpture"},
+      "photo": {"en": "Photo", "fr": "Photo"},
+      "collage": {"en": "Collage", "fr": "Collage"},
+      "painting": {"en": "Painting", "fr": "Peinture"}
+    },
     "indoor_outdoor": {
       "indoor": {"en": "Indoor", "fr": "Intérieur"},
       "outdoor": {"en": "Outdoor", "fr": "Extérieur"}
-    },
-    "interior_category": {
-      "room": {"en": "Room", "fr": "Pièce"},
-      "staircase": {"en": "Staircase", "fr": "Escalier"},
-      "corridor": {"en": "Corridor", "fr": "Couloir"},
-      "decay": {"en": "Decay", "fr": "Délabrement"},
-      "library": {"en": "Library", "fr": "Bibliothèque"},
-      "lavatory": {"en": "Lavatory", "fr": "Sanitaires"},
-      "door_window": {"en": "Door / window", "fr": "Porte / fenêtre"},
-      "street": {"en": "Street", "fr": "Rue"},
-      "sculpture": {"en": "Sculpture", "fr": "Sculpture"},
-      "photo": {"en": "Photo", "fr": "Photo"},
-      "collage": {"en": "Collage", "fr": "Collage"},
-      "painting": {"en": "Painting", "fr": "Peinture"}
-    },
-    "exterior_category": {
-      "door_window": {"en": "Door / window", "fr": "Porte / fenêtre"},
-      "street": {"en": "Street", "fr": "Rue"},
-      "sculpture": {"en": "Sculpture", "fr": "Sculpture"},
-      "photo": {"en": "Photo", "fr": "Photo"},
-      "collage": {"en": "Collage", "fr": "Collage"},
-      "painting": {"en": "Painting", "fr": "Peinture"}
     },
     "condition": {
       "excellent": {"en": "Excellent", "fr": "Très bon état"},
@@ -117,15 +97,10 @@
       "profile": {"en": "Yes, in profile", "fr": "Oui, de profil"}
     },
     "site_type": {
-      "USI": {"en": "Factory", "fr": "Usine"},
-      "MAI": {"en": "House", "fr": "Maison"},
-      "CHT": {"en": "Castle", "fr": "Château"},
-      "REL": {"en": "Religious", "fr": "Religieux"},
       "HOT": {"en": "Hotel", "fr": "Hôtel"},
       "PIS": {"en": "Swimming pool / Baths", "fr": "Piscine / Thermes"},
       "VIL": {"en": "Town / village", "fr": "Ville / Village"},
-      "MIL": {"en": "Military", "fr": "Militaire"},
-      "VEH": {"en": "Vehicle", "fr": "Véhicule"}
+      "other": {"en": "Other", "fr": "Autre"}
     }
   },
   "ui": {
@@ -185,14 +160,13 @@
       "factory": {"en": "a factory", "fr": "d'une usine", "gender": "f"},
       "house": {"en": "a house", "fr": "d'une maison", "gender": "f"},
       "hospital": {"en": "a hospital", "fr": "d'un hôpital"},
-      "church": {"en": "a church", "fr": "d'une église", "gender": "f"},
+      "religious": {"en": "a religious place", "fr": "d'un lieu religieux"},
       "castle": {"en": "a castle", "fr": "d'un château"},
       "office": {"en": "an office", "fr": "d'un bureau"},
       "architecture": {"en": "a piece of architecture", "fr": "d'une architecture", "gender": "f"},
       "street_art": {"en": "street art", "fr": "de street-art"},
       "bunker": {"en": "a bunker", "fr": "d'un bunker"},
       "bridge": {"en": "a bridge", "fr": "d'un pont"},
-      "rooftop": {"en": "a rooftop", "fr": "d'un toit"},
       "landscape": {"en": "a landscape", "fr": "d'un paysage"},
       "vehicle": {"en": "a vehicle", "fr": "d'un véhicule"},
       "guard_house": {"en": "a guard house", "fr": "d'une maison de garde", "gender": "f"},
