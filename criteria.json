@@ -53,7 +53,7 @@
         "factory": "a photo of an abandoned factory or warehouse",
         "house": "a photo of an old house",
         "hospital": "a photo of an abandoned hospital",
-        "church": "a photo of an abandoned church",
+        "religious": "a photo of an abandoned church",
         "castle": "a photo of a castle",
         "office": "a photo of an abandoned office",
         "architecture": "a photo of a modern building",
@@ -148,7 +148,7 @@
       "probe": true,
       "except": {
         "indoor_outdoor": ["outdoor"],
-        "place_type": ["street_art", "church"]
+        "place_type": ["street_art", "religious"]
       },
       "values_if": {
         "place_type": {
@@ -175,7 +175,7 @@
       "free": true,
       "except": {
         "indoor_outdoor": ["indoor"],
-        "place_type": ["street_art", "church", "landscape"]
+        "place_type": ["street_art", "religious", "landscape"]
       },
       "values_if": {
         "place_type": {

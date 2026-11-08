@@ -15,7 +15,7 @@
     "person": "no"
   },
   "Abbaye_Beauport/DSC06928-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -31,7 +31,7 @@
     "site_type": "REL"
   },
   "Abbaye_Beauport/DSC06931-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -46,7 +46,7 @@
     "person": "no"
   },
   "Abbaye_Beauport/DSC06934-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -78,7 +78,7 @@
     "site_type": "REL"
   },
   "Abbaye_Beauport/DSC06940-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -94,7 +94,7 @@
     "site_type": "REL"
   },
   "Abbaye_Beauport/DSC06943-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -110,7 +110,7 @@
     "site_type": "REL"
   },
   "Abbaye_Couronne/DSC05345-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -206,7 +206,7 @@
     "site_type": "REL"
   },
   "Abbaye_FontaineJean/DSC10055-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -222,7 +222,7 @@
     "site_type": "REL"
   },
   "Abbaye_FontaineJean/DSC10058-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -413,7 +413,7 @@
     "site_type": "REL"
   },
   "Abbaye_Sauve_Majeur/DSC05062-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -428,7 +428,7 @@
     "person": "no"
   },
   "Abbaye_Sauve_Majeur/DSC05074-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -444,7 +444,7 @@
     "site_type": "REL"
   },
   "Abbaye_Sauve_Majeur/DSC05110-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -460,7 +460,7 @@
     "site_type": "REL"
   },
   "Abbaye_Sauve_Majeur/DSC05113-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -475,7 +475,7 @@
     "person": "no"
   },
   "Abbaye_Sauve_Majeur/DSC05131-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": null,
@@ -490,7 +490,7 @@
     "person": "no"
   },
   "Abbaye_Sauve_Majeur/DSC05137-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -2537,7 +2537,7 @@
     "site_type": "CHT"
   },
   "Ch_Bourgogne/DSC06826-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": null,
@@ -2552,7 +2552,7 @@
     "person": "no"
   },
   "Ch_Bourgogne/DSC06829-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": null,
@@ -3010,7 +3010,7 @@
     "site_type": "CHT"
   },
   "Ch_Buzardieres/DSC05530-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": null,
@@ -3034,7 +3034,7 @@
     "weather": null,
     "vegetation": "no",
     "graffiti": "no",
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "blurry": "no",
     "exterior_category": null,
@@ -3042,7 +3042,7 @@
     "site_type": "CHT"
   },
   "Ch_Buzardieres/DSC05572-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": null,
@@ -3058,7 +3058,7 @@
     "site_type": "CHT"
   },
   "Ch_Buzardieres/DSC05581-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": null,
@@ -3090,7 +3090,7 @@
     "site_type": "CHT"
   },
   "Ch_Buzardieres/DSC05606-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": null,
@@ -3136,7 +3136,7 @@
     "site_type": "CHT"
   },
   "Ch_Buzardieres/DSC05624-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": null,
@@ -3327,7 +3327,7 @@
     "site_type": "CHT"
   },
   "Ch_Cheneru/DSC05744-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -3375,7 +3375,7 @@
     "site_type": "CHT"
   },
   "Ch_Cheneru/DSC05763-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -4949,7 +4949,7 @@
     "site_type": "CHT"
   },
   "Chapelle_Gueriteau/DSC03077-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -4965,7 +4965,7 @@
     "site_type": "REL"
   },
   "Chapelle_Gueriteau/DSC03083-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -4997,7 +4997,7 @@
     "site_type": "REL"
   },
   "Chapelle_Gueriteau/DSC03110-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5013,7 +5013,7 @@
     "site_type": "REL"
   },
   "Chapelle_Gueriteau/DSC03116-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5029,7 +5029,7 @@
     "site_type": "REL"
   },
   "Chapelle_Liget/DSC01080-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5061,7 +5061,7 @@
     "site_type": "REL"
   },
   "Chapelle_Marcay/DSC05631-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5093,7 +5093,7 @@
     "site_type": "REL"
   },
   "Chapelle_Marcay/DSC05640-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "indoor",
     "interior_category": null,
@@ -5124,7 +5124,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Bequerel/DSC08869-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5140,7 +5140,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Bequerel/DSC08878-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5156,7 +5156,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Bequerel/DSC08884-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5172,7 +5172,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Bequerel/DSC08887-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5203,7 +5203,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Locadour/DSC09542-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5219,7 +5219,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Locadour/DSC09557-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5235,7 +5235,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Locadour/DSC09563-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5251,7 +5251,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Locadour/DSC09584-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5283,7 +5283,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Verite/DSC00075-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5299,7 +5299,7 @@
     "site_type": "REL"
   },
   "Chapelle_ND_Verite/DSC00102-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5315,7 +5315,7 @@
     "site_type": "REL"
   },
   "Chapelle_SteAnneDuTertre/DSC06471-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5331,7 +5331,7 @@
     "site_type": "REL"
   },
   "Chapelle_SteAnneDuTertre/DSC06474-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5347,7 +5347,7 @@
     "site_type": "REL"
   },
   "Chapelle_SteAnneDuTertre/DSC06480-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5363,7 +5363,7 @@
     "site_type": "REL"
   },
   "Chapelle_Trescouet/DSC00017-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5379,7 +5379,7 @@
     "site_type": "REL"
   },
   "Chapelle_Trescouet/DSC00020-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -5395,7 +5395,7 @@
     "site_type": "REL"
   },
   "Chapelle_Trescouet/DSC00042-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -7900,7 +7900,7 @@
     "site_type": "CHT"
   },
   "Ferme_Desert/DSC08566-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -9549,7 +9549,7 @@
     "site_type": "CHT"
   },
   "LaChariere/DSC09073-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -9565,7 +9565,7 @@
     "site_type": "REL"
   },
   "LaChariere/DSC09076-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -9596,7 +9596,7 @@
     "site_type": "REL"
   },
   "LaChariere/DSC09118-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -9612,7 +9612,7 @@
     "site_type": "REL"
   },
   "LaChariere/DSC09121-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -13509,7 +13509,7 @@
     "site_type": "CHT"
   },
   "Mothe_Chandenier/DSC09024-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -15993,7 +15993,7 @@
     "site_type": "VIL"
   },
   "Roche_Tranchellion/DSC08841-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16007,7 +16007,7 @@
     "site_type": "REL"
   },
   "Roche_Tranchellion/DSC08844-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16021,7 +16021,7 @@
     "site_type": "REL"
   },
   "Roche_Tranchellion/DSC08863-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16035,7 +16035,7 @@
     "site_type": "REL"
   },
   "Roche_Tranchellion/DSC08866-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16049,7 +16049,7 @@
     "site_type": "REL"
   },
   "Roche_Tranchellion/DSC08894-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16063,7 +16063,7 @@
     "site_type": "REL"
   },
   "Roche_Tranchellion/DSC08897-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16077,7 +16077,7 @@
     "site_type": "REL"
   },
   "Roche_Tranchellion/DSC08903-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16406,7 +16406,7 @@
     "site_type": "USI"
   },
   "St_Senoch/DSC00610-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16420,7 +16420,7 @@
     "site_type": "CHT"
   },
   "St_Senoch/DSC00613-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16434,7 +16434,7 @@
     "site_type": "CHT"
   },
   "St_Senoch/DSC00629-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16504,7 +16504,7 @@
     "site_type": "REL"
   },
   "St_Vincent/DSC01234-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16574,7 +16574,7 @@
     "site_type": "REL"
   },
   "St_Vincent/DSC01289-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -16588,7 +16588,7 @@
     "site_type": "REL"
   },
   "St_Vincent/DSC01293-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -18078,7 +18078,7 @@
     "site_type": "MAI"
   },
   "Villedieu/DSC03126-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -18092,7 +18092,7 @@
     "site_type": "REL"
   },
   "Villedieu/DSC03129-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -18106,7 +18106,7 @@
     "site_type": "REL"
   },
   "Villedieu/DSC03135-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
@@ -18187,7 +18187,7 @@
     "site_type": "REL"
   },
   "Villedieu/DSC03225-HDR.jpg": {
-    "place_type": "church",
+    "place_type": "religious",
     "vehicle_type": null,
     "indoor_outdoor": "outdoor",
     "interior_category": null,
