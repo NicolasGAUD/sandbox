@@ -1,36 +1,6 @@
 {
   "yes_no": [
     {
-      "name": "vegetation",
-      "hidden": true,
-      "yes": [
-        "a photo where plants, ivy, grass or trees take up a large part of the image",
-        "a photo dominated by green vegetation",
-        "a photo of green ivy leaves growing over a stone wall"
-      ],
-      "no": [
-        "a photo of buildings, stone, sky or water with almost no plants",
-        "a photo with only a few small weeds or no plants",
-        "a photo of a painted wall, mural or sign",
-        "a photo of bare stone or concrete walls"
-      ],
-      "uncertainty": [0.5, 0.5]
-    },
-    {
-      "name": "graffiti",
-      "hidden": true,
-      "yes": [
-        "a photo of walls covered with graffiti",
-        "a photo of spray paint tags and street art"
-      ],
-      "no": [
-        "a photo of clean walls without graffiti",
-        "a photo without any spray paint",
-        "a photo of a painted shop sign with lettering"
-      ],
-      "uncertainty": [0.5, 0.5]
-    },
-    {
       "name": "blurry",
       "yes": [
         "a blurry, out of focus photo",
@@ -63,7 +33,6 @@
         ],
         "bunker": "a photo of a military bunker",
         "bridge": "a photo of an old bridge or viaduct",
-        "rooftop": "a photo of a rooftop",
         "landscape": "a photo of a landscape with sky, sea or countryside",
         "farm": "a photo of an abandoned farm or barn",
         "railway": [
@@ -132,6 +101,21 @@
       }
     },
     {
+      "name": "art_type",
+      "sorted": true,
+      "threshold": 0,
+      "probe": true,
+      "only_if": {
+        "place_type": ["plastic_arts"]
+      },
+      "options": {
+        "sculpture": "a photo of a statue or a sculpture",
+        "photo": "a photo of a photograph or a printed picture on display",
+        "collage": "a photo of a collage of paper and pictures on a wall",
+        "painting": "a photo of a painting on a canvas or on a wall"
+      }
+    },
+    {
       "name": "indoor_outdoor",
       "threshold": 0,
       "probe": true,
@@ -139,50 +123,6 @@
         "indoor": "a photo taken indoors",
         "outdoor": "a photo taken outdoors"
       }
-    },
-    {
-      "name": "interior_category",
-      "sorted": true,
-      "manual_values": ["street"],
-      "threshold": 0,
-      "probe": true,
-      "except": {
-        "indoor_outdoor": ["outdoor"],
-        "place_type": ["street_art", "religious"]
-      },
-      "values_if": {
-        "place_type": {
-          "plastic_arts": ["sculpture", "photo", "collage", "painting"]
-        }
-      },
-      "options": {
-        "room": "a photo of an empty room inside an abandoned building",
-        "staircase": "a photo of a staircase",
-        "corridor": "a photo of a long corridor or hallway",
-        "decay": "a photo of a decaying interior with peeling paint, rubble and rot",
-        "library": "a photo of an abandoned library with bookshelves and books",
-        "lavatory": "a photo of abandoned toilets, a bathroom or washbasins",
-        "door_window": [
-          "a photo of an old door",
-          "a photo of a window seen from inside"
-        ]
-      }
-    },
-    {
-      "name": "exterior_category",
-      "sorted": true,
-      "manual_values": ["street"],
-      "free": true,
-      "except": {
-        "indoor_outdoor": ["indoor"],
-        "place_type": ["street_art", "religious", "landscape"]
-      },
-      "values_if": {
-        "place_type": {
-          "plastic_arts": ["sculpture", "photo", "collage", "painting"]
-        }
-      },
-      "options": {}
     },
     {
       "name": "condition",
@@ -289,18 +229,10 @@
       "probe": true,
       "threshold": 0.4,
       "options": {
-        "USI": "a photo of an abandoned factory or industrial building",
-        "MAI": "a photo of an abandoned house",
-        "CHT": ["a photo of an abandoned castle or manor", "a photo of the ruins of a castle"],
-        "REL": "a photo of an abandoned church, chapel or abbey",
         "HOT": "a photo of an abandoned hotel",
         "PIS": "a photo of an abandoned swimming pool or thermal baths",
         "VIL": "a photo of an abandoned village",
-        "MIL": "a photo of an abandoned military bunker or fort",
-        "VEH": [
-          "a photo of an abandoned vehicle, car, truck, boat wreck, plane or train",
-          "a photo of a graveyard of old rusty vehicles"
-        ]
+        "other": "a photo of an abandoned building"
       }
     }
   ],
