@@ -70,7 +70,6 @@
       "outdoor": {"en": "Outdoor", "fr": "Extérieur"}
     },
     "condition": {
-      "excellent": {"en": "Excellent", "fr": "Très bon état"},
       "good": {"en": "Good", "fr": "Bon état"},
       "degraded": {"en": "Degraded", "fr": "Dégradé"},
       "ruin": {"en": "Ruin", "fr": "Ruine"}
@@ -198,7 +197,6 @@
       "train": {"en": "a train", "fr": "d'un train"}
     },
     "condition": {
-      "excellent": {"en": "in very good condition", "fr": "en très bon état"},
       "good": {"en": "in good condition", "fr": "en bon état"},
       "degraded": {"en": "in poor condition", "fr": {"m": "délabré", "f": "délabrée", "mp": "délabrés", "fp": "délabrées"}},
       "ruin": {"en": "in ruins", "fr": "en ruine"}
