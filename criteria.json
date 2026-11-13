@@ -131,11 +131,11 @@
         "place_type": ["landscape", "street", "animal", "street_art", "macro", "urban_landscape"]
       },
       "options": {
-        "excellent": [
+        "good": [
+          "a photo of a clean, well-kept modern building with only a little dirt",
           "a photo of a building in perfect condition, freshly renovated, with no damage",
           "a photo of a well maintained building with a clean facade and new white windows"
         ],
-        "good": "a photo of a clean, well-kept modern building with only a little dirt",
         "degraded": [
           "a photo of an old, weathered structure with moss, stains and rust",
           "a photo of a neglected, dilapidated, abandoned structure",
