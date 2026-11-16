@@ -3,6 +3,10 @@
 Usage:
     python review_page.py PHOTO_FOLDER [--results results_2/results.csv]
                           [--expected expected_2.json] [--output results_2/review.html]
+                          [--per-file 1250]
+
+With --per-file N, the photos are split into several pages of N photos each (review_1.html,
+review_2.html…), each with its own progress and its own export file (expected_2_1.json…).
 
 The page keeps the progress in the browser and exports an expected answers file
 (same format as expected.json) readable by test_clip.py --expected.
@@ -115,7 +119,7 @@ __SWITCH_JS__
 const DATA = __DATA__;
 const PER_PAGE = 50, NA = "—", UNDETERMINED = "undetermined", NEW_VALUE = "\\u0000new";
 // The version changes with the criteria: progress saved for older criteria is ignored.
-const KEY = "clip-review:" + DATA.folder + ":" + DATA.version;
+const KEY = "clip-review:" + DATA.folder + ":" + DATA.version + (DATA.part ? ":" + DATA.part : "");
 const NAMES = DATA.criteria.map(([name]) => name);
 
 // state.corrections[file][criterion] = chosen value; state.checked[file] = true
@@ -437,6 +441,8 @@ def main():
     parser.add_argument("--criteria", type=Path, default=Path(__file__).with_name("criteria.json"))
     parser.add_argument("--expected", type=Path, default=Path(__file__).with_name("expected_2.json"))
     parser.add_argument("--output", type=Path, default=Path("results_2/review.html"))
+    parser.add_argument("--per-file", type=int, default=0,
+                        help="photos per HTML file (e.g. 1250 = 25 pages of 50); 0 = everything in one file")
     args = parser.parse_args()
 
     with open(args.criteria, encoding="utf-8") as f:
@@ -450,11 +456,10 @@ def main():
     photos = read_predictions(args.results, [name for name, _ in page_criteria])
     for photo in photos:
         photo["exif"] = exif_for_page(read_exif(args.folder / photo["file"]))
-    data = {
+    common = {
         "folder": str(args.folder.resolve()),
         "version": hashlib.sha1(json.dumps(page_criteria).encode()).hexdigest()[:10],
         "base": args.folder.resolve().as_uri() + "/",
-        "exportName": args.expected.name,
         "criteria": page_criteria,
         "free": [c["name"] for c in criteria.get("choices", []) if c.get("free")],
         "sorted": [c["name"] for c in criteria.get("choices", []) if c.get("sorted")],
@@ -462,17 +467,31 @@ def main():
         "manual": {c["name"]: c["manual_values"] for c in criteria.get("choices", []) if "manual_values" in c},
         "conditions": {c["name"]: {k: c[k] for k in ("except", "only_if") if k in c}
                        for c in criteria.get("choices", []) + criteria.get("yes_no", [])},
-        "photos": photos,
-        "expected": expected,
     }
+    if args.per_file <= 0 or len(photos) <= args.per_file:
+        write_page(args.output, {**common, "exportName": args.expected.name, "photos": photos, "expected": expected})
+        return
+    for part, first in enumerate(range(0, len(photos), args.per_file), 1):
+        part_photos = photos[first:first + args.per_file]
+        files = {photo["file"] for photo in part_photos}
+        write_page(args.output.with_stem(f"{args.output.stem}_{part}"), {
+            **common,
+            "part": part,
+            "exportName": f"{args.expected.stem}_{part}{args.expected.suffix}",
+            "photos": part_photos,
+            "expected": {file: answers for file, answers in expected.items() if file in files},
+        })
+
+
+def write_page(output, data):
     # "</" inside the JSON would close the <script> tag.
     json_page = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     page = (PAGE.replace("__SWITCH_CSS__", SWITCH_CSS).replace("__SWITCH_HTML__", SWITCH_HTML)
             .replace("__SWITCH_JS__", switch_js(load_labels()))
-            .replace("__EXPORT_NAME__", args.expected.name).replace("__DATA__", json_page))
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(page, encoding="utf-8")
-    print(f"{len(data['photos'])} photos · page written: {args.output}")
+            .replace("__EXPORT_NAME__", data["exportName"]).replace("__DATA__", json_page))
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(page, encoding="utf-8")
+    print(f"{len(data['photos'])} photos · page written: {output}")
 
 
 if __name__ == "__main__":
