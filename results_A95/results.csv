@@ -1,0 +1,1367 @@
+﻿file;time_ms;place_type;place_type_score;vehicle_type;vehicle_type_score;art_type;art_type_score;indoor_outdoor;indoor_outdoor_score;condition;condition_score;sky;sky_score;time_of_day;time_of_day_score;weather;weather_score;person;person_score;blurry;blurry_score
+0502 - Bx Panoroom trip night/1.JPG;1032;facade;0.978;;;;;indoor;0.981;excellent;0.918;absent;1.000;day;0.999;;;no;1.000;yes;0.570
+0502 - Bx Panoroom trip night/2.JPG;210;facade;0.987;;;;;indoor;0.949;excellent;0.911;absent;0.995;day;0.998;;;no;1.000;yes;0.549
+0502 - Bx Panoroom trip night/3.JPG;207;facade;0.475;;;;;indoor;0.988;good;0.722;absent;1.000;day;0.989;;;no;0.972;yes;0.857
+0502 - Bx Panoroom trip night/4.JPG;220;plastic_arts;0.648;;;sculpture;0.580;indoor;0.995;good;0.990;absent;1.000;day;1.000;;;no;1.000;yes;0.920
+0502 - Bx Panoroom trip night/5.JPG;215;office;0.389;;;;;indoor;0.994;good;0.975;absent;1.000;day;1.000;;;no;0.998;yes;0.897
+0502 - Bx Panoroom trip night/6.JPG;212;bunker;0.217;;;;;indoor;0.914;good;0.657;absent;0.989;day;0.998;;;front;0.856;yes;0.855
+0502 - Bx Panoroom trip night/7.JPG;215;house;0.941;;;;;indoor;0.992;good;0.896;absent;1.000;day;0.999;;;no;0.999;yes;0.853
+0502 - Bx Panoroom trip night/8.JPG;190;house;0.966;;;;;indoor;0.982;good;0.804;absent;1.000;day;1.000;;;no;1.000;no;0.445
+0502 - Bx Panoroom trip night/9.JPG;181;house;0.510;;;;;indoor;1.000;good;0.726;absent;1.000;day;0.999;;;no;1.000;yes;0.749
+0502 - Bx Panoroom trip night/91.JPG;198;landscape;0.370;;;;;indoor;0.999;;;absent;0.998;day;0.972;;;no;1.000;yes;0.937
+0502 - Bx Panoroom trip night/92.JPG;204;office;0.508;;;;;indoor;0.958;good;0.865;absent;1.000;day;0.999;;;no;1.000;yes;0.847
+0502 - Bx Panoroom trip night/93.JPG;198;office;0.704;;;;;indoor;0.999;good;0.710;absent;1.000;day;0.998;;;no;1.000;yes;0.966
+0502 - Bx Panoroom trip night/94.JPG;197;graphic;0.902;;;;;indoor;0.999;good;0.674;absent;1.000;day;0.999;;;no;1.000;yes;0.813
+0502 - Bx Panoroom trip night/IMG_2277.JPG;204;plastic_arts;0.336;;;painting;0.880;indoor;0.995;good;0.708;absent;1.000;day;0.999;;;no;0.994;yes;0.947
+0502 - Bx Panoroom trip night/IMG_2278.JPG;176;house;0.372;;;;;indoor;0.998;good;0.921;absent;1.000;day;0.997;;;no;0.996;yes;0.965
+0502 - Bx Panoroom trip night/IMG_2279.JPG;182;house;0.677;;;;;indoor;0.989;good;0.798;absent;0.999;day;0.999;;;no;0.997;yes;0.824
+0502 - Bx Panoroom trip night/IMG_2280.JPG;197;house;0.629;;;;;indoor;0.991;good;0.868;absent;1.000;day;0.999;;;no;1.000;yes;0.681
+0502 - Bx Panoroom trip night/IMG_2281.JPG;197;house;0.570;;;;;indoor;0.996;good;0.932;absent;1.000;day;1.000;;;no;1.000;yes;0.802
+0502 - Bx Panoroom trip night/IMG_2282.JPG;180;office;0.339;;;;;indoor;0.972;good;0.749;absent;0.999;day;1.000;;;no;1.000;yes;0.688
+0502 - Bx Panoroom trip night/IMG_2284.JPG;201;office;0.633;;;;;indoor;0.994;good;0.924;absent;1.000;day;1.000;;;no;1.000;yes;0.777
+0502 - Bx Panoroom trip night/IMG_2345.JPG;214;macro;0.572;;;;;outdoor;0.658;;;absent;1.000;day;1.000;;;;;no;0.120
+0502 - Bx Panoroom trip night/IMG_2351-2.jpg;402;architecture;0.754;;;;;outdoor;1.000;excellent;0.859;visible;0.994;day;1.000;sunny;1.000;no;0.999;yes;0.697
+0502 - Bx Panoroom trip night/IMG_2352.JPG;224;graphic;0.526;;;;;indoor;0.992;good;0.744;absent;1.000;day;1.000;;;no;1.000;no;0.257
+0502 - Bx Panoroom trip night/IMG_2354.JPG;221;graphic;0.686;;;;;indoor;0.997;good;0.912;absent;1.000;day;0.995;;;no;1.000;no;0.426
+0502 - Bx Panoroom trip night/IMG_2356.JPG;216;facade;0.651;;;;;indoor;0.755;degraded;0.468;absent;0.998;day;0.985;;;no;1.000;yes;0.712
+0502 - Bx Panoroom trip night/IMG_2366.JPG;198;vehicle;0.931;car;0.588;;;outdoor;0.780;good;0.635;absent;1.000;night;0.809;;;no;1.000;yes;0.909
+0502 - Bx Panoroom trip night/IMG_2367.JPG;220;street;0.756;;;;;outdoor;1.000;;;absent;0.546;night;0.985;;;no;1.000;yes;0.934
+0502 - Bx Panoroom trip night/IMG_2382.JPG;198;facade;0.611;;;;;indoor;0.901;degraded;0.674;absent;0.997;day;0.910;;;no;1.000;yes;0.879
+0502 - Bx Panoroom trip night/IMG_2404.JPG;223;graphic;0.926;;;;;indoor;0.928;degraded;0.829;absent;0.999;day;0.808;;;no;1.000;yes;0.855
+0502 - Bx Panoroom trip night/IMG_2407.JPG;224;architecture;0.478;;;;;outdoor;0.852;good;0.471;absent;0.985;night;0.875;;;no;1.000;yes;0.950
+0502 - Bx Panoroom trip night/IMG_2408.JPG;218;graphic;0.470;;;;;indoor;0.547;excellent;0.514;absent;1.000;day;0.995;;;no;1.000;yes;0.887
+0502 - Bx Panoroom trip night/IMG_2418.JPG;204;plastic_arts;0.289;;;sculpture;0.997;indoor;0.615;degraded;0.891;absent;0.922;day;1.000;;;no;1.000;yes;0.955
+0502 - Bx Panoroom trip night/IMG_2448.JPG;204;facade;0.769;;;;;outdoor;1.000;excellent;0.880;visible;0.861;night;0.992;;;no;1.000;yes;0.878
+0502 - Bx Panoroom trip night/IMG_2454.JPG;205;facade;0.976;;;;;outdoor;0.983;excellent;0.508;absent;0.976;night;0.991;;;no;1.000;yes;0.652
+0502 - Bx Panoroom trip night/IMG_2460.JPG;220;graphic;0.544;;;;;outdoor;0.876;degraded;0.800;absent;0.999;day;0.861;;;no;0.992;yes;0.951
+0502 - Bx Panoroom trip night/IMG_2470.JPG;431;architecture;0.609;;;;;outdoor;1.000;excellent;0.669;visible;0.999;day;1.000;sunny;0.782;no;1.000;no;0.412
+0502 - Bx Panoroom trip night/Leader 3 copie.jpg;214;street;0.606;;;;;outdoor;0.818;;;absent;0.970;night;0.975;;;no;0.994;yes;0.995
+0502 - Bx Panoroom trip night/ParkView3.jpg;420;architecture;0.802;;;;;outdoor;1.000;excellent;0.670;visible;0.999;day;1.000;sunny;0.975;no;0.999;no;0.359
+0502 - Bx Panoroom trip night/RoomPano1 final.jpg;193;house;0.789;;;;;indoor;0.977;good;0.871;absent;1.000;day;1.000;;;no;1.000;yes;0.757
+0502 - Bx Panoroom trip night/Sans titre-1.jpg;227;graphic;0.605;;;;;indoor;0.945;degraded;0.734;absent;0.999;day;0.998;;;no;1.000;no;0.301
+0507 - Andernos/IMG_0487.JPG;407;landscape;0.993;;;;;outdoor;1.000;;;visible;0.791;day;1.000;sunny;0.592;no;1.000;no;0.373
+0507 - Andernos/IMG_0491.JPG;422;landscape;0.742;;;;;outdoor;0.982;;;visible;0.546;day;1.000;sunny;0.997;no;0.738;yes;0.774
+0507 - Andernos/IMG_0493.JPG;194;undetermined;0.547;;;;;indoor;0.600;excellent;0.462;absent;0.979;day;1.000;;;front;0.958;yes;0.874
+0507 - Andernos/IMG_0494.JPG;190;undetermined;0.351;;;;;indoor;0.691;good;0.827;absent;0.989;day;1.000;;;front;0.966;yes;0.508
+0507 - Andernos/IMG_0495.JPG;203;animal;0.417;;;;;outdoor;0.572;;;absent;0.998;day;1.000;;;no;0.617;yes;0.688
+0507 - Andernos/IMG_0502.JPG;223;animal;0.441;;;;;outdoor;0.595;;;absent;0.998;day;1.000;;;front;0.972;yes;0.607
+0507 - Andernos/IMG_0504.JPG;200;undetermined;0.540;;;;;indoor;0.665;excellent;0.350;absent;0.957;day;1.000;;;front;0.829;yes;0.824
+0507 - Andernos/IMG_0506.JPG;216;animal;0.617;;;;;indoor;0.901;;;absent;0.991;day;1.000;;;front;0.594;yes;0.930
+0507 - Andernos/IMG_0508.JPG;193;animal;0.494;;;;;indoor;0.817;;;absent;0.994;day;1.000;;;front;0.984;yes;0.938
+0507 - Andernos/IMG_0510.JPG;194;undetermined;0.714;;;;;indoor;0.736;degraded;0.408;absent;0.983;day;1.000;;;front;0.946;yes;0.868
+0507 - Andernos/IMG_0516.JPG;186;animal;0.750;;;;;indoor;0.750;;;absent;0.995;day;1.000;;;front;0.909;yes;0.762
+0507 - Andernos/IMG_0525.JPG;184;undetermined;0.806;;;;;outdoor;0.952;good;0.810;absent;0.898;day;1.000;;;front;0.934;yes;0.731
+0507 - Andernos w Enfore/IMG_0541.JPG;198;animal;0.424;;;;;indoor;0.563;;;absent;0.951;day;1.000;;;front;0.828;yes;0.682
+0507 - Andernos w Enfore/IMG_0545.JPG;228;undetermined;0.299;;;;;outdoor;0.968;good;0.545;absent;0.556;day;1.000;;;front;0.940;yes;0.804
+0507 - Andernos w Enfore/IMG_0546.JPG;211;undetermined;0.515;;;;;outdoor;0.918;good;0.750;absent;0.653;day;1.000;;;front;0.614;yes;0.734
+0507 - Andernos w Enfore/IMG_0548.JPG;197;undetermined;0.566;;;;;outdoor;0.793;good;0.667;absent;0.797;day;1.000;;;front;0.810;yes;0.708
+0507 - Bx/IMG_0921.JPG;424;facade;0.939;;;;;outdoor;0.990;excellent;0.535;visible;0.990;day;1.000;sunny;1.000;no;1.000;no;0.382
+0507 - Bx/IMG_0922.JPG;377;facade;0.718;;;;;outdoor;1.000;excellent;0.920;visible;0.882;day;1.000;sunny;1.000;no;0.999;no;0.429
+0507 - Bx/IMG_0924.JPG;199;facade;0.892;;;;;outdoor;0.911;excellent;0.969;absent;0.994;day;1.000;;;no;1.000;no;0.324
+0507 - Bx/IMG_0928.JPG;414;facade;0.659;;;;;outdoor;1.000;excellent;0.629;visible;0.997;day;1.000;sunny;1.000;no;0.999;no;0.365
+0507 - Bx/IMG_0928croiséneg.jpg;418;graphic;0.315;;;;;outdoor;0.995;degraded;0.586;visible;0.779;day;0.999;sunny;1.000;no;1.000;yes;0.671
+0507 - Bx/IMG_0933.JPG;425;facade;0.553;;;;;outdoor;1.000;excellent;0.533;visible;0.951;day;0.963;sunny;0.999;no;0.999;no;0.462
+0507 - Bx/IMG_0934.JPG;405;facade;0.898;;;;;outdoor;1.000;excellent;0.649;visible;0.996;day;1.000;sunny;0.640;no;1.000;yes;0.647
+0507 - Bx/IMG_0936.JPG;377;religious;0.788;;;;;outdoor;1.000;excellent;0.634;visible;0.999;day;0.996;sunny;0.999;no;1.000;no;0.320
+0507 - Bx/IMG_0938.JPG;410;religious;0.952;;;;;outdoor;1.000;excellent;0.717;visible;0.999;day;1.000;sunny;1.000;no;1.000;no;0.490
+0507 - Bx/IMG_0942.JPG;404;religious;0.918;;;;;outdoor;1.000;excellent;0.675;visible;0.998;day;0.998;sunny;1.000;no;1.000;no;0.281
+0507 - Bx/IMG_0944.JPG;399;religious;0.835;;;;;outdoor;1.000;degraded;0.392;visible;1.000;day;0.999;sunny;1.000;no;1.000;yes;0.554
+0507 - Bx/IMG_0946.JPG;440;architecture;0.377;;;;;outdoor;1.000;degraded;0.466;visible;0.990;day;1.000;sunny;1.000;no;1.000;yes;0.556
+0507 - Bx/IMG_0947.JPG;433;graphic;0.503;;;;;outdoor;0.994;excellent;0.568;visible;0.889;day;0.999;sunny;0.999;no;1.000;no;0.174
+0507 - Bx/IMG_0949.JPG;412;street;0.334;;;;;outdoor;1.000;;;visible;0.898;day;1.000;sunny;1.000;no;1.000;no;0.335
+0507 - Bx/IMG_0955.JPG;377;facade;0.977;;;;;outdoor;0.985;excellent;0.965;visible;0.508;day;1.000;sunny;0.999;no;1.000;no;0.084
+0507 - Bx/IMG_0957.JPG;208;vehicle;0.968;undetermined;0.670;;;outdoor;0.935;degraded;0.459;absent;1.000;day;1.000;;;no;1.000;yes;0.831
+0507 - Bx/IMG_0959.JPG;415;architecture;0.668;;;;;outdoor;0.999;excellent;0.927;visible;0.847;day;1.000;sunny;0.999;no;1.000;no;0.373
+0507 - Bx/IMG_0960.JPG;420;architecture;0.665;;;;;outdoor;1.000;excellent;0.890;visible;0.877;day;1.000;sunny;0.993;no;1.000;yes;0.699
+0507 - Bx/IMG_0961.JPG;449;facade;0.757;;;;;outdoor;1.000;excellent;0.949;visible;0.700;day;1.000;sunny;1.000;no;0.998;no;0.363
+0507 - Bx/IMG_0963.JPG;414;architecture;0.821;;;;;outdoor;1.000;excellent;0.910;visible;0.827;day;1.000;sunny;1.000;no;1.000;yes;0.566
+0507 - Bx/IMG_0964.JPG;379;architecture;0.708;;;;;outdoor;1.000;excellent;0.834;visible;0.994;day;1.000;sunny;1.000;no;1.000;yes;0.675
+0507 - Bx/IMG_0968.JPG;399;architecture;0.597;;;;;outdoor;1.000;excellent;0.859;visible;0.989;day;1.000;sunny;1.000;no;1.000;no;0.375
+0507 - Bx/IMG_0970.JPG;388;architecture;0.974;;;;;outdoor;1.000;excellent;0.922;visible;0.995;day;1.000;sunny;0.787;no;1.000;yes;0.765
+0507 - Bx/IMG_0971.JPG;408;architecture;0.975;;;;;outdoor;1.000;excellent;0.876;visible;0.976;day;1.000;sunny;0.937;no;1.000;yes;0.837
+0507 - Bx/IMG_0972.JPG;375;architecture;0.975;;;;;outdoor;1.000;excellent;0.901;visible;0.994;day;1.000;sunny;0.938;no;1.000;yes;0.698
+0507 - Bx/IMG_0973.JPG;403;architecture;0.989;;;;;outdoor;1.000;excellent;0.893;visible;0.998;day;1.000;sunny;0.998;no;1.000;yes;0.730
+0507 - Bx/IMG_0974.JPG;397;architecture;0.890;;;;;outdoor;1.000;excellent;0.846;visible;0.987;day;1.000;sunny;0.939;no;1.000;yes;0.739
+0507 - Bx/IMG_0975.JPG;406;architecture;0.936;;;;;outdoor;1.000;excellent;0.850;visible;0.970;day;1.000;sunny;0.997;no;1.000;yes;0.770
+0507 - Bx/IMG_0976.JPG;387;architecture;0.938;;;;;outdoor;1.000;excellent;0.852;visible;0.974;day;1.000;sunny;0.911;no;1.000;yes;0.806
+0507 - Bx/IMG_0977.JPG;361;architecture;0.960;;;;;outdoor;1.000;excellent;0.871;visible;0.953;day;1.000;sunny;0.897;no;1.000;yes;0.835
+0507 - Bx/IMG_0978.JPG;434;architecture;0.958;;;;;outdoor;1.000;excellent;0.894;visible;0.998;day;1.000;sunny;0.988;no;1.000;yes;0.779
+0507 - Bx/IMG_0979.JPG;406;architecture;0.937;;;;;outdoor;1.000;excellent;0.874;visible;0.991;day;1.000;sunny;0.998;no;1.000;yes;0.738
+0507 - Bx/IMG_0983.JPG;198;graphic;0.773;;;;;outdoor;0.996;good;0.744;absent;0.720;day;1.000;;;no;0.999;no;0.254
+0507 - Bx/IMG_0985.JPG;216;facade;0.977;;;;;outdoor;0.999;excellent;0.676;absent;0.628;day;1.000;;;no;0.999;no;0.235
+0507 - Bx/IMG_0987.JPG;438;graphic;0.719;;;;;outdoor;0.992;excellent;0.864;visible;0.548;day;1.000;mixed;0.823;no;1.000;no;0.416
+0507 - Bx/IMG_0988.JPG;227;graphic;0.829;;;;;outdoor;0.992;excellent;0.838;absent;0.673;day;1.000;;;no;1.000;no;0.343
+0507 - Bx/IMG_0990.JPG;440;facade;0.936;;;;;outdoor;1.000;excellent;0.898;visible;0.794;day;1.000;sunny;1.000;no;1.000;no;0.289
+0507 - Bx/IMG_0991.JPG;235;facade;0.997;;;;;outdoor;0.997;excellent;0.803;absent;0.987;day;1.000;;;no;1.000;yes;0.715
+0507 - Bx/IMG_0994.JPG;243;graphic;0.592;;;;;outdoor;0.972;excellent;0.635;absent;0.996;day;1.000;;;no;1.000;no;0.116
+0507 - Bx/IMG_0995.JPG;222;facade;0.988;;;;;outdoor;0.961;degraded;0.641;absent;0.993;day;1.000;;;no;1.000;no;0.104
+0507 - Bx/IMG_0997.JPG;459;castle;0.763;;;;;outdoor;1.000;excellent;0.741;visible;0.952;day;1.000;sunny;0.994;no;1.000;yes;0.620
+0507 - Bx/IMG_0999.JPG;446;castle;0.651;;;;;outdoor;1.000;excellent;0.825;visible;0.998;day;1.000;sunny;0.984;no;1.000;no;0.293
+0507 - Bx/IMG_1003.JPG;288;facade;0.947;;;;;outdoor;0.994;degraded;0.459;absent;0.833;day;1.000;;;no;1.000;no;0.151
+0507 - Bx/IMG_1004.JPG;288;street;0.637;;;;;outdoor;1.000;;;absent;0.701;day;1.000;;;no;0.992;yes;0.647
+0507 - Bx/IMG_1006.JPG;248;facade;0.927;;;;;outdoor;0.995;degraded;0.856;absent;0.844;day;1.000;;;no;1.000;yes;0.682
+0507 - Bx/IMG_1013.JPG;447;facade;0.668;;;;;outdoor;0.987;degraded;0.745;visible;0.817;day;1.000;sunny;1.000;no;1.000;no;0.242
+0507 - Bx/IMG_1015.JPG;428;religious;0.731;;;;;outdoor;0.999;excellent;0.868;visible;0.997;day;1.000;sunny;1.000;no;1.000;no;0.384
+0507 - Bx/IMG_1016.JPG;457;religious;0.836;;;;;outdoor;0.997;excellent;0.843;visible;0.998;day;1.000;sunny;0.999;no;1.000;no;0.334
+0507 - Bx/panobourserecadre.jpg;434;architecture;0.926;;;;;outdoor;1.000;excellent;0.861;visible;0.999;day;1.000;sunny;0.972;no;1.000;yes;0.697
+0508 - Bx/IMG_1796.JPG;435;urban_landscape;0.483;;;;;outdoor;0.999;;;visible;0.893;dusk;0.994;sunny;0.953;no;1.000;yes;0.998
+0508 - Bx/IMG_1803.JPG;454;urban_landscape;0.823;;;;;outdoor;1.000;;;visible;1.000;dusk;0.952;sunny;0.936;no;0.999;yes;0.759
+0508 - Bx/IMG_1804.JPG;462;urban_landscape;0.787;;;;;outdoor;1.000;;;visible;0.997;dusk;0.994;sunny;0.993;no;1.000;yes;0.806
+0508 - Bx/IMG_1809.JPG;416;urban_landscape;0.833;;;;;outdoor;1.000;;;visible;0.998;dusk;0.962;sunny;0.995;no;0.999;yes;0.852
+0508 - Bx/IMG_1825.JPG;434;urban_landscape;0.921;;;;;outdoor;0.999;;;visible;0.985;dusk;0.630;sunny;0.998;no;1.000;yes;0.859
+0508 - Bx/IMG_1832.JPG;452;urban_landscape;0.694;;;;;outdoor;1.000;;;visible;0.991;dusk;0.994;sunny;1.000;no;1.000;yes;0.745
+0508 - Bx/IMG_1834.JPG;242;vehicle;0.674;boat;0.839;;;outdoor;0.997;degraded;0.983;absent;0.962;day;1.000;;;no;0.995;yes;0.814
+0508 - Bx/IMG_1835.JPG;233;vehicle;0.652;boat;0.943;;;outdoor;0.994;degraded;0.904;absent;1.000;day;1.000;;;no;1.000;no;0.238
+0508 - Bx/IMG_1841.JPG;446;urban_landscape;0.776;;;;;outdoor;1.000;;;visible;0.995;day;0.999;sunny;0.653;no;1.000;yes;0.916
+0508 - Bx/IMG_1879.JPG;472;urban_landscape;0.366;;;;;outdoor;1.000;;;visible;0.999;dusk;0.841;sunny;0.998;no;0.999;yes;0.554
+0508 - Bx/IMG_1883.JPG;478;architecture;0.784;;;;;outdoor;1.000;excellent;0.759;visible;0.992;day;0.957;sunny;0.996;no;1.000;yes;0.735
+0508 - Bx/IMG_1891.JPG;422;urban_landscape;0.832;;;;;outdoor;1.000;;;visible;0.997;day;0.998;sunny;1.000;no;1.000;yes;0.565
+0508 - Bx/IMG_1892.JPG;397;architecture;0.745;;;;;outdoor;1.000;excellent;0.682;visible;0.964;day;0.978;sunny;0.995;no;1.000;yes;0.855
+0508 - Bx/IMG_1893.JPG;458;urban_landscape;0.813;;;;;outdoor;1.000;;;visible;0.974;day;0.990;sunny;0.999;no;0.995;yes;0.699
+0508 - Bx/IMG_1895.JPG;421;architecture;0.799;;;;;outdoor;1.000;excellent;0.892;visible;0.997;day;0.997;sunny;0.999;no;1.000;yes;0.638
+0508 - Bx/IMG_1903.JPG;245;street;0.866;;;;;outdoor;1.000;;;absent;0.928;day;0.998;;;no;0.995;yes;0.698
+0508 - Bx/pontpierreretouch.jpg;465;urban_landscape;0.734;;;;;outdoor;1.000;;;visible;0.998;dusk;0.940;sunny;0.992;no;0.999;yes;0.770
+0508 - Bx Cenon/IMG_0928.JPG;454;facade;0.659;;;;;outdoor;1.000;excellent;0.629;visible;0.997;day;1.000;sunny;1.000;no;0.999;no;0.365
+0508 - Bx Cenon/IMG_0928croiséneg.jpg;434;graphic;0.315;;;;;outdoor;0.995;degraded;0.586;visible;0.779;day;0.999;sunny;1.000;no;1.000;yes;0.671
+0508 - Bx Cenon/IMG_1663.JPG;449;landscape;0.665;;;;;outdoor;1.000;;;visible;0.992;day;0.951;sunny;0.999;no;1.000;no;0.350
+0508 - Bx Cenon/IMG_1664.JPG;757;landscape;0.988;;;;;outdoor;1.000;;;visible;0.999;day;0.996;sunny;0.924;no;0.999;yes;0.587
+0508 - Bx Cenon/IMG_1669.JPG;487;landscape;0.723;;;;;outdoor;1.000;;;visible;0.988;day;0.959;sunny;0.974;no;1.000;no;0.274
+0508 - Bx Cenon/IMG_1670.JPG;488;landscape;0.743;;;;;outdoor;1.000;;;visible;0.986;day;0.998;sunny;0.997;no;1.000;yes;0.686
+0508 - Bx Cenon/IMG_1672.JPG;462;graphic;0.696;;;;;outdoor;0.999;degraded;0.936;visible;0.745;day;1.000;few_clouds;0.945;no;1.000;no;0.330
+0508 - Bx Cenon/IMG_1676.JPG;238;macro;0.658;;;;;outdoor;0.989;;;absent;0.987;day;0.985;;;;;no;0.201
+0508 - Bx Cenon/IMG_1677.JPG;199;macro;0.780;;;;;outdoor;0.989;;;absent;0.994;day;0.996;;;;;no;0.139
+0508 - Bx Cenon/IMG_1680.JPG;230;graphic;0.737;;;;;outdoor;1.000;degraded;0.985;absent;0.587;day;1.000;;;no;1.000;no;0.136
+0508 - Bx Cenon/IMG_1681.JPG;232;graphic;0.760;;;;;outdoor;0.997;degraded;0.992;absent;0.880;day;1.000;;;no;1.000;no;0.108
+0508 - Bx Cenon/IMG_1684.JPG;449;graphic;0.756;;;;;outdoor;0.999;degraded;0.985;visible;0.680;day;0.992;sunny;0.801;no;1.000;no;0.341
+0508 - Bx Cenon/IMG_1685.JPG;466;architecture;0.804;;;;;outdoor;1.000;good;0.699;visible;0.989;day;1.000;sunny;0.997;no;1.000;yes;0.703
+0508 - Bx Cenon/IMG_1686.JPG;463;landscape;0.551;;;;;outdoor;1.000;;;visible;0.999;day;1.000;sunny;0.984;no;0.998;yes;0.748
+0508 - Bx Cenon/IMG_1691.jpg;456;landscape;0.832;;;;;outdoor;0.999;;;visible;0.653;day;1.000;sunny;0.899;no;1.000;yes;0.883
+0508 - Bx Cenon/IMG_1692.jpg;451;landscape;0.585;;;;;outdoor;0.995;;;visible;0.606;day;1.000;sunny;0.987;no;0.999;yes;0.954
+0508 - Bx Cenon/IMG_1693.jpg;470;landscape;0.666;;;;;outdoor;0.999;;;visible;0.864;day;1.000;sunny;0.996;no;0.998;yes;0.882
+0508 - Bx Cenon/IMG_1694.jpg;242;landscape;0.627;;;;;outdoor;0.997;;;absent;0.560;day;1.000;;;no;0.999;yes;0.927
+0508 - Bx Cenon/IMG_1695.jpg;266;landscape;0.487;;;;;outdoor;0.999;;;absent;0.924;day;1.000;;;no;1.000;yes;0.903
+0508 - Bx Cenon/IMG_1696.jpg;255;urban_landscape;0.522;;;;;outdoor;0.999;;;absent;0.744;day;1.000;;;no;0.998;yes;0.921
+0508 - Bx Cenon/IMG_1697.jpg;440;landscape;0.892;;;;;outdoor;0.997;;;visible;0.744;day;1.000;few_clouds;0.801;no;0.999;yes;0.879
+0508 - Bx Cenon/IMG_1701.jpg;450;urban_landscape;0.535;;;;;outdoor;0.999;;;visible;0.992;day;1.000;sunny;0.994;no;1.000;yes;0.729
+0508 - Bx Cenon/IMG_1703.jpg;475;urban_landscape;0.737;;;;;outdoor;1.000;;;visible;0.998;day;1.000;sunny;0.999;no;0.999;yes;0.717
+0508 - Bx Cenon/IMG_1704.jpg;444;urban_landscape;0.643;;;;;outdoor;1.000;;;visible;0.987;day;1.000;sunny;0.995;no;1.000;yes;0.832
+0508 - Bx Cenon/IMG_1705.jpg;456;urban_landscape;0.747;;;;;outdoor;1.000;;;visible;0.992;day;1.000;sunny;0.999;no;1.000;yes;0.796
+0508 - Bx Cenon/IMG_1706.jpg;437;facade;0.705;;;;;outdoor;0.967;degraded;0.921;visible;0.629;day;1.000;sunny;1.000;no;0.998;no;0.278
+0508 - Bx Cenon/IMG_1708.jpg;463;facade;0.829;;;;;outdoor;0.994;degraded;0.899;visible;0.941;day;1.000;sunny;1.000;no;1.000;no;0.358
+0508 - Bx Cenon/IMG_1709.jpg;437;facade;0.400;;;;;outdoor;0.999;excellent;0.708;visible;1.000;day;1.000;sunny;0.999;no;0.999;no;0.236
+0508 - Bx Cenon/IMG_1710.jpg;460;religious;0.699;;;;;outdoor;0.998;excellent;0.518;visible;0.999;day;1.000;sunny;1.000;no;1.000;yes;0.629
+0508 - Bx Cenon/IMG_1711.jpg;451;religious;0.675;;;;;outdoor;0.998;degraded;0.493;visible;0.998;day;1.000;sunny;1.000;no;1.000;yes;0.671
+0508 - Bx Cenon/IMG_1712.jpg;470;graphic;0.562;;;;;outdoor;0.989;excellent;0.637;visible;0.944;day;1.000;sunny;1.000;no;0.997;yes;0.965
+0508 - Bx Cenon/IMG_1713.jpg;459;cemetery;0.995;;;;;outdoor;1.000;degraded;0.673;visible;0.949;day;1.000;sunny;0.950;no;1.000;no;0.306
+0508 - Bx Cenon/IMG_1717.jpg;458;religious;0.989;;;;;outdoor;1.000;degraded;0.567;visible;0.999;day;1.000;sunny;0.999;no;1.000;no;0.248
+0508 - Bx Cenon/IMG_1719.jpg;453;graphic;0.563;;;;;outdoor;0.999;good;0.519;visible;0.834;day;1.000;sunny;0.997;no;1.000;no;0.115
+0508 - Bx Cenon/IMG_1723.jpg;452;religious;0.919;;;;;outdoor;1.000;degraded;0.677;visible;1.000;day;1.000;sunny;0.999;no;1.000;no;0.353
+0508 - Bx Cenon/IMG_1726.jpg;229;vehicle;0.985;truck;0.974;;;outdoor;1.000;degraded;0.830;absent;0.531;day;0.999;;;no;0.999;yes;0.764
+0508 - Bx Cenon/IMG_1729.jpg;459;religious;0.931;;;;;outdoor;1.000;degraded;0.662;visible;0.999;day;1.000;sunny;0.998;no;1.000;no;0.214
+0508 - Bx Cenon/IMG_1730.jpg;233;vehicle;0.720;undetermined;0.824;;;outdoor;0.997;good;0.650;absent;0.998;day;1.000;;;no;0.994;no;0.252
+0508 - Bx Cenon/IMG_1732.jpg;469;urban_landscape;0.563;;;;;outdoor;1.000;;;visible;0.996;day;1.000;sunny;0.985;no;0.999;yes;0.677
+0508 - Bx Cenon/IMG_1734.jpg;229;graphic;0.566;;;;;outdoor;0.946;good;0.942;absent;0.998;day;1.000;;;no;1.000;no;0.233
+0508 - Bx Cenon/IMG_1736.jpg;465;landscape;0.691;;;;;outdoor;1.000;;;visible;0.997;day;1.000;sunny;0.982;no;1.000;yes;0.705
+0508 - Bx Cenon/IMG_1737.jpg;446;landscape;0.662;;;;;outdoor;1.000;;;visible;0.991;day;1.000;sunny;0.997;no;1.000;yes;0.678
+0508 - Bx Cenon/IMG_1738.jpg;456;landscape;0.465;;;;;outdoor;1.000;;;visible;0.970;day;1.000;sunny;0.991;no;1.000;yes;0.706
+0508 - Bx Cenon/IMG_1739.jpg;439;urban_landscape;0.654;;;;;outdoor;1.000;;;visible;0.888;day;1.000;sunny;0.999;no;1.000;yes;0.710
+0508 - Bx Cenon/IMG_1744.jpg;470;bridge;0.345;;;;;outdoor;1.000;good;0.403;visible;0.982;day;1.000;sunny;0.981;no;0.996;yes;0.780
+0508 - Bx Cenon/IMG_1747.jpg;236;landscape;0.896;;;;;outdoor;0.999;;;absent;0.998;day;0.822;;;no;1.000;yes;0.880
+0508 - Bx Cenon/IMG_1748.jpg;419;bridge;0.821;;;;;outdoor;1.000;good;0.698;visible;0.992;day;1.000;sunny;0.999;no;1.000;yes;0.653
+0508 - Bx Cenon/IMG_1749.jpg;461;landscape;0.605;;;;;outdoor;1.000;;;visible;0.998;day;1.000;sunny;0.992;no;1.000;yes;0.585
+0508 - Bx Cenon/IMG_1750.jpg;420;religious;0.384;;;;;outdoor;1.000;good;0.499;visible;1.000;day;1.000;sunny;0.997;no;1.000;no;0.385
+0508 - Bx Cenon/IMG_1751.jpg;468;street;0.475;;;;;outdoor;0.993;;;visible;0.717;day;1.000;sunny;0.681;no;0.998;yes;0.737
+0508 - Bx Cenon/IMG_1752.jpg;227;facade;0.989;;;;;outdoor;0.901;degraded;0.871;absent;0.997;day;1.000;;;no;1.000;yes;0.757
+0508 - Bx Cenon/IMG_1753.jpg;463;architecture;0.675;;;;;outdoor;0.995;excellent;0.884;visible;0.988;day;1.000;sunny;1.000;no;0.999;no;0.377
+0508 - Bx Cenon/IMG_1755.jpg;231;facade;0.997;;;;;outdoor;0.989;degraded;0.792;absent;0.990;day;1.000;;;no;1.000;no;0.119
+0509 - St Jean Luz/D1000001.JPG;457;landscape;0.998;;;;;outdoor;1.000;;;visible;0.718;day;1.000;sunny;0.906;no;1.000;yes;0.601
+0509 - St Jean Luz/D1000002.JPG;462;landscape;0.997;;;;;outdoor;1.000;;;visible;0.700;day;1.000;sunny;0.985;no;0.999;yes;0.673
+0509 - St Jean Luz/D1000005.JPG;460;landscape;0.960;;;;;outdoor;1.000;;;visible;0.999;day;1.000;sunny;0.949;no;0.999;yes;0.841
+0509 - St Jean Luz/D1000006.JPG;452;landscape;0.996;;;;;outdoor;1.000;;;visible;0.996;day;1.000;sunny;0.794;no;0.999;no;0.313
+0509 - St Jean Luz/D1000007.JPG;454;landscape;0.995;;;;;outdoor;1.000;;;visible;0.999;day;1.000;sunny;0.996;no;0.990;yes;0.823
+0509 - St Jean Luz/D1000010.JPG;440;landscape;0.999;;;;;outdoor;1.000;;;visible;0.950;day;1.000;sunny;0.988;no;1.000;yes;0.863
+0509 - St Jean Luz/D1000014.JPG;464;landscape;0.999;;;;;outdoor;1.000;;;visible;0.935;day;1.000;sunny;0.954;no;0.998;yes;0.528
+0509 - St Jean Luz/D1000017.JPG;425;landscape;0.999;;;;;outdoor;1.000;;;visible;0.955;day;1.000;sunny;0.993;no;0.999;yes;0.730
+0509 - St Jean Luz/D1000020.JPG;471;landscape;0.997;;;;;outdoor;0.999;;;visible;0.514;day;1.000;sunny;0.506;no;0.999;yes;0.672
+0509 - St Jean Luz/D1000022.JPG;470;landscape;1.000;;;;;outdoor;1.000;;;visible;0.997;day;1.000;sunny;0.864;no;1.000;yes;0.848
+0509 - St Jean Luz/D1000025.JPG;236;landscape;0.754;;;;;outdoor;0.999;;;absent;0.993;day;1.000;;;no;0.998;no;0.471
+0509 - St Jean Luz/D1000032.JPG;232;graphic;0.372;;;;;outdoor;1.000;degraded;0.866;absent;0.996;day;1.000;;;no;1.000;no;0.498
+0509 - St Jean Luz/D1000033.JPG;236;graphic;0.349;;;;;outdoor;0.998;degraded;0.692;absent;0.999;day;1.000;;;no;1.000;no;0.382
+0509 - St Jean Luz/D1000035.JPG;452;landscape;0.467;;;;;outdoor;1.000;;;visible;0.905;day;1.000;sunny;0.955;no;1.000;yes;0.652
+0509 - St Jean Luz/D1000039recadr.jpg;460;landscape;0.826;;;;;outdoor;1.000;;;visible;0.771;day;1.000;sunny;0.995;no;1.000;yes;0.627
+0509 - St Jean Luz/D1000042.JPG;441;landscape;0.908;;;;;outdoor;0.999;;;visible;0.932;day;1.000;sunny;0.856;no;1.000;no;0.439
+0509 - St Jean Luz/D1000042recadr.jpg;472;landscape;0.971;;;;;outdoor;0.999;;;visible;0.660;day;1.000;sunny;0.946;no;1.000;no;0.484
+0509 - St Jean Luz/D1000044.JPG;472;landscape;0.986;;;;;outdoor;1.000;;;visible;0.943;day;1.000;sunny;0.926;no;0.999;no;0.246
+0509 - St Jean Luz/D1000045.JPG;234;landscape;0.553;;;;;outdoor;1.000;;;absent;0.919;day;1.000;;;no;1.000;no;0.289
+0509 - St Jean Luz/D1000046.JPG;426;landscape;0.987;;;;;outdoor;1.000;;;visible;0.951;day;1.000;sunny;0.877;no;0.999;no;0.293
+0509 - St Jean Luz/D1000049.JPG;406;landscape;0.998;;;;;outdoor;1.000;;;visible;0.974;day;1.000;sunny;0.978;no;0.999;no;0.401
+0509 - St Jean Luz/D1000050.JPG;444;landscape;0.967;;;;;outdoor;1.000;;;visible;0.992;day;1.000;sunny;0.518;no;1.000;no;0.159
+0509 - St Jean Luz/D1000052.JPG;235;landscape;0.477;;;;;outdoor;0.999;;;absent;0.887;day;1.000;;;no;0.999;no;0.369
+0509 - St Jean Luz/D1000054.JPG;470;landscape;0.454;;;;;outdoor;1.000;;;visible;0.708;day;1.000;sunny;0.996;no;1.000;yes;0.637
+0509 - St Jean Luz/D1000055.JPG;222;landscape;0.610;;;;;outdoor;1.000;;;absent;0.583;day;1.000;;;no;1.000;yes;0.768
+0509 - St Jean Luz/D1000056.JPG;219;landscape;0.417;;;;;outdoor;0.992;;;absent;0.991;day;1.000;;;no;1.000;no;0.127
+0509 - St Jean Luz/D1000057.JPG;223;landscape;0.452;;;;;outdoor;0.998;;;absent;0.998;day;1.000;;;no;0.818;no;0.492
+0509 - St Jean Luz/D1000058.JPG;472;landscape;0.646;;;;;outdoor;0.999;;;visible;0.702;day;1.000;sunny;1.000;no;1.000;no;0.378
+0509 - St Jean Luz/D1000060.JPG;198;landscape;0.994;;;;;outdoor;1.000;;;absent;0.709;day;1.000;;;no;1.000;no;0.476
+0509 - St Jean Luz/D1000061.JPG;251;macro;0.579;;;;;outdoor;0.996;;;absent;0.999;day;1.000;;;;;no;0.021
+0509 - St Jean Luz/D1000066.JPG;459;landscape;0.867;;;;;outdoor;0.999;;;visible;0.545;day;1.000;sunny;0.994;no;1.000;no;0.357
+0509 - St Jean Luz/D1000068.JPG;462;landscape;0.939;;;;;outdoor;1.000;;;visible;0.886;day;1.000;sunny;1.000;no;1.000;no;0.271
+0509 - St Jean Luz/D1000069.JPG;461;landscape;0.937;;;;;outdoor;1.000;;;visible;0.890;day;1.000;sunny;0.995;no;1.000;no;0.335
+0509 - St Jean Luz/D1000073.JPG;468;landscape;0.996;;;;;outdoor;1.000;;;visible;0.984;day;1.000;sunny;0.561;no;0.999;no;0.444
+0509 - St Jean Luz/D1000076.JPG;467;landscape;0.960;;;;;outdoor;1.000;;;visible;0.997;day;1.000;sunny;0.995;no;0.998;yes;0.642
+0509 - St Jean Luz/D1000077.JPG;450;landscape;0.699;;;;;outdoor;1.000;;;visible;0.996;day;1.000;sunny;0.524;no;0.998;no;0.464
+0509 - St Jean Luz/D1000078.JPG;458;landscape;0.995;;;;;outdoor;1.000;;;visible;0.948;day;1.000;sunny;0.855;no;1.000;no;0.361
+0509 - St Jean Luz/D1000080.JPG;243;landscape;0.994;;;;;outdoor;1.000;;;absent;0.847;day;1.000;;;no;0.999;yes;0.522
+0509 - St Jean Luz/D1000082.JPG;231;landscape;0.973;;;;;outdoor;0.998;;;absent;0.722;day;1.000;;;no;0.999;yes;0.660
+0509 - St Jean Luz/D1000084.JPG;452;landscape;0.996;;;;;outdoor;1.000;;;visible;0.999;day;1.000;sunny;0.971;no;1.000;no;0.434
+0509 - St Jean Luz/D1000089.JPG;439;landscape;0.995;;;;;outdoor;1.000;;;visible;0.993;dusk;0.996;cloudy;0.498;no;1.000;yes;0.647
+0509 - St Jean Luz/D1000091.JPG;459;landscape;0.995;;;;;outdoor;1.000;;;visible;0.995;dusk;0.994;few_clouds;0.765;no;1.000;yes;0.568
+0509 - St Jean Luz/D1010002.JPG;482;landscape;0.990;;;;;outdoor;0.999;;;visible;0.976;day;0.999;sunny;0.576;no;0.999;yes;0.675
+0509 - St Jean Luz/D1010005.JPG;469;landscape;0.990;;;;;outdoor;1.000;;;visible;0.916;day;0.994;mixed;0.510;no;1.000;yes;0.631
+0509 - St Jean Luz/D1010008.JPG;239;graphic;0.896;;;;;outdoor;0.999;degraded;0.615;absent;0.987;day;1.000;;;no;1.000;no;0.040
+0509 - St Jean Luz/D1010009.JPG;236;landscape;0.971;;;;;outdoor;0.998;;;absent;0.902;day;1.000;;;no;1.000;yes;0.806
+0509 - St Jean Luz/D1010010.JPG;237;landscape;0.980;;;;;outdoor;0.998;;;absent;0.902;day;1.000;;;no;1.000;yes;0.662
+0509 - St Jean Luz/D1010011.JPG;236;landscape;0.970;;;;;outdoor;0.999;;;absent;0.551;day;0.999;;;no;1.000;yes;0.515
+0509 - St Jean Luz/D1010012.JPG;239;landscape;0.960;;;;;outdoor;0.998;;;absent;0.828;day;1.000;;;no;1.000;no;0.434
+0509 - St Jean Luz/D1010013.JPG;211;graphic;0.780;;;;;outdoor;0.997;good;0.472;absent;0.995;day;1.000;;;no;1.000;no;0.125
+0509 - St Jean Luz/D1010014.JPG;240;landscape;0.377;;;;;outdoor;0.997;;;absent;0.646;day;1.000;;;no;1.000;no;0.331
+0509 - St Jean Luz/D1010016.JPG;237;graphic;0.460;;;;;outdoor;0.996;degraded;0.814;absent;0.999;day;1.000;;;no;1.000;no;0.160
+0509 - St Jean Luz/D1010018.JPG;242;landscape;0.257;;;;;outdoor;0.994;;;absent;0.860;day;1.000;;;no;1.000;no;0.372
+0509 - St Jean Luz/D1010019.JPG;228;landscape;0.802;;;;;outdoor;0.995;;;absent;0.584;day;0.999;;;no;1.000;no;0.380
+0509 - St Jean Luz/D1010021.JPG;219;macro;0.662;;;;;outdoor;0.998;;;absent;0.998;day;1.000;;;;;no;0.177
+0509 - St Jean Luz/D1010025.JPG;248;graphic;0.406;;;;;outdoor;0.996;degraded;0.777;absent;0.979;day;1.000;;;no;1.000;no;0.188
+0509 - St Jean Luz/D1010026.JPG;237;graphic;0.629;;;;;outdoor;0.998;degraded;0.727;absent;1.000;day;1.000;;;no;1.000;no;0.385
+0509 - St Jean Luz/D1010027.JPG;459;macro;0.526;;;;;outdoor;0.999;;;visible;0.967;day;1.000;sunny;0.999;;;no;0.257
+0509 - St Jean Luz/D1010032.JPG;454;landscape;0.997;;;;;outdoor;1.000;;;visible;0.945;day;1.000;sunny;0.553;no;0.997;yes;0.779
+0509 - St Jean Luz/D1010033.JPG;472;landscape;0.996;;;;;outdoor;1.000;;;visible;0.974;day;1.000;mixed;0.831;no;0.997;yes;0.637
+0509 - St Jean Luz/graph1-2.jpg;238;plastic_arts;0.391;;;sculpture;0.739;outdoor;0.972;degraded;0.413;absent;0.968;day;1.000;;;no;1.000;no;0.392
+0509 - St Jean Luz/graph1-3.jpg;238;graphic;0.389;;;;;outdoor;0.917;ruin;0.373;absent;0.872;day;1.000;;;no;1.000;yes;0.602
+0509 - St Jean Luz/graph1.jpg;235;graphic;0.455;;;;;outdoor;0.975;degraded;0.588;absent;0.985;day;1.000;;;no;1.000;yes;0.656
+0509 - St Jean Luz/graph2-2.jpg;241;graphic;0.759;;;;;outdoor;0.933;ruin;0.537;absent;0.895;day;1.000;;;no;1.000;no;0.178
+0509 - St Jean Luz/graph2-3.jpg;232;graphic;0.842;;;;;outdoor;0.974;good;0.432;absent;0.997;day;1.000;;;no;1.000;no;0.223
+0509 - St Jean Luz/graph2-4.jpg;243;graphic;0.759;;;;;outdoor;0.933;ruin;0.537;absent;0.895;day;1.000;;;no;1.000;no;0.178
+0509 - St Jean Luz/graph2.jpg;210;graphic;0.845;;;;;outdoor;0.985;degraded;0.378;absent;0.979;day;1.000;;;no;1.000;no;0.225
+0509 - St Jean Luz/IMG_2050.JPG;469;landscape;0.767;;;;;outdoor;1.000;;;visible;0.996;day;1.000;few_clouds;0.841;no;1.000;yes;0.827
+0509 - St Jean Luz/IMG_2051.JPG;453;vehicle;0.954;boat;1.000;;;outdoor;0.999;degraded;0.902;visible;0.588;day;1.000;sunny;0.827;no;1.000;no;0.433
+0509 - St Jean Luz/IMG_2053.JPG;465;facade;0.478;;;;;outdoor;1.000;excellent;0.882;visible;0.999;day;1.000;sunny;0.827;no;1.000;yes;0.628
+0509 - St Jean Luz/IMG_2093.JPG;236;graphic;0.954;;;;;indoor;0.995;good;0.774;absent;1.000;day;1.000;;;no;1.000;yes;0.546
+0509 - St Jean Luz/IMG_2097.JPG;243;plastic_arts;0.476;;;painting;0.805;outdoor;0.792;degraded;0.690;absent;0.997;day;0.997;;;no;1.000;yes;0.926
+0509 - St Jean Luz/IMG_2110.JPG;475;landscape;0.990;;;;;outdoor;1.000;;;visible;0.916;day;1.000;few_clouds;0.759;no;1.000;yes;0.650
+0509 - St Jean Luz/IMG_2110recadr.jpg;458;landscape;0.995;;;;;outdoor;1.000;;;visible;0.976;day;1.000;sunny;0.642;no;1.000;no;0.491
+0509 - St Jean Luz/IMG_2112.JPG;471;landscape;0.963;;;;;outdoor;1.000;;;visible;0.996;day;0.949;sunny;0.882;no;0.998;yes;0.860
+0509 - St Jean Luz/IMG_2113.JPG;481;landscape;0.996;;;;;outdoor;1.000;;;visible;0.933;day;1.000;few_clouds;0.656;no;1.000;yes;0.794
+0509 - St Jean Luz/IMG_2115.JPG;240;landscape;0.988;;;;;outdoor;1.000;;;absent;0.903;day;1.000;;;no;0.992;yes;0.864
+0509 - St Jean Luz/IMG_2115recadr.jpg;243;landscape;0.980;;;;;outdoor;1.000;;;absent;0.881;day;1.000;;;no;0.907;yes;0.568
+0509 - St Jean Luz/IMG_2121.JPG;469;landscape;0.991;;;;;outdoor;1.000;;;visible;1.000;day;0.998;mixed;0.685;no;1.000;yes;0.818
+0509 - St Jean Luz/IMG_2122.JPG;442;landscape;0.991;;;;;outdoor;1.000;;;visible;0.997;day;1.000;mixed;0.995;no;1.000;yes;0.563
+0509 - St Jean Luz/IMG_2124.JPG;472;landscape;0.998;;;;;outdoor;1.000;;;visible;0.999;day;1.000;mixed;0.996;no;1.000;yes;0.720
+0511 - Bruxelles/PhotoBrux1 001.jpg;470;facade;0.503;;;;;outdoor;0.993;excellent;0.810;visible;0.994;day;1.000;sunny;1.000;no;1.000;yes;0.542
+0511 - Bruxelles/PhotoBrux1 005.jpg;459;architecture;0.569;;;;;outdoor;0.992;degraded;0.530;visible;0.988;day;1.000;sunny;0.977;no;1.000;no;0.316
+0511 - Bruxelles/PhotoBrux1 007.jpg;462;architecture;0.831;;;;;outdoor;0.996;excellent;0.749;visible;0.978;day;1.000;sunny;0.979;no;1.000;yes;0.677
+0511 - Bruxelles/PhotoBrux1 008.jpg;442;architecture;0.433;;;;;outdoor;0.992;excellent;0.936;visible;0.924;day;1.000;sunny;0.602;no;1.000;no;0.124
+0511 - Bruxelles/PhotoBrux1 009.jpg;487;religious;0.748;;;;;outdoor;0.984;excellent;0.461;visible;0.998;day;1.000;sunny;0.999;no;1.000;no;0.252
+0511 - Bruxelles/PhotoBrux1 011.jpg;470;graphic;0.366;;;;;outdoor;0.999;excellent;0.564;visible;0.974;day;1.000;sunny;0.772;no;1.000;yes;0.503
+0511 - Bruxelles/PhotoBrux1 013.jpg;464;architecture;0.923;;;;;outdoor;0.998;excellent;0.788;visible;0.985;day;1.000;sunny;1.000;no;1.000;yes;0.571
+0511 - Bruxelles/PhotoBrux1 014.jpg;472;architecture;0.792;;;;;outdoor;0.998;excellent;0.529;visible;0.976;day;1.000;sunny;1.000;no;1.000;yes;0.632
+0511 - Bruxelles/PhotoBrux1 016-2.jpg;450;architecture;0.551;;;;;outdoor;1.000;excellent;0.763;visible;0.970;day;1.000;sunny;0.928;no;0.999;yes;0.672
+0511 - Bruxelles/PhotoBrux1 016.jpg;459;architecture;0.538;;;;;outdoor;1.000;excellent;0.759;visible;0.969;day;1.000;sunny;0.897;no;0.999;yes;0.665
+0511 - Bruxelles/PhotoBrux1 018.jpg;436;architecture;0.937;;;;;outdoor;0.996;excellent;0.850;visible;0.986;day;1.000;sunny;0.888;no;1.000;yes;0.580
+0511 - Bruxelles/PhotoBrux1 020.jpg;416;architecture;0.950;;;;;outdoor;0.999;excellent;0.806;visible;0.990;day;1.000;sunny;1.000;no;1.000;yes;0.560
+0511 - Bruxelles/PhotoBrux1 021.jpg;460;architecture;0.922;;;;;outdoor;0.996;excellent;0.756;visible;0.962;day;1.000;sunny;0.991;no;1.000;no;0.441
+0511 - Bruxelles/PhotoBrux1 022.jpg;462;architecture;0.944;;;;;outdoor;0.999;excellent;0.828;visible;0.988;day;1.000;sunny;0.998;no;1.000;no;0.427
+0511 - Bruxelles/PhotoBrux1 023.jpg;447;facade;0.280;;;;;outdoor;0.999;excellent;0.831;visible;0.992;day;1.000;sunny;0.892;no;1.000;no;0.402
+0511 - Bruxelles/PhotoBrux1 024.jpg;440;graphic;0.728;;;;;outdoor;0.999;excellent;0.788;visible;0.958;day;1.000;sunny;0.965;no;1.000;no;0.117
+0511 - Bruxelles/PhotoBrux1 026.jpg;476;architecture;0.881;;;;;outdoor;0.999;good;0.527;visible;0.904;day;1.000;cloudy;0.530;no;0.994;no;0.101
+0511 - Bruxelles/PhotoBrux1 028.jpg;418;facade;0.492;;;;;outdoor;1.000;degraded;0.506;visible;0.733;day;1.000;few_clouds;0.595;no;1.000;yes;0.741
+0511 - Bruxelles/PhotoBrux1 030.jpg;463;architecture;0.947;;;;;outdoor;0.997;excellent;0.967;visible;0.965;day;1.000;sunny;0.484;no;1.000;yes;0.625
+0511 - Bruxelles/PhotoBrux1 032.jpg;241;facade;0.970;;;;;outdoor;0.982;excellent;0.969;absent;0.608;day;1.000;;;no;1.000;yes;0.501
+0511 - Bruxelles/PhotoBrux1 035.jpg;242;graphic;0.536;;;;;outdoor;0.998;excellent;0.881;absent;0.982;day;1.000;;;no;1.000;yes;0.648
+0511 - Bruxelles/PhotoBrux1 036.jpg;436;facade;0.417;;;;;outdoor;1.000;excellent;0.890;visible;0.794;day;0.999;sunny;0.913;no;0.999;yes;0.739
+0511 - Bruxelles/PhotoBrux1 038.jpg;236;graphic;0.819;;;;;outdoor;0.999;excellent;0.832;absent;0.860;day;1.000;;;no;1.000;yes;0.581
+0511 - Bruxelles/PhotoBrux1 040.jpg;244;plastic_arts;0.550;;;sculpture;0.999;outdoor;1.000;degraded;0.548;absent;0.940;day;1.000;;;no;0.993;yes;0.955
+0511 - Bruxelles/PhotoBrux1 043.jpg;476;facade;0.531;;;;;outdoor;0.999;degraded;0.873;visible;0.656;day;1.000;sunny;0.480;no;1.000;no;0.172
+0511 - Bruxelles/PhotoBrux1 045.jpg;222;street;0.845;;;;;outdoor;1.000;;;absent;0.738;day;1.000;;;no;1.000;yes;0.888
+0511 - Bruxelles/PhotoBrux1 046.jpg;241;facade;0.847;;;;;outdoor;0.995;excellent;0.816;absent;0.918;day;1.000;;;no;0.999;no;0.324
+0511 - Bruxelles/PhotoBrux1 047.jpg;229;facade;0.910;;;;;outdoor;0.994;excellent;0.704;absent;0.784;day;1.000;;;no;0.998;no;0.395
+0511 - Bruxelles/PhotoBrux1 049.jpg;454;architecture;0.952;;;;;outdoor;0.997;excellent;0.805;visible;0.983;day;1.000;bad_weather;0.485;no;1.000;yes;0.535
+0511 - Bruxelles/PhotoBrux1 051.jpg;244;graphic;0.574;;;;;outdoor;0.988;excellent;0.888;absent;0.874;day;1.000;;;no;1.000;yes;0.649
+0511 - Bruxelles/PhotoBrux1 052.jpg;476;street;0.513;;;;;outdoor;1.000;;;visible;0.603;day;1.000;sunny;0.593;no;1.000;yes;0.691
+0511 - Bruxelles/PhotoBrux1 053.jpg;227;facade;0.851;;;;;outdoor;0.960;excellent;0.758;absent;0.714;day;1.000;;;no;1.000;yes;0.589
+0511 - Bruxelles/PhotoBrux1 067.jpg;458;cemetery;0.999;;;;;outdoor;0.999;degraded;0.758;visible;0.921;day;1.000;few_clouds;0.675;no;1.000;no;0.393
+0511 - Bruxelles/PhotoBrux1 069.jpg;474;architecture;0.916;;;;;outdoor;0.996;good;0.860;visible;0.999;day;1.000;cloudy;0.885;no;0.993;yes;0.855
+0511 - Bruxelles/PhotoBrux1 070.jpg;232;street;0.786;;;;;outdoor;1.000;;;absent;1.000;day;1.000;;;no;1.000;yes;0.537
+0511 - Bruxelles/PhotoBrux1 073.jpg;473;architecture;0.806;;;;;outdoor;0.986;degraded;0.692;visible;0.772;day;1.000;cloudy;0.948;no;0.998;yes;0.801
+0511 - Bruxelles/PhotoBrux1 077.jpg;463;architecture;0.747;;;;;outdoor;1.000;excellent;0.657;visible;0.976;day;1.000;cloudy;0.357;no;1.000;yes;0.979
+0511 - Bruxelles/PhotoBrux1 079.jpg;472;architecture;0.573;;;;;outdoor;0.999;excellent;0.736;visible;1.000;dusk;0.917;cloudy;0.727;no;0.999;yes;0.965
+0511 - Bruxelles/PhotoBrux1 084.jpg;203;religious;0.518;;;;;outdoor;0.995;excellent;0.554;visible;0.998;night;0.952;;;no;0.999;yes;0.967
+0511 - Bruxelles/PhotoBrux1 089.jpg;238;architecture;0.424;;;;;outdoor;0.995;excellent;0.595;visible;0.999;night;0.971;;;no;1.000;yes;0.927
+0511 - Bruxelles/PhotoBrux1 094.jpg;227;facade;0.351;;;;;outdoor;0.992;excellent;0.749;absent;0.704;night;0.897;;;no;1.000;yes;0.597
+0511 - Bruxelles/PhotoBrux2 003.jpg;242;architecture;0.423;;;;;outdoor;0.998;excellent;0.775;visible;0.934;night;0.969;;;no;0.999;yes;0.545
+0511 - Bruxelles/PhotoBrux2 009.jpg;205;architecture;0.745;;;;;outdoor;0.995;excellent;0.499;visible;0.996;night;0.954;;;no;1.000;yes;0.829
+0602 - Bx snow/IMG_2506.JPG;456;street;0.504;;;;;outdoor;0.999;;;visible;0.978;day;0.999;cloudy;0.813;no;0.999;yes;0.920
+0602 - Bx snow/IMG_2510.JPG;474;architecture;0.376;;;;;outdoor;0.994;excellent;0.673;visible;0.996;day;1.000;cloudy;0.665;no;1.000;yes;0.916
+0602 - Bx snow/IMG_2513.JPG;483;street;0.668;;;;;outdoor;1.000;;;visible;0.992;day;0.988;cloudy;0.873;no;1.000;yes;0.666
+0602 - Bx snow/IMG_2514.JPG;465;street;0.379;;;;;outdoor;0.995;;;visible;0.730;day;1.000;cloudy;0.952;no;1.000;yes;0.892
+0602 - Bx snow/IMG_2515.JPG;448;religious;0.873;;;;;outdoor;0.998;degraded;0.570;visible;0.942;day;1.000;sunny;0.743;no;1.000;yes;0.643
+0602 - Bx snow/IMG_2518.JPG;455;religious;0.761;;;;;outdoor;1.000;excellent;0.583;visible;0.999;day;0.999;cloudy;0.736;no;1.000;yes;0.643
+0602 - Bx snow/IMG_2519.JPG;439;religious;0.779;;;;;outdoor;1.000;degraded;0.720;visible;1.000;day;0.999;sunny;0.352;no;1.000;yes;0.829
+0602 - Bx snow/IMG_2520.JPG;419;religious;0.929;;;;;outdoor;1.000;excellent;0.671;visible;0.998;day;0.999;mixed;0.705;no;1.000;yes;0.645
+0602 - Bx snow/IMG_2521.JPG;486;architecture;0.685;;;;;outdoor;1.000;excellent;0.686;visible;0.643;day;1.000;cloudy;1.000;no;0.996;yes;0.625
+0602 - Bx snow/IMG_2523.JPG;205;street;0.990;;;;;outdoor;1.000;;;absent;0.774;day;1.000;;;no;1.000;yes;0.528
+0602 - Bx snow/IMG_2527.JPG;245;graphic;0.804;;;;;outdoor;0.991;degraded;0.507;absent;0.974;day;1.000;;;no;1.000;no;0.168
+0602 - Bx snow/IMG_2531.JPG;478;landscape;0.298;;;;;outdoor;1.000;;;visible;0.907;day;1.000;sunny;0.962;no;1.000;no;0.356
+0602 - Bx snow/IMG_2533.JPG;227;graphic;0.582;;;;;outdoor;1.000;degraded;0.820;absent;0.997;day;1.000;;;no;1.000;yes;0.557
+0602 - Bx snow/IMG_2534.JPG;455;street;0.613;;;;;outdoor;1.000;;;visible;0.991;day;1.000;cloudy;0.992;no;1.000;no;0.371
+0602 - Bx snow/IMG_2535.JPG;482;facade;0.620;;;;;outdoor;0.999;excellent;0.737;visible;0.948;day;1.000;few_clouds;0.825;no;1.000;no;0.216
+0602 - Bx snow/IMG_2536.JPG;234;graphic;0.559;;;;;outdoor;0.999;degraded;0.783;absent;0.989;day;0.998;;;no;1.000;no;0.282
+0602 - Bx snow/IMG_2538.JPG;469;architecture;0.935;;;;;outdoor;0.999;good;0.627;visible;0.992;day;1.000;few_clouds;0.762;no;0.996;yes;0.564
+0602 - Bx snow/IMG_2539.JPG;404;architecture;0.979;;;;;outdoor;1.000;good;0.698;visible;0.988;day;1.000;few_clouds;0.982;no;0.999;yes;0.609
+0602 - Bx snow/IMG_2540.JPG;411;street;0.374;;;;;outdoor;1.000;;;visible;0.999;day;1.000;few_clouds;0.963;no;1.000;yes;0.802
+0602 - Bx snow/IMG_2541.JPG;471;street;0.523;;;;;outdoor;1.000;;;visible;0.999;day;1.000;few_clouds;0.982;no;1.000;yes;0.841
+0602 - Bx snow/IMG_2542.JPG;474;facade;0.599;;;;;outdoor;0.999;degraded;0.477;visible;0.965;day;1.000;sunny;0.991;no;1.000;yes;0.687
+0602 - Bx snow/IMG_2544.JPG;473;facade;0.554;;;;;outdoor;1.000;degraded;0.685;visible;0.941;day;1.000;sunny;0.974;no;1.000;no;0.209
+0602 - Bx snow/IMG_2548.JPG;464;architecture;0.786;;;;;outdoor;1.000;excellent;0.740;visible;1.000;day;1.000;sunny;0.913;no;1.000;yes;0.607
+0602 - Bx snow/IMG_2550.JPG;242;graphic;0.622;;;;;outdoor;0.999;degraded;0.557;absent;0.964;day;1.000;;;no;1.000;yes;0.604
+0602 - Bx snow/IMG_2553.JPG;467;architecture;0.933;;;;;outdoor;1.000;excellent;0.874;visible;0.953;day;1.000;few_clouds;0.786;no;1.000;yes;0.797
+0602 - Bx snow/IMG_2554.JPG;453;architecture;0.910;;;;;outdoor;1.000;excellent;0.904;visible;0.999;day;1.000;few_clouds;0.845;no;1.000;yes;0.709
+0602 - Bx snow/IMG_2555.JPG;447;architecture;0.934;;;;;outdoor;1.000;excellent;0.919;visible;0.998;day;1.000;few_clouds;0.991;no;1.000;yes;0.685
+0602 - Bx snow/IMG_2556.JPG;467;religious;0.625;;;;;outdoor;1.000;excellent;0.661;visible;0.999;day;1.000;sunny;0.995;no;1.000;no;0.144
+0602 - Bx snow/IMG_2558.JPG;453;street;0.675;;;;;outdoor;0.997;;;visible;0.998;day;1.000;mixed;0.526;no;1.000;no;0.146
+0602 - Bx snow/IMG_2559.JPG;441;street;0.731;;;;;outdoor;0.997;;;visible;0.999;day;1.000;sunny;0.968;no;1.000;no;0.215
+0602 - Bx snow/IMG_2560.JPG;454;street;0.361;;;;;outdoor;0.998;;;visible;0.995;day;1.000;sunny;1.000;no;1.000;no;0.322
+0602 - Bx snow/IMG_2561.JPG;453;facade;0.295;;;;;outdoor;0.998;excellent;0.467;visible;0.998;day;1.000;sunny;0.999;no;1.000;no;0.357
+0602 - Bx snow/IMG_2562.JPG;469;landscape;0.448;;;;;outdoor;1.000;;;visible;0.995;day;1.000;few_clouds;0.755;no;0.999;yes;0.782
+0602 - Bx snow/IMG_2563.JPG;464;landscape;0.979;;;;;outdoor;1.000;;;visible;0.998;day;1.000;few_clouds;0.917;no;1.000;yes;0.830
+0602 - Bx snow/IMG_2564.JPG;462;landscape;0.851;;;;;outdoor;1.000;;;visible;0.943;day;1.000;few_clouds;0.430;no;1.000;yes;0.822
+0602 - Bx snow/IMG_2569.JPG;477;urban_landscape;0.835;;;;;outdoor;1.000;;;visible;0.901;day;1.000;mixed;0.958;no;0.988;yes;0.806
+0602 - Bx snow/IMG_2572.JPG;241;street;0.531;;;;;outdoor;0.989;;;absent;0.998;day;1.000;;;back;0.632;yes;0.758
+0602 - Bx snow/IMG_2574.JPG;237;facade;0.974;;;;;outdoor;0.989;degraded;0.548;absent;0.994;day;1.000;;;no;1.000;yes;0.603
+0602 - Bx snow/IMG_2577.JPG;471;architecture;0.710;;;;;outdoor;0.996;excellent;0.914;visible;0.933;day;1.000;sunny;0.997;no;0.996;yes;0.721
+0602 - Bx snow/IMG_2581.JPG;476;facade;0.393;;;;;outdoor;1.000;excellent;0.848;visible;0.997;day;1.000;sunny;0.998;no;1.000;yes;0.526
+0602 - Bx snow/IMG_2583.JPG;449;facade;0.583;;;;;outdoor;1.000;excellent;0.835;visible;0.972;day;1.000;sunny;0.993;no;1.000;no;0.490
+0602 - Bx snow/IMG_2585.JPG;467;facade;0.310;;;;;outdoor;0.999;good;0.749;visible;0.521;day;1.000;sunny;0.997;no;0.997;no;0.421
+0602 - Bx snow/PanoMairie.jpg;468;architecture;0.953;;;;;outdoor;1.000;excellent;0.907;visible;0.990;day;1.000;few_clouds;0.911;no;1.000;yes;0.791
+0602 - Bx snow/PanoMeriadeck.jpg;480;architecture;0.978;;;;;outdoor;1.000;excellent;0.519;visible;1.000;day;1.000;few_clouds;0.980;no;1.000;yes;0.668
+0602 - Bx snow/PanoParkHugo1.jpg;461;street;0.478;;;;;outdoor;0.984;;;visible;0.998;day;1.000;sunny;0.995;no;1.000;no;0.287
+0602 - Bx snow/PanoQuais.jpg;469;landscape;0.919;;;;;outdoor;1.000;;;visible;0.967;day;1.000;few_clouds;0.637;no;1.000;yes;0.826
+0603 - Belgique/carte belgique.jpg;250;undetermined;0.832;;;;;outdoor;0.865;degraded;0.435;absent;0.954;day;0.991;;;no;1.000;no;0.232
+0603 - Belgique/IMG_5815.JPG;475;architecture;0.980;;;;;outdoor;0.996;good;0.691;visible;0.992;day;1.000;mixed;0.415;no;0.918;no;0.339
+0603 - Belgique/IMG_5821.JPG;454;architecture;0.745;;;;;outdoor;0.910;excellent;0.633;visible;0.982;day;1.000;cloudy;0.936;no;1.000;no;0.406
+0603 - Belgique/IMG_5822.JPG;472;architecture;0.881;;;;;outdoor;0.939;excellent;0.757;visible;0.960;day;1.000;cloudy;0.600;no;0.998;yes;0.589
+0603 - Belgique/IMG_5824.JPG;462;architecture;0.986;;;;;outdoor;0.998;excellent;0.913;visible;1.000;day;1.000;few_clouds;0.924;no;1.000;yes;0.603
+0603 - Belgique/IMG_5828.JPG;463;architecture;0.347;;;;;outdoor;0.997;excellent;0.853;visible;0.998;day;1.000;sunny;0.999;no;0.999;no;0.273
+0603 - Belgique/IMG_5830.JPG;464;architecture;0.993;;;;;outdoor;1.000;excellent;0.942;visible;1.000;day;1.000;sunny;0.710;no;1.000;yes;0.539
+0603 - Belgique/IMG_5831.JPG;457;architecture;0.984;;;;;outdoor;1.000;excellent;0.961;visible;0.999;day;1.000;sunny;0.997;no;1.000;no;0.437
+0603 - Belgique/IMG_5838.JPG;474;graphic;0.415;;;;;outdoor;0.996;good;0.483;visible;0.591;day;1.000;sunny;0.592;no;1.000;no;0.293
+0603 - Belgique/IMG_5840.JPG;247;macro;0.936;;;;;outdoor;0.777;;;absent;1.000;day;1.000;;;;;no;0.406
+0603 - Belgique/IMG_5843.JPG;459;facade;0.583;;;;;outdoor;0.998;excellent;0.801;visible;0.969;day;1.000;few_clouds;0.825;no;1.000;no;0.432
+0603 - Belgique/IMG_5846.JPG;476;facade;0.685;;;;;outdoor;0.998;excellent;0.869;visible;0.823;day;0.988;sunny;0.984;no;1.000;no;0.227
+0603 - Belgique/IMG_5849.JPG;424;religious;0.943;;;;;outdoor;1.000;degraded;0.595;visible;0.999;day;0.996;cloudy;0.903;no;1.000;yes;0.652
+0603 - Belgique/IMG_5850.JPG;458;religious;0.899;;;;;outdoor;0.999;degraded;0.437;visible;0.994;day;1.000;cloudy;0.831;no;1.000;yes;0.801
+0603 - Belgique/IMG_5851.JPG;479;religious;0.866;;;;;outdoor;0.999;excellent;0.451;visible;0.999;day;1.000;sunny;0.923;no;1.000;yes;0.674
+0603 - Belgique/IMG_5857.JPG;237;plastic_arts;0.766;;;sculpture;0.999;outdoor;1.000;good;0.495;absent;0.528;day;1.000;;;no;0.897;yes;0.888
+0603 - Belgique/IMG_5859.JPG;228;plastic_arts;0.951;;;sculpture;0.999;outdoor;1.000;degraded;0.549;absent;0.977;day;0.999;;;no;0.982;yes;0.904
+0603 - Belgique/IMG_5860.JPG;229;plastic_arts;0.906;;;sculpture;0.998;outdoor;1.000;degraded;0.509;absent;0.704;day;0.996;;;no;0.995;yes;0.804
+0603 - Belgique/IMG_5861.JPG;448;architecture;0.936;;;;;outdoor;0.998;excellent;0.946;visible;0.991;day;1.000;sunny;0.386;no;1.000;yes;0.647
+0603 - Belgique/IMG_5862.JPG;458;architecture;0.552;;;;;outdoor;1.000;excellent;0.922;visible;0.990;day;1.000;sunny;0.559;no;1.000;no;0.416
+0603 - Belgique/IMG_5864.JPG;490;architecture;0.546;;;;;outdoor;0.998;excellent;0.880;visible;0.989;day;0.998;sunny;0.999;no;1.000;yes;0.536
+0603 - Belgique/IMG_5866.JPG;426;religious;0.891;;;;;outdoor;0.986;degraded;0.968;visible;0.997;day;1.000;sunny;0.986;no;1.000;no;0.184
+0603 - Belgique/IMG_5868.JPG;245;facade;0.987;;;;;outdoor;0.991;degraded;0.545;absent;0.998;day;1.000;;;no;1.000;no;0.038
+0603 - Belgique/IMG_5870.JPG;462;religious;0.956;;;;;outdoor;1.000;degraded;0.858;visible;1.000;day;0.987;sunny;0.682;no;1.000;yes;0.624
+0603 - Belgique/IMG_5872.JPG;249;facade;0.646;;;;;outdoor;0.986;degraded;0.875;absent;1.000;day;1.000;;;no;1.000;no;0.178
+0603 - Belgique/IMG_5873.JPG;232;facade;0.995;;;;;outdoor;0.821;excellent;0.893;absent;0.998;day;0.995;;;no;1.000;yes;0.765
+0603 - Belgique/IMG_5876.JPG;215;facade;0.996;;;;;outdoor;0.785;excellent;0.713;absent;0.947;day;1.000;;;no;1.000;no;0.227
+0603 - Belgique/IMG_5877.JPG;486;religious;0.895;;;;;outdoor;1.000;degraded;0.761;visible;0.997;day;0.999;sunny;0.962;no;1.000;yes;0.589
+0603 - Belgique/IMG_5879.JPG;447;religious;0.609;;;;;outdoor;1.000;degraded;0.510;visible;0.999;day;0.924;few_clouds;0.451;no;1.000;yes;0.707
+0603 - Belgique/IMG_5883.JPG;465;religious;0.590;;;;;outdoor;0.999;degraded;0.793;visible;0.998;day;0.623;cloudy;0.539;no;1.000;no;0.499
+0603 - Belgique/IMG_5887.JPG;453;architecture;0.738;;;;;outdoor;0.997;excellent;0.786;visible;0.989;day;0.999;sunny;0.996;no;1.000;yes;0.558
+0603 - Belgique/IMG_5889.JPG;206;vehicle;0.880;car;0.996;;;outdoor;1.000;good;0.561;absent;0.996;day;1.000;;;no;1.000;yes;0.518
+0603 - Belgique/IMG_5892.JPG;490;urban_landscape;0.684;;;;;outdoor;1.000;;;visible;1.000;dusk;0.997;cloudy;0.429;no;1.000;yes;0.550
+0603 - Belgique/IMG_5895.JPG;471;urban_landscape;0.513;;;;;outdoor;1.000;;;visible;1.000;dusk;0.986;sunny;0.866;no;1.000;yes;0.714
+0603 - Belgique/IMG_5900.JPG;477;urban_landscape;0.766;;;;;outdoor;1.000;;;visible;0.988;dusk;1.000;mixed;0.623;no;1.000;yes;0.975
+0603 - Belgique/IMG_5909.JPG;472;urban_landscape;0.732;;;;;outdoor;0.988;;;visible;0.777;dusk;0.907;cloudy;0.703;no;1.000;yes;0.986
+0603 - Belgique/IMG_5910.JPG;481;urban_landscape;0.695;;;;;outdoor;0.996;;;visible;0.875;dusk;0.967;cloudy;0.505;no;1.000;yes;0.996
+0603 - Belgique/IMG_5911.JPG;478;urban_landscape;0.725;;;;;outdoor;0.994;;;visible;0.972;dusk;0.828;mixed;0.709;no;1.000;yes;0.978
+0603 - Belgique/IMG_5913.JPG;479;urban_landscape;0.846;;;;;outdoor;1.000;;;visible;0.688;dusk;0.932;sunny;0.669;no;1.000;yes;0.998
+0603 - Belgique/IMG_5917.JPG;212;graphic;0.609;;;;;outdoor;0.994;degraded;0.971;absent;0.918;dusk;0.590;;;no;1.000;yes;0.988
+0603 - Belgique/IMG_5919.JPG;250;graphic;0.764;;;;;outdoor;0.996;degraded;0.948;absent;0.967;night;0.882;;;no;1.000;yes;0.983
+0603 - Belgique/IMG_5925.JPG;472;landscape;0.996;;;;;outdoor;1.000;;;visible;0.980;day;1.000;cloudy;0.964;no;1.000;yes;0.533
+0603 - Belgique/IMG_5931.JPG;492;landscape;0.999;;;;;outdoor;1.000;;;visible;0.973;day;1.000;cloudy;0.984;no;0.999;yes;0.641
+0603 - Belgique/IMG_5933.JPG;469;graphic;0.903;;;;;outdoor;0.999;degraded;0.912;visible;0.835;day;1.000;cloudy;0.909;no;1.000;no;0.411
+0603 - Belgique/IMG_5935.JPG;236;graphic;0.567;;;;;outdoor;0.999;degraded;0.986;absent;0.701;day;1.000;;;no;0.966;yes;0.710
+0603 - Belgique/IMG_5947.JPG;238;animal;0.465;;;;;indoor;0.620;;;absent;1.000;day;1.000;;;front;0.993;yes;0.629
+0603 - Belgique/IMG_5966.JPG;242;macro;0.839;;;;;outdoor;0.966;;;absent;0.998;day;0.986;;;;;no;0.212
+0603 - Belgique/IMG_5967.JPG;231;macro;0.809;;;;;outdoor;0.988;;;absent;0.998;day;0.927;;;;;yes;0.519
+0603 - Belgique/IMG_5970.JPG;440;landscape;0.994;;;;;outdoor;1.000;;;visible;0.965;day;0.855;cloudy;0.967;no;1.000;yes;0.680
+0603 - Belgique/IMG_5971.JPG;490;religious;0.356;;;;;outdoor;0.999;ruin;0.698;visible;0.962;day;1.000;cloudy;0.898;no;1.000;yes;0.834
+0603 - Belgique/IMG_5974.JPG;474;castle;0.439;;;;;outdoor;1.000;ruin;0.836;visible;0.954;day;1.000;cloudy;0.990;no;1.000;yes;0.661
+0603 - Belgique/IMG_5978.JPG;491;street;0.323;;;;;outdoor;1.000;;;visible;0.845;day;1.000;cloudy;0.997;no;1.000;yes;0.663
+0603 - Belgique/IMG_5983.JPG;224;landscape;0.213;;;;;outdoor;0.999;;;absent;0.856;day;1.000;;;front;0.884;yes;0.595
+0603 - Belgique/IMG_5984.JPG;463;landscape;0.887;;;;;outdoor;1.000;;;visible;0.989;day;0.911;cloudy;0.945;no;1.000;yes;0.869
+0603 - Belgique/IMG_5985.JPG;227;macro;0.219;;;;;outdoor;0.871;;;absent;0.995;day;1.000;;;;;yes;0.807
+0603 - Belgique/IMG_5987.JPG;487;landscape;0.679;;;;;outdoor;1.000;;;visible;0.850;day;1.000;cloudy;0.984;no;1.000;yes;0.761
+0603 - Belgique/IMG_5989.JPG;208;landscape;0.987;;;;;outdoor;1.000;;;absent;0.584;day;1.000;;;no;1.000;yes;0.690
+0603 - Belgique/IMG_5994.JPG;492;landscape;0.992;;;;;outdoor;1.000;;;visible;0.968;day;1.000;cloudy;0.976;no;1.000;yes;0.553
+0603 - Belgique/IMG_5998.JPG;489;landscape;0.996;;;;;outdoor;1.000;;;visible;0.940;day;1.000;cloudy;0.997;no;1.000;yes;0.650
+0603 - Belgique/IMG_5999.JPG;414;landscape;0.977;;;;;outdoor;1.000;;;visible;0.947;day;0.997;cloudy;0.975;no;1.000;yes;0.829
+0603 - Belgique/IMG_6003.JPG;232;landscape;0.855;;;;;outdoor;1.000;;;absent;0.628;day;1.000;;;no;1.000;yes;0.787
+0603 - Belgique/IMG_6004.JPG;466;landscape;0.991;;;;;outdoor;1.000;;;visible;0.766;day;1.000;cloudy;0.752;no;1.000;yes;0.747
+0603 - Belgique/IMG_6009.JPG;479;landscape;0.640;;;;;outdoor;0.986;;;visible;0.956;day;0.992;mixed;0.949;no;1.000;no;0.310
+0603 - Belgique/IMG_6012.JPG;247;animal;0.399;;;;;indoor;0.733;;;absent;1.000;day;0.999;;;front;0.981;yes;0.669
+0603 - Belgique/IMG_6019.JPG;468;street;0.754;;;;;outdoor;0.996;;;visible;0.990;dusk;0.866;mixed;0.951;no;1.000;yes;0.937
+0603 - Belgique/IMG_6021.JPG;228;urban_landscape;0.362;;;;;outdoor;0.989;;;absent;0.687;night;0.891;;;no;0.999;yes;0.992
+0603 - Belgique/IMG_6023.JPG;240;graphic;0.322;;;;;outdoor;0.979;degraded;0.513;absent;0.658;night;0.874;;;no;0.999;yes;0.986
+0603 - Belgique/IMG_6053.JPG;247;graphic;0.363;;;;;indoor;0.811;degraded;0.582;absent;1.000;day;0.976;;;no;0.995;yes;0.684
+0603 - Belgique/IMG_6055.JPG;229;graphic;0.340;;;;;indoor;0.906;good;0.516;absent;1.000;day;0.976;;;no;0.984;yes;0.502
+0603 - Belgique/IMG_6097.JPG;253;cemetery;0.994;;;;;outdoor;1.000;degraded;0.505;absent;0.785;day;1.000;;;no;1.000;no;0.148
+0603 - Belgique/IMG_6099.JPG;257;cemetery;0.989;;;;;outdoor;1.000;degraded;0.684;absent;0.730;day;1.000;;;no;1.000;no;0.134
+0603 - Belgique/IMG_6100.JPG;497;cemetery;0.983;;;;;outdoor;1.000;degraded;0.799;visible;0.997;day;1.000;cloudy;0.603;no;1.000;yes;0.669
+0603 - Belgique/IMG_6102.JPG;228;cemetery;0.999;;;;;outdoor;1.000;good;0.542;absent;0.576;day;1.000;;;no;0.999;yes;0.517
+0603 - Belgique/IMG_6104.JPG;490;cemetery;0.997;;;;;outdoor;1.000;degraded;0.543;visible;0.904;day;1.000;cloudy;0.986;no;1.000;no;0.146
+0603 - Belgique/IMG_6106.JPG;484;cemetery;0.997;;;;;outdoor;1.000;degraded;0.570;visible;0.978;day;1.000;cloudy;0.968;no;1.000;no;0.118
+0603 - Belgique/IMG_6110.JPG;245;bridge;0.383;;;;;outdoor;1.000;degraded;0.848;absent;0.979;day;1.000;;;no;0.632;yes;0.963
+0603 - Belgique/IMG_6111.JPG;421;landscape;0.985;;;;;outdoor;1.000;;;visible;0.931;day;1.000;few_clouds;0.858;no;1.000;no;0.485
+0603 - Belgique/IMG_6112.JPG;486;landscape;0.999;;;;;outdoor;1.000;;;visible;0.929;day;1.000;cloudy;0.663;no;1.000;yes;0.561
+0603 - Belgique/IMG_6123.JPG;468;castle;0.934;;;;;outdoor;1.000;degraded;0.602;visible;0.984;day;1.000;bad_weather;0.504;no;1.000;yes;0.839
+0603 - Belgique/IMG_6126.JPG;481;architecture;0.281;;;;;outdoor;1.000;degraded;0.698;visible;0.970;day;1.000;sunny;0.923;no;1.000;no;0.216
+0603 - Belgique/IMG_6128.JPG;249;facade;0.823;;;;;outdoor;1.000;degraded;0.740;absent;0.525;day;1.000;;;no;1.000;yes;0.505
+0603 - Belgique/IMG_6130.JPG;218;vehicle;0.998;car;0.745;;;outdoor;0.999;degraded;0.995;absent;1.000;day;1.000;;;no;1.000;yes;0.689
+0603 - Belgique/IMG_6132.JPG;234;facade;0.994;;;;;outdoor;0.999;degraded;0.800;absent;0.993;day;1.000;;;no;1.000;no;0.463
+0603 - Belgique/IMG_6136.JPG;250;facade;0.995;;;;;outdoor;0.997;degraded;0.818;absent;0.992;day;1.000;;;no;1.000;yes;0.512
+0603 - Belgique/IMG_6139.JPG;224;graphic;0.774;;;;;outdoor;0.510;degraded;0.978;absent;1.000;day;1.000;;;no;1.000;no;0.171
+0603 - Belgique/IMG_6140.JPG;451;landscape;0.628;;;;;outdoor;1.000;;;visible;0.995;day;0.999;sunny;0.951;no;0.999;yes;0.703
+0603 - Belgique/IMG_6142.JPG;451;landscape;0.689;;;;;outdoor;1.000;;;visible;0.986;day;0.999;sunny;0.717;no;1.000;yes;0.600
+0603 - Belgique/IMG_6146.JPG;250;landscape;0.936;;;;;outdoor;1.000;;;absent;0.670;day;1.000;;;front;0.550;yes;0.910
+0603 - Belgique/IMG_6148.JPG;472;urban_landscape;0.710;;;;;outdoor;1.000;;;visible;0.917;day;1.000;sunny;0.986;no;1.000;yes;0.540
+0603 - Belgique/IMG_6149.JPG;445;landscape;0.781;;;;;outdoor;1.000;;;visible;0.986;day;1.000;sunny;0.992;no;0.999;yes;0.625
+0603 - Belgique/IMG_6153.JPG;482;landscape;0.655;;;;;outdoor;1.000;;;visible;0.912;day;1.000;cloudy;0.527;no;1.000;yes;0.757
+0603 - Belgique/IMG_6155.JPG;397;landscape;0.999;;;;;outdoor;1.000;;;visible;0.998;day;0.956;cloudy;0.744;no;1.000;yes;0.667
+0603 - Belgique/IMG_6158.JPG;479;landscape;0.990;;;;;outdoor;1.000;;;visible;0.997;day;0.999;few_clouds;0.669;no;1.000;yes;0.718
+0603 - Belgique/IMG_6177.JPG;247;facade;0.469;;;;;outdoor;0.561;excellent;0.464;absent;0.998;day;0.999;;;front;0.979;yes;0.801
+0603 - Belgique/IMG_6182.JPG;210;graphic;0.314;;;;;indoor;0.900;excellent;0.609;absent;1.000;day;0.914;;;no;1.000;yes;0.855
+0603 - Belgique/IMG_6184.JPG;202;graphic;0.322;;;;;indoor;0.897;excellent;0.646;absent;0.998;day;0.996;;;no;1.000;yes;0.725
+0603 - Belgique/IMG_6185.JPG;245;facade;0.392;;;;;indoor;0.953;excellent;0.376;absent;1.000;day;0.857;;;no;1.000;yes;0.992
+0603 - Belgique/IMG_6188.JPG;242;graphic;0.257;;;;;indoor;0.729;excellent;0.728;absent;0.995;day;0.993;;;no;1.000;yes;0.603
+0603 - Belgique/IMG_6189.JPG;252;vehicle;0.551;car;0.730;;;indoor;0.980;good;0.457;absent;1.000;day;1.000;;;no;1.000;yes;0.503
+0603 - Belgique/IMG_6190.JPG;280;facade;0.292;;;;;indoor;0.634;excellent;0.770;absent;0.998;day;0.996;;;no;1.000;yes;0.704
+0603 - Belgique/IMG_6195.JPG;274;graphic;0.671;;;;;indoor;0.991;good;0.693;absent;1.000;day;0.956;;;no;0.999;yes;0.520
+0603 - Belgique/IMG_6207.JPG;248;cave;0.993;;;;;outdoor;0.987;degraded;0.649;absent;0.999;night;0.642;;;no;1.000;yes;0.807
+0603 - Belgique/IMG_6208.JPG;265;cave;0.953;;;;;outdoor;0.655;degraded;0.488;absent;0.999;day;0.868;;;no;1.000;yes;0.913
+0603 - Belgique/IMG_6210.JPG;263;macro;0.334;;;;;outdoor;0.972;;;absent;0.813;day;0.991;;;;;yes;0.905
+0603 - Belgique/IMG_6218.JPG;256;cave;0.353;;;;;outdoor;0.988;degraded;0.909;absent;1.000;day;0.741;;;no;1.000;no;0.458
+0603 - Belgique/IMG_6220.JPG;239;landscape;0.393;;;;;outdoor;0.998;;;absent;0.988;day;0.435;;;no;1.000;yes;0.563
+0603 - Belgique/IMG_6230.JPG;253;cave;0.991;;;;;outdoor;0.989;degraded;0.698;absent;0.997;night;0.800;;;no;1.000;yes;0.604
+0603 - Belgique/IMG_6235.JPG;269;cave;0.987;;;;;outdoor;0.987;degraded;0.623;absent;0.990;night;0.742;;;no;1.000;yes;0.620
+0603 - Belgique/IMG_6239.JPG;256;graphic;0.367;;;;;outdoor;0.969;degraded;0.934;absent;0.999;night;0.533;;;no;1.000;yes;0.950
+0603 - Belgique/IMG_6243.JPG;247;vehicle;0.405;boat;0.954;;;outdoor;0.993;degraded;0.751;absent;0.984;day;0.918;;;no;0.999;yes;0.601
+0603 - Belgique/IMG_6244.JPG;231;graphic;0.238;;;;;outdoor;0.834;degraded;0.804;absent;0.994;day;0.883;;;no;1.000;yes;0.850
+0603 - Belgique/IMG_6265.JPG;239;graphic;0.950;;;;;indoor;0.999;good;0.878;absent;1.000;day;0.999;;;no;1.000;yes;0.611
+0603 - Belgique/IMG_6275.JPG;257;plastic_arts;0.718;;;sculpture;0.883;indoor;0.900;good;0.749;absent;1.000;day;1.000;;;no;0.837;no;0.425
+0603 - Belgique/IMG_6276.JPG;235;plastic_arts;0.633;;;sculpture;0.828;indoor;0.990;good;0.923;absent;1.000;day;1.000;;;no;0.620;yes;0.648
+0603 - Belgique/IMG_6279.JPG;250;graphic;0.277;;;;;indoor;0.782;degraded;0.533;absent;1.000;day;1.000;;;profile;0.509;yes;0.825
+0603 - Belgique/IMG_6284.JPG;251;graphic;0.527;;;;;outdoor;0.698;good;0.560;absent;1.000;day;1.000;;;front;0.872;no;0.448
+0603 - Belgique/IMG_6286.JPG;247;facade;0.379;;;;;outdoor;0.784;degraded;0.740;absent;1.000;day;1.000;;;front;0.920;yes;0.737
+0603 - Belgique/IMG_6287.JPG;246;animal;0.381;;;;;outdoor;0.982;;;absent;0.999;day;1.000;;;front;0.998;yes;0.581
+0603 - Belgique/IMG_6288.JPG;245;animal;0.349;;;;;outdoor;0.991;;;absent;1.000;day;1.000;;;front;0.923;yes;0.641
+0603 - Belgique/IMG_6290.JPG;489;facade;0.484;;;;;outdoor;1.000;excellent;0.917;visible;0.999;day;1.000;few_clouds;0.835;no;1.000;yes;0.578
+0603 - Belgique/IMG_6296.JPG;482;architecture;0.720;;;;;outdoor;1.000;excellent;0.709;visible;0.999;day;1.000;few_clouds;0.707;no;0.998;yes;0.629
+0603 - Belgique/IMG_6297.JPG;451;landscape;0.994;;;;;outdoor;0.999;;;visible;0.983;day;1.000;mixed;0.991;no;1.000;yes;0.750
+0603 - Belgique/IMG_6300.JPG;494;landscape;0.854;;;;;outdoor;0.995;;;visible;0.977;day;1.000;mixed;0.847;no;1.000;no;0.427
+0603 - Belgique/IMG_6304.JPG;454;landscape;0.983;;;;;outdoor;0.997;;;visible;0.897;day;1.000;sunny;0.965;no;1.000;yes;0.858
+0603 - Belgique/IMG_6307.JPG;495;landscape;0.998;;;;;outdoor;0.997;;;visible;0.897;day;1.000;mixed;0.963;no;1.000;yes;0.742
+0603 - Belgique/IMG_6313-2.jpg;245;urban_landscape;0.925;;;;;outdoor;0.965;;;absent;0.971;day;1.000;;;no;1.000;no;0.427
+0603 - Belgique/IMG_6313.JPG;224;urban_landscape;0.799;;;;;outdoor;0.979;;;absent;0.974;day;1.000;;;no;1.000;no;0.389
+0603 - Belgique/IMG_6319.JPG;477;landscape;0.991;;;;;outdoor;0.988;;;visible;0.865;day;1.000;sunny;0.919;no;1.000;yes;0.612
+0603 - Belgique/IMG_6322.JPG;471;graphic;0.613;;;;;outdoor;0.960;degraded;0.859;visible;0.649;day;1.000;sunny;0.991;no;1.000;yes;0.582
+0603 - Belgique/IMG_6324-2.jpg;478;landscape;0.961;;;;;outdoor;0.989;;;visible;0.788;day;1.000;mixed;0.934;no;1.000;yes;0.840
+0603 - Belgique/IMG_6324.JPG;440;landscape;0.950;;;;;outdoor;0.996;;;visible;0.947;day;1.000;mixed;0.927;no;1.000;yes;0.810
+0603 - Belgique/IMG_6328.JPG;485;landscape;0.922;;;;;outdoor;0.998;;;visible;0.896;day;1.000;mixed;0.609;no;1.000;no;0.094
+0603 - Belgique/IMG_6330.JPG;254;landscape;0.983;;;;;outdoor;0.993;;;absent;0.798;day;1.000;;;no;1.000;yes;0.693
+0603 - Belgique/MVI_5968.jpg;253;graphic;0.751;;;;;outdoor;0.955;good;0.452;absent;0.998;night;0.635;;;no;1.000;yes;0.574
+0603 - Belgique/PhotoBrux1 016-2.jpg;488;architecture;0.537;;;;;outdoor;1.000;excellent;0.766;visible;0.973;day;1.000;sunny;0.988;no;0.999;yes;0.600
+0603 - Belgique/PhotoBrux1 040.jpg;256;plastic_arts;0.585;;;sculpture;0.999;outdoor;1.000;degraded;0.433;absent;0.954;day;1.000;;;no;0.991;yes;0.911
+0603 - Belgique/PhotoBrux2 009.jpg;249;architecture;0.652;;;;;outdoor;0.994;excellent;0.504;visible;0.997;night;0.990;;;no;1.000;yes;0.780
+0603 - Belgique/Resulting image copie - 3.jpg;485;religious;0.906;;;;;outdoor;1.000;degraded;0.447;visible;0.998;day;0.999;cloudy;0.730;no;1.000;yes;0.771
+0603 - Bx/IMG_6332.JPG;490;architecture;0.506;;;;;outdoor;0.999;excellent;0.759;visible;0.999;day;1.000;sunny;0.999;no;0.999;yes;0.524
+0603 - Bx/IMG_6337.JPG;492;architecture;0.958;;;;;outdoor;0.993;excellent;0.894;visible;0.996;day;1.000;few_clouds;0.390;no;0.998;yes;0.748
+0603 - Bx/IMG_6342.JPG;485;urban_landscape;0.252;;;;;outdoor;1.000;;;visible;0.985;day;1.000;sunny;0.999;no;0.997;yes;0.801
+0603 - Bx/IMG_6345.JPG;464;religious;0.565;;;;;outdoor;1.000;excellent;0.584;visible;0.971;day;1.000;sunny;0.976;no;0.999;yes;0.715
+0603 - Bx/IMG_6351.JPG;489;religious;0.674;;;;;outdoor;1.000;excellent;0.434;visible;0.999;day;1.000;few_clouds;0.896;no;0.999;yes;0.540
+0603 - Bx/IMG_6358.JPG;483;facade;0.877;;;;;outdoor;1.000;excellent;0.803;visible;0.957;day;1.000;sunny;0.930;no;1.000;yes;0.553
+0603 - Bx/IMG_6360.JPG;480;facade;0.887;;;;;outdoor;1.000;excellent;0.738;visible;0.623;day;1.000;sunny;0.665;no;1.000;yes;0.548
+0603 - Bx/IMG_6366.JPG;492;street;0.482;;;;;outdoor;1.000;;;visible;0.986;day;1.000;few_clouds;0.894;no;1.000;yes;0.834
+0603 - Bx/IMG_6368.JPG;490;religious;0.940;;;;;outdoor;0.997;excellent;0.677;visible;0.993;day;1.000;few_clouds;0.474;no;1.000;yes;0.724
+0603 - Bx/IMG_6370.JPG;482;architecture;0.800;;;;;outdoor;1.000;excellent;0.918;visible;0.998;day;1.000;sunny;0.785;no;1.000;no;0.410
+0603 - Bx/IMG_6372.JPG;500;architecture;0.508;;;;;outdoor;1.000;excellent;0.919;visible;0.799;day;1.000;sunny;0.806;no;1.000;yes;0.540
+0603 - Bx/IMG_6378.JPG;254;facade;0.595;;;;;outdoor;0.992;excellent;0.794;absent;0.940;day;1.000;;;no;0.919;no;0.154
+0603 - Bx/IMG_6379.JPG;240;facade;0.978;;;;;outdoor;1.000;excellent;0.964;absent;0.660;day;1.000;;;no;1.000;no;0.343
+0603 - Bx/IMG_6381.JPG;490;architecture;0.805;;;;;outdoor;1.000;excellent;0.976;visible;0.995;day;1.000;sunny;0.905;no;1.000;no;0.453
+0603 - Bx/IMG_6385.JPG;493;street;0.529;;;;;outdoor;1.000;;;visible;0.829;day;1.000;sunny;0.996;no;0.999;yes;0.556
+0603 - Bx/IMG_6387.JPG;489;street;0.498;;;;;outdoor;1.000;;;visible;0.966;day;1.000;few_clouds;0.690;no;1.000;yes;0.684
+0603 - Bx/IMG_6389.JPG;496;architecture;0.717;;;;;outdoor;1.000;excellent;0.935;visible;0.984;day;1.000;sunny;0.792;no;0.999;yes;0.669
+0603 - Bx/IMG_6392.JPG;498;architecture;0.900;;;;;outdoor;0.998;excellent;0.963;visible;0.880;day;1.000;sunny;0.918;no;1.000;yes;0.804
+0603 - Bx/IMG_6393.JPG;250;graphic;0.749;;;;;outdoor;0.999;excellent;0.889;absent;0.993;day;1.000;;;no;0.999;yes;0.695
+0603 - Bx/IMG_6397.JPG;486;architecture;0.728;;;;;outdoor;1.000;excellent;0.948;visible;0.971;day;1.000;few_clouds;0.850;no;0.999;yes;0.729
+0603 - Bx/IMG_6401.JPG;485;architecture;0.488;;;;;outdoor;1.000;excellent;0.701;visible;0.992;day;1.000;few_clouds;0.750;no;1.000;yes;0.682
+0603 - Bx/IMG_6404.JPG;504;facade;0.578;;;;;outdoor;1.000;excellent;0.847;visible;0.947;day;1.000;few_clouds;0.406;no;1.000;yes;0.587
+0603 - Bx/IMG_6405.JPG;450;facade;0.595;;;;;outdoor;1.000;excellent;0.822;visible;0.569;day;0.999;mixed;0.556;no;1.000;yes;0.898
+0603 - Bx/IMG_6405_tmp.jpg;468;facade;0.806;;;;;outdoor;1.000;excellent;0.915;visible;0.555;day;1.000;sunny;0.467;no;0.999;yes;0.601
+0603 - Bx/IMG_6406.JPG;496;architecture;0.831;;;;;outdoor;1.000;excellent;0.965;visible;0.687;day;1.000;cloudy;0.711;no;1.000;yes;0.704
+0603 - Bx/IMG_6409.JPG;239;street;0.459;;;;;outdoor;1.000;;;absent;0.797;day;1.000;;;no;1.000;yes;0.676
+0603 - Bx/IMG_6414.JPG;497;facade;0.736;;;;;outdoor;0.870;excellent;0.679;visible;0.531;day;1.000;sunny;0.583;no;1.000;yes;0.515
+0603 - Bx/IMG_6415.JPG;473;castle;0.896;;;;;outdoor;1.000;excellent;0.777;visible;0.984;day;1.000;few_clouds;0.751;no;1.000;yes;0.689
+0603 - Bx/IMG_6418.JPG;492;castle;0.940;;;;;outdoor;1.000;excellent;0.769;visible;0.999;day;1.000;sunny;0.876;no;1.000;no;0.488
+0603 - Bx/IMG_6423.JPG;461;castle;0.328;;;;;outdoor;1.000;excellent;0.738;visible;0.973;day;1.000;few_clouds;0.835;no;1.000;yes;0.606
+0603 - Bx/IMG_6427.JPG;248;facade;0.596;;;;;outdoor;0.999;excellent;0.891;absent;0.660;day;1.000;;;no;1.000;no;0.496
+0603 - Bx/IMG_6431.JPG;249;facade;0.982;;;;;outdoor;0.994;degraded;0.715;absent;0.964;day;1.000;;;no;1.000;no;0.473
+0603 - Bx/IMG_6433.JPG;465;architecture;0.612;;;;;outdoor;1.000;excellent;0.893;visible;0.908;day;1.000;cloudy;0.498;no;1.000;yes;0.617
+0603 - Bx/IMG_6435.JPG;493;architecture;0.508;;;;;outdoor;1.000;excellent;0.913;visible;0.946;day;1.000;few_clouds;0.985;no;1.000;no;0.477
+0604 - Bx  Khalid/IMG_6521.JPG;464;architecture;0.431;;;;;outdoor;1.000;excellent;0.827;visible;0.982;day;1.000;few_clouds;0.615;no;1.000;yes;0.739
+0604 - Bx  Khalid/IMG_6525.JPG;461;graphic;0.636;;;;;outdoor;1.000;degraded;0.736;visible;0.971;day;1.000;sunny;0.691;no;1.000;no;0.325
+0604 - Bx  Khalid/IMG_6531.JPG;246;animal;0.551;;;;;indoor;0.818;;;absent;0.999;day;1.000;;;front;0.931;yes;0.966
+0604 - Bx  Khalid/IMG_6532.JPG;231;animal;0.783;;;;;indoor;0.857;;;absent;1.000;day;0.999;;;front;0.931;yes;0.984
+0604 - Bx  Khalid/IMG_6533.JPG;199;vehicle;0.981;car;0.999;;;outdoor;0.999;good;0.769;absent;0.638;day;1.000;;;front;0.709;yes;0.913
+0604 - Bx  Khalid/IMG_6535.JPG;230;animal;0.566;;;;;indoor;0.913;;;absent;1.000;day;0.992;;;front;0.944;yes;0.742
+0604 - Bx  Khalid/IMG_6536.JPG;228;undetermined;0.583;;;;;indoor;0.909;degraded;0.780;absent;1.000;day;1.000;;;front;0.885;yes;0.716
+0604 - Bx Youssef/IMG_6562.JPG;249;animal;0.654;;;;;outdoor;0.661;;;absent;1.000;day;0.999;;;front;0.977;yes;0.927
+0604 - Bx Youssef/IMG_6563.JPG;235;animal;0.643;;;;;indoor;0.904;;;absent;0.998;day;1.000;;;front;0.996;yes;0.952
+0604 - Bx Youssef/IMG_6564.JPG;245;animal;0.666;;;;;indoor;0.859;;;absent;0.999;day;0.999;;;front;0.991;yes;0.922
+0604 - Bx Youssef/IMG_6565.JPG;243;animal;0.594;;;;;indoor;0.723;;;absent;0.999;day;1.000;;;front;0.994;yes;0.853
+0604 - St Emilion/IMG_6566.JPG;244;facade;0.599;;;;;outdoor;0.969;excellent;0.494;absent;0.642;day;1.000;;;no;1.000;yes;0.717
+0604 - St Emilion/IMG_6567.JPG;230;religious;0.529;;;;;outdoor;1.000;excellent;0.471;absent;0.856;day;1.000;;;no;1.000;no;0.426
+0604 - St Emilion/IMG_6568.JPG;489;urban_landscape;0.450;;;;;outdoor;1.000;;;visible;0.998;day;1.000;cloudy;0.920;no;1.000;yes;0.652
+0604 - St Emilion/IMG_6569.JPG;484;urban_landscape;0.474;;;;;outdoor;1.000;;;visible;0.998;day;1.000;cloudy;0.549;no;1.000;yes;0.574
+0604 - St Emilion/IMG_6570.JPG;459;urban_landscape;0.432;;;;;outdoor;1.000;;;visible;0.997;day;1.000;cloudy;0.627;no;1.000;yes;0.644
+0604 - St Emilion/IMG_6571.JPG;444;landscape;0.504;;;;;outdoor;1.000;;;visible;0.998;day;1.000;mixed;0.420;no;1.000;yes;0.597
+0604 - St Emilion/IMG_6572.JPG;474;urban_landscape;0.411;;;;;outdoor;1.000;;;visible;0.999;day;1.000;mixed;0.639;no;1.000;yes;0.634
+0604 - St Emilion/IMG_6573.JPG;480;urban_landscape;0.544;;;;;outdoor;1.000;;;visible;0.998;day;1.000;mixed;0.696;no;0.999;yes;0.718
+0604 - St Emilion/IMG_6575.JPG;453;street;0.349;;;;;outdoor;1.000;;;visible;0.996;day;1.000;mixed;0.519;no;0.999;no;0.487
+0604 - St Emilion/IMG_6576.JPG;439;religious;0.573;;;;;outdoor;1.000;ruin;0.486;visible;0.993;day;1.000;cloudy;0.969;no;1.000;yes;0.639
+0604 - St Emilion/IMG_6577.JPG;256;facade;0.929;;;;;outdoor;1.000;degraded;0.545;absent;0.942;day;1.000;;;no;1.000;yes;0.633
+0604 - St Emilion/IMG_6580.JPG;249;facade;0.989;;;;;outdoor;0.972;degraded;0.739;absent;1.000;day;1.000;;;no;1.000;no;0.100
+0604 - St Emilion/IMG_6581.JPG;244;macro;0.675;;;;;outdoor;1.000;;;absent;0.993;day;1.000;;;;;yes;0.753
+0604 - St Emilion/IMG_6584.JPG;477;facade;0.471;;;;;outdoor;1.000;ruin;0.563;visible;0.920;day;1.000;few_clouds;0.320;no;1.000;yes;0.614
+0604 - St Emilion/IMG_6588.JPG;495;facade;0.609;;;;;outdoor;1.000;degraded;0.925;visible;0.581;day;1.000;bad_weather;0.558;no;1.000;no;0.473
+0604 - St Emilion/IMG_6590.JPG;250;facade;0.993;;;;;outdoor;0.981;ruin;0.430;absent;0.992;day;1.000;;;no;1.000;no;0.148
+0604 - St Emilion/IMG_6593.JPG;245;facade;0.919;;;;;outdoor;1.000;degraded;0.606;absent;0.792;day;1.000;;;no;1.000;yes;0.570
+0604 - St Emilion/IMG_6596.JPG;252;graphic;0.868;;;;;outdoor;0.999;degraded;0.944;absent;1.000;day;1.000;;;no;1.000;yes;0.613
+0604 - St Emilion/IMG_6598-2.jpg;248;graphic;0.523;;;;;outdoor;0.999;good;0.682;absent;0.998;day;1.000;;;no;1.000;yes;0.834
+0604 - St Emilion/IMG_6598.JPG;255;macro;0.543;;;;;outdoor;0.999;;;absent;0.995;day;0.999;;;;;yes;0.683
+0604 - St Emilion/IMG_6601.JPG;454;urban_landscape;0.308;;;;;outdoor;1.000;;;visible;0.999;day;1.000;cloudy;0.973;no;1.000;yes;0.734
+0604 - St Emilion/IMG_6603.JPG;501;religious;0.910;;;;;outdoor;1.000;degraded;0.699;visible;0.994;day;1.000;few_clouds;0.469;no;1.000;no;0.469
+0604 - St Emilion/IMG_6610.JPG;499;facade;0.770;;;;;outdoor;1.000;ruin;0.856;visible;0.798;day;1.000;few_clouds;0.606;no;0.993;yes;0.603
+0604 - St Emilion/IMG_6613.JPG;254;facade;0.836;;;;;outdoor;1.000;ruin;0.476;absent;0.592;day;1.000;;;no;0.998;no;0.427
+0604 - St Emilion/IMG_6614.JPG;439;facade;0.777;;;;;outdoor;0.999;ruin;0.869;visible;0.986;day;1.000;sunny;0.475;no;1.000;yes;0.519
+0604 - St Emilion/IMG_6615.JPG;506;macro;0.363;;;;;outdoor;1.000;;;visible;0.988;day;1.000;few_clouds;0.911;;;no;0.350
+0604 - St Emilion/IMG_6617.JPG;473;macro;0.700;;;;;outdoor;1.000;;;visible;0.973;day;1.000;few_clouds;0.713;;;no;0.196
+0604 - St Emilion/IMG_6619.JPG;498;religious;0.573;;;;;outdoor;0.999;ruin;0.887;visible;1.000;day;1.000;sunny;0.429;no;1.000;no;0.252
+0604 - St Emilion/IMG_6621.JPG;254;facade;0.990;;;;;outdoor;0.985;degraded;0.540;absent;1.000;day;1.000;;;no;1.000;no;0.149
+0604 - St Emilion/IMG_6628.JPG;251;animal;0.642;;;;;outdoor;0.985;;;absent;1.000;day;0.999;;;no;0.999;yes;0.895
+0604 - St Emilion/IMG_6629-2.jpg;257;facade;0.413;;;;;outdoor;0.994;degraded;0.935;absent;1.000;day;1.000;;;no;1.000;no;0.046
+0604 - St Emilion/IMG_6629.JPG;253;facade;0.557;;;;;outdoor;0.992;degraded;0.910;absent;1.000;day;1.000;;;no;1.000;no;0.063
+0604 - St Emilion/IMG_6631.JPG;497;landscape;0.411;;;;;outdoor;1.000;;;visible;1.000;day;1.000;mixed;0.450;no;1.000;yes;0.546
+0604 - St Emilion/IMG_6632.JPG;501;urban_landscape;0.627;;;;;outdoor;1.000;;;visible;0.998;day;1.000;mixed;0.786;no;0.999;no;0.384
+0604 - St Emilion/IMG_6634-2.jpg;493;religious;0.985;;;;;outdoor;1.000;degraded;0.774;visible;1.000;day;1.000;sunny;1.000;no;1.000;no;0.082
+0604 - St Emilion/IMG_6634.JPG;491;religious;0.986;;;;;outdoor;1.000;degraded;0.743;visible;1.000;day;1.000;sunny;1.000;no;1.000;no;0.086
+0604 - St Emilion/IMG_6635.JPG;502;urban_landscape;0.543;;;;;outdoor;1.000;;;visible;0.998;day;1.000;mixed;0.913;no;1.000;yes;0.651
+0604 - St Emilion/IMG_6637.JPG;494;urban_landscape;0.582;;;;;outdoor;1.000;;;visible;0.998;day;1.000;mixed;0.650;no;1.000;yes;0.514
+0604 - St Emilion/st-emilion-pano2.jpg;506;urban_landscape;0.425;;;;;outdoor;1.000;;;visible;0.998;day;1.000;cloudy;0.830;no;1.000;yes;0.615
+0605 - Bx Trip graph/IMG_6778.JPG;500;landscape;0.418;;;;;outdoor;1.000;;;visible;0.996;day;0.997;cloudy;0.568;no;1.000;yes;0.925
+0605 - Bx Trip graph/IMG_6789.JPG;488;landscape;0.640;;;;;outdoor;1.000;;;visible;0.805;day;1.000;mixed;0.494;no;1.000;yes;0.886
+0605 - Bx Trip graph/IMG_6791 -2.jpg;253;graphic;0.483;;;;;indoor;0.618;good;0.841;absent;1.000;day;1.000;;;no;1.000;yes;0.678
+0605 - Bx Trip graph/IMG_6791.JPG;261;graphic;0.605;;;;;outdoor;0.998;degraded;0.840;absent;0.994;day;1.000;;;no;1.000;no;0.407
+0605 - Bx Trip graph/IMG_6794.JPG;494;landscape;1.000;;;;;outdoor;1.000;;;visible;0.996;dusk;0.924;cloudy;0.853;no;1.000;yes;0.746
+0605 - Bx Trip graph/IMG_6796.JPG;532;landscape;0.390;;;;;outdoor;1.000;;;visible;0.933;day;1.000;mixed;0.691;no;1.000;yes;0.859
+0605 - Bx Trip graph/IMG_6797.JPG;528;landscape;0.428;;;;;outdoor;1.000;;;visible;1.000;dusk;0.516;cloudy;0.512;no;1.000;yes;0.786
+0605 - Bx Trip graph/IMG_6804 - 3.jpg;262;macro;0.380;;;;;outdoor;0.997;;;absent;0.997;day;0.999;;;;;yes;0.523
+0605 - Bx Trip graph/IMG_6806.JPG;259;graphic;0.538;;;;;outdoor;0.999;degraded;0.579;absent;0.997;day;1.000;;;no;1.000;no;0.080
+0605 - Bx Trip graph/IMG_6809.JPG;258;graphic;0.826;;;;;outdoor;0.996;degraded;0.845;absent;0.999;day;1.000;;;no;0.895;no;0.492
+0605 - Bx Trip graph/IMG_6811.JPG;239;bridge;0.438;;;;;outdoor;1.000;degraded;0.906;absent;0.987;day;1.000;;;no;1.000;yes;0.612
+0605 - Bx Trip graph/IMG_6817 -2.jpg;223;graphic;0.806;;;;;outdoor;0.907;good;0.711;absent;0.986;day;1.000;;;no;1.000;no;0.409
+0605 - Bx Trip graph/IMG_6817.JPG;253;graphic;0.872;;;;;outdoor;0.996;degraded;0.784;absent;0.997;day;1.000;;;no;1.000;no;0.074
+0605 - Bx Trip graph/IMG_6822.JPG;251;graphic;0.662;;;;;outdoor;1.000;degraded;0.973;absent;0.999;day;1.000;;;no;1.000;no;0.279
+0605 - Bx Trip graph/IMG_6827.JPG;253;graphic;0.876;;;;;outdoor;0.999;degraded;0.895;absent;1.000;day;0.998;;;no;1.000;no;0.282
+0605 - Bx Trip graph/IMG_6831 - 2.jpg;245;macro;0.516;;;;;outdoor;0.706;;;absent;1.000;day;1.000;;;;;no;0.244
+0605 - Bx Trip graph/IMG_6833 -2.jpg;208;street_art;0.681;;;;;indoor;0.711;;;absent;1.000;day;1.000;;;;;no;0.353
+0605 - Bx Trip graph/IMG_6833.JPG;250;graphic;0.881;;;;;outdoor;0.997;degraded;0.918;absent;0.993;day;1.000;;;no;1.000;no;0.130
+0605 - Bx Trip graph/IMG_6839.JPG;254;graphic;0.817;;;;;outdoor;0.999;degraded;0.901;absent;0.976;day;1.000;;;no;1.000;yes;0.654
+0605 - Bx Trip graph/IMG_6843.JPG;247;graphic;0.782;;;;;outdoor;0.968;degraded;0.959;absent;0.992;day;1.000;;;no;1.000;no;0.426
+0605 - Bx Trip graph/IMG_6849.JPG;478;landscape;0.974;;;;;outdoor;1.000;;;visible;0.999;dusk;0.701;cloudy;0.855;no;1.000;yes;0.872
+0605 - Bx Trip graph/IMG_6856.JPG;257;street_art;0.776;;;;;outdoor;0.988;;;absent;0.996;day;1.000;;;;;yes;0.658
+0605 - Bx Trip graph/IMG_6858-2.jpg;251;graphic;0.954;;;;;outdoor;0.995;good;0.989;absent;0.991;day;1.000;;;no;0.997;no;0.358
+0605 - Bx Trip graph/IMG_6858.JPG;251;graphic;0.716;;;;;outdoor;0.971;good;0.992;absent;0.952;day;1.000;;;no;0.999;no;0.471
+0605 - Bx Trip graph/IMG_6864.JPG;238;graphic;0.997;;;;;outdoor;0.969;degraded;0.703;absent;1.000;day;1.000;;;no;1.000;no;0.354
+0605 - Bx Trip graph/IMG_6869.JPG;257;graphic;0.964;;;;;outdoor;0.824;good;0.814;absent;0.999;day;1.000;;;no;1.000;no;0.300
+0605 - Bx Trip graph/IMG_6877.JPG;258;graphic;0.989;;;;;outdoor;0.999;degraded;0.866;absent;0.990;day;1.000;;;no;0.999;no;0.393
+0605 - Bx Trip graph/IMG_6880.JPG;473;facade;0.478;;;;;outdoor;1.000;excellent;0.412;visible;0.615;day;1.000;bad_weather;1.000;no;1.000;no;0.320
+0605 - Bx Trip graph/IMG_6883.JPG;486;facade;0.334;;;;;outdoor;0.999;degraded;0.462;visible;0.786;day;1.000;cloudy;0.648;no;1.000;yes;0.712
+0605 - Bx Trip graph/IMG_6886.JPG;231;graphic;0.850;;;;;outdoor;0.995;good;0.827;absent;0.998;day;1.000;;;no;1.000;no;0.283
+0605 - Bx Trip graph/IMG_6889 -2.jpg;256;graphic;0.608;;;;;outdoor;0.935;degraded;0.768;absent;0.888;day;1.000;;;no;1.000;yes;0.558
+0605 - Bx Trip graph/IMG_6889.JPG;250;graphic;0.422;;;;;outdoor;1.000;good;0.542;absent;0.969;day;1.000;;;no;1.000;yes;0.649
+0605 - Bx Trip graph/IMG_6897.JPG;253;graphic;0.753;;;;;outdoor;0.999;degraded;0.665;absent;0.959;day;1.000;;;no;0.999;no;0.448
+0605 - Bx Trip graph/IMG_6898.JPG;256;graphic;0.726;;;;;outdoor;0.999;degraded;0.851;absent;0.938;day;1.000;;;no;0.999;no;0.391
+0605 - Bx Trip graph/IMG_6899 -2.jpg;253;graphic;0.979;;;;;outdoor;0.959;degraded;0.579;absent;0.994;day;1.000;;;no;1.000;yes;0.583
+0605 - Bx Trip graph/IMG_6899.JPG;229;graphic;0.664;;;;;outdoor;0.999;degraded;0.826;absent;0.925;day;1.000;;;no;0.999;no;0.352
+0605 - Bx Trip graph/IMG_6900 -2.jpg;504;factory;0.265;;;;;outdoor;0.982;degraded;0.695;visible;0.578;day;0.999;sunny;0.809;no;1.000;yes;0.748
+0605 - Bx Trip graph/IMG_6900.JPG;516;facade;0.701;;;;;outdoor;0.998;degraded;0.612;visible;0.861;day;1.000;few_clouds;0.967;no;1.000;yes;0.717
+0605 - Bx Trip graph/IMG_6905.JPG;255;bridge;0.848;;;;;outdoor;0.979;degraded;0.651;absent;0.997;day;1.000;;;no;0.999;yes;0.851
+0605 - Bx Trip graph/IMG_6908.JPG;236;landscape;0.553;;;;;outdoor;0.999;;;absent;0.999;day;1.000;;;no;1.000;yes;0.879
+0605 - Bx Trip graph/IMG_6912.JPG;247;graphic;0.448;;;;;outdoor;0.997;good;0.783;absent;0.998;day;1.000;;;no;0.999;yes;0.745
+0605 - Bx Trip graph/IMG_6913.JPG;257;factory;0.523;;;;;outdoor;0.971;degraded;0.930;absent;0.992;day;1.000;;;no;1.000;no;0.434
+0605 - Bx Trip graph/IMG_6917.JPG;252;bridge;0.478;;;;;outdoor;0.998;degraded;0.737;absent;0.506;day;1.000;;;no;0.998;yes;0.804
+0605 - Bx Trip graph/IMG_6918.JPG;257;street_art;0.873;;;;;outdoor;0.999;;;absent;0.855;day;1.000;;;;;yes;0.718
+0605 - Bx Trip graph/IMG_6922.JPG;490;graphic;0.934;;;;;outdoor;0.999;excellent;0.831;visible;0.880;day;0.994;mixed;0.595;no;1.000;no;0.434
+0605 - Bx Trip graph/IMG_6925.JPG;238;street_art;0.933;;;;;outdoor;0.863;;;absent;1.000;day;1.000;;;;;no;0.432
+0605 - Bx Trip graph/IMG_6927.JPG;259;graphic;0.525;;;;;outdoor;0.997;degraded;0.661;absent;1.000;day;1.000;;;no;1.000;no;0.428
+0605 - Bx Trip graph/IMG_6929.JPG;253;factory;0.726;;;;;outdoor;0.674;degraded;0.834;absent;1.000;day;1.000;;;no;1.000;no;0.420
+0605 - Bx Trip graph/IMG_6932.JPG;253;street_art;0.742;;;;;outdoor;0.974;;;absent;0.949;day;1.000;;;;;no;0.428
+0605 - Bx Trip graph/IMG_6933.JPG;501;bridge;0.702;;;;;outdoor;0.995;degraded;0.924;visible;0.772;day;1.000;few_clouds;0.658;no;0.999;yes;0.607
+0605 - Bx Trip graph/IMG_6935.JPG;234;bridge;0.253;;;;;outdoor;0.949;degraded;0.988;absent;1.000;day;1.000;;;no;0.982;no;0.348
+0605 - Bx Trip graph/IMG_6938.JPG;497;bridge;0.591;;;;;outdoor;0.998;degraded;0.947;visible;0.759;day;1.000;cloudy;0.734;no;1.000;yes;0.585
+0605 - Bx Trip graph/IMG_6940.JPG;482;bridge;0.982;;;;;outdoor;1.000;degraded;0.453;visible;0.988;day;1.000;mixed;0.777;no;1.000;yes;0.593
+0605 - Bx Trip graph/IMG_6945 - 2.jpg;497;bridge;0.818;;;;;outdoor;1.000;degraded;0.803;visible;0.977;day;1.000;sunny;0.905;no;1.000;yes;0.619
+0605 - Bx Trip graph/IMG_6948.JPG;472;graphic;0.504;;;;;outdoor;0.999;degraded;0.880;visible;0.736;day;1.000;few_clouds;0.998;no;1.000;no;0.095
+0605 - Bx Trip graph/IMG_6954.JPG;499;bunker;0.241;;;;;outdoor;0.998;degraded;0.597;visible;0.983;day;1.000;few_clouds;0.988;no;1.000;yes;0.542
+0605 - Bx Trip graph/IMG_6956.JPG;495;street_art;0.303;;;;;outdoor;0.999;;;visible;0.521;day;1.000;cloudy;0.733;;;yes;0.724
+0605 - Bx Trip graph/IMG_6958.JPG;457;landscape;0.815;;;;;outdoor;1.000;;;visible;0.908;day;1.000;mixed;0.828;no;0.998;yes;0.675
+0605 - Bx Trip graph/IMG_6962.JPG;509;bridge;0.953;;;;;outdoor;1.000;excellent;0.383;visible;0.984;day;1.000;mixed;0.906;no;1.000;yes;0.629
+0605 - Bx Trip graph/IMG_6963.JPG;465;religious;0.437;;;;;outdoor;1.000;excellent;0.749;visible;1.000;day;1.000;few_clouds;0.931;no;1.000;yes;0.749
+0605 - Bx Trip graph/IMG_6966 - 2.jpg;238;graphic;0.973;;;;;outdoor;0.968;good;0.900;absent;0.997;day;0.999;;;no;0.910;yes;0.707
+0605 - Bx Trip graph/IMG_6966.JPG;231;graphic;0.863;;;;;outdoor;0.981;good;0.901;absent;0.951;day;1.000;;;no;0.950;yes;0.578
+0605 - Bx Trip graph/IMG_6968.JPG;501;facade;0.408;;;;;outdoor;1.000;excellent;0.632;visible;0.782;day;1.000;sunny;0.991;no;1.000;yes;0.679
+0605 - Bx Trip graph/IMG_6970.JPG;240;facade;0.798;;;;;outdoor;1.000;excellent;0.547;absent;0.503;day;1.000;;;no;0.996;yes;0.732
+0605 - Bx Trip graph/IMG_6971.JPG;466;urban_landscape;0.753;;;;;outdoor;0.999;;;visible;0.975;day;1.000;few_clouds;0.515;no;1.000;yes;0.954
+0605 - Bx w Mum Mille & Serge/IMG_6640.JPG;258;plastic_arts;0.414;;;painting;0.690;indoor;0.983;degraded;0.627;absent;1.000;day;0.999;;;front;0.993;yes;0.828
+0605 - Bx w Mum Mille & Serge/IMG_6642.JPG;257;plastic_arts;0.406;;;sculpture;0.896;indoor;0.989;good;0.776;absent;0.999;day;0.998;;;front;0.878;yes;0.597
+0605 - Bx w Mum Mille & Serge/IMG_6644.JPG;254;graphic;0.333;;;;;indoor;0.951;degraded;0.553;absent;1.000;day;0.999;;;front;0.915;yes;0.832
+0605 - Bx w Mum Mille & Serge/IMG_6646.JPG;238;animal;0.367;;;;;indoor;0.848;;;absent;1.000;day;1.000;;;front;0.993;yes;0.764
+0605 - Bx w Mum Mille & Serge/IMG_6647.JPG;254;plastic_arts;0.621;;;painting;0.561;indoor;0.990;degraded;0.804;absent;1.000;day;0.999;;;front;0.971;yes;0.818
+0606 - Grolejac/IMG_6989 - 2.jpg;257;animal;0.950;;;;;indoor;0.832;;;absent;0.995;day;0.969;;;no;0.996;no;0.090
+0606 - Grolejac/IMG_6989.JPG;256;animal;0.859;;;;;indoor;0.688;;;absent;0.991;day;0.994;;;no;0.995;no;0.042
+0606 - Grolejac/IMG_6990.JPG;236;animal;0.722;;;;;indoor;0.679;;;absent;0.998;day;0.990;;;no;0.998;no;0.107
+0606 - Grolejac/IMG_6998.JPG;255;plastic_arts;0.273;;;painting;0.680;outdoor;0.998;good;0.626;absent;0.615;day;1.000;;;front;0.932;yes;0.749
+0606 - Grolejac/IMG_7012.JPG;218;vehicle;0.993;undetermined;0.443;;;outdoor;1.000;degraded;0.983;absent;1.000;day;1.000;;;no;1.000;yes;0.739
+0606 - Grolejac/IMG_7017.JPG;470;religious;0.973;;;;;outdoor;1.000;degraded;0.807;visible;1.000;day;1.000;sunny;0.855;no;1.000;no;0.058
+0606 - Grolejac/IMG_7020.JPG;486;facade;0.875;;;;;outdoor;0.999;ruin;0.886;visible;0.979;day;1.000;sunny;0.969;no;1.000;no;0.280
+0606 - Grolejac/IMG_7022.JPG;484;facade;0.949;;;;;outdoor;0.999;ruin;0.913;visible;0.973;day;1.000;sunny;0.999;no;1.000;no;0.382
+0606 - Grolejac/IMG_7025.JPG;506;facade;0.868;;;;;outdoor;0.999;ruin;0.961;visible;0.935;day;1.000;sunny;1.000;no;1.000;no;0.199
+0606 - Grolejac/IMG_7026.JPG;248;graphic;0.608;;;;;outdoor;0.979;degraded;0.973;absent;0.979;day;1.000;;;no;1.000;no;0.058
+0606 - Grolejac/IMG_7029.JPG;504;facade;0.564;;;;;outdoor;1.000;excellent;0.341;visible;1.000;day;1.000;sunny;0.612;no;1.000;no;0.398
+0606 - Grolejac/IMG_7031.JPG;508;landscape;0.993;;;;;outdoor;1.000;;;visible;0.980;day;1.000;sunny;0.829;no;1.000;no;0.232
+0606 - Grolejac/IMG_7033.JPG;480;landscape;0.493;;;;;outdoor;1.000;;;visible;0.863;day;1.000;sunny;0.629;no;0.998;no;0.330
+0606 - Grolejac/IMG_7039.JPG;495;religious;0.959;;;;;outdoor;1.000;degraded;0.390;visible;0.869;day;1.000;sunny;1.000;no;1.000;no;0.225
+0606 - Grolejac/IMG_7042.JPG;512;facade;0.398;;;;;outdoor;1.000;excellent;0.341;visible;0.992;day;1.000;sunny;1.000;no;0.998;yes;0.602
+0606 - Grolejac/IMG_7043.JPG;485;urban_landscape;0.307;;;;;outdoor;1.000;;;visible;0.983;day;1.000;sunny;1.000;no;0.996;yes;0.785
+0606 - Grolejac/IMG_7045.JPG;496;urban_landscape;0.347;;;;;outdoor;1.000;;;visible;0.968;day;1.000;sunny;1.000;no;0.997;yes;0.708
+0606 - Grolejac/IMG_7047.JPG;472;facade;0.428;;;;;outdoor;1.000;excellent;0.490;visible;0.951;day;1.000;sunny;1.000;no;0.998;yes;0.631
+0606 - Grolejac/IMG_7048.JPG;249;landscape;0.668;;;;;outdoor;1.000;;;absent;0.981;day;0.994;;;no;1.000;yes;0.861
+0606 - Grolejac/IMG_7051.JPG;260;facade;0.975;;;;;outdoor;1.000;excellent;0.876;absent;0.723;day;1.000;;;no;0.996;no;0.487
+0606 - Grolejac/IMG_7052.JPG;253;facade;0.392;;;;;outdoor;0.999;good;0.429;absent;0.954;day;1.000;;;front;0.951;yes;0.764
+0606 - Grolejac/IMG_7053.JPG;242;facade;0.494;;;;;outdoor;1.000;degraded;0.580;absent;0.547;day;1.000;;;no;0.999;yes;0.609
+0606 - Grolejac/IMG_7057.JPG;500;landscape;0.991;;;;;outdoor;1.000;;;visible;0.988;day;0.916;sunny;0.996;no;0.989;yes;0.939
+0606 - Grolejac/IMG_7058.JPG;470;facade;0.954;;;;;outdoor;1.000;degraded;0.517;visible;0.996;day;1.000;sunny;1.000;no;1.000;no;0.353
+0606 - Grolejac/IMG_7061.JPG;509;factory;0.357;;;;;outdoor;1.000;degraded;0.648;visible;0.945;day;1.000;sunny;0.967;no;1.000;no;0.372
+0606 - Grolejac/IMG_7063.JPG;483;urban_landscape;0.531;;;;;outdoor;1.000;;;visible;0.986;day;1.000;sunny;0.991;no;1.000;no;0.370
+0606 - Grolejac/IMG_7065.JPG;505;castle;0.349;;;;;outdoor;1.000;degraded;0.828;visible;0.997;day;1.000;few_clouds;0.936;no;1.000;no;0.191
+0606 - Grolejac/IMG_7068.JPG;500;religious;0.564;;;;;outdoor;1.000;degraded;0.923;visible;0.998;day;1.000;sunny;1.000;no;1.000;no;0.031
+0606 - Grolejac/IMG_7070.JPG;250;vineyard_hut;0.281;;;;;outdoor;0.998;degraded;0.706;absent;0.992;day;1.000;;;no;1.000;no;0.396
+0606 - Grolejac/IMG_7073.JPG;235;macro;0.550;;;;;outdoor;1.000;;;absent;0.978;day;0.946;;;;;yes;0.602
+0606 - Grolejac/IMG_7080.JPG;502;landscape;0.524;;;;;outdoor;1.000;;;visible;0.928;day;1.000;sunny;0.958;no;1.000;yes;0.871
+0606 - Grolejac/IMG_7084.JPG;231;macro;0.804;;;;;outdoor;0.939;;;absent;1.000;day;1.000;;;;;no;0.049
+0606 - Grolejac/IMG_7088.JPG;258;graphic;0.731;;;;;outdoor;0.967;good;0.953;absent;1.000;day;1.000;;;no;0.523;yes;0.787
+0606 - Grolejac/IMG_7098.JPG;472;religious;0.939;;;;;outdoor;1.000;degraded;0.552;visible;0.999;day;1.000;few_clouds;0.705;no;1.000;no;0.244
+0606 - Grolejac/IMG_7101.JPG;509;house;0.778;;;;;outdoor;1.000;degraded;0.553;visible;0.993;day;1.000;few_clouds;0.581;no;1.000;yes;0.507
+0606 - Grolejac/IMG_7102.JPG;247;facade;0.293;;;;;outdoor;1.000;ruin;0.933;absent;0.700;day;1.000;;;no;1.000;yes;0.925
+0606 - Grolejac/IMG_7105.JPG;507;religious;0.979;;;;;outdoor;1.000;degraded;0.695;visible;1.000;day;1.000;few_clouds;0.705;no;1.000;no;0.120
+0606 - Grolejac/IMG_7107.JPG;240;graphic;0.257;;;;;outdoor;0.996;good;0.767;absent;0.968;day;1.000;;;front;0.971;yes;0.633
+0606 - Grolejac/IMG_7108.JPG;250;undetermined;0.331;;;;;outdoor;1.000;good;0.791;absent;0.978;day;0.998;;;front;0.964;yes;0.994
+0606 - Grolejac/IMG_7110.JPG;262;landscape;0.281;;;;;outdoor;1.000;;;absent;0.914;day;0.999;;;back;0.924;yes;0.904
+0606 - Grolejac/IMG_7111.JPG;241;urban_landscape;0.331;;;;;outdoor;1.000;;;absent;0.946;day;1.000;;;front;0.971;yes;0.992
+0606 - Grolejac/IMG_7114.JPG;259;facade;0.350;;;;;outdoor;0.992;good;0.889;absent;0.800;day;1.000;;;front;0.996;yes;0.990
+0606 - Grolejac/IMG_7117.JPG;511;religious;0.963;;;;;outdoor;1.000;degraded;0.514;visible;1.000;day;1.000;sunny;0.884;no;1.000;no;0.138
+0606 - Grolejac/IMG_7118.JPG;464;landscape;0.928;;;;;outdoor;1.000;;;visible;0.657;day;1.000;sunny;0.972;no;1.000;yes;0.527
+0606 - Grolejac/IMG_7121.JPG;491;landscape;0.945;;;;;outdoor;1.000;;;visible;0.997;day;1.000;sunny;0.693;no;1.000;no;0.466
+0606 - Grolejac/IMG_7123.JPG;466;facade;0.418;;;;;outdoor;1.000;excellent;0.543;visible;0.981;day;1.000;sunny;0.986;no;0.999;yes;0.687
+0608 - Bx/graph1-2.jpg;492;graphic;0.394;;;;;outdoor;0.992;good;0.623;visible;0.617;day;0.998;sunny;0.977;no;1.000;yes;0.576
+0608 - Bx/graph1-3.jpg;251;graphic;0.670;;;;;outdoor;0.850;good;0.712;absent;0.940;day;0.996;;;no;1.000;yes;0.638
+0608 - Bx/graph1-4.jpg;257;graphic;0.525;;;;;outdoor;0.989;good;0.519;absent;0.694;day;0.992;;;no;1.000;yes;0.641
+0608 - Bx/graph1-5.jpg;507;landscape;0.781;;;;;outdoor;0.988;;;visible;0.725;dusk;0.983;sunny;0.981;no;1.000;yes;0.975
+0608 - Bx/graph1.jpg;254;graphic;0.659;;;;;outdoor;0.879;good;0.450;absent;0.972;day;0.999;;;no;1.000;yes;0.636
+0608 - Bx/IMG_8225.JPG;486;religious;0.555;;;;;outdoor;1.000;excellent;0.507;visible;0.997;dusk;0.847;sunny;0.986;no;1.000;yes;0.723
+0608 - Bx/IMG_8229.JPG;501;architecture;0.955;;;;;outdoor;0.998;excellent;0.906;visible;1.000;day;0.829;sunny;0.955;no;1.000;yes;0.875
+0608 - Bx/IMG_8234.JPG;492;architecture;0.752;;;;;outdoor;1.000;excellent;0.878;visible;0.990;day;0.577;sunny;0.969;no;0.999;yes;0.712
+0608 - Bx/IMG_8235.JPG;491;architecture;0.862;;;;;outdoor;1.000;excellent;0.860;visible;0.965;day;0.693;sunny;0.999;no;1.000;yes;0.629
+0608 - Bx/IMG_8241.JPG;516;landscape;0.991;;;;;outdoor;1.000;;;visible;0.984;dusk;0.999;sunny;0.544;no;1.000;yes;0.844
+0608 - Bx/IMG_8242.JPG;511;landscape;0.996;;;;;outdoor;1.000;;;visible;0.995;dusk;0.994;mixed;0.450;no;1.000;yes;0.753
+0608 - Bx/IMG_8248.JPG;451;landscape;0.960;;;;;outdoor;1.000;;;visible;1.000;dusk;1.000;mixed;0.388;no;1.000;yes;0.890
+0608 - Bx/IMG_8256.JPG;482;landscape;0.941;;;;;outdoor;1.000;;;visible;0.995;dusk;0.994;few_clouds;0.803;no;1.000;yes;0.964
+0608 - Bx/IMG_8261.JPG;497;landscape;0.507;;;;;outdoor;1.000;;;visible;0.999;dusk;1.000;mixed;0.490;no;1.000;yes;0.858
+0608 - Bx/IMG_8262.JPG;509;facade;0.518;;;;;outdoor;1.000;excellent;0.883;visible;0.996;day;0.900;few_clouds;0.959;no;0.999;yes;0.836
+0608 - Bx/IMG_8267.JPG;491;landscape;0.721;;;;;outdoor;1.000;;;visible;1.000;day;0.996;mixed;0.679;no;1.000;yes;0.932
+0608 - Bx/IMG_8274.JPG;503;landscape;0.691;;;;;outdoor;1.000;;;visible;0.959;dusk;0.770;mixed;0.547;no;1.000;no;0.414
+0608 - Bx/IMG_8288.JPG;506;landscape;0.334;;;;;outdoor;1.000;;;visible;0.998;day;0.993;cloudy;0.771;no;0.997;yes;0.851
+0608 - Bx/IMG_8289.JPG;470;landscape;0.723;;;;;outdoor;1.000;;;visible;0.999;day;0.997;few_clouds;0.448;no;1.000;yes;0.912
+0608 - Bx/IMG_8294.JPG;493;landscape;0.512;;;;;outdoor;1.000;;;visible;0.988;day;0.963;few_clouds;0.913;no;0.998;yes;0.646
+0608 - Bx/IMG_8300.JPG;505;landscape;0.876;;;;;outdoor;1.000;;;visible;0.911;day;0.945;mixed;0.583;no;1.000;yes;0.688
+0608 - Bx/IMG_8304.JPG;252;macro;0.873;;;;;outdoor;1.000;;;absent;0.991;day;1.000;;;;;no;0.451
+0608 - Bx/IMG_8305.JPG;231;macro;0.768;;;;;outdoor;0.991;;;absent;0.998;day;1.000;;;;;no;0.110
+0608 - Bx/IMG_8310.JPG;239;animal;0.449;;;;;outdoor;0.998;;;absent;0.999;day;1.000;;;no;1.000;no;0.048
+0608 - Bx/IMG_8322.JPG;267;macro;0.792;;;;;outdoor;0.893;;;absent;0.994;day;0.999;;;;;no;0.172
+0608 - Bx/IMG_8325.JPG;503;landscape;0.676;;;;;outdoor;1.000;;;visible;0.743;day;1.000;sunny;0.983;no;0.995;no;0.361
+0608 - Bx/IMG_8332.JPG;511;urban_landscape;0.435;;;;;outdoor;1.000;;;visible;0.938;day;1.000;mixed;0.619;no;1.000;yes;0.882
+0608 - Bx/IMG_8335.JPG;255;plastic_arts;0.652;;;sculpture;0.999;outdoor;0.999;degraded;0.819;absent;0.999;day;1.000;;;no;0.989;no;0.110
+0608 - Bx/IMG_8336.JPG;248;plastic_arts;0.693;;;sculpture;1.000;outdoor;1.000;degraded;0.766;absent;0.981;day;1.000;;;no;0.996;no;0.176
+0608 - Bx/IMG_8338.JPG;216;graphic;0.555;;;;;outdoor;0.955;good;0.561;absent;1.000;day;1.000;;;no;1.000;yes;0.600
+0608 - Bx/IMG_8346.JPG;264;macro;0.883;;;;;outdoor;0.997;;;absent;0.995;day;1.000;;;;;yes;0.615
+0608 - Bx/IMG_8351.JPG;238;macro;0.794;;;;;outdoor;0.999;;;absent;0.679;day;0.901;;;;;no;0.481
+0608 - Bx/IMG_8352.JPG;256;macro;0.723;;;;;outdoor;0.998;;;absent;0.789;day;0.964;;;;;yes;0.627
+0608 - Bx/IMG_8356.JPG;262;macro;0.807;;;;;outdoor;0.998;;;absent;0.991;day;0.995;;;;;yes;0.880
+0608 - Bx/IMG_8359.JPG;257;macro;0.566;;;;;outdoor;0.990;;;absent;0.991;day;1.000;;;;;no;0.038
+0608 - Bx/IMG_8360.JPG;243;graphic;0.635;;;;;outdoor;1.000;good;0.862;absent;0.990;day;1.000;;;no;0.999;no;0.313
+0608 - Bx/IMG_8363.JPG;229;macro;0.962;;;;;outdoor;0.906;;;absent;1.000;day;1.000;;;;;no;0.045
+0608 - Bx/IMG_8365.JPG;258;macro;0.949;;;;;outdoor;0.987;;;absent;0.984;day;1.000;;;;;yes;0.503
+0608 - Bx/IMG_8368.JPG;235;graphic;0.517;;;;;outdoor;0.992;degraded;0.994;absent;1.000;day;1.000;;;no;0.998;no;0.053
+0608 - Bx/IMG_8371.JPG;264;macro;0.942;;;;;outdoor;0.925;;;absent;0.999;day;0.999;;;;;yes;0.664
+0608 - Bx/IMG_8373.JPG;240;macro;0.866;;;;;outdoor;0.949;;;absent;0.999;day;0.999;;;;;yes;0.516
+0608 - Bx/IMG_8375.JPG;241;macro;0.914;;;;;outdoor;0.969;;;absent;1.000;day;0.998;;;;;no;0.342
+0608 - Bx/IMG_8377.JPG;488;macro;0.905;;;;;outdoor;0.999;;;visible;0.812;day;1.000;few_clouds;0.806;;;no;0.136
+0608 - Bx/IMG_8378.JPG;239;animal;0.860;;;;;outdoor;0.921;;;absent;0.999;day;0.997;;;no;0.995;yes;0.878
+0609 - Tours/IMG_0102.JPG;493;landscape;0.998;;;;;outdoor;0.999;;;visible;0.981;day;1.000;sunny;0.807;no;1.000;yes;0.936
+0609 - Tours/IMG_0103.JPG;498;facade;0.907;;;;;outdoor;0.999;degraded;0.448;visible;0.985;day;1.000;sunny;1.000;no;1.000;no;0.395
+0609 - Tours/IMG_0106.JPG;514;facade;0.794;;;;;outdoor;0.999;degraded;0.608;visible;0.969;day;1.000;sunny;1.000;no;1.000;no;0.231
+0609 - Tours/IMG_0108 - 2.jpg;505;graphic;0.501;;;;;outdoor;0.974;degraded;0.667;visible;0.617;day;1.000;sunny;1.000;no;1.000;no;0.204
+0609 - Tours/IMG_0108.JPG;466;facade;0.879;;;;;outdoor;1.000;degraded;0.619;visible;0.977;day;1.000;sunny;0.997;no;1.000;no;0.357
+0609 - Tours/IMG_0111.JPG;498;facade;0.686;;;;;outdoor;0.997;degraded;0.574;visible;0.997;day;1.000;sunny;1.000;no;1.000;no;0.135
+0609 - Tours/IMG_0119.JPG;496;religious;0.352;;;;;outdoor;0.995;excellent;0.793;visible;0.998;day;1.000;sunny;0.990;no;0.999;yes;0.749
+0609 - Tours/IMG_0122.JPG;473;religious;0.819;;;;;outdoor;0.999;degraded;0.382;visible;1.000;day;1.000;sunny;1.000;no;0.999;no;0.113
+0609 - Tours/IMG_0124.JPG;429;graphic;0.946;;;;;outdoor;0.995;excellent;0.637;visible;0.837;day;0.998;sunny;0.941;no;1.000;no;0.104
+0609 - Tours Chatom/IMG_0126.JPG;257;animal;0.923;;;;;indoor;0.987;;;absent;0.998;day;1.000;;;no;0.993;yes;0.661
+0609 - Tours Chatom/IMG_0138 -2.jpg;246;animal;0.928;;;;;indoor;0.609;;;absent;0.986;day;1.000;;;no;0.970;no;0.343
+0609 - Tours Chatom/IMG_0138.JPG;256;animal;0.952;;;;;indoor;0.789;;;absent;0.991;day;1.000;;;no;0.936;yes;0.526
+0609 - Tours Chatom/IMG_0144.JPG;256;animal;0.971;;;;;indoor;0.669;;;absent;0.873;day;1.000;;;no;0.975;no;0.385
+0609 - Tours Chatom/IMG_0150.JPG;249;animal;0.973;;;;;indoor;0.735;;;absent;0.990;day;1.000;;;no;0.959;no;0.432
+0609 - Tours Chatom/IMG_0154.JPG;240;animal;0.986;;;;;outdoor;0.877;;;absent;0.669;day;1.000;;;no;0.905;no;0.303
+0609 - Tours Chatom/IMG_0165.JPG;253;animal;0.980;;;;;indoor;0.762;;;absent;0.970;day;1.000;;;no;0.972;no;0.424
+0609 - Tours Chatom/IMG_0166.JPG;267;animal;0.981;;;;;indoor;0.928;;;absent;0.989;day;1.000;;;no;0.981;no;0.449
+0609 - Tours Chatom/IMG_0168.JPG;247;animal;0.979;;;;;indoor;0.878;;;absent;0.870;day;1.000;;;no;0.992;yes;0.584
+0609 - Tours Chatom/IMG_0169.JPG;248;animal;0.966;;;;;indoor;0.565;;;absent;0.816;day;1.000;;;no;0.978;no;0.399
+0609 - Tours Chatom/IMG_0174.JPG;260;animal;0.832;;;;;indoor;0.859;;;absent;1.000;day;1.000;;;no;0.999;no;0.278
+0609 - Tours Chatom/IMG_0178.JPG;254;animal;0.977;;;;;indoor;0.825;;;absent;0.743;day;1.000;;;no;0.990;no;0.415
+0609 - Tours Chatom/IMG_0214.JPG;227;landscape;0.310;;;;;indoor;0.618;;;visible;0.758;day;1.000;;;no;1.000;yes;0.518
+0609 - Tours Chatom/IMG_0223.JPG;257;graphic;0.768;;;;;indoor;0.810;degraded;0.569;absent;1.000;day;1.000;;;no;1.000;yes;0.841
+0610 - Andernos/graph1.jpg;257;graphic;0.699;;;;;outdoor;0.542;degraded;0.614;absent;0.987;day;1.000;;;no;1.000;yes;0.554
+0610 - Andernos/graph22.jpg;489;graphic;0.745;;;;;outdoor;0.929;good;0.950;visible;0.571;day;1.000;sunny;0.813;no;1.000;no;0.382
+0610 - Andernos/graph3-2.jpg;512;landscape;0.849;;;;;outdoor;0.983;;;visible;0.613;day;1.000;sunny;0.974;no;1.000;yes;0.574
+0610 - Andernos/graph3.jpg;499;landscape;0.783;;;;;outdoor;0.977;;;visible;0.841;day;1.000;sunny;0.999;no;1.000;no;0.326
+0610 - Andernos/graph4-2.jpg;254;graphic;0.856;;;;;outdoor;0.960;degraded;0.525;absent;0.887;day;1.000;;;no;1.000;no;0.226
+0610 - Andernos/graph4.jpg;258;graphic;0.837;;;;;outdoor;0.988;good;0.609;absent;0.685;day;1.000;;;no;1.000;no;0.067
+0610 - Andernos/IMG_0863.JPG;497;landscape;0.998;;;;;outdoor;0.999;;;visible;0.992;day;1.000;few_clouds;0.773;no;1.000;yes;0.531
+0610 - Andernos/IMG_0872.JPG;475;landscape;0.999;;;;;outdoor;0.998;;;visible;0.992;day;1.000;few_clouds;0.914;no;1.000;yes;0.649
+0610 - Andernos/IMG_0873.JPG;527;landscape;0.998;;;;;outdoor;0.999;;;visible;0.989;day;1.000;few_clouds;0.580;no;1.000;yes;0.556
+0610 - Andernos/IMG_0874.JPG;512;landscape;0.999;;;;;outdoor;1.000;;;visible;0.995;day;1.000;few_clouds;0.634;no;1.000;yes;0.518
+0610 - Andernos/IMG_0875.JPG;458;landscape;0.999;;;;;outdoor;1.000;;;visible;0.999;day;1.000;few_clouds;0.712;no;1.000;no;0.453
+0610 - Andernos/IMG_0878.JPG;471;landscape;0.997;;;;;outdoor;0.999;;;visible;0.986;day;1.000;few_clouds;0.553;no;1.000;yes;0.746
+0610 - Andernos/IMG_0881.JPG;444;landscape;0.955;;;;;outdoor;0.999;;;visible;0.740;day;1.000;sunny;0.586;front;0.533;yes;0.718
+0610 - Andernos/IMG_0882.JPG;509;landscape;0.945;;;;;outdoor;0.998;;;visible;0.907;day;1.000;few_clouds;0.996;profile;0.733;yes;0.637
+0610 - Andernos/IMG_0883.JPG;479;landscape;0.704;;;;;outdoor;0.995;;;visible;0.721;day;1.000;few_clouds;0.888;front;0.969;no;0.483
+0610 - Andernos/IMG_0885.JPG;493;landscape;0.913;;;;;outdoor;0.992;;;visible;0.571;day;0.998;cloudy;0.961;no;1.000;yes;0.847
+0610 - Andernos/IMG_0888.JPG;524;landscape;0.992;;;;;outdoor;0.998;;;visible;0.971;day;0.968;cloudy;0.518;no;1.000;yes;0.749
+0610 - Andernos/IMG_0889.JPG;475;landscape;0.998;;;;;outdoor;1.000;;;visible;0.999;day;1.000;sunny;0.905;no;1.000;yes;0.567
+0610 - Andernos/IMG_0891.JPG;246;macro;0.747;;;;;outdoor;0.996;;;absent;0.998;day;0.999;;;;;no;0.131
+0610 - Andernos/IMG_0894.JPG;501;landscape;0.589;;;;;outdoor;0.999;;;visible;0.825;day;1.000;sunny;0.996;front;0.577;yes;0.937
+0610 - Andernos/IMG_0896.JPG;220;graphic;0.435;;;;;outdoor;0.942;degraded;0.518;absent;0.966;day;1.000;;;no;1.000;no;0.256
+0610 - Andernos/IMG_0900.JPG;253;graphic;0.858;;;;;outdoor;0.980;degraded;0.943;absent;0.984;day;1.000;;;no;1.000;no;0.144
+0610 - Andernos/IMG_0904.JPG;254;graphic;0.724;;;;;outdoor;0.996;degraded;0.979;absent;0.757;day;1.000;;;no;1.000;no;0.192
+0610 - Andernos/IMG_0906.JPG;257;landscape;0.469;;;;;outdoor;0.994;;;absent;0.878;day;1.000;;;no;1.000;no;0.372
+0610 - Andernos/IMG_0911.JPG;478;bridge;0.719;;;;;outdoor;1.000;degraded;0.475;visible;1.000;day;1.000;sunny;0.999;no;1.000;yes;0.706
+0610 - Andernos/IMG_0912.JPG;516;landscape;0.996;;;;;outdoor;0.999;;;visible;0.999;day;1.000;sunny;0.720;no;1.000;yes;0.816
+0610 - Andernos/IMG_0913.JPG;498;landscape;0.994;;;;;outdoor;1.000;;;visible;1.000;day;1.000;sunny;0.761;no;1.000;yes;0.630
+0610 - Andernos/IMG_0914.JPG;488;landscape;0.616;;;;;outdoor;1.000;;;visible;1.000;day;1.000;sunny;0.990;no;1.000;yes;0.610
+0610 - Andernos/IMG_0918.JPG;483;landscape;0.472;;;;;outdoor;0.991;;;visible;0.691;day;1.000;sunny;0.999;no;1.000;yes;0.552
+0610 - Andernos/IMG_0919.JPG;218;landscape;0.530;;;;;outdoor;0.996;;;absent;0.922;day;1.000;;;front;0.906;yes;0.912
+0610 - Andernos/IMG_0920.JPG;262;graphic;0.759;;;;;outdoor;0.805;degraded;0.673;absent;1.000;day;1.000;;;no;1.000;no;0.096
+0610 - Andernos/IMG_0927.JPG;246;animal;0.471;;;;;outdoor;0.980;;;absent;0.999;day;1.000;;;front;0.573;yes;0.777
+0610 - Andernos/IMG_0928.JPG;249;animal;0.450;;;;;outdoor;0.936;;;absent;0.998;day;1.000;;;front;0.940;yes;0.706
+0610 - Andernos/IMG_0930.JPG;256;animal;0.987;;;;;outdoor;0.965;;;absent;0.759;day;1.000;;;no;0.953;yes;0.853
+0610 - Andernos/IMG_0932.JPG;468;graphic;0.363;;;;;outdoor;1.000;degraded;0.645;visible;0.872;day;1.000;few_clouds;0.996;no;0.999;no;0.370
+0610 - Andernos/IMG_0937.JPG;253;graphic;0.756;;;;;outdoor;1.000;degraded;0.746;absent;0.844;day;1.000;;;no;0.996;no;0.342
+0610 - Andernos/IMG_0940.JPG;235;animal;0.268;;;;;outdoor;0.914;;;absent;0.996;day;1.000;;;front;0.907;yes;0.770
+0610 - Andernos/IMG_0941.JPG;256;facade;0.288;;;;;outdoor;0.905;degraded;0.622;absent;0.994;day;1.000;;;front;0.887;yes;0.673
+0610 - Andernos/PanoBassin 1.jpg;440;landscape;0.998;;;;;outdoor;1.000;;;visible;0.962;day;0.999;few_clouds;0.873;no;0.998;no;0.385
+0610 - Andernos/panobassin2.jpg;504;landscape;0.994;;;;;outdoor;1.000;;;visible;1.000;day;1.000;sunny;0.994;no;1.000;no;0.440
+0610 - Bx/graph1.jpg;498;graphic;0.809;;;;;outdoor;0.983;good;0.640;visible;0.956;day;1.000;sunny;0.998;no;1.000;yes;0.922
+0610 - Bx/IMG_0263.JPG;493;urban_landscape;0.479;;;;;outdoor;1.000;;;visible;0.992;day;1.000;sunny;0.506;no;0.999;yes;0.943
+0610 - Bx/IMG_0267.JPG;501;graphic;0.366;;;;;outdoor;0.999;excellent;0.850;visible;0.727;day;1.000;sunny;0.880;no;0.987;yes;0.682
+0610 - Bx/IMG_0269.JPG;256;facade;0.566;;;;;outdoor;0.983;excellent;0.975;absent;0.991;day;1.000;;;no;1.000;yes;0.849
+0610 - Bx/IMG_0274.JPG;683;architecture;0.865;;;;;outdoor;0.999;excellent;0.931;visible;0.933;day;1.000;sunny;0.620;no;1.000;yes;0.873
+0610 - Bx/IMG_0275.JPG;497;architecture;0.864;;;;;outdoor;0.999;excellent;0.928;visible;0.935;day;1.000;sunny;0.578;no;0.999;yes;0.886
+0610 - Bx/IMG_0276.JPG;430;architecture;0.863;;;;;outdoor;0.999;excellent;0.938;visible;0.811;day;1.000;sunny;0.546;no;0.996;yes;0.910
+0610 - Bx/IMG_0278.JPG;261;facade;0.466;;;;;outdoor;0.998;excellent;0.987;absent;0.913;day;1.000;;;no;1.000;yes;0.782
+0610 - Bx/IMG_0279 - 2 - 1.jpg;244;facade;0.820;;;;;outdoor;0.935;excellent;0.982;absent;0.992;day;0.999;;;no;1.000;yes;0.619
+0610 - Bx/IMG_0279 - 2 - 2.jpg;223;facade;0.740;;;;;outdoor;0.974;excellent;0.983;absent;0.985;day;1.000;;;no;1.000;yes;0.522
+0610 - Bx/IMG_0280.JPG;248;facade;0.860;;;;;outdoor;0.994;excellent;0.993;absent;0.509;day;1.000;;;no;1.000;yes;0.643
+0610 - Bx/IMG_0287.JPG;470;graphic;0.444;;;;;outdoor;0.998;excellent;0.775;visible;0.952;day;1.000;few_clouds;0.913;no;1.000;yes;0.779
+0610 - Bx/IMG_0289.JPG;444;graphic;0.537;;;;;outdoor;0.999;excellent;0.784;visible;0.983;day;1.000;few_clouds;0.889;no;1.000;yes;0.906
+0610 - Bx/IMG_0298.JPG;459;architecture;0.698;;;;;outdoor;1.000;excellent;0.788;visible;0.983;day;1.000;sunny;0.997;no;1.000;no;0.466
+0610 - Bx/IMG_0305.JPG;513;urban_landscape;0.477;;;;;outdoor;1.000;;;visible;0.938;day;1.000;sunny;0.980;no;0.998;no;0.436
+0610 - Bx/IMG_0313 - 2.jpg;522;facade;0.507;;;;;outdoor;0.999;excellent;0.527;visible;0.934;day;0.974;sunny;1.000;no;1.000;yes;0.619
+0610 - Bx/IMG_0313.JPG;519;facade;0.501;;;;;outdoor;1.000;excellent;0.915;visible;0.957;day;1.000;sunny;0.998;no;1.000;yes;0.537
+0610 - Bx/IMG_0317.JPG;504;landscape;0.407;;;;;outdoor;1.000;;;visible;0.991;day;1.000;sunny;0.998;no;1.000;yes;0.508
+0610 - Bx/IMG_0318.JPG;516;landscape;0.587;;;;;outdoor;1.000;;;visible;0.677;day;1.000;sunny;0.994;no;1.000;yes;0.734
+0610 - Bx/IMG_0322.JPG;502;landscape;0.422;;;;;outdoor;1.000;;;visible;0.732;day;1.000;sunny;0.974;no;1.000;yes;0.727
+0610 - Bx/IMG_0327.JPG;235;landscape;0.732;;;;;outdoor;1.000;;;absent;0.579;day;1.000;;;no;1.000;yes;0.717
+0610 - Bx/IMG_0328.JPG;529;landscape;0.596;;;;;outdoor;1.000;;;visible;0.541;day;1.000;sunny;0.998;no;1.000;yes;0.637
+0610 - Bx/IMG_0331.JPG;506;landscape;0.851;;;;;outdoor;1.000;;;visible;0.679;day;1.000;sunny;1.000;no;1.000;yes;0.774
+0610 - Bx/IMG_0334.JPG;534;landscape;0.614;;;;;outdoor;1.000;;;visible;0.718;day;1.000;sunny;0.999;no;1.000;yes;0.694
+0610 - Bx/IMG_0339.JPG;509;architecture;0.510;;;;;outdoor;1.000;excellent;0.896;visible;0.967;day;1.000;sunny;0.988;no;0.999;no;0.408
+0610 - Bx/IMG_0341.JPG;484;architecture;0.577;;;;;outdoor;1.000;excellent;0.904;visible;0.944;day;1.000;sunny;0.981;no;1.000;yes;0.793
+0610 - Bx/IMG_0343.JPG;466;architecture;0.861;;;;;outdoor;0.999;excellent;0.959;visible;0.947;day;1.000;sunny;0.844;no;0.999;yes;0.823
+0610 - Bx/IMG_0347.JPG;495;architecture;0.590;;;;;outdoor;0.999;excellent;0.971;visible;0.893;day;1.000;sunny;0.934;no;0.990;yes;0.719
+0610 - Bx/IMG_0349.JPG;485;graphic;0.677;;;;;outdoor;0.999;excellent;0.902;visible;0.674;day;1.000;sunny;0.621;no;0.998;yes;0.799
+0610 - Bx/IMG_0350.JPG;499;graphic;0.992;;;;;outdoor;1.000;excellent;0.720;visible;0.921;day;0.993;sunny;0.999;no;1.000;no;0.218
+0610 - Bx/IMG_0353.JPG;523;graphic;0.961;;;;;outdoor;0.999;good;0.578;visible;0.925;day;0.998;sunny;0.959;no;1.000;yes;0.511
+0610 - Bx/IMG_0355.JPG;249;graphic;0.891;;;;;outdoor;0.981;good;0.407;absent;0.977;day;1.000;;;no;1.000;no;0.247
+0610 - Bx/IMG_0362.JPG;455;architecture;0.338;;;;;outdoor;1.000;excellent;0.685;visible;0.981;day;1.000;few_clouds;0.887;no;1.000;yes;0.565
+0610 - Bx/IMG_0369.JPG;451;architecture;0.741;;;;;outdoor;0.997;excellent;0.890;visible;0.962;day;1.000;sunny;0.994;no;0.996;no;0.438
+0610 - Bx/IMG_0372.JPG;472;facade;0.432;;;;;outdoor;1.000;excellent;0.808;visible;0.929;day;1.000;sunny;0.977;no;1.000;yes;0.673
+0610 - Bx/IMG_0374.JPG;237;graphic;0.816;;;;;indoor;0.947;degraded;0.721;absent;1.000;day;1.000;;;no;1.000;no;0.152
+0610 - Bx/IMG_0376.JPG;517;facade;0.846;;;;;outdoor;0.996;excellent;0.930;visible;0.990;day;1.000;sunny;1.000;no;0.997;no;0.264
+0610 - Bx/IMG_0378.JPG;237;facade;0.763;;;;;outdoor;0.946;excellent;0.688;absent;0.998;day;1.000;;;no;1.000;no;0.079
+0610 - Bx/IMG_0381.JPG;481;architecture;0.882;;;;;outdoor;0.999;excellent;0.933;visible;0.859;day;1.000;few_clouds;0.529;no;1.000;yes;0.896
+0610 - Bx/IMG_0384.JPG;501;graphic;0.402;;;;;outdoor;0.999;excellent;0.887;visible;0.988;day;1.000;sunny;0.983;no;0.999;yes;0.723
+0610 - Bx/IMG_0394.JPG;484;architecture;0.849;;;;;outdoor;1.000;excellent;0.946;visible;0.985;day;1.000;sunny;0.853;no;1.000;yes;0.754
+0610 - Bx/IMG_0396.JPG;436;graphic;0.739;;;;;outdoor;1.000;degraded;0.434;visible;0.847;day;1.000;few_clouds;0.855;no;0.998;yes;0.545
+0610 - Bx/IMG_0399.JPG;485;graphic;0.639;;;;;outdoor;0.999;excellent;0.601;visible;0.807;day;1.000;sunny;0.593;no;0.997;yes;0.557
+0610 - Bx/IMG_0402.JPG;468;architecture;0.747;;;;;outdoor;1.000;excellent;0.780;visible;0.992;day;1.000;sunny;0.970;no;1.000;yes;0.694
+0610 - Bx/IMG_0409.JPG;214;graphic;0.545;;;;;outdoor;0.998;good;0.572;absent;0.956;day;1.000;;;no;1.000;yes;0.537
+0610 - Bx/IMG_0410.JPG;240;facade;0.671;;;;;outdoor;0.997;excellent;0.356;absent;0.993;day;1.000;;;no;1.000;yes;0.646
+0610 - Bx/IMG_0412.JPG;231;graphic;0.598;;;;;outdoor;0.998;excellent;0.545;absent;0.585;day;1.000;;;no;0.994;no;0.400
+0610 - Bx/IMG_0414.JPG;215;graphic;0.772;;;;;indoor;0.800;good;0.652;absent;1.000;day;1.000;;;no;1.000;no;0.054
+0610 - Bx/IMG_0427.JPG;231;animal;0.594;;;;;indoor;0.700;;;absent;0.997;day;1.000;;;front;0.965;yes;0.893
+0610 - Bx/IMG_0428.JPG;254;animal;0.652;;;;;indoor;0.626;;;absent;0.981;day;1.000;;;front;0.989;yes;0.643
+0610 - Bx/IMG_0433.JPG;252;animal;0.647;;;;;indoor;0.802;;;absent;0.974;day;1.000;;;front;0.599;yes;0.557
+0610 - Bx/IMG_0434.JPG;232;animal;0.780;;;;;indoor;0.807;;;absent;0.971;day;1.000;;;front;0.914;yes;0.780
+0610 - Bx/IMG_0435.JPG;461;street;0.568;;;;;outdoor;1.000;;;visible;0.958;day;1.000;sunny;0.997;no;0.998;yes;0.667
+0610 - Bx/IMG_0443.JPG;495;architecture;0.812;;;;;outdoor;1.000;excellent;0.859;visible;0.978;day;1.000;sunny;0.999;no;0.999;yes;0.589
+0610 - Bx/IMG_0447.JPG;498;architecture;0.611;;;;;outdoor;1.000;excellent;0.785;visible;0.965;day;1.000;sunny;1.000;no;0.999;no;0.358
+0610 - Bx/IMG_0453.JPG;468;religious;0.645;;;;;outdoor;1.000;excellent;0.557;visible;1.000;day;1.000;sunny;0.997;no;1.000;yes;0.620
+0610 - Bx/IMG_0459.JPG;491;religious;0.828;;;;;outdoor;1.000;excellent;0.531;visible;0.995;day;1.000;sunny;1.000;no;1.000;yes;0.615
+0610 - Bx/IMG_0463.JPG;430;religious;0.815;;;;;outdoor;1.000;excellent;0.498;visible;0.998;day;1.000;sunny;0.982;no;1.000;yes;0.619
+0610 - Bx/IMG_0501 - 2.jpg;487;architecture;0.494;;;;;outdoor;0.953;degraded;0.541;visible;0.939;day;1.000;sunny;0.982;no;1.000;yes;0.681
+0610 - Bx/IMG_0501.JPG;503;architecture;0.860;;;;;outdoor;1.000;excellent;0.856;visible;0.990;day;1.000;few_clouds;0.989;no;1.000;yes;0.689
+0610 - Bx/IMG_0513.JPG;484;landscape;0.682;;;;;outdoor;1.000;;;visible;0.985;dusk;0.997;sunny;0.690;no;1.000;yes;0.621
+0610 - Bx/IMG_0516.JPG;469;landscape;0.730;;;;;outdoor;1.000;;;visible;0.988;dusk;0.995;few_clouds;0.677;no;1.000;yes;0.618
+0610 - Bx/IMG_0518.JPG;471;landscape;0.950;;;;;outdoor;0.999;;;visible;0.967;dusk;0.994;cloudy;0.974;no;1.000;yes;0.790
+0610 - Bx/IMG_0519.JPG;493;landscape;0.981;;;;;outdoor;1.000;;;visible;1.000;dusk;1.000;cloudy;0.908;no;1.000;yes;0.732
+0610 - Bx/IMG_0520.JPG;470;landscape;0.968;;;;;outdoor;0.999;;;visible;0.993;dusk;1.000;cloudy;0.986;no;1.000;yes;0.715
+0610 - Bx/IMG_0521.JPG;475;landscape;0.766;;;;;outdoor;0.999;;;visible;0.989;dusk;0.999;cloudy;0.962;no;1.000;yes;0.821
+0610 - Bx/IMG_0525.JPG;481;landscape;0.969;;;;;outdoor;0.998;;;visible;0.993;dusk;0.999;cloudy;0.995;no;1.000;yes;0.709
+0610 - Bx/IMG_0535.JPG;492;graphic;0.398;;;;;outdoor;1.000;degraded;0.740;visible;0.997;dusk;0.999;cloudy;0.957;no;1.000;yes;0.745
+0610 - Bx/IMG_0546.JPG;495;landscape;0.909;;;;;outdoor;0.999;;;visible;0.951;dusk;0.996;cloudy;0.997;no;1.000;yes;0.732
+0610 - Bx/IMG_0549 - 2.jpg;497;graphic;0.431;;;;;outdoor;1.000;degraded;0.437;visible;0.998;day;1.000;few_clouds;0.997;no;1.000;yes;0.710
+0610 - Bx/IMG_0549 - 3.jpg;483;plastic_arts;0.515;;;sculpture;0.997;outdoor;0.971;ruin;0.478;visible;0.889;day;1.000;cloudy;0.562;no;1.000;yes;0.584
+0610 - Bx/IMG_0549.JPG;510;undetermined;0.343;;;;;outdoor;1.000;degraded;0.484;visible;0.998;day;1.000;few_clouds;0.997;no;1.000;yes;0.685
+0610 - Bx/IMG_0560.JPG;483;graphic;0.510;;;;;outdoor;1.000;good;0.408;visible;0.987;day;1.000;sunny;0.982;no;0.999;yes;0.609
+0610 - Bx/IMG_0567.JPG;483;plastic_arts;0.539;;;sculpture;1.000;outdoor;0.998;degraded;0.419;visible;0.684;day;0.997;few_clouds;0.981;no;0.998;yes;0.953
+0610 - Bx/IMG_0572.JPG;229;plastic_arts;0.506;;;sculpture;1.000;outdoor;0.991;degraded;0.437;absent;0.548;day;0.998;;;no;0.997;yes;0.857
+0610 - Bx/IMG_0577.JPG;256;plastic_arts;0.885;;;sculpture;1.000;outdoor;0.988;ruin;0.487;absent;0.716;day;1.000;;;no;1.000;yes;0.726
+0610 - Bx/IMG_0579.JPG;488;plastic_arts;0.628;;;sculpture;1.000;outdoor;1.000;degraded;0.700;visible;0.621;day;0.998;cloudy;0.475;no;0.993;yes;0.808
+0610 - Bx/IMG_0585.JPG;495;plastic_arts;0.677;;;sculpture;1.000;outdoor;1.000;degraded;0.762;visible;0.846;day;0.995;few_clouds;0.991;no;0.999;yes;0.928
+0610 - Bx/IMG_0595.JPG;483;graphic;0.399;;;;;outdoor;1.000;degraded;0.509;visible;0.999;day;1.000;sunny;0.950;no;1.000;yes;0.693
+0610 - Bx/IMG_0598.JPG;431;urban_landscape;0.273;;;;;outdoor;1.000;;;visible;0.892;day;0.992;few_clouds;0.970;no;0.999;yes;0.894
+0610 - Bx/IMG_0599.JPG;247;street;0.360;;;;;outdoor;0.948;;;absent;0.996;day;1.000;;;no;1.000;yes;0.694
+0610 - Bx/IMG_0609.JPG;492;facade;0.865;;;;;outdoor;1.000;excellent;0.962;visible;0.696;day;1.000;sunny;0.871;no;1.000;no;0.327
+0610 - Bx/IMG_0610.JPG;494;street;0.455;;;;;outdoor;0.998;;;visible;0.859;day;1.000;sunny;0.975;no;0.999;no;0.484
+0610 - Bx/IMG_0614.JPG;253;architecture;0.834;;;;;outdoor;1.000;excellent;0.840;absent;0.573;day;1.000;;;no;1.000;yes;0.919
+0610 - Bx/IMG_0618.JPG;251;graphic;0.410;;;;;outdoor;1.000;excellent;0.542;absent;0.961;day;1.000;;;no;1.000;yes;0.907
+0610 - Bx/IMG_0625.JPG;484;street;0.789;;;;;outdoor;1.000;;;visible;0.987;day;0.998;sunny;0.877;no;0.998;yes;0.818
+0610 - Bx/IMG_0632.JPG;491;graphic;0.676;;;;;outdoor;1.000;degraded;0.482;visible;0.990;day;0.916;few_clouds;0.932;no;1.000;yes;0.910
+0610 - Bx/IMG_0645.JPG;480;religious;0.522;;;;;outdoor;1.000;excellent;0.476;visible;0.999;day;1.000;few_clouds;0.784;no;1.000;yes;0.652
+0610 - Bx/IMG_0647.JPG;474;architecture;0.540;;;;;outdoor;1.000;excellent;0.445;visible;0.966;day;1.000;sunny;0.592;no;1.000;yes;0.858
+0610 - Bx/IMG_0654.JPG;438;architecture;0.540;;;;;outdoor;1.000;good;0.510;visible;0.995;day;1.000;sunny;0.986;no;1.000;yes;0.691
+0610 - Bx/IMG_0657.JPG;508;religious;0.554;;;;;outdoor;1.000;excellent;0.648;visible;0.993;day;1.000;sunny;0.873;no;1.000;no;0.498
+0610 - Bx/IMG_0662.JPG;499;architecture;0.948;;;;;outdoor;1.000;excellent;0.794;visible;0.991;day;1.000;few_clouds;0.522;no;1.000;yes;0.899
+0610 - Bx/IMG_0663.JPG;484;architecture;0.798;;;;;outdoor;1.000;excellent;0.936;visible;0.968;day;1.000;few_clouds;0.580;no;0.999;yes;0.616
+0610 - Bx/IMG_0668.JPG;254;facade;0.968;;;;;outdoor;0.981;excellent;0.928;absent;0.962;day;1.000;;;no;1.000;no;0.080
+0610 - Bx/IMG_0672.JPG;493;facade;0.827;;;;;outdoor;1.000;degraded;0.512;visible;0.997;day;1.000;sunny;1.000;no;1.000;no;0.272
+0610 - Bx/IMG_0679.JPG;478;facade;0.721;;;;;outdoor;0.999;ruin;0.817;visible;0.998;day;1.000;sunny;1.000;no;1.000;no;0.274
+0610 - Bx/IMG_0680.JPG;500;facade;0.861;;;;;outdoor;0.998;ruin;0.812;visible;0.987;day;1.000;sunny;1.000;no;1.000;yes;0.579
+0610 - Bx/IMG_0684.JPG;498;facade;0.955;;;;;outdoor;0.993;ruin;0.845;visible;0.980;day;1.000;sunny;0.999;no;1.000;no;0.147
+0610 - Bx/IMG_0687.JPG;494;facade;0.893;;;;;outdoor;0.999;ruin;0.862;visible;0.951;day;1.000;sunny;1.000;no;1.000;no;0.308
+0610 - Bx/IMG_0688.JPG;495;facade;0.949;;;;;outdoor;0.998;degraded;0.485;visible;0.993;day;1.000;sunny;0.989;no;1.000;no;0.116
+0610 - Bx/IMG_0691.JPG;496;facade;0.943;;;;;outdoor;0.998;ruin;0.594;visible;0.994;day;1.000;sunny;1.000;no;1.000;no;0.365
+0610 - Bx/IMG_0696 - 2.jpg;486;facade;0.975;;;;;outdoor;0.996;degraded;0.481;visible;0.624;day;1.000;sunny;1.000;no;1.000;no;0.276
+0610 - Bx/IMG_0696.JPG;486;facade;0.976;;;;;outdoor;0.995;ruin;0.532;visible;0.706;day;1.000;sunny;1.000;no;1.000;no;0.270
+0610 - Bx/IMG_0697.JPG;499;facade;0.922;;;;;outdoor;1.000;ruin;0.571;visible;0.985;day;1.000;sunny;0.998;no;1.000;no;0.355
+0610 - Bx/IMG_0701.JPG;485;facade;0.787;;;;;outdoor;1.000;excellent;0.607;visible;0.994;day;1.000;sunny;0.999;no;0.999;no;0.375
+0610 - Bx/IMG_0703.JPG;492;architecture;0.712;;;;;outdoor;1.000;excellent;0.938;visible;0.991;day;1.000;sunny;0.962;no;1.000;no;0.500
+0610 - Bx/IMG_0705.JPG;497;architecture;0.822;;;;;outdoor;0.998;excellent;0.504;visible;0.997;day;1.000;sunny;0.994;no;1.000;no;0.475
+0610 - Bx/IMG_0708.JPG;499;architecture;0.942;;;;;outdoor;1.000;excellent;0.806;visible;0.997;day;1.000;sunny;0.842;no;1.000;no;0.468
+0610 - Bx/IMG_0714.JPG;496;facade;0.554;;;;;outdoor;1.000;excellent;0.974;visible;0.999;day;1.000;sunny;0.998;no;0.999;yes;0.638
+0610 - Bx/IMG_0715.JPG;440;architecture;0.807;;;;;outdoor;1.000;excellent;0.931;visible;0.996;day;1.000;sunny;0.990;no;1.000;yes;0.586
+0610 - Bx/IMG_0720.JPG;248;macro;0.550;;;;;outdoor;0.999;;;absent;1.000;day;1.000;;;;;yes;0.823
+0610 - Bx/IMG_0721.JPG;459;facade;0.612;;;;;outdoor;1.000;degraded;0.593;visible;0.952;day;1.000;sunny;1.000;no;1.000;no;0.382
+0610 - Bx/IMG_0728 - 2.jpg;250;macro;0.886;;;;;outdoor;0.994;;;absent;0.993;day;1.000;;;;;yes;0.652
+0610 - Bx/IMG_0728.JPG;220;macro;0.822;;;;;outdoor;0.994;;;absent;0.985;day;1.000;;;;;yes;0.658
+0610 - Bx/IMG_0736.JPG;250;macro;0.522;;;;;outdoor;0.988;;;absent;0.999;day;1.000;;;;;yes;0.624
+0610 - Bx/IMG_0741 - 2.jpg;257;landscape;0.502;;;;;outdoor;0.999;;;absent;0.976;day;1.000;;;no;1.000;yes;0.563
+0610 - Bx/IMG_0741 - 3.jpg;253;graphic;0.747;;;;;outdoor;0.821;degraded;0.761;absent;1.000;day;1.000;;;no;1.000;yes;0.852
+0610 - Bx/IMG_0741.JPG;255;landscape;0.474;;;;;outdoor;0.998;;;absent;0.979;day;1.000;;;no;1.000;yes;0.522
+0610 - Bx/IMG_0746 - 2.jpg;233;macro;0.942;;;;;outdoor;0.976;;;absent;0.999;day;1.000;;;;;yes;0.621
+0610 - Bx/IMG_0746 - 3.jpg;226;macro;0.794;;;;;indoor;0.666;;;absent;0.998;day;1.000;;;;;yes;0.533
+0610 - Bx/IMG_0746.JPG;250;macro;0.934;;;;;outdoor;0.985;;;absent;0.997;day;1.000;;;;;yes;0.591
+0610 - Bx/IMG_0751.JPG;229;macro;0.863;;;;;outdoor;0.989;;;absent;0.998;day;0.999;;;;;yes;0.554
+0610 - Bx/IMG_0754 - 2.jpg;236;macro;0.949;;;;;outdoor;0.988;;;absent;1.000;day;0.982;;;;;no;0.443
+0610 - Bx/IMG_0754.JPG;222;macro;0.984;;;;;outdoor;0.992;;;absent;0.999;day;0.972;;;;;no;0.465
+0610 - Bx/IMG_0758.JPG;249;macro;0.984;;;;;outdoor;0.988;;;absent;1.000;day;0.995;;;;;yes;0.630
+0610 - Bx/IMG_0762 - 2.jpg;230;macro;0.980;;;;;outdoor;0.983;;;absent;0.996;day;0.999;;;;;yes;0.522
+0610 - Bx/IMG_0762.JPG;225;macro;0.978;;;;;outdoor;0.980;;;absent;0.994;day;0.997;;;;;yes;0.520
+0610 - Bx/IMG_0765.JPG;250;macro;0.981;;;;;outdoor;0.982;;;absent;1.000;day;0.984;;;;;yes;0.665
+0610 - Bx/IMG_0768.JPG;254;macro;0.658;;;;;outdoor;0.828;;;absent;1.000;day;1.000;;;;;no;0.166
+0610 - Bx/IMG_0773.JPG;252;macro;0.726;;;;;indoor;0.522;;;absent;1.000;day;1.000;;;;;no;0.076
+0610 - Bx/IMG_0776.JPG;480;macro;0.553;;;;;outdoor;0.999;;;visible;0.956;day;1.000;sunny;0.896;;;yes;0.783
+0610 - Bx/IMG_0781 - 2.jpg;488;macro;0.557;;;;;outdoor;1.000;;;visible;0.924;day;1.000;sunny;0.847;;;yes;0.729
+0610 - Bx/IMG_0781.JPG;504;macro;0.576;;;;;outdoor;1.000;;;visible;0.946;day;1.000;sunny;0.816;;;yes;0.733
+0610 - Bx/IMG_0782.JPG;491;landscape;0.413;;;;;outdoor;0.997;;;visible;0.622;day;1.000;few_clouds;0.636;no;1.000;yes;0.604
+0610 - Bx/IMG_0785 - 2.jpg;263;macro;0.455;;;;;outdoor;0.998;;;absent;0.532;day;1.000;;;;;no;0.496
+0610 - Bx/IMG_0787.JPG;252;macro;0.323;;;;;outdoor;0.746;;;absent;0.996;day;1.000;;;;;yes;0.591
+0610 - Bx/IMG_0790.JPG;260;macro;0.918;;;;;outdoor;0.997;;;absent;0.983;day;1.000;;;;;no;0.368
+0610 - Bx/IMG_0791.JPG;369;macro;0.941;;;;;outdoor;0.993;;;absent;0.988;day;1.000;;;;;yes;0.531
+0610 - Bx/IMG_0793.JPG;629;macro;0.672;;;;;outdoor;0.999;;;visible;0.948;day;1.000;sunny;0.950;;;no;0.466
+0610 - Bx/IMG_0799.JPG;562;macro;0.614;;;;;outdoor;1.000;;;visible;0.979;day;1.000;sunny;0.748;;;no;0.297
+0610 - Bx/IMG_0800 - 2.jpg;503;macro;0.605;;;;;outdoor;0.999;;;visible;0.851;day;1.000;sunny;0.943;;;no;0.423
+0610 - Bx/IMG_0800.JPG;491;macro;0.562;;;;;outdoor;0.999;;;visible;0.885;day;1.000;sunny;0.952;;;no;0.416
+0610 - Bx/IMG_0801.JPG;458;macro;0.519;;;;;outdoor;0.998;;;visible;0.856;day;1.000;sunny;0.961;;;no;0.469
+0610 - Bx/IMG_0804.JPG;254;macro;0.982;;;;;outdoor;0.995;;;absent;1.000;day;0.999;;;;;no;0.029
+0610 - Bx/IMG_0809.JPG;249;macro;0.973;;;;;outdoor;0.920;;;absent;1.000;day;1.000;;;;;no;0.030
+0610 - Bx/IMG_0811.JPG;502;landscape;0.887;;;;;outdoor;1.000;;;visible;0.971;day;1.000;sunny;0.958;no;1.000;yes;0.735
+0610 - Bx/IMG_0813.JPG;497;graphic;0.410;;;;;outdoor;1.000;good;0.772;visible;0.503;day;1.000;sunny;0.967;no;1.000;no;0.367
+0610 - Bx/IMG_0815.JPG;502;landscape;0.869;;;;;outdoor;1.000;;;visible;0.670;day;1.000;sunny;0.985;no;1.000;yes;0.801
+0610 - Bx/IMG_0816.JPG;256;graphic;0.428;;;;;outdoor;0.989;degraded;0.794;absent;0.995;day;1.000;;;no;0.999;no;0.205
+0610 - Bx/IMG_0819.JPG;482;architecture;0.417;;;;;outdoor;1.000;excellent;0.644;visible;0.983;day;1.000;sunny;0.931;no;0.999;yes;0.620
+0610 - Bx/IMG_0821.JPG;258;graphic;0.534;;;;;outdoor;0.999;degraded;0.671;absent;0.984;day;1.000;;;no;0.999;no;0.242
+0610 - Bx/IMG_0825.JPG;205;graphic;0.830;;;;;outdoor;0.998;good;0.634;absent;0.997;day;1.000;;;no;1.000;no;0.280
+0610 - Bx/IMG_0827.JPG;261;graphic;0.483;;;;;outdoor;0.994;degraded;0.807;absent;0.995;day;1.000;;;no;1.000;no;0.248
+0610 - Bx/IMG_0830.JPG;247;graphic;0.679;;;;;outdoor;0.996;degraded;0.699;absent;0.992;day;1.000;;;no;0.999;no;0.278
+0610 - Bx/IMG_0833.JPG;256;graphic;0.490;;;;;outdoor;0.995;degraded;0.974;absent;0.973;day;1.000;;;no;0.999;yes;0.783
+0610 - Bx/IMG_0838.JPG;256;graphic;0.497;;;;;outdoor;0.996;degraded;0.885;absent;0.996;day;1.000;;;no;1.000;yes;0.696
+0610 - Bx/IMG_0841.JPG;257;graphic;0.497;;;;;outdoor;0.994;degraded;0.917;absent;0.991;day;1.000;;;no;1.000;no;0.414
+0610 - Bx/IMG_0844.JPG;491;landscape;0.581;;;;;outdoor;0.999;;;visible;0.763;day;1.000;sunny;1.000;no;0.998;yes;0.715
+0610 - Bx/IMG_0846.JPG;506;urban_landscape;0.473;;;;;outdoor;0.998;;;visible;0.600;day;1.000;sunny;1.000;no;0.990;yes;0.828
+0610 - Bx/IMG_0851.JPG;504;landscape;0.486;;;;;outdoor;1.000;;;visible;0.921;day;1.000;sunny;0.996;no;0.999;yes;0.710
+0610 - Bx/IMG_0852.JPG;507;facade;0.780;;;;;outdoor;1.000;excellent;0.804;visible;0.869;day;1.000;sunny;0.997;no;1.000;yes;0.796
+0610 - Bx/IMG_0854.JPG;505;castle;0.370;;;;;outdoor;1.000;excellent;0.701;visible;0.977;day;1.000;sunny;0.999;no;1.000;yes;0.821
+0610 - Bx/IMG_0856.JPG;499;facade;0.758;;;;;outdoor;1.000;degraded;0.722;visible;0.968;day;1.000;sunny;1.000;no;1.000;no;0.273
+0610 - Bx/IMG_0858.JPG;510;facade;0.772;;;;;outdoor;1.000;excellent;0.910;visible;0.952;day;1.000;sunny;0.996;no;0.999;no;0.391
+0610 - Bx/IMG_1038.JPG;491;architecture;0.523;;;;;outdoor;1.000;excellent;0.676;visible;0.994;day;1.000;sunny;0.999;no;1.000;yes;0.695
+0610 - Bx/IMG_1041.JPG;507;castle;0.747;;;;;outdoor;1.000;excellent;0.790;visible;0.988;day;1.000;sunny;0.702;no;1.000;yes;0.522
+0610 - Bx/Pano Pey 1.jpg;470;religious;0.482;;;;;outdoor;1.000;good;0.624;visible;0.999;day;1.000;sunny;0.983;no;1.000;yes;0.769
+0610 - Bx Panoroom/IMG_2134.JPG;229;graphic;0.413;;;;;indoor;1.000;good;0.682;absent;1.000;day;0.999;;;no;1.000;yes;0.941
+0610 - Bx Panoroom/IMG_2135.JPG;234;house;0.931;;;;;indoor;0.998;good;0.469;absent;1.000;day;1.000;;;no;0.999;yes;0.957
+0610 - Bx Panoroom/IMG_2136.JPG;251;office;0.916;;;;;indoor;0.993;excellent;0.474;absent;1.000;day;1.000;;;no;1.000;yes;0.827
+0610 - Bx Panoroom/IMG_2137.JPG;234;house;0.437;;;;;indoor;1.000;good;0.625;absent;1.000;day;1.000;;;no;1.000;yes;0.882
+0610 - Bx Panoroom/IMG_2138.JPG;263;office;0.450;;;;;indoor;0.997;good;0.730;absent;1.000;day;1.000;;;no;1.000;yes;0.912
+0610 - Bx Panoroom/IMG_2139.JPG;243;plastic_arts;0.314;;;painting;0.768;indoor;1.000;good;0.719;absent;1.000;day;0.999;;;no;1.000;yes;0.697
+0610 - Bx Panoroom/IMG_2140.JPG;259;graphic;0.570;;;;;indoor;0.999;degraded;0.624;absent;1.000;day;0.995;;;no;1.000;yes;0.863
+0610 - Bx Panoroom/IMG_2141.JPG;235;office;0.503;;;;;indoor;0.990;good;0.740;absent;1.000;day;1.000;;;no;1.000;yes;0.957
+0610 - Bx Panoroom/IMG_2142.JPG;259;office;0.968;;;;;indoor;0.994;good;0.876;absent;1.000;day;1.000;;;no;1.000;yes;0.688
+0610 - Bx Panoroom/IMG_2143.JPG;246;house;0.336;;;;;indoor;0.999;good;0.742;absent;1.000;day;1.000;;;no;1.000;yes;0.748
+0610 - Bx Panoroom/IMG_2144.JPG;261;office;0.681;;;;;indoor;0.976;good;0.449;absent;1.000;day;1.000;;;no;1.000;yes;0.876
+0610 - Bx Panoroom/IMG_2145.JPG;241;office;0.935;;;;;indoor;0.990;good;0.518;absent;1.000;day;1.000;;;no;1.000;yes;0.929
+0610 - Bx Panoroom/IMG_2146.JPG;242;house;0.724;;;;;indoor;0.997;degraded;0.518;absent;1.000;day;0.999;;;no;0.999;yes;0.912
+0610 - Bx Panoroom/IMG_2147.JPG;266;graphic;0.610;;;;;indoor;0.999;good;0.510;absent;1.000;day;0.998;;;no;1.000;yes;0.896
+0610 - Bx w Dad & Mom/IMG_0467.JPG;509;urban_landscape;0.559;;;;;outdoor;1.000;;;visible;0.996;day;1.000;few_clouds;0.755;no;0.999;yes;0.751
+0610 - Bx w Dad & Mom/IMG_0470.JPG;247;facade;0.673;;;;;outdoor;0.989;excellent;0.428;absent;0.737;day;1.000;;;front;0.994;yes;0.883
+0610 - Bx w Dad & Mom/IMG_0472.JPG;261;facade;0.597;;;;;outdoor;0.979;excellent;0.418;absent;0.742;day;1.000;;;front;0.993;yes;0.889
+0610 - Bx w Dad & Mom/IMG_0477.JPG;260;undetermined;0.248;;;;;outdoor;0.998;excellent;0.410;absent;0.854;day;1.000;;;front;0.958;yes;0.631
+0610 - Bx w Dad & Mom/IMG_0478.JPG;234;undetermined;0.402;;;;;outdoor;0.997;excellent;0.459;absent;0.872;day;1.000;;;front;0.978;yes;0.751
+0610 - Bx w Dad & Mom/IMG_0480.JPG;262;undetermined;0.316;;;;;outdoor;0.993;good;0.575;absent;0.683;day;1.000;;;front;0.996;yes;0.702
+0610 - Bx w Dad & Mom/IMG_0486.JPG;254;undetermined;0.398;;;;;outdoor;0.998;excellent;0.426;absent;0.600;day;1.000;;;front;0.991;yes;0.793
+0610 - Bx w Dad & Mom/IMG_0489.JPG;284;animal;0.371;;;;;outdoor;0.990;;;absent;0.997;day;1.000;;;front;0.978;yes;0.798
+0611 - Andernos/IMG_1309.JPG;537;landscape;0.945;;;;;outdoor;0.996;;;visible;0.994;day;1.000;mixed;0.609;no;1.000;no;0.456
+0611 - Andernos/IMG_1310.JPG;567;landscape;0.870;;;;;outdoor;0.996;;;visible;0.998;day;1.000;few_clouds;0.981;no;1.000;no;0.401
+0611 - Andernos/IMG_1315.JPG;538;landscape;0.999;;;;;outdoor;1.000;;;visible;0.998;day;1.000;few_clouds;0.831;no;0.994;no;0.419
+0611 - Andernos/IMG_1320.JPG;525;landscape;0.999;;;;;outdoor;0.998;;;visible;0.992;day;1.000;sunny;0.462;no;1.000;yes;0.585
+0611 - Andernos/IMG_1323.JPG;486;graphic;0.555;;;;;outdoor;0.997;degraded;0.938;visible;0.980;day;1.000;few_clouds;0.840;no;1.000;no;0.201
+0611 - Andernos/IMG_1325.JPG;534;graphic;0.757;;;;;outdoor;0.998;degraded;0.774;visible;0.812;day;1.000;few_clouds;0.927;no;1.000;no;0.070
+0611 - Andernos/IMG_1328.JPG;595;graphic;0.546;;;;;outdoor;0.998;degraded;0.880;visible;0.609;day;1.000;few_clouds;0.592;no;1.000;no;0.144
+0611 - Andernos/IMG_1331.JPG;503;landscape;0.732;;;;;outdoor;0.998;;;visible;0.542;day;1.000;few_clouds;0.666;no;0.833;yes;0.903
+0611 - Andernos/IMG_1334.JPG;514;landscape;0.997;;;;;outdoor;1.000;;;visible;1.000;day;1.000;few_clouds;0.912;no;1.000;no;0.396
+0611 - Andernos/IMG_1335.JPG;489;landscape;0.997;;;;;outdoor;1.000;;;visible;0.997;day;1.000;few_clouds;0.925;no;1.000;yes;0.518
+0611 - Andernos/IMG_1336.JPG;509;landscape;0.850;;;;;outdoor;1.000;;;visible;0.943;day;1.000;few_clouds;0.934;no;0.999;yes;0.746
+0611 - Andernos/IMG_1338.JPG;491;landscape;0.986;;;;;outdoor;1.000;;;visible;0.977;day;1.000;few_clouds;0.987;no;0.999;yes;0.672
+0611 - Andernos/IMG_1340.JPG;247;landscape;0.758;;;;;outdoor;0.999;;;absent;0.517;day;1.000;;;no;0.587;yes;0.875
+0611 - Andernos/IMG_1348.JPG;497;landscape;0.655;;;;;outdoor;0.998;;;visible;0.586;day;1.000;sunny;0.716;front;0.515;yes;0.787
+0611 - Andernos/IMG_1350.JPG;509;landscape;0.698;;;;;outdoor;0.999;;;visible;0.868;day;1.000;sunny;0.947;front;0.933;yes;0.860
+0611 - Andernos/IMG_1353.JPG;233;macro;0.875;;;;;outdoor;0.999;;;absent;1.000;day;0.984;;;;;no;0.129
+0611 - Andernos/IMG_1356.JPG;250;vehicle;0.986;boat;0.920;;;outdoor;0.999;good;0.891;absent;0.539;day;1.000;;;no;1.000;yes;0.873
+0611 - Andernos/IMG_1357.JPG;494;landscape;0.987;;;;;outdoor;0.999;;;visible;0.940;day;0.999;sunny;0.752;no;0.842;yes;0.923
+0611 - Andernos/IMG_1362.JPG;465;landscape;0.981;;;;;outdoor;1.000;;;visible;0.959;day;1.000;sunny;0.607;no;1.000;yes;0.851
+0611 - Andernos/IMG_1365.JPG;502;vehicle;0.500;boat;0.997;;;outdoor;1.000;good;0.590;visible;0.993;day;1.000;sunny;0.602;no;0.541;yes;0.864
+0611 - Andernos/IMG_1366.JPG;477;landscape;0.514;;;;;outdoor;1.000;;;visible;0.955;day;1.000;sunny;0.808;no;0.580;yes;0.902
+0611 - Andernos/IMG_1371.JPG;267;plastic_arts;0.823;;;sculpture;1.000;outdoor;0.999;good;0.847;absent;0.968;day;1.000;;;no;0.996;no;0.198
+0611 - Andernos/IMG_1373.JPG;497;landscape;0.995;;;;;outdoor;1.000;;;visible;0.999;day;1.000;sunny;0.779;no;1.000;no;0.433
+0611 - Andernos/IMG_1374.JPG;507;house;0.657;;;;;outdoor;1.000;degraded;0.556;visible;1.000;day;1.000;sunny;0.969;no;1.000;no;0.446
+0611 - Andernos/IMG_1377.JPG;508;landscape;0.643;;;;;outdoor;1.000;;;visible;0.998;day;1.000;few_clouds;0.615;no;0.681;yes;0.792
+0611 - Andernos/IMG_1380.JPG;496;landscape;0.948;;;;;outdoor;1.000;;;visible;0.933;day;1.000;sunny;0.989;no;1.000;yes;0.721
+0611 - Andernos/IMG_1383.JPG;493;landscape;0.932;;;;;outdoor;1.000;;;visible;0.925;day;1.000;sunny;0.976;no;1.000;yes;0.636
+0611 - Andernos/IMG_1390.JPG;511;landscape;0.796;;;;;outdoor;1.000;;;visible;0.596;day;1.000;sunny;0.997;no;1.000;yes;0.667
+0611 - Andernos/IMG_1399.JPG;253;landscape;0.633;;;;;outdoor;0.996;;;absent;0.998;day;1.000;;;no;1.000;yes;0.996
+0611 - Andernos/IMG_1401.JPG;251;landscape;0.815;;;;;outdoor;1.000;;;absent;0.797;day;1.000;;;no;1.000;yes;0.689
+0611 - Andernos/IMG_1403.JPG;262;graphic;0.547;;;;;outdoor;1.000;degraded;0.911;absent;0.512;day;1.000;;;no;1.000;yes;0.591
+0611 - Andernos/IMG_1406.JPG;488;landscape;0.533;;;;;outdoor;1.000;;;visible;0.773;day;1.000;sunny;0.999;no;1.000;yes;0.506
+0611 - Andernos/IMG_1408.JPG;510;landscape;0.560;;;;;outdoor;1.000;;;visible;0.705;day;1.000;sunny;0.999;no;1.000;yes;0.516
+0611 - Andernos/IMG_1409.JPG;256;plastic_arts;0.573;;;sculpture;0.991;indoor;0.962;good;0.955;absent;1.000;day;1.000;;;no;0.998;yes;0.972
+0611 - Andernos/IMG_1411.JPG;253;vehicle;0.944;undetermined;0.640;;;outdoor;0.997;degraded;0.620;absent;0.997;day;1.000;;;no;0.985;yes;0.788
+0611 - Andernos/IMG_1415.JPG;252;vehicle;0.753;undetermined;0.891;;;outdoor;0.988;degraded;0.444;absent;0.984;day;1.000;;;no;0.981;yes;0.968
+0611 - Andernos/IMG_1416.JPG;255;vehicle;0.366;undetermined;0.990;;;outdoor;0.999;degraded;0.598;absent;0.879;day;1.000;;;back;0.660;yes;0.990
+0611 - Andernos/IMG_1417.JPG;241;vehicle;0.397;undetermined;0.957;;;outdoor;0.999;degraded;0.747;absent;0.712;day;1.000;;;front;0.762;yes;0.969
+0611 - Andernos/IMG_1425.JPG;512;landscape;0.734;;;;;outdoor;1.000;;;visible;0.993;day;1.000;few_clouds;0.902;back;0.761;yes;0.907
+0611 - Andernos/IMG_1426.JPG;504;facade;0.311;;;;;outdoor;0.998;degraded;0.617;visible;0.725;day;1.000;sunny;0.988;no;0.557;yes;0.986
+0611 - Andernos/IMG_1429.JPG;477;graphic;0.339;;;;;outdoor;1.000;degraded;0.539;visible;0.984;day;1.000;sunny;0.518;front;0.702;yes;0.737
+0611 - Andernos/IMG_1432.JPG;511;landscape;0.941;;;;;outdoor;1.000;;;visible;0.999;day;1.000;sunny;0.929;no;1.000;yes;0.674
+0611 - Andernos/IMG_1435.JPG;497;landscape;0.996;;;;;outdoor;1.000;;;visible;1.000;day;1.000;few_clouds;0.803;no;0.999;yes;0.670
+0611 - Andernos/IMG_1438.JPG;513;landscape;0.998;;;;;outdoor;1.000;;;visible;0.995;day;1.000;few_clouds;0.957;no;0.999;yes;0.759
+0611 - Andernos/IMG_1441.JPG;507;landscape;0.982;;;;;outdoor;1.000;;;visible;0.996;day;1.000;few_clouds;0.790;no;1.000;yes;0.634
+0611 - Andernos/IMG_1444.JPG;265;facade;0.391;;;;;outdoor;0.982;excellent;0.477;absent;0.994;day;1.000;;;front;0.759;yes;0.577
+0611 - Andernos/IMG_1445.JPG;253;facade;0.338;;;;;outdoor;0.970;degraded;0.525;absent;0.991;day;1.000;;;front;0.753;yes;0.554
+0611 - Andernos/IMG_1447.JPG;260;animal;0.988;;;;;outdoor;0.997;;;absent;0.963;day;1.000;;;no;0.999;yes;0.514
+0611 - Andernos/IMG_1451.JPG;241;macro;0.967;;;;;outdoor;0.588;;;absent;1.000;day;0.996;;;;;yes;0.875
+0611 - Andernos/IMG_1457.JPG;469;landscape;0.921;;;;;outdoor;1.000;;;visible;0.817;day;1.000;sunny;0.678;no;1.000;yes;0.614
+0611 - Andernos/IMG_1466.JPG;257;landscape;0.901;;;;;outdoor;0.999;;;absent;0.893;day;1.000;;;no;1.000;yes;0.535
+0611 - Andernos/IMG_1472.JPG;261;landscape;0.946;;;;;outdoor;1.000;;;absent;0.786;day;1.000;;;no;1.000;yes;0.557
+0611 - Andernos/IMG_1475.JPG;506;landscape;0.987;;;;;outdoor;1.000;;;visible;0.612;day;1.000;sunny;0.592;no;1.000;yes;0.553
+0611 - Andernos/IMG_1479.JPG;477;landscape;0.666;;;;;outdoor;1.000;;;visible;0.948;day;1.000;sunny;0.958;no;1.000;no;0.197
+0611 - Andernos/IMG_1481.JPG;473;bridge;0.961;;;;;outdoor;0.999;degraded;0.978;visible;0.865;day;1.000;few_clouds;0.978;no;1.000;no;0.279
+0611 - Andernos/IMG_1483.JPG;496;landscape;0.988;;;;;outdoor;1.000;;;visible;0.864;day;1.000;sunny;0.747;no;1.000;no;0.408
+0611 - Andernos/IMG_1484.JPG;504;landscape;0.875;;;;;outdoor;1.000;;;visible;0.916;day;1.000;few_clouds;0.704;no;0.659;yes;0.548
+0611 - Andernos/IMG_1488.JPG;254;graphic;0.588;;;;;outdoor;0.946;degraded;0.997;absent;1.000;day;1.000;;;no;1.000;no;0.027
+0611 - Andernos/IMG_1491.JPG;481;graphic;0.600;;;;;outdoor;0.997;degraded;0.761;visible;0.925;day;1.000;sunny;0.579;no;1.000;no;0.116
+0611 - Andernos/IMG_1495.JPG;514;graphic;0.625;;;;;outdoor;0.997;degraded;0.873;visible;0.897;day;1.000;sunny;0.514;no;1.000;no;0.082
+0611 - Andernos/IMG_1497.JPG;487;graphic;0.470;;;;;outdoor;0.998;degraded;0.965;visible;0.635;day;1.000;few_clouds;0.664;no;1.000;no;0.096
+0611 - Andernos/IMG_1499.JPG;267;graphic;0.547;;;;;outdoor;1.000;degraded;0.977;absent;0.977;day;1.000;;;no;0.999;no;0.110
+0611 - Andernos/IMG_1501.JPG;493;landscape;0.586;;;;;outdoor;1.000;;;visible;0.642;day;1.000;few_clouds;0.901;no;1.000;no;0.398
+0611 - Andernos/IMG_1502.JPG;496;landscape;0.887;;;;;outdoor;0.999;;;visible;0.992;day;1.000;few_clouds;0.975;no;1.000;no;0.266
+0611 - Andernos/IMG_1506.JPG;508;graphic;0.261;;;;;outdoor;0.998;degraded;0.936;visible;0.980;day;1.000;sunny;0.631;no;1.000;no;0.175
+0611 - Andernos/IMG_1509.JPG;483;landscape;0.407;;;;;outdoor;0.996;;;visible;0.908;day;1.000;sunny;0.737;no;1.000;no;0.125
+0611 - Andernos/IMG_1510.JPG;504;landscape;0.740;;;;;outdoor;0.999;;;visible;0.963;day;1.000;few_clouds;0.795;no;0.999;no;0.190
+0611 - Andernos/IMG_1515.JPG;508;landscape;0.997;;;;;outdoor;1.000;;;visible;0.914;day;1.000;sunny;0.736;no;1.000;yes;0.616
+0611 - Andernos/IMG_1518.JPG;512;landscape;0.998;;;;;outdoor;1.000;;;visible;0.995;day;1.000;few_clouds;0.883;no;0.999;no;0.377
+0611 - Andernos/IMG_1521.JPG;504;landscape;0.566;;;;;outdoor;1.000;;;visible;0.989;day;1.000;sunny;0.960;no;1.000;no;0.171
+0611 - Andernos/IMG_1524.JPG;498;landscape;0.999;;;;;outdoor;1.000;;;visible;0.995;day;1.000;sunny;0.932;no;1.000;no;0.456
+0611 - Andernos/IMG_1525.JPG;487;landscape;0.991;;;;;outdoor;1.000;;;visible;0.997;day;1.000;few_clouds;0.820;no;1.000;yes;0.537
+0611 - Andernos/IMG_1526.JPG;463;landscape;0.863;;;;;outdoor;0.999;;;visible;0.868;day;1.000;sunny;0.822;no;1.000;no;0.149
+0611 - Andernos/IMG_1528.JPG;516;landscape;0.991;;;;;outdoor;0.999;;;visible;0.833;day;1.000;sunny;0.981;no;1.000;no;0.272
+0611 - Andernos/IMG_1529.JPG;254;graphic;0.857;;;;;outdoor;0.993;good;0.524;absent;0.899;day;0.999;;;no;1.000;no;0.228
+0611 - Andernos/IMG_1532.JPG;249;graphic;0.672;;;;;outdoor;0.997;good;0.870;absent;0.524;day;0.998;;;no;1.000;no;0.304
+0611 - Andernos/IMG_1535.JPG;501;landscape;0.882;;;;;outdoor;1.000;;;visible;0.986;day;1.000;few_clouds;0.802;no;0.800;yes;0.768
+0611 - Andernos/IMG_1538.JPG;249;graphic;0.749;;;;;outdoor;0.999;good;0.649;absent;0.802;day;1.000;;;no;1.000;no;0.357
+0611 - Andernos/IMG_1541.JPG;503;landscape;0.998;;;;;outdoor;0.999;;;visible;0.994;day;1.000;sunny;0.928;no;1.000;yes;0.526
+0611 - Andernos/IMG_1543.JPG;261;graphic;0.838;;;;;outdoor;0.994;good;0.656;absent;0.995;day;1.000;;;no;1.000;no;0.169
+0611 - Andernos/IMG_1544.JPG;495;landscape;0.941;;;;;outdoor;0.999;;;visible;0.833;day;0.998;sunny;0.991;no;1.000;yes;0.620
+0611 - Andernos/IMG_1545.JPG;525;landscape;0.997;;;;;outdoor;0.998;;;visible;0.983;day;1.000;sunny;0.685;no;1.000;no;0.499
+0611 - Andernos/IMG_1547.JPG;520;landscape;0.963;;;;;outdoor;1.000;;;visible;0.915;day;1.000;cloudy;0.562;no;1.000;yes;0.528
+0611 - Andernos/IMG_1549.JPG;500;graphic;0.577;;;;;outdoor;0.984;good;0.863;visible;0.833;day;1.000;few_clouds;0.997;no;1.000;no;0.172
+0611 - Andernos/IMG_1550.JPG;526;landscape;0.977;;;;;outdoor;1.000;;;visible;0.997;day;1.000;sunny;0.811;no;1.000;no;0.484
+0611 - Andernos/IMG_1552.JPG;519;landscape;0.998;;;;;outdoor;1.000;;;visible;0.994;day;1.000;few_clouds;1.000;no;1.000;yes;0.920
+0611 - Andernos/IMG_1553.JPG;519;landscape;0.996;;;;;outdoor;1.000;;;visible;0.992;day;1.000;few_clouds;0.807;no;0.929;yes;0.938
+0611 - Andernos/IMG_1555.JPG;514;landscape;0.821;;;;;outdoor;1.000;;;visible;0.932;day;1.000;few_clouds;0.599;no;0.997;yes;0.594
+0611 - Andernos/IMG_1558.JPG;488;landscape;0.969;;;;;outdoor;1.000;;;visible;0.958;day;1.000;sunny;0.540;no;1.000;yes;0.765
+0611 - Andernos/IMG_1560.JPG;499;landscape;0.997;;;;;outdoor;1.000;;;visible;0.992;day;1.000;few_clouds;0.763;no;1.000;no;0.400
+0611 - Andernos/IMG_1563.JPG;236;graphic;0.491;;;;;outdoor;0.998;good;0.927;absent;0.982;day;0.998;;;no;0.987;no;0.319
+0611 - Andernos/IMG_1567.JPG;255;macro;0.630;;;;;outdoor;0.996;;;absent;0.890;day;1.000;;;;;no;0.351
+0611 - Andernos/IMG_1570.JPG;221;macro;0.358;;;;;outdoor;0.995;;;absent;0.860;day;1.000;;;;;yes;0.574
+0611 - Andernos/IMG_1571.JPG;523;landscape;0.921;;;;;outdoor;1.000;;;visible;0.989;day;1.000;sunny;0.844;no;1.000;no;0.324
+0611 - Andernos/IMG_1573.JPG;221;undetermined;0.681;;;;;outdoor;0.984;degraded;0.769;absent;0.992;day;1.000;;;back;0.778;yes;0.997
+0611 - Andernos/IMG_1579.JPG;258;graphic;0.472;;;;;outdoor;0.999;degraded;0.976;absent;0.989;day;1.000;;;no;0.999;no;0.299
+0611 - Andernos/IMG_1582.JPG;513;landscape;0.997;;;;;outdoor;1.000;;;visible;0.973;day;1.000;sunny;0.875;no;1.000;no;0.479
+0611 - Andernos/IMG_1584.JPG;468;landscape;0.936;;;;;outdoor;1.000;;;visible;0.996;day;1.000;few_clouds;0.779;no;1.000;no;0.287
+0611 - Andernos/IMG_1586.JPG;270;macro;0.873;;;;;outdoor;0.985;;;absent;0.969;day;1.000;;;;;no;0.431
+0611 - Andernos/IMG_1588.JPG;264;macro;0.814;;;;;outdoor;0.998;;;absent;0.712;day;1.000;;;;;no;0.476
+0611 - Bx/graph_1.jpg;240;graphic;0.829;;;;;outdoor;0.527;good;0.839;absent;0.994;day;1.000;;;no;1.000;no;0.303
+0611 - Bx/IMG_1171.JPG;499;architecture;0.920;;;;;outdoor;0.999;excellent;0.939;visible;0.962;day;1.000;sunny;0.998;no;1.000;yes;0.838
+0611 - Bx/IMG_1177.JPG;515;facade;0.736;;;;;outdoor;1.000;excellent;0.572;visible;0.987;day;1.000;sunny;0.994;no;1.000;no;0.412
+0611 - Bx/IMG_1179.JPG;503;facade;0.967;;;;;outdoor;1.000;excellent;0.967;visible;0.887;day;1.000;sunny;0.999;no;1.000;no;0.362
+0611 - Bx/IMG_1181.JPG;517;facade;0.556;;;;;outdoor;1.000;excellent;0.940;visible;0.992;day;1.000;sunny;0.957;no;1.000;no;0.359
+0611 - Bx/IMG_1184.JPG;467;facade;0.894;;;;;outdoor;1.000;excellent;0.751;visible;0.989;day;1.000;sunny;1.000;no;1.000;no;0.370
+0611 - Bx/IMG_1185.JPG;271;street_art;0.980;;;;;outdoor;0.998;;;absent;0.939;day;1.000;;;;;yes;0.526
+0611 - Bx/IMG_1190.JPG;509;architecture;0.446;;;;;outdoor;1.000;excellent;0.864;visible;0.996;day;1.000;sunny;0.998;no;0.998;yes;0.512
+0611 - Bx/IMG_1194.JPG;522;facade;0.336;;;;;outdoor;1.000;excellent;0.666;visible;0.990;day;1.000;sunny;0.994;no;0.999;no;0.437
+0611 - Bx/IMG_1196.JPG;521;architecture;0.775;;;;;outdoor;1.000;excellent;0.912;visible;0.892;day;1.000;sunny;0.616;no;0.999;no;0.430
+0611 - Bx/IMG_1205.JPG;517;architecture;0.834;;;;;outdoor;1.000;excellent;0.917;visible;0.999;day;1.000;sunny;0.999;no;0.998;no;0.497
+0611 - Bx/IMG_1207.JPG;520;architecture;0.677;;;;;outdoor;1.000;excellent;0.795;visible;0.998;day;1.000;few_clouds;0.516;no;1.000;yes;0.601
+0611 - Bx/IMG_1209.JPG;493;facade;0.990;;;;;outdoor;0.999;excellent;0.912;visible;0.961;day;1.000;sunny;0.998;no;1.000;no;0.259
+0611 - Bx/IMG_1212.JPG;506;facade;0.989;;;;;outdoor;0.998;excellent;0.909;visible;0.872;day;1.000;sunny;1.000;no;1.000;no;0.275
+0611 - Bx/IMG_1214.JPG;518;architecture;0.690;;;;;outdoor;1.000;excellent;0.729;visible;0.991;day;1.000;sunny;1.000;no;0.999;yes;0.641
+0611 - Bx/IMG_1219.JPG;509;religious;0.722;;;;;outdoor;1.000;excellent;0.576;visible;0.992;day;1.000;sunny;0.997;no;1.000;no;0.154
+0611 - Bx/IMG_1223.JPG;494;religious;0.882;;;;;outdoor;1.000;excellent;0.508;visible;0.999;day;0.991;sunny;1.000;no;1.000;yes;0.739
+0611 - Bx/IMG_1229.JPG;515;architecture;0.508;;;;;outdoor;1.000;excellent;0.729;visible;0.952;day;1.000;sunny;0.990;no;0.999;yes;0.713
+0611 - Bx/IMG_1231.JPG;516;religious;0.844;;;;;outdoor;1.000;degraded;0.419;visible;0.998;day;0.997;sunny;0.984;no;1.000;yes;0.547
+0611 - Bx/IMG_1234.JPG;494;religious;0.742;;;;;outdoor;1.000;good;0.464;visible;0.998;day;1.000;sunny;1.000;no;1.000;no;0.478
+0611 - Bx/IMG_1238.JPG;500;religious;0.780;;;;;outdoor;1.000;good;0.548;visible;0.998;day;0.999;sunny;0.999;no;1.000;no;0.447
+0611 - Bx/IMG_1239.JPG;496;architecture;0.678;;;;;outdoor;1.000;excellent;0.896;visible;0.997;day;1.000;sunny;1.000;no;0.999;no;0.491
+0611 - Bx/IMG_1244.JPG;262;graphic;0.822;;;;;outdoor;0.999;good;0.923;absent;0.999;day;0.588;;;no;1.000;yes;0.628
+0611 - Bx/IMG_1248.JPG;487;facade;0.986;;;;;outdoor;0.999;excellent;0.764;visible;0.927;day;1.000;sunny;1.000;no;1.000;no;0.230
+0612 - Annecy/IMG_2171.JPG;521;landscape;0.930;;;;;outdoor;1.000;;;visible;0.808;day;1.000;sunny;0.818;no;0.970;yes;0.735
+0612 - Annecy/IMG_2173.JPG;523;urban_landscape;0.522;;;;;outdoor;1.000;;;visible;0.986;day;1.000;few_clouds;0.785;no;0.999;yes;0.651
+0612 - Annecy/IMG_2175.JPG;256;facade;0.991;;;;;outdoor;0.992;excellent;0.608;absent;0.904;day;1.000;;;no;1.000;yes;0.889
+0612 - Bx Geneve Avion/IMG_2043.JPG;508;landscape;0.871;;;;;outdoor;0.996;;;visible;0.975;day;0.834;mixed;0.693;no;1.000;yes;0.740
+0612 - Bx Geneve Avion/IMG_2046.JPG;487;vehicle;0.364;plane;0.830;;;outdoor;0.997;good;0.456;visible;0.894;day;0.992;sunny;0.998;no;1.000;yes;0.608
+0612 - Bx Geneve Avion/IMG_2047.JPG;497;landscape;0.979;;;;;outdoor;0.997;;;visible;0.870;dusk;0.641;sunny;0.621;no;1.000;yes;0.778
+0612 - Bx Geneve Avion/IMG_2051.JPG;522;landscape;0.450;;;;;outdoor;0.987;;;visible;0.984;day;0.880;mixed;0.612;no;0.999;no;0.426
+0612 - Bx Geneve Avion/IMG_2054.JPG;516;landscape;0.645;;;;;outdoor;0.992;;;visible;0.979;day;0.582;sunny;0.768;no;1.000;yes;0.638
+0612 - Bx Geneve Avion/IMG_2058.JPG;486;landscape;0.992;;;;;outdoor;0.997;;;visible;0.950;dusk;0.980;sunny;0.998;no;1.000;yes;0.769
+0612 - Bx w Dad & Mille/IMG_1727.JPG;246;graphic;0.396;;;;;outdoor;0.946;good;0.724;absent;0.745;day;1.000;;;front;0.980;yes;0.820
+0612 - Bx w Dad & Mille/IMG_1728.JPG;522;landscape;0.531;;;;;outdoor;0.994;;;visible;0.992;day;1.000;cloudy;0.934;no;1.000;yes;0.601
+0612 - Bx w Dad & Mille/IMG_1730.JPG;503;landscape;0.687;;;;;outdoor;0.994;;;visible;0.986;day;1.000;few_clouds;0.543;no;1.000;yes;0.804
+0612 - Bx w Dad & Mille/IMG_1732.JPG;251;undetermined;0.300;;;;;indoor;0.637;good;0.455;absent;0.995;day;0.997;;;front;0.984;yes;0.718
+0612 - Bx w Dad & Mille/IMG_1735.JPG;261;plastic_arts;0.205;;;sculpture;0.945;outdoor;0.996;good;0.671;absent;0.998;day;0.998;;;front;0.978;yes;0.752
+0612 - Bx w Dad & Mille/IMG_1737.JPG;268;plastic_arts;0.176;;;sculpture;0.629;outdoor;0.999;good;0.638;absent;0.974;day;0.961;;;front;0.991;yes;0.852
+0612 - Evian/IMG_2075.JPG;252;facade;0.939;;;;;outdoor;0.992;degraded;0.929;absent;0.981;day;1.000;;;no;1.000;yes;0.818
+0612 - Evian/IMG_2078.JPG;519;architecture;0.976;;;;;outdoor;0.998;excellent;0.953;visible;0.993;day;1.000;sunny;0.995;no;0.999;yes;0.667
+0612 - Evian/IMG_2080.JPG;514;architecture;0.988;;;;;outdoor;1.000;excellent;0.984;visible;0.999;day;1.000;sunny;0.965;no;0.996;yes;0.654
+0612 - Evian/IMG_2082.JPG;504;landscape;0.824;;;;;outdoor;0.982;;;visible;0.894;day;0.995;few_clouds;0.990;no;1.000;yes;0.715
+0612 - Evian/IMG_2084.JPG;470;bridge;0.513;;;;;outdoor;1.000;degraded;0.910;visible;0.516;day;1.000;few_clouds;0.959;no;0.996;yes;0.879
+0612 - Evian/IMG_2086.JPG;512;vehicle;0.988;boat;1.000;;;outdoor;1.000;degraded;0.831;visible;0.983;day;0.970;few_clouds;0.923;no;1.000;yes;0.860
+0612 - Evian/IMG_2089.JPG;522;urban_landscape;0.290;;;;;outdoor;1.000;;;visible;0.949;day;1.000;few_clouds;0.946;no;0.999;yes;0.658
+0612 - Evian/IMG_2090.JPG;520;architecture;0.915;;;;;outdoor;1.000;excellent;0.834;visible;0.989;day;0.994;sunny;0.999;no;0.988;yes;0.897
+0612 - Evian/IMG_2092.JPG;512;urban_landscape;0.501;;;;;outdoor;0.999;;;visible;0.770;day;0.996;sunny;0.999;no;0.975;yes;0.682
+0612 - Evian/IMG_2094.JPG;268;architecture;0.995;;;;;outdoor;1.000;excellent;0.969;visible;0.999;night;0.982;;;no;1.000;yes;0.822
+0612 - Evian/IMG_2101.JPG;267;architecture;0.741;;;;;outdoor;1.000;excellent;0.780;visible;0.999;night;0.960;;;no;1.000;yes;0.879
+0612 - Evian/IMG_2102.JPG;498;architecture;0.539;;;;;outdoor;0.998;excellent;0.735;visible;0.984;dusk;0.868;sunny;0.986;no;0.999;yes;0.808
+0612 - Evian/IMG_2119.JPG;475;landscape;0.985;;;;;outdoor;1.000;;;visible;0.940;dusk;0.642;few_clouds;0.979;no;1.000;yes;0.969
+0612 - Evian/IMG_2122.JPG;511;urban_landscape;0.516;;;;;outdoor;1.000;;;visible;0.989;dusk;0.993;mixed;0.519;no;0.999;yes;0.969
+0612 - Evian/IMG_2126.JPG;473;graphic;0.420;;;;;outdoor;1.000;degraded;0.970;visible;0.846;dusk;0.522;few_clouds;0.503;no;1.000;yes;0.851
+0612 - Evian/IMG_2133.JPG;252;architecture;0.712;;;;;outdoor;0.995;excellent;0.571;visible;0.981;night;0.846;;;no;0.999;yes;0.945
+0612 - Evian/IMG_2138.JPG;272;architecture;0.697;;;;;outdoor;0.970;excellent;0.541;visible;0.989;night;0.916;;;no;0.998;yes;0.969
+0612 - Evian/IMG_2142.JPG;259;plastic_arts;0.305;;;sculpture;1.000;outdoor;0.999;excellent;0.705;visible;0.773;night;0.906;;;no;0.999;yes;0.531
+0612 - Evian/IMG_2149.JPG;273;landscape;0.312;;;;;outdoor;0.996;;;absent;0.997;dusk;0.753;;;no;0.976;yes;0.972
+0612 - Evian/IMG_2167.JPG;262;animal;0.931;;;;;outdoor;0.846;;;absent;0.998;night;0.829;;;no;1.000;yes;0.995
+0612 - Evian  Macro D70/DSC_0001.JPG;243;macro;0.839;;;;;outdoor;0.998;;;absent;0.967;day;0.990;;;;;no;0.157
+0612 - Evian  Macro D70/DSC_0004.JPG;275;graphic;0.690;;;;;outdoor;0.994;degraded;0.874;absent;0.979;day;0.997;;;no;1.000;yes;0.723
+0612 - Evian  Macro D70/DSC_0006.JPG;273;graphic;0.658;;;;;outdoor;0.999;degraded;0.821;absent;0.978;day;0.996;;;no;1.000;no;0.405
+0612 - Evian  Macro D70/DSC_0007.JPG;263;macro;0.582;;;;;outdoor;0.999;;;absent;0.953;day;0.998;;;;;no;0.499
+0612 - Evian  Macro D70/DSC_0009.JPG;268;macro;0.886;;;;;outdoor;0.999;;;absent;0.976;day;0.937;;;;;no;0.135
+0612 - Evian  Macro D70/DSC_0014.JPG;266;graphic;0.961;;;;;outdoor;0.996;degraded;0.891;absent;0.941;day;0.999;;;no;1.000;no;0.194
+0612 - Evian  Macro D70/DSC_0017.JPG;269;graphic;0.958;;;;;outdoor;0.993;degraded;0.929;absent;0.990;day;1.000;;;no;1.000;yes;0.604
+0612 - Evian  Macro D70/DSC_0018.JPG;253;graphic;0.973;;;;;outdoor;0.991;degraded;0.923;absent;0.939;day;1.000;;;no;1.000;yes;0.606
+0612 - Evian  Macro D70/DSC_0022.JPG;269;graphic;0.956;;;;;outdoor;0.996;degraded;0.701;absent;0.987;day;1.000;;;no;1.000;no;0.295
+0612 - Evian  Macro D70/DSC_0055.JPG;253;macro;0.913;;;;;outdoor;0.999;;;absent;0.936;day;0.996;;;;;no;0.052
+0612 - Evian  Macro D70/DSC_0059.JPG;266;macro;0.890;;;;;outdoor;0.999;;;absent;0.969;day;0.998;;;;;no;0.108
+0612 - Evian  Macro D70/DSC_0060.JPG;250;macro;0.948;;;;;outdoor;0.999;;;absent;0.962;day;0.997;;;;;no;0.175
+0612 - Evian  Macro D70/DSC_0064.JPG;269;macro;0.909;;;;;outdoor;0.998;;;absent;0.919;day;1.000;;;;;no;0.128
+0612 - Evian  Macro D70/DSC_0065.JPG;258;macro;0.880;;;;;outdoor;0.999;;;absent;0.933;day;0.998;;;;;no;0.088
+0612 - Evian  Macro D70/DSC_0068.JPG;262;graphic;0.857;;;;;outdoor;0.934;good;0.475;absent;1.000;day;1.000;;;no;1.000;no;0.191
+0612 - Evian  Macro D70/DSC_0069.JPG;255;macro;0.572;;;;;outdoor;0.961;;;absent;1.000;day;1.000;;;;;no;0.163
+0612 - Evian  Macro D70/DSC_0072.JPG;251;landscape;0.639;;;;;outdoor;0.996;;;absent;0.987;day;1.000;;;no;0.999;yes;0.730
+0612 - Evian  Macro D70/DSC_0074.JPG;271;landscape;0.646;;;;;outdoor;0.976;;;absent;0.972;day;0.999;;;no;1.000;yes;0.611
+0612 - Evian  Macro D70/DSC_0076.JPG;266;macro;0.687;;;;;outdoor;0.859;;;absent;1.000;day;1.000;;;;;no;0.026
+0612 - Evian  Macro D70/DSC_0078.JPG;238;macro;0.570;;;;;outdoor;0.949;;;absent;0.998;day;0.998;;;;;no;0.349
+0612 - Evian  Macro D70/DSC_0080.JPG;259;graphic;0.496;;;;;outdoor;0.992;degraded;0.947;absent;0.999;day;0.999;;;no;1.000;no;0.079
+0612 - Evian  Macro D70/DSC_0083.JPG;250;macro;0.527;;;;;outdoor;0.974;;;absent;1.000;day;0.997;;;;;no;0.246
+0612 - Evian  Macro D70/DSC_0085.JPG;233;macro;0.497;;;;;outdoor;0.973;;;absent;0.999;day;0.974;;;;;no;0.202
+0612 - Evian  Macro D70/DSC_0098.JPG;262;macro;0.983;;;;;outdoor;0.977;;;absent;1.000;day;0.999;;;;;no;0.090
+0612 - Evian  Macro D70/DSC_0107.JPG;240;macro;0.769;;;;;outdoor;0.999;;;absent;0.839;day;0.909;;;;;no;0.096
+0612 - Evian  Macro D70/DSC_0108.JPG;263;macro;0.507;;;;;outdoor;1.000;;;absent;0.981;day;0.997;;;;;no;0.210
+0612 - Evian  Macro D70/DSC_0121.JPG;263;macro;0.865;;;;;outdoor;0.999;;;absent;0.944;day;0.978;;;;;no;0.066
+0612 - Evian  Macro D70/DSC_0123.JPG;235;macro;0.869;;;;;outdoor;0.999;;;absent;0.913;day;0.992;;;;;no;0.053
+0612 - Evian  Macro D70/DSC_0126.JPG;254;macro;0.828;;;;;outdoor;0.998;;;absent;0.984;day;0.994;;;;;no;0.237
+0612 - Evian  Macro D70/DSC_0127.JPG;269;macro;0.803;;;;;outdoor;0.999;;;absent;0.978;day;0.984;;;;;no;0.102
+0612 - Evian  Macro D70/DSC_0128.JPG;266;macro;0.750;;;;;outdoor;0.999;;;absent;0.908;day;0.978;;;;;no;0.183
+0612 - Evian  Macro D70/DSC_0131.JPG;233;macro;0.585;;;;;outdoor;0.999;;;absent;0.989;day;0.989;;;;;no;0.099
+0612 - Evian  Macro D70/DSC_0132.JPG;239;macro;0.961;;;;;outdoor;0.999;;;absent;0.992;day;0.995;;;;;no;0.217
+0612 - Evian  Macro D70/DSC_0134.JPG;242;macro;0.966;;;;;outdoor;0.999;;;absent;0.972;day;0.966;;;;;no;0.166
+0612 - Evian  Macro D70/DSC_0135.JPG;270;macro;0.508;;;;;outdoor;0.999;;;absent;0.987;day;0.998;;;;;no;0.083
+0612 - Evian Ballade/gtraph1-2.jpg;242;graphic;0.793;;;;;outdoor;0.972;degraded;0.888;absent;0.993;day;1.000;;;no;1.000;no;0.444
+0612 - Evian Ballade/gtraph1-3.jpg;267;graphic;0.721;;;;;outdoor;0.974;degraded;0.880;absent;0.988;day;1.000;;;no;1.000;yes;0.540
+0612 - Evian Ballade/gtraph1.jpg;266;graphic;0.800;;;;;outdoor;0.990;degraded;0.786;absent;0.992;day;1.000;;;no;1.000;yes;0.547
+0612 - Evian Ballade/gtraph2-1.jpg;268;landscape;0.654;;;;;outdoor;0.937;;;absent;0.936;day;1.000;;;no;1.000;yes;0.631
+0612 - Evian Ballade/gtraph2-2.jpg;217;graphic;0.570;;;;;outdoor;0.967;degraded;0.872;absent;0.985;day;1.000;;;no;1.000;yes;0.681
+0612 - Evian Ballade/gtraph2-3.jpg;269;graphic;0.656;;;;;outdoor;0.811;good;0.497;absent;0.999;day;1.000;;;no;1.000;no;0.356
+0612 - Evian Ballade/gtraph2.jpg;263;graphic;0.656;;;;;outdoor;0.811;good;0.497;absent;0.999;day;1.000;;;no;1.000;no;0.356
+0612 - Evian Ballade/IMG_2176.JPG;471;landscape;0.888;;;;;outdoor;0.999;;;visible;0.782;day;0.722;cloudy;0.969;no;1.000;yes;0.849
+0612 - Evian Ballade/IMG_2183.JPG;276;macro;0.707;;;;;outdoor;0.998;;;absent;0.978;day;0.983;;;;;no;0.263
+0612 - Evian Ballade/IMG_2187.JPG;258;macro;0.916;;;;;outdoor;0.999;;;absent;0.726;day;0.996;;;;;no;0.212
+0612 - Evian Ballade/IMG_2198.JPG;265;macro;0.982;;;;;outdoor;1.000;;;absent;0.924;day;0.957;;;;;no;0.454
+0612 - Evian Ballade/IMG_2208.JPG;252;graphic;0.985;;;;;outdoor;1.000;degraded;0.436;absent;0.888;day;0.999;;;no;1.000;no;0.078
+0612 - Evian Ballade/IMG_2209.JPG;268;graphic;0.973;;;;;outdoor;0.999;degraded;0.742;absent;0.893;day;1.000;;;no;1.000;no;0.162
+0612 - Evian Ballade/IMG_2212.JPG;528;landscape;0.995;;;;;outdoor;0.999;;;visible;0.645;day;1.000;cloudy;0.639;no;1.000;yes;0.786
+0612 - Evian Ballade/IMG_2215.JPG;251;landscape;0.945;;;;;outdoor;1.000;;;absent;0.722;day;1.000;;;no;1.000;yes;0.824
+0612 - Evian Ballade/IMG_2217.JPG;247;landscape;0.856;;;;;outdoor;0.990;;;absent;0.907;day;1.000;;;no;1.000;yes;0.705
+0612 - Evian Ballade/IMG_2220.JPG;238;landscape;0.816;;;;;outdoor;0.994;;;absent;0.972;day;1.000;;;no;1.000;yes;0.892
+0612 - Evian Ballade/IMG_2228-2.jpg;272;macro;0.929;;;;;outdoor;0.998;;;absent;0.940;day;1.000;;;;;no;0.499
+0612 - Evian Ballade/IMG_2228.JPG;267;macro;0.834;;;;;outdoor;0.997;;;absent;0.901;day;1.000;;;;;yes;0.712
+0612 - Evian Ballade/IMG_2231.JPG;520;landscape;0.990;;;;;outdoor;1.000;;;visible;0.854;day;0.999;cloudy;0.833;no;1.000;yes;0.730
+0612 - Evian Ballade/IMG_2235.JPG;264;graphic;0.468;;;;;outdoor;0.999;degraded;0.978;absent;0.990;day;0.979;;;no;1.000;yes;0.650
+0612 - Evian Ballade/IMG_2238.JPG;516;landscape;0.916;;;;;outdoor;1.000;;;visible;0.666;day;0.997;cloudy;0.997;no;1.000;no;0.368
+0612 - Evian Ballade/IMG_2246.JPG;253;landscape;0.787;;;;;outdoor;1.000;;;absent;0.874;day;0.999;;;no;1.000;no;0.164
+0612 - Evian Ballade/IMG_2248.JPG;231;graphic;0.585;;;;;outdoor;0.995;degraded;0.942;absent;0.996;day;1.000;;;no;1.000;no;0.039
+0612 - Evian Ballade/IMG_2252.JPG;268;animal;0.660;;;;;outdoor;0.998;;;absent;0.998;day;1.000;;;no;0.998;no;0.039
+0612 - Evian Ballade/IMG_2254.JPG;263;animal;0.524;;;;;outdoor;0.998;;;absent;0.997;day;1.000;;;no;0.997;no;0.020
+0612 - Evian Ballade/IMG_2257.JPG;255;macro;0.624;;;;;outdoor;0.998;;;absent;0.995;day;1.000;;;;;no;0.075
+0612 - Evian Ballade/IMG_2264.JPG;267;macro;0.800;;;;;outdoor;0.998;;;absent;0.998;day;0.999;;;;;no;0.041
+0612 - Evian Ballade/IMG_2272.JPG;253;macro;0.891;;;;;outdoor;0.995;;;absent;0.998;day;1.000;;;;;no;0.028
+0612 - Evian Ballade/IMG_2274.JPG;487;landscape;0.894;;;;;outdoor;1.000;;;visible;0.921;day;1.000;cloudy;0.998;no;1.000;yes;0.956
+0612 - Evian Ballade/IMG_2279.JPG;514;landscape;0.838;;;;;outdoor;1.000;;;visible;0.665;day;1.000;cloudy;1.000;no;1.000;yes;0.792
+0612 - Evian Ballade/IMG_2281.JPG;509;landscape;0.909;;;;;outdoor;1.000;;;visible;0.704;day;1.000;cloudy;0.906;no;1.000;yes;0.643
+0612 - Evian Ballade/IMG_2307.JPG;256;landscape;0.538;;;;;outdoor;1.000;;;absent;0.504;day;0.999;;;no;1.000;no;0.361
+0612 - Evian Ballade/IMG_2309.JPG;496;landscape;0.956;;;;;outdoor;1.000;;;visible;0.781;day;0.999;cloudy;1.000;no;1.000;yes;0.626
+0612 - Evian Ballade/IMG_2313-2.jpg;273;macro;0.931;;;;;outdoor;0.999;;;absent;0.984;day;0.998;;;;;no;0.095
+0612 - Evian Ballade/IMG_2313.JPG;219;macro;0.949;;;;;outdoor;1.000;;;absent;0.981;day;0.998;;;;;no;0.133
+0612 - Evian Ballade/IMG_2314.JPG;240;landscape;0.942;;;;;outdoor;0.999;;;absent;0.753;day;1.000;;;no;1.000;yes;0.719
+0612 - Evian Ballade/IMG_2317.JPG;261;macro;0.765;;;;;outdoor;1.000;;;absent;0.572;day;0.993;;;;;no;0.188
+0612 - Evian Ballade/IMG_2320.JPG;508;graphic;0.459;;;;;outdoor;1.000;degraded;0.874;visible;0.604;day;0.988;cloudy;1.000;no;1.000;yes;0.714
+0612 - Evian Ballade/IMG_2321.JPG;528;landscape;0.426;;;;;outdoor;1.000;;;visible;0.547;day;0.976;cloudy;0.999;no;1.000;yes;0.806
+0612 - Evian Ballade/IMG_2326.JPG;494;landscape;0.994;;;;;outdoor;1.000;;;visible;0.854;day;0.998;cloudy;1.000;no;1.000;yes;0.807
+0612 - Evian Ballade/IMG_2328.JPG;505;landscape;0.962;;;;;outdoor;1.000;;;visible;0.956;day;0.989;cloudy;0.900;no;0.985;yes;0.835
+0612 - Evian Ballade/IMG_2343.JPG;258;landscape;0.720;;;;;outdoor;1.000;;;absent;0.905;day;1.000;;;no;0.753;yes;0.784
+0612 - Evian Ballade/IMG_2344.JPG;264;graphic;0.377;;;;;outdoor;0.997;good;0.727;absent;0.990;day;1.000;;;front;0.828;yes;0.916
+0612 - Evian Ballade/IMG_2345.JPG;256;animal;0.386;;;;;outdoor;0.997;;;absent;0.985;day;1.000;;;front;0.776;yes;0.936
+0612 - Evian Ballade/IMG_2346.JPG;263;landscape;0.778;;;;;outdoor;1.000;;;absent;0.593;day;1.000;;;no;0.571;yes;0.641
+0612 - Evian Ballade/IMG_2347.JPG;250;undetermined;0.358;;;;;outdoor;0.993;good;0.787;absent;0.994;day;1.000;;;front;0.799;yes;0.878
+0612 - Evian Ballade/IMG_2348.JPG;265;landscape;0.372;;;;;outdoor;0.998;;;absent;0.831;day;1.000;;;front;0.914;yes;0.928
+0612 - Evian Ballade/IMG_2350.JPG;249;graphic;0.605;;;;;indoor;0.891;good;0.927;absent;0.998;day;1.000;;;no;0.950;yes;0.891
+0612 - Evian Ballade/IMG_2351.JPG;257;landscape;0.535;;;;;outdoor;1.000;;;absent;0.825;day;1.000;;;no;1.000;yes;0.572
+0612 - Evian Ballade/IMG_2354.JPG;254;landscape;0.701;;;;;outdoor;1.000;;;absent;0.862;day;1.000;;;no;1.000;yes;0.578
+0612 - Evian Ballade/IMG_2357.JPG;498;landscape;0.949;;;;;outdoor;1.000;;;visible;0.941;day;0.999;cloudy;0.998;no;0.992;yes;0.953
+0612 - Evian Ballade/IMG_2359.JPG;516;landscape;0.954;;;;;outdoor;1.000;;;visible;0.970;day;1.000;cloudy;0.993;no;1.000;yes;0.825
+0612 - Evian Ballade/IMG_2363.JPG;483;landscape;0.933;;;;;outdoor;1.000;;;visible;0.646;day;1.000;cloudy;0.999;no;1.000;yes;0.587
+0612 - Evian Ballade/IMG_2366.JPG;503;landscape;0.967;;;;;outdoor;1.000;;;visible;0.758;day;0.995;cloudy;0.997;no;1.000;yes;0.914
+0612 - Evian Ballade/IMG_2368.JPG;513;landscape;0.763;;;;;outdoor;1.000;;;visible;0.702;day;1.000;cloudy;0.999;no;1.000;yes;0.529
+0612 - Evian Ballade/IMG_2370-2.jpg;475;landscape;0.897;;;;;outdoor;1.000;;;visible;0.891;day;0.997;cloudy;1.000;no;1.000;yes;0.647
+0612 - Evian Ballade/IMG_2370.JPG;513;landscape;0.902;;;;;outdoor;1.000;;;visible;0.880;day;0.999;cloudy;1.000;no;1.000;yes;0.632
+0612 - Evian Ballade/IMG_2372.JPG;510;landscape;0.936;;;;;outdoor;1.000;;;visible;0.744;day;0.999;cloudy;1.000;no;1.000;yes;0.619
+0612 - Evian Ballade/IMG_2374.JPG;463;landscape;0.968;;;;;outdoor;0.999;;;visible;0.613;day;0.999;cloudy;0.981;no;1.000;yes;0.719
+0612 - Evian Ballade/IMG_2376.JPG;248;landscape;0.958;;;;;outdoor;0.996;;;absent;0.646;day;1.000;;;no;1.000;yes;0.822
+0612 - Evian Ballade/IMG_2378.JPG;468;landscape;0.380;;;;;outdoor;1.000;;;visible;0.699;day;0.999;cloudy;0.999;no;1.000;no;0.478
+0612 - Evian Ballade/IMG_2380.JPG;493;graphic;0.476;;;;;outdoor;0.999;degraded;0.966;visible;0.596;day;0.999;cloudy;0.999;no;1.000;no;0.314
+0612 - Evian Ballade/IMG_2382.JPG;260;graphic;0.778;;;;;outdoor;0.992;degraded;0.942;absent;0.878;day;0.995;;;no;1.000;no;0.357
+0612 - Evian Ballade/IMG_2384.JPG;268;landscape;0.727;;;;;outdoor;0.999;;;absent;0.785;day;1.000;;;no;0.822;no;0.469
+0612 - Evian Ballade/IMG_2385.JPG;500;landscape;0.946;;;;;outdoor;1.000;;;visible;0.833;day;0.999;bad_weather;0.833;no;0.957;yes;0.772
+0612 - Evian Ballade/IMG_2386.JPG;472;landscape;0.906;;;;;outdoor;0.999;;;visible;0.679;day;0.996;cloudy;0.943;no;0.982;yes;0.932
+0612 - Evian Ballade/IMG_2389.JPG;512;landscape;0.972;;;;;outdoor;1.000;;;visible;0.760;day;0.964;cloudy;0.979;no;0.998;no;0.443
+0612 - Evian Ballade/IMG_2391.JPG;247;macro;0.848;;;;;outdoor;1.000;;;absent;0.995;day;0.999;;;;;no;0.084
+0612 - Evian Ballade/IMG_2393.JPG;457;landscape;0.480;;;;;outdoor;1.000;;;visible;0.660;day;0.980;cloudy;0.972;no;1.000;no;0.254
+0612 - Evian Ballade/IMG_2395.JPG;249;landscape;0.895;;;;;outdoor;0.999;;;absent;0.529;day;0.988;;;no;1.000;yes;0.583
+0612 - Evian Ballade/IMG_2400.JPG;258;landscape;0.716;;;;;outdoor;0.998;;;absent;0.987;day;1.000;;;no;1.000;yes;0.933
+0612 - Evian Ballade/IMG_2401.JPG;477;landscape;0.917;;;;;outdoor;1.000;;;visible;0.616;day;0.996;cloudy;1.000;no;1.000;yes;0.743
+0612 - Evian Trip feu/IMG_2330.JPG;248;graphic;0.530;;;;;indoor;0.647;degraded;0.530;absent;0.994;day;0.935;;;no;1.000;yes;0.949
+0612 - Evian Trip feu/IMG_2331.JPG;252;graphic;0.498;;;;;indoor;0.732;good;0.450;absent;0.997;day;0.848;;;no;1.000;yes;0.881
+0612 - Evian Trip feu/IMG_2332.JPG;230;graphic;0.590;;;;;indoor;0.746;degraded;0.593;absent;0.995;day;0.854;;;no;1.000;yes;0.838
+0612 - Evian Trip feu/IMG_2333.JPG;256;graphic;0.494;;;;;indoor;0.894;degraded;0.484;absent;0.998;day;1.000;;;no;1.000;yes;0.833
+0612 - Evian Trip feu/IMG_2334.JPG;243;graphic;0.379;;;;;indoor;0.919;good;0.406;absent;1.000;day;1.000;;;no;0.997;yes;0.824
+0612 - Evian Trip feu/IMG_2335.JPG;246;house;0.456;;;;;indoor;0.980;good;0.629;absent;0.999;day;0.999;;;no;0.979;yes;0.873
+0612 - Evian Trip feu/IMG_2336.JPG;262;graphic;0.523;;;;;indoor;0.943;degraded;0.626;absent;0.997;day;0.995;;;no;1.000;yes;0.923
+0612 - Evian Trip feu/IMG_2337.JPG;241;graphic;0.456;;;;;indoor;0.904;good;0.436;absent;0.999;day;0.994;;;no;0.899;yes;0.873
+0612 - Evian Trip feu/IMG_2338.JPG;242;graphic;0.380;;;;;indoor;0.831;degraded;0.502;absent;0.999;day;0.970;;;no;0.992;yes;0.860
+0612 - Evian Trip feu/IMG_2339.JPG;261;graphic;0.724;;;;;indoor;0.992;degraded;0.518;absent;1.000;day;0.971;;;no;0.985;yes;0.722
+0612 - Evian Trip feu/IMG_2340.JPG;259;graphic;0.371;;;;;indoor;0.969;good;0.615;absent;0.999;day;0.998;;;no;0.880;yes;0.891
+0612 - Tours/IMG_1642.JPG;254;animal;0.942;;;;;indoor;0.984;;;absent;0.997;day;0.997;;;no;0.999;yes;0.953
+0612 - Tours/IMG_1645.JPG;255;animal;0.828;;;;;indoor;0.985;;;absent;0.997;day;1.000;;;no;0.999;yes;0.970
+0612 - Tours/IMG_1652.JPG;255;animal;0.984;;;;;indoor;0.909;;;absent;0.996;day;1.000;;;no;0.996;yes;0.926
+0612 - Tours/IMG_1662.JPG;259;animal;0.993;;;;;indoor;0.545;;;absent;0.954;day;1.000;;;no;0.994;yes;0.813
+0612 - Tours/IMG_1665.JPG;254;macro;0.424;;;;;indoor;0.892;;;absent;0.999;day;1.000;;;;;no;0.401
+0612 - Tours/IMG_1674.JPG;252;macro;0.937;;;;;indoor;0.941;;;absent;1.000;day;0.999;;;;;yes;0.701
+0612 - Tours/IMG_1681.JPG;246;animal;0.854;;;;;indoor;0.981;;;absent;0.986;day;0.994;;;no;1.000;yes;0.656
+0612 - Tours/IMG_1683.JPG;234;animal;0.889;;;;;indoor;0.983;;;absent;0.991;day;0.994;;;no;1.000;yes;0.829
+0612 - Tours/IMG_1691.JPG;212;facade;0.473;;;;;outdoor;0.989;degraded;0.955;absent;0.995;day;0.995;;;no;0.999;yes;0.889
+0612 - Tours/IMG_1693.JPG;463;urban_landscape;0.558;;;;;outdoor;0.999;;;visible;0.999;dusk;0.983;sunny;0.665;no;1.000;yes;0.969
+0612 - Tours/IMG_1712.JPG;470;urban_landscape;0.407;;;;;outdoor;0.997;;;visible;1.000;dusk;0.992;cloudy;0.764;no;1.000;yes;0.804
+0612 - Tours Diterzi/IMG_1764.JPG;262;animal;0.579;;;;;outdoor;0.586;;;absent;0.998;day;1.000;;;front;0.981;yes;0.653
+0612 - Tours Diterzi/IMG_1767.JPG;218;graphic;0.379;;;;;outdoor;0.558;degraded;0.640;absent;1.000;day;0.998;;;no;0.689;yes;0.993
+0612 - Tours Diterzi/IMG_1776.JPG;263;plastic_arts;0.499;;;sculpture;0.586;indoor;0.825;degraded;0.809;absent;0.999;day;0.998;;;no;0.498;yes;0.989
+0612 - Tours Diterzi/IMG_1779.JPG;248;graphic;0.582;;;;;outdoor;0.738;degraded;0.883;absent;1.000;day;0.761;;;no;0.978;yes;0.847
+0612 - Tours Diterzi/IMG_1780.JPG;255;plastic_arts;0.706;;;sculpture;0.724;indoor;0.684;good;0.534;absent;0.998;day;0.999;;;no;0.434;yes;0.873
+0612 - Tours Diterzi/IMG_1786.JPG;262;plastic_arts;0.696;;;sculpture;0.973;outdoor;0.677;degraded;0.809;absent;0.998;day;1.000;;;no;0.723;yes;0.810
+0612 - Tours Diterzi/IMG_1790.JPG;241;plastic_arts;0.734;;;sculpture;0.625;outdoor;0.656;degraded;0.705;absent;1.000;day;0.998;;;front;0.613;yes;0.979
+0612 - Tours Diterzi/IMG_1791.JPG;259;plastic_arts;0.750;;;sculpture;0.604;indoor;0.545;degraded;0.480;absent;1.000;day;1.000;;;no;0.566;yes;0.869
+0612 - Tours Diterzi/IMG_1796.JPG;221;plastic_arts;0.767;;;sculpture;0.793;indoor;0.752;degraded;0.935;absent;1.000;day;0.999;;;no;0.397;yes;0.979
+0612 - Tours Diterzi/IMG_1809.JPG;256;plastic_arts;0.657;;;sculpture;0.801;indoor;0.569;degraded;0.823;absent;1.000;day;0.994;;;no;0.617;yes;0.942
+0612 - Tours Diterzi/IMG_1815.JPG;223;plastic_arts;0.371;;;sculpture;0.844;outdoor;0.796;degraded;0.800;absent;0.999;day;0.999;;;no;0.786;yes;0.968
+0612 - Tours Diterzi/IMG_1818.JPG;255;plastic_arts;0.608;;;sculpture;0.766;indoor;0.633;degraded;0.862;absent;0.999;day;0.998;;;no;0.789;yes;0.986
+0612 - Tours Diterzi/IMG_1822.JPG;252;plastic_arts;0.512;;;sculpture;0.754;indoor;0.771;degraded;0.776;absent;0.999;day;0.999;;;front;0.495;yes;0.990
+0612 - Tours Diterzi/IMG_1835.JPG;243;plastic_arts;0.617;;;sculpture;0.907;indoor;0.765;degraded;0.918;absent;1.000;day;0.989;;;no;0.890;yes;0.993
+0612 - Tours Diterzi/IMG_1837.JPG;254;plastic_arts;0.798;;;sculpture;0.705;indoor;0.752;degraded;0.717;absent;1.000;day;0.999;;;no;0.622;yes;0.956
+0612 - Tours Diterzi/IMG_1839.JPG;257;plastic_arts;0.686;;;sculpture;0.654;indoor;0.706;degraded;0.810;absent;1.000;day;0.999;;;no;0.500;yes;0.983
+0612 - Tours Matin/IMG_1988.JPG;247;street;0.858;;;;;outdoor;0.999;;;visible;0.740;night;0.936;;;no;1.000;yes;0.980
+0612 - Tours Matin/IMG_1995.JPG;257;urban_landscape;0.552;;;;;outdoor;0.998;;;visible;0.974;night;0.966;;;no;1.000;yes;0.995
+0612 - Tours Matin/IMG_1998.JPG;257;architecture;0.609;;;;;outdoor;0.999;good;0.644;visible;0.946;night;0.795;;;no;1.000;yes;0.978
+0612 - Tours Matin/IMG_2000.JPG;221;architecture;0.419;;;;;outdoor;0.997;excellent;0.808;visible;0.864;night;0.996;;;no;1.000;yes;0.946
+0612 - Tours Matin/IMG_2003-2.jpg;236;urban_landscape;0.520;;;;;outdoor;0.999;;;visible;0.938;night;0.996;;;no;1.000;yes;0.942
+0612 - Tours Matin/IMG_2003.JPG;254;urban_landscape;0.456;;;;;outdoor;0.998;;;visible;0.943;night;0.995;;;no;1.000;yes;0.930
+0612 - Tours Matin/IMG_2006.JPG;251;urban_landscape;0.798;;;;;outdoor;1.000;;;visible;0.923;night;0.975;;;no;1.000;yes;0.965
+0612 - Tours Matin/IMG_2009.JPG;253;urban_landscape;0.671;;;;;outdoor;1.000;;;visible;0.961;night;0.989;;;no;1.000;yes;0.959
+0612 - Tours Matin/IMG_2012.JPG;251;facade;0.650;;;;;outdoor;0.999;excellent;0.822;absent;0.899;night;0.783;;;no;1.000;yes;0.947
+0612 - Tours Matin/IMG_2013.JPG;251;graphic;0.548;;;;;outdoor;0.944;degraded;0.980;absent;0.994;day;0.964;;;no;1.000;yes;0.969
+0612 - Tours Matin/IMG_2019.JPG;501;street;0.628;;;;;outdoor;0.947;;;visible;0.821;dusk;0.566;cloudy;0.684;no;0.999;yes;0.995
+0612 - Tours Matin/IMG_2020.JPG;503;street;0.747;;;;;outdoor;0.993;;;visible;0.923;dusk;0.403;few_clouds;0.429;no;0.999;yes;0.984
+0612 - Tours Matin/IMG_2023.JPG;222;street;0.470;;;;;outdoor;0.997;;;visible;0.883;night;0.525;;;no;1.000;yes;0.993
+0612 - Tours Matin/IMG_2024.JPG;500;street;0.881;;;;;outdoor;0.999;;;visible;0.994;dusk;0.535;cloudy;0.731;no;1.000;yes;0.958
+0612 - Tours Matin/IMG_2026.JPG;504;architecture;0.475;;;;;outdoor;0.999;excellent;0.913;visible;0.979;dusk;0.746;cloudy;0.668;no;1.000;yes;0.977
+0612 - Tours Matin/IMG_2027.JPG;246;graphic;0.656;;;;;outdoor;0.856;good;0.872;absent;0.985;day;0.998;;;no;0.999;yes;0.872
+0612 - Tours Matin/IMG_2028.JPG;254;graphic;0.800;;;;;outdoor;0.894;good;0.880;absent;0.982;day;0.990;;;no;0.998;yes;0.917
+0612 - Tours Matin/IMG_2030.JPG;508;architecture;0.550;;;;;outdoor;1.000;excellent;0.827;visible;0.995;day;0.967;cloudy;0.990;no;1.000;yes;0.947
+0612 - Tours Matin/IMG_2031.JPG;451;street;0.958;;;;;outdoor;1.000;;;visible;0.928;dusk;0.654;few_clouds;0.599;no;1.000;yes;0.818
+0612 - Tours Matin/IMG_2032.JPG;477;street;0.877;;;;;outdoor;1.000;;;visible;0.988;day;0.916;cloudy;0.941;no;1.000;yes;0.923
+0612 - Tours Matin/IMG_2033.JPG;501;street;0.535;;;;;outdoor;1.000;;;visible;0.968;day;0.921;cloudy;0.822;no;1.000;yes;0.914
+0612 - Tours People/IMG_1852.JPG;245;animal;0.364;;;;;outdoor;0.801;;;absent;0.998;day;0.983;;;front;0.523;yes;0.518
+0612 - Tours People/IMG_1855.JPG;247;urban_landscape;0.249;;;;;indoor;0.689;;;absent;0.998;day;0.999;;;front;0.808;yes;0.744
+0612 - Tours People/IMG_1856.JPG;251;undetermined;0.679;;;;;outdoor;0.762;excellent;0.688;absent;0.999;day;0.996;;;no;0.740;yes;0.764
+0612 - Tours People/IMG_1859.JPG;253;house;0.426;;;;;indoor;0.620;good;0.362;absent;0.954;day;1.000;;;front;0.988;yes;0.713
+0612 - Tours People/IMG_1860.JPG;230;house;0.350;;;;;indoor;0.730;excellent;0.369;absent;0.943;day;1.000;;;front;0.994;yes;0.723
+0612 - Tours People/IMG_1863.JPG;254;house;0.454;;;;;indoor;0.772;good;0.378;absent;0.937;day;1.000;;;front;0.986;yes;0.638
+0612 - Tours People/IMG_1864.JPG;253;undetermined;0.267;;;;;indoor;0.570;good;0.426;absent;0.933;day;1.000;;;front;0.979;yes;0.865
+0612 - Tours People/IMG_1868.JPG;251;undetermined;0.525;;;;;indoor;0.623;good;0.498;absent;0.928;day;1.000;;;front;0.997;yes;0.871
+0612 - Tours People/IMG_1870.JPG;260;house;0.618;;;;;indoor;0.979;good;0.537;absent;0.989;day;0.981;;;front;0.960;yes;0.874
+0612 - Tours People/IMG_1871.JPG;227;undetermined;0.335;;;;;indoor;0.971;good;0.571;absent;0.986;day;1.000;;;front;0.896;yes;0.910
+0612 - Tours People/IMG_1872.JPG;256;undetermined;0.419;;;;;indoor;0.927;good;0.759;absent;0.963;day;1.000;;;front;0.946;yes;0.954
+0612 - Tours People/IMG_1874.JPG;246;graphic;0.375;;;;;indoor;0.998;degraded;0.491;absent;1.000;day;1.000;;;no;1.000;yes;0.991
+0612 - Tours People/IMG_1876.JPG;222;animal;0.515;;;;;indoor;0.767;;;absent;1.000;day;1.000;;;front;0.548;yes;0.511
+0612 - Tours People/IMG_1878.JPG;240;animal;0.507;;;;;outdoor;0.515;;;absent;1.000;day;1.000;;;front;0.956;no;0.414
+0612 - Tours People/IMG_1879.JPG;216;animal;0.426;;;;;indoor;0.960;;;absent;0.998;day;1.000;;;front;0.993;yes;0.918
+0612 - Tours People/IMG_1886.JPG;243;plastic_arts;0.326;;;sculpture;0.517;indoor;0.863;degraded;0.462;absent;0.999;day;1.000;;;front;0.997;yes;0.898
+0612 - Tours People/IMG_1890.JPG;260;undetermined;0.789;;;;;indoor;0.679;excellent;0.335;absent;0.998;day;0.999;;;front;0.938;yes;0.941
+0612 - Tours People/IMG_1893.JPG;252;undetermined;0.560;;;;;indoor;0.831;degraded;0.399;absent;0.981;day;0.999;;;front;0.993;yes;0.928
+0612 - Tours People/IMG_1894.JPG;236;animal;0.487;;;;;indoor;0.619;;;absent;0.989;day;0.997;;;front;0.900;yes;0.919
+0612 - Tours People/IMG_1897.JPG;249;plastic_arts;0.667;;;painting;0.694;indoor;0.959;good;0.757;absent;0.999;day;1.000;;;front;0.991;yes;0.833
+0612 - Tours People/IMG_1899.JPG;242;undetermined;0.515;;;;;indoor;0.661;degraded;0.575;absent;0.995;day;0.938;;;front;0.974;yes;0.711
+0612 - Tours People/IMG_1900.JPG;263;undetermined;0.442;;;;;indoor;0.918;degraded;0.514;absent;0.999;day;0.994;;;front;0.982;yes;0.939
+0612 - Tours People/IMG_1902.JPG;258;animal;0.482;;;;;indoor;0.987;;;absent;1.000;day;1.000;;;front;0.957;yes;0.923
+0612 - Tours People/IMG_1904.JPG;254;undetermined;0.340;;;;;indoor;0.882;good;0.580;absent;1.000;day;0.999;;;front;0.865;yes;0.799
+0612 - Tours People/IMG_1905.JPG;226;undetermined;0.391;;;;;indoor;0.846;degraded;0.661;absent;0.999;day;0.986;;;front;0.746;yes;0.658
+0612 - Tours People/IMG_1906.JPG;248;animal;0.406;;;;;indoor;0.954;;;absent;0.998;day;0.995;;;front;0.912;yes;0.937
+0612 - Tours People/IMG_1915.JPG;260;animal;0.435;;;;;indoor;0.942;;;absent;0.996;day;1.000;;;front;0.882;yes;0.918
+0612 - Tours People/IMG_1917.JPG;254;animal;0.623;;;;;indoor;0.876;;;absent;0.998;day;1.000;;;front;0.929;yes;0.905
+0612 - Tours People/IMG_1919.JPG;248;undetermined;0.508;;;;;indoor;0.968;degraded;0.367;absent;1.000;day;0.998;;;front;0.607;yes;0.797
+0612 - Tours People/IMG_1921.JPG;247;plastic_arts;0.444;;;sculpture;0.587;indoor;0.987;degraded;0.751;absent;0.999;day;0.997;;;front;0.899;yes;0.636
+0612 - Tours People/IMG_1929.JPG;241;undetermined;0.740;;;;;indoor;0.915;good;0.462;absent;0.961;day;0.979;;;front;0.965;yes;0.949
+0612 - Tours People/IMG_1930.JPG;215;undetermined;0.362;;;;;indoor;0.627;good;0.597;absent;1.000;day;0.998;;;front;0.933;yes;0.761
+0612 - Tours People/IMG_1931.JPG;226;undetermined;0.465;;;;;indoor;0.925;degraded;0.428;absent;0.998;day;0.929;;;front;0.987;yes;0.856
+0612 - Tours People/IMG_1932.JPG;256;undetermined;0.406;;;;;indoor;0.827;degraded;0.714;absent;0.999;day;0.998;;;front;0.972;yes;0.644
+0612 - Tours People/IMG_1933.JPG;255;animal;0.316;;;;;indoor;0.919;;;absent;0.996;day;0.997;;;front;0.962;yes;0.912
+0612 - Tours People/IMG_1934.JPG;257;plastic_arts;0.272;;;sculpture;0.749;indoor;0.902;good;0.622;absent;0.993;day;1.000;;;front;0.945;no;0.333
+0612 - Tours People/IMG_1937.JPG;255;animal;0.370;;;;;indoor;0.899;;;absent;0.999;day;1.000;;;front;0.998;yes;0.672
+0612 - Tours People/IMG_1940.JPG;242;animal;0.610;;;;;indoor;0.893;;;absent;0.999;day;0.998;;;front;0.996;yes;0.880
+0612 - Tours People/IMG_1942.JPG;196;animal;0.648;;;;;indoor;0.958;;;absent;0.999;day;0.999;;;front;0.703;yes;0.830
+0612 - Tours People/IMG_1944.JPG;252;undetermined;0.388;;;;;indoor;0.970;degraded;0.397;absent;0.999;day;0.998;;;front;0.963;yes;0.927
+0612 - Tours People/IMG_1945.JPG;233;animal;0.583;;;;;indoor;0.981;;;absent;1.000;day;0.999;;;front;0.931;yes;0.824
+0612 - Tours People/IMG_1947.JPG;264;undetermined;0.456;;;;;indoor;0.951;good;0.536;absent;0.999;day;0.996;;;front;0.986;yes;0.971
+0612 - Tours People/IMG_1948.JPG;259;undetermined;0.529;;;;;indoor;0.948;good;0.710;absent;0.999;day;0.999;;;front;0.825;yes;0.855
+0612 - Tours People/IMG_1956.JPG;234;plastic_arts;0.352;;;sculpture;0.753;indoor;0.871;good;0.651;absent;1.000;day;0.999;;;front;0.903;yes;0.867
+0612 - Tours People/IMG_1957.JPG;248;graphic;0.502;;;;;outdoor;0.623;degraded;0.429;absent;0.996;day;0.999;;;profile;0.755;no;0.295
+0612 - Tours People/IMG_1960.JPG;244;facade;0.238;;;;;outdoor;0.701;good;0.386;absent;0.997;day;0.992;;;front;0.916;yes;0.899
+0612 - Tours People/IMG_1961.JPG;247;undetermined;0.277;;;;;outdoor;0.560;degraded;0.399;absent;0.999;day;0.998;;;front;0.926;yes;0.818
+0612 - Tours People/IMG_1962.JPG;256;undetermined;0.431;;;;;outdoor;0.877;good;0.724;absent;0.999;day;0.817;;;front;0.591;yes;0.894
+0612 - Tours People/IMG_1963.JPG;194;undetermined;0.328;;;;;outdoor;0.933;good;0.510;absent;0.997;day;0.847;;;front;0.872;yes;0.847
+0612 - Tours People/IMG_1968.JPG;242;animal;0.320;;;;;indoor;0.692;;;absent;0.998;day;0.978;;;front;0.917;yes;0.908
+0612 - Tours People/IMG_1969.JPG;228;animal;0.410;;;;;indoor;0.622;;;absent;0.996;day;0.979;;;front;0.957;yes;0.870
+0612 - Tours People/IMG_1970.JPG;241;undetermined;0.356;;;;;indoor;0.775;good;0.643;absent;1.000;day;0.989;;;front;0.843;yes;0.560
+0612 - Tours People/IMG_1971.JPG;260;plastic_arts;0.284;;;sculpture;0.639;indoor;0.653;good;0.572;absent;0.999;day;0.603;;;no;0.443;yes;0.843
+0612 - Tours People/IMG_1973.JPG;256;plastic_arts;0.707;;;sculpture;0.998;outdoor;0.997;degraded;0.737;absent;0.979;night;0.818;;;no;0.875;yes;0.552
+0612 - Tours People/IMG_1975.JPG;235;facade;0.521;;;;;outdoor;0.997;degraded;0.537;absent;0.998;night;0.703;;;back;0.488;yes;0.567
+0612 - Tours People/IMG_1976.JPG;250;plastic_arts;0.546;;;sculpture;0.997;outdoor;0.985;degraded;0.701;absent;0.997;day;0.711;;;no;0.949;yes;0.537
+0612 - Tours People/IMG_1977.JPG;216;plastic_arts;0.589;;;sculpture;0.997;outdoor;0.971;degraded;0.645;absent;0.998;day;0.798;;;no;0.969;yes;0.686
+0612 - Tours People/IMG_1978.JPG;250;plastic_arts;0.865;;;sculpture;1.000;outdoor;0.963;degraded;0.590;absent;0.998;day;0.895;;;no;0.757;yes;0.731
+0612 - Tours People/IMG_1979.JPG;253;plastic_arts;0.384;;;sculpture;0.944;indoor;0.993;good;0.652;absent;1.000;day;0.999;;;front;0.700;yes;0.522
+0612 - Tours People/IMG_1981.JPG;256;plastic_arts;0.605;;;sculpture;0.844;indoor;0.986;degraded;0.454;absent;1.000;day;0.995;;;front;0.918;yes;0.983
+0612 - Tours People/IMG_1985.JPG;255;animal;0.353;;;;;indoor;0.933;;;absent;1.000;day;1.000;;;front;0.821;yes;0.918
