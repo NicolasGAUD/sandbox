@@ -9,3 +9,5 @@ uploads/
 photos/
 *.docx
 results_4/
+
+results_measure/cache/

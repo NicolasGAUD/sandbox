@@ -1,0 +1,362 @@
+{
+  "yes_no": [
+    {
+      "name": "blurry",
+      "yes": [
+        "a blurry, out of focus photo",
+        "a photo with motion blur from camera shake"
+      ],
+      "no": [
+        "a sharp, in focus photo",
+        "a crisp, detailed photo"
+      ],
+      "uncertainty": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "name": "place_type",
+      "sorted": true,
+      "threshold": 0,
+      "probe": true,
+      "options": {
+        "factory": [
+          "an abandoned factory interior with rusty machinery",
+          "an old industrial hall with steel beams and pipes",
+          "a derelict warehouse with broken windows",
+          "a photo of an abandoned factory or warehouse"
+        ],
+        "house": [
+          "a photo of an old abandoned house",
+          "a derelict house with broken windows and overgrown garden"
+        ],
+        "hospital": [
+          "an abandoned hospital corridor with peeling paint",
+          "an old hospital room with beds",
+          "a medical operating room"
+        ],
+        "religious": [
+          "the inside of an old church with pews and an altar",
+          "a church with a bell tower",
+          "a chapel with stained glass windows",
+          "a photo of an abandoned church"
+        ],
+        "castle": [
+          "a photo of a castle",
+          "a medieval castle with stone towers"
+        ],
+        "office": [
+          "an abandoned office with desks and chairs",
+          "a messy room with old computers and papers",
+          "a photo of an abandoned office"
+        ],
+        "architecture": [
+          "a modern glass and concrete building",
+          "contemporary architecture seen from below",
+          "a tall skyscraper with a glass facade"
+        ],
+        "street_art": [
+          "a wall covered with colorful graffiti",
+          "a large mural painted on a wall",
+          "street art spray paint on concrete"
+        ],
+        "bunker": [
+          "a concrete military bunker",
+          "a world war two blockhouse",
+          "a dark concrete tunnel",
+          "a photo of a military bunker"
+        ],
+        "bridge": [
+          "an old stone bridge over a river",
+          "a railway viaduct with arches",
+          "a steel bridge",
+          "a photo of an old bridge or viaduct"
+        ],
+        "landscape": [
+          "a landscape with mountains and sky",
+          "a view of the sea and the coast",
+          "a field with trees and countryside",
+          "a photo of a landscape with sky, sea or countryside"
+        ],
+        "farm": [
+          "a photo of an abandoned farm or barn"
+        ],
+        "railway": [
+          "a photo of railway tracks",
+          "a photo of an abandoned railway line"
+        ],
+        "cave": [
+          "a photo inside a natural cave or grotto"
+        ],
+        "cellar": [
+          "an underground vaulted cellar with stone arches",
+          "a dark basement"
+        ],
+        "mill": [
+          "a photo of an old mill or watermill"
+        ],
+        "cemetery": [
+          "a photo of a cemetery with graves and tombstones"
+        ],
+        "vehicle": [
+          "a photo of an abandoned car, truck, bus or train",
+          "a photo of an old tractor or farm machine",
+          "a photo of an old rusty vehicle",
+          "a photo of an old boat or shipwreck",
+          "a photo of an abandoned airplane"
+        ],
+        "guard_house": [
+          "a photo of a small old stone guard house on a coastal cliff",
+          "a photo of a small stone hut by the sea"
+        ],
+        "vineyard_hut": [
+          "a photo of a small isolated shed or hut in a field",
+          "a photo of a small concrete hut in the countryside"
+        ],
+        "lighthouse": "a photo of a lighthouse",
+        "animal": [
+          "a photo of an animal",
+          "a bird perched on a branch",
+          "an insect on a flower"
+        ],
+        "graphic": [
+          "a photo of signs, text, logos or posters",
+          "a photo of a graphic design with lines, colors and patterns",
+          "an abstract photo with blurred colors and light",
+          "a close-up photo of geometric shapes and patterns"
+        ],
+        "macro": [
+          "a macro photo of a small detail",
+          "a close-up of a texture, rust or peeling paint"
+        ],
+        "plastic_arts": [
+          "a statue or a sculpture",
+          "a painting hanging on a wall",
+          "an art installation in a gallery"
+        ],
+        "facade": [
+          "a photo of a building facade",
+          "a photo of an old door or window on a facade",
+          "the front of a house with a door and windows seen from the street",
+          "a flat wall of a building with rows of windows"
+        ],
+        "street": [
+          "a city street with houses on both sides",
+          "a narrow old street with buildings"
+        ],
+        "urban_landscape": [
+          "a city skyline with buildings",
+          "an urban view with roads, cranes and buildings"
+        ]
+      }
+    },
+    {
+      "name": "vehicle_type",
+      "sorted": true,
+      "threshold": 0,
+      "probe": true,
+      "only_if": {
+        "place_type": [
+          "vehicle"
+        ]
+      },
+      "options": {
+        "boat": [
+          "a photo of an old boat or shipwreck",
+          "a photo of an abandoned ship"
+        ],
+        "plane": "a photo of an abandoned airplane",
+        "car": "a photo of an abandoned car",
+        "truck": "a photo of an abandoned truck",
+        "bus": "a photo of an abandoned bus",
+        "tank": "a photo of an old military tank",
+        "caravan": "a photo of an abandoned caravan or camper trailer",
+        "tractor": "a photo of an old tractor",
+        "train": "a photo of an abandoned train or locomotive"
+      }
+    },
+    {
+      "name": "art_type",
+      "sorted": true,
+      "threshold": 0,
+      "probe": true,
+      "only_if": {
+        "place_type": [
+          "plastic_arts"
+        ]
+      },
+      "options": {
+        "sculpture": "a photo of a statue or a sculpture",
+        "photo": "a photo of a photograph or a printed picture on display",
+        "collage": "a photo of a collage of paper and pictures on a wall",
+        "painting": "a photo of a painting on a canvas or on a wall"
+      }
+    },
+    {
+      "name": "indoor_outdoor",
+      "threshold": 0,
+      "probe": true,
+      "options": {
+        "indoor": "a photo taken indoors",
+        "outdoor": "a photo taken outdoors"
+      }
+    },
+    {
+      "name": "condition",
+      "threshold": 0,
+      "except": {
+        "place_type": [
+          "landscape",
+          "street",
+          "animal",
+          "street_art",
+          "macro",
+          "urban_landscape"
+        ]
+      },
+      "options": {
+        "good": [
+          "a photo of a clean, well-kept modern building with only a little dirt",
+          "a photo of a building in perfect condition, freshly renovated, with no damage",
+          "a photo of a well maintained building with a clean facade and new white windows"
+        ],
+        "degraded": [
+          "a photo of an old, weathered structure with moss, stains and rust",
+          "a photo of a neglected, dilapidated, abandoned structure",
+          "a photo of a building with boarded up, shuttered or propped up windows"
+        ],
+        "ruin": "a photo of a building in ruins with collapsed walls and no roof"
+      }
+    },
+    {
+      "name": "sky",
+      "threshold": 0,
+      "probe": true,
+      "options": {
+        "visible": [
+          "a building against a blue sky with clouds",
+          "an outdoor photo with the sky visible",
+          "a landscape with sky"
+        ],
+        "absent": [
+          "a close-up of a wall",
+          "an indoor photo of a room",
+          "a photo of the walls and ceiling of a room"
+        ]
+      }
+    },
+    {
+      "name": "time_of_day",
+      "threshold": 0,
+      "probe": true,
+      "options": {
+        "day": [
+          "a photo taken during the day in daylight",
+          "a bright sunny day"
+        ],
+        "dusk": [
+          "a photo of a sunset or sunrise with an orange sky",
+          "a photo at dusk in the blue hour"
+        ],
+        "night": [
+          "a photo taken at night in the dark",
+          "a night photo with artificial lights"
+        ]
+      }
+    },
+    {
+      "name": "weather",
+      "threshold": 0,
+      "probe": true,
+      "undetermined": false,
+      "only_if": {
+        "sky": [
+          "visible"
+        ]
+      },
+      "except": {
+        "indoor_outdoor": [
+          "indoor"
+        ],
+        "time_of_day": [
+          "night"
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        1,
+        0.3
+      ],
+      "with_full_image": true,
+      "options": {
+        "sunny": [
+          "a clear blue sky",
+          "a sunny day with a blue sky and no clouds"
+        ],
+        "few_clouds": [
+          "a blue sky with a few small clouds",
+          "a mostly blue sky with some clouds"
+        ],
+        "mixed": [
+          "a blue sky with scattered white clouds",
+          "a partly cloudy sky"
+        ],
+        "cloudy": [
+          "an overcast sky covered with grey clouds",
+          "a white cloudy sky"
+        ],
+        "bad_weather": [
+          "a dark stormy sky with black clouds",
+          "a rainy day with heavy dark clouds"
+        ]
+      }
+    },
+    {
+      "name": "person",
+      "probe": true,
+      "threshold": 0,
+      "except": {
+        "place_type": [
+          "macro",
+          "street_art"
+        ]
+      },
+      "options": {
+        "front": [
+          "a person looking at the camera",
+          "a portrait of a person"
+        ],
+        "back": [
+          "a person seen from behind",
+          "a person walking away"
+        ],
+        "profile": [
+          "a person in profile",
+          "a person seen from the side"
+        ],
+        "no": [
+          "an empty place",
+          "a place with nobody"
+        ]
+      }
+    },
+    {
+      "name": "site_type",
+      "hidden": true,
+      "in_answers": true,
+      "probe": true,
+      "threshold": 0.4,
+      "options": {
+        "HOT": "a photo of an abandoned hotel",
+        "PIS": "a photo of an abandoned swimming pool or thermal baths",
+        "VIL": "a photo of an abandoned village",
+        "other": "a photo of an abandoned building"
+      }
+    }
+  ],
+  "rules": []
+}

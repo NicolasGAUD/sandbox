@@ -1,0 +1,61 @@
+51 photos
+Ollama qwen3-vl:2b, digest 0635d9d857d4
+11 photos already measured, 39 to do
+[39/39] 133669 ms, elapsed 3750 s
+
+Analysis time per photo: 98337 ms (first photo excluded, loading excluded)
+Wall time per photo: 96162 ms
+
+qwen: all photos
+criterion            n  accuracy   undet.  n appl.  acc appl.
+place_type          49     42.9%     2.0%       49      42.9%
+vehicle_type        50     98.0%     0.0%        1       0.0%
+art_type            16    100.0%     0.0%        0          -
+indoor_outdoor      50     96.0%     0.0%       50      96.0%
+condition           50     62.0%     2.0%       35      51.4%
+sky                 50     78.0%     0.0%       50      78.0%
+time_of_day         50     94.0%     0.0%       50      94.0%
+weather             50     60.0%     0.0%       28      57.1%
+person              50     88.0%     0.0%       47      89.4%
+site_type           13     92.3%     0.0%       13      92.3%
+blurry              50     78.0%     0.0%       50      78.0%
+
+qwen: expected_3 (17 photos)
+criterion            n  accuracy   undet.  n appl.  acc appl.
+place_type          16     37.5%     0.0%       16      37.5%
+vehicle_type        17    100.0%     0.0%        0          -
+indoor_outdoor      17    100.0%     0.0%       17     100.0%
+condition           17     70.6%     0.0%       17      70.6%
+sky                 17     82.4%     0.0%       17      82.4%
+time_of_day         17     94.1%     0.0%       17      94.1%
+weather             17     52.9%     0.0%       11      36.4%
+person              17     94.1%     0.0%       17      94.1%
+site_type           13     92.3%     0.0%       13      92.3%
+blurry              17    100.0%     0.0%       17     100.0%
+
+qwen: expected_4 (17 photos)
+criterion            n  accuracy   undet.  n appl.  acc appl.
+place_type          17     52.9%     0.0%       17      52.9%
+vehicle_type        17    100.0%     0.0%        0          -
+indoor_outdoor      17     94.1%     0.0%       17      94.1%
+condition           17     64.7%     0.0%       11      45.5%
+sky                 17     88.2%     0.0%       17      88.2%
+time_of_day         17    100.0%     0.0%       17     100.0%
+weather             17     76.5%     0.0%        8      75.0%
+person              17     88.2%     0.0%       15      86.7%
+blurry              17     82.4%     0.0%       17      82.4%
+
+qwen: expected_A95 (16 photos)
+criterion            n  accuracy   undet.  n appl.  acc appl.
+place_type          16     37.5%     6.2%       16      37.5%
+vehicle_type        16     93.8%     0.0%        1       0.0%
+art_type            16    100.0%     0.0%        0          -
+indoor_outdoor      16     93.8%     0.0%       16      93.8%
+condition           16     50.0%     6.2%        7      14.3%
+sky                 16     62.5%     0.0%       16      62.5%
+time_of_day         16     87.5%     0.0%       16      87.5%
+weather             16     50.0%     0.0%        9      66.7%
+person              16     81.2%     0.0%       15      86.7%
+blurry              16     50.0%     0.0%       16      50.0%
+
+Results: D:\WebstormProjects\sandbox\results_measure\qwen\results.csv

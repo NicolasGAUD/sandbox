@@ -1,0 +1,97 @@
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+800 photos
+Loading weights:   0%|          | 0/408 [00:00<?, ?it/s]Loading weights:   6%|6         | 26/408 [00:00<00:01, 209.42it/s]Loading weights:  13%|#3        | 55/408 [00:00<00:01, 249.46it/s]Loading weights:  20%|#9        | 81/408 [00:00<00:01, 239.79it/s]Loading weights:  26%|##5       | 106/408 [00:00<00:01, 228.86it/s]Loading weights:  32%|###1      | 130/408 [00:00<00:01, 200.04it/s]Loading weights:  40%|####      | 165/408 [00:00<00:01, 236.30it/s]Loading weights:  50%|#####     | 206/408 [00:00<00:00, 284.67it/s]Loading weights: 100%|##########| 408/408 [00:00<00:00, 475.53it/s]
+google/siglip2-base-patch16-224, revision 75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2
+[50/800] 737 ms, elapsed 38 s
+[100/800] 662 ms, elapsed 68 s
+[150/800] 337 ms, elapsed 96 s
+[200/800] 330 ms, elapsed 122 s
+[250/800] 653 ms, elapsed 148 s
+[300/800] 361 ms, elapsed 175 s
+[350/800] 684 ms, elapsed 201 s
+[400/800] 381 ms, elapsed 227 s
+[450/800] 393 ms, elapsed 253 s
+[500/800] 353 ms, elapsed 281 s
+[550/800] 357 ms, elapsed 306 s
+[600/800] 699 ms, elapsed 335 s
+[650/800] 846 ms, elapsed 360 s
+[700/800] 380 ms, elapsed 385 s
+[750/800] 357 ms, elapsed 410 s
+[800/800] 397 ms, elapsed 429 s
+
+Analysis time per photo: 535 ms (first photo excluded, loading excluded)
+Wall time per photo: 536 ms
+
+siglip2: all photos
+criterion            n  accuracy   undet.  n appl.  acc appl.
+place_type         773     55.5%     0.0%      773      55.5%
+vehicle_type       799     98.4%     0.0%       33      60.6%
+art_type           200     98.0%     0.0%        3      33.3%
+indoor_outdoor     800     92.4%     0.0%      800      92.4%
+condition          800     72.2%     0.0%      541      65.1%
+sky                800     84.8%     0.0%      800      84.8%
+time_of_day        800     82.5%     0.0%      800      82.5%
+weather            789     67.3%     0.0%      464      46.3%
+person             800     85.1%     0.0%      754      84.6%
+site_type          276     56.2%     0.7%      276      56.2%
+blurry             800     82.9%     0.0%      800      82.9%
+blurry_rel         800     65.6%     0.0%      800      65.6%
+
+siglip2: expected_2 (200 photos)
+criterion            n  accuracy   undet.  n appl.  acc appl.
+place_type         191     67.0%     0.0%      191      67.0%
+vehicle_type       199    100.0%     0.0%        2     100.0%
+indoor_outdoor     200     93.5%     0.0%      200      93.5%
+condition          200     71.5%     0.0%      139      61.9%
+sky                200     87.0%     0.0%      200      87.0%
+time_of_day        200     78.0%     0.0%      200      78.0%
+weather            189     60.3%     0.0%      128      43.0%
+person             200     92.5%     0.0%      185      91.9%
+site_type          105     43.8%     0.0%      105      43.8%
+blurry             200    100.0%     0.0%      200     100.0%
+blurry_rel         200     61.0%     0.0%      200      61.0%
+
+siglip2: expected_3 (200 photos)
+criterion            n  accuracy   undet.  n appl.  acc appl.
+place_type         182     45.6%     0.0%      182      45.6%
+vehicle_type       200     96.0%     0.0%       19      57.9%
+indoor_outdoor     200     94.5%     0.0%      200      94.5%
+condition          200     79.5%     0.0%      196      80.6%
+sky                200     86.0%     0.0%      200      86.0%
+time_of_day        200     89.5%     0.0%      200      89.5%
+weather            200     75.0%     0.0%      115      59.1%
+person             200     95.5%     0.0%      200      95.5%
+site_type          160     64.4%     1.2%      160      64.4%
+blurry             200    100.0%     0.0%      200     100.0%
+blurry_rel         200     76.5%     0.0%      200      76.5%
+
+siglip2: expected_4 (200 photos)
+criterion            n  accuracy   undet.  n appl.  acc appl.
+place_type         200     66.0%     0.0%      200      66.0%
+vehicle_type       200     99.0%     0.0%        9      77.8%
+indoor_outdoor     200     94.0%     0.0%      200      94.0%
+condition          200     74.5%     0.0%      100      57.0%
+sky                200     90.5%     0.0%      200      90.5%
+time_of_day        200     85.0%     0.0%      200      85.0%
+weather            200     67.5%     0.0%      117      46.2%
+person             200     85.0%     0.0%      183      84.7%
+site_type           11     54.5%     0.0%       11      54.5%
+blurry             200     96.0%     0.0%      200      96.0%
+blurry_rel         200     55.0%     0.0%      200      55.0%
+
+siglip2: expected_A95 (200 photos)
+criterion            n  accuracy   undet.  n appl.  acc appl.
+place_type         200     43.0%     0.0%      200      43.0%
+vehicle_type       200     98.5%     0.0%        3       0.0%
+art_type           200     98.0%     0.0%        3      33.3%
+indoor_outdoor     200     87.5%     0.0%      200      87.5%
+condition          200     63.5%     0.0%      106      48.1%
+sky                200     75.5%     0.0%      200      75.5%
+time_of_day        200     77.5%     0.0%      200      77.5%
+weather            200     66.0%     0.0%      104      36.5%
+person             200     67.5%     0.0%      186      65.6%
+blurry             200     35.5%     0.0%      200      35.5%
+blurry_rel         200     70.0%     0.0%      200      70.0%
+
+Results: D:\WebstormProjects\sandbox\results_measure\siglip2\results.csv

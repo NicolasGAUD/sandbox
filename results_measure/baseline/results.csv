@@ -1,0 +1,1351 @@
+﻿set;file;time_ms;art_type;blurry;condition;indoor_outdoor;person;place_type;sky;time_of_day;vehicle_type;weather
+expected_A95;0502 - Bx Panoroom trip night/1.JPG;;;yes;excellent;indoor;no;facade;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/2.JPG;;;yes;excellent;indoor;no;facade;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/3.JPG;;;yes;good;indoor;no;facade;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/4.JPG;;sculpture;yes;good;indoor;no;plastic_arts;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/5.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/6.JPG;;;yes;good;indoor;front;bunker;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/7.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/8.JPG;;;no;good;indoor;no;house;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/9.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/91.JPG;;;yes;;indoor;no;landscape;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/92.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/93.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/94.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2277.JPG;;painting;yes;good;indoor;no;plastic_arts;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2278.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2279.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2280.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2281.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2282.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2284.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2345.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2351-2.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0502 - Bx Panoroom trip night/IMG_2352.JPG;;;no;good;indoor;no;graphic;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2354.JPG;;;no;good;indoor;no;graphic;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2356.JPG;;;yes;degraded;indoor;no;facade;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2366.JPG;;;yes;good;outdoor;no;vehicle;absent;night;car;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2367.JPG;;;yes;;outdoor;no;street;absent;night;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2382.JPG;;;yes;degraded;indoor;no;facade;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2404.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2407.JPG;;;yes;good;outdoor;no;architecture;absent;night;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2408.JPG;;;yes;excellent;indoor;no;graphic;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2418.JPG;;sculpture;yes;degraded;indoor;no;plastic_arts;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2448.JPG;;;yes;excellent;outdoor;no;facade;visible;night;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2454.JPG;;;yes;excellent;outdoor;no;facade;absent;night;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2460.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/IMG_2470.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0502 - Bx Panoroom trip night/Leader 3 copie.jpg;;;yes;;outdoor;no;street;absent;night;;
+expected_A95;0502 - Bx Panoroom trip night/ParkView3.jpg;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0502 - Bx Panoroom trip night/RoomPano1 final.jpg;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0502 - Bx Panoroom trip night/Sans titre-1.jpg;;;no;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0507 - Andernos w Enfore/IMG_0541.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0507 - Andernos w Enfore/IMG_0545.JPG;;;yes;good;outdoor;front;undetermined;absent;day;;
+expected_A95;0507 - Andernos w Enfore/IMG_0546.JPG;;;yes;good;outdoor;front;undetermined;absent;day;;
+expected_A95;0507 - Andernos w Enfore/IMG_0548.JPG;;;yes;good;outdoor;front;undetermined;absent;day;;
+expected_A95;0507 - Andernos/IMG_0487.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0507 - Andernos/IMG_0491.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0507 - Andernos/IMG_0493.JPG;;;yes;excellent;indoor;front;undetermined;absent;day;;
+expected_A95;0507 - Andernos/IMG_0494.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0507 - Andernos/IMG_0495.JPG;;;yes;;outdoor;no;animal;absent;day;;
+expected_A95;0507 - Andernos/IMG_0502.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0507 - Andernos/IMG_0504.JPG;;;yes;excellent;indoor;front;undetermined;absent;day;;
+expected_A95;0507 - Andernos/IMG_0506.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0507 - Andernos/IMG_0508.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0507 - Andernos/IMG_0510.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0507 - Andernos/IMG_0516.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0507 - Andernos/IMG_0525.JPG;;;yes;good;outdoor;front;undetermined;absent;day;;
+expected_A95;0507 - Bx/IMG_0921.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0922.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0924.JPG;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0507 - Bx/IMG_0928.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0928croiséneg.jpg;;;yes;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0933.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0934.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0936.JPG;;;no;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0938.JPG;;;no;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0942.JPG;;;no;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0944.JPG;;;yes;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0946.JPG;;;yes;degraded;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0947.JPG;;;no;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0949.JPG;;;no;;outdoor;no;street;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0955.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0957.JPG;;;yes;degraded;outdoor;no;vehicle;absent;day;undetermined;
+expected_A95;0507 - Bx/IMG_0959.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0960.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0961.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0963.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0964.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0968.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0970.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0971.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0972.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0973.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0974.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0975.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0976.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0977.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0978.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0979.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0983.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0507 - Bx/IMG_0985.JPG;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0507 - Bx/IMG_0987.JPG;;;no;excellent;outdoor;no;graphic;visible;day;;mixed
+expected_A95;0507 - Bx/IMG_0988.JPG;;;no;excellent;outdoor;no;graphic;absent;day;;
+expected_A95;0507 - Bx/IMG_0990.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0991.JPG;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0507 - Bx/IMG_0994.JPG;;;no;excellent;outdoor;no;graphic;absent;day;;
+expected_A95;0507 - Bx/IMG_0995.JPG;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0507 - Bx/IMG_0997.JPG;;;yes;excellent;outdoor;no;castle;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_0999.JPG;;;no;excellent;outdoor;no;castle;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_1003.JPG;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0507 - Bx/IMG_1004.JPG;;;yes;;outdoor;no;street;absent;day;;
+expected_A95;0507 - Bx/IMG_1006.JPG;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0507 - Bx/IMG_1013.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_1015.JPG;;;no;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0507 - Bx/IMG_1016.JPG;;;no;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0507 - Bx/panobourserecadre.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_0928.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_0928croiséneg.jpg;;;yes;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1663.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1664.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1669.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1670.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1672.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0508 - Bx Cenon/IMG_1676.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1677.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1680.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1681.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1684.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1685.JPG;;;yes;good;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1686.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1691.jpg;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1692.jpg;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1693.jpg;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1694.jpg;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1695.jpg;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1696.jpg;;;yes;;outdoor;no;urban_landscape;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1697.jpg;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0508 - Bx Cenon/IMG_1701.jpg;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1703.jpg;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1704.jpg;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1705.jpg;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1706.jpg;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1708.jpg;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1709.jpg;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1710.jpg;;;yes;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1711.jpg;;;yes;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1712.jpg;;;yes;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1713.jpg;;;no;degraded;outdoor;no;cemetery;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1717.jpg;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1719.jpg;;;no;good;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1723.jpg;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1726.jpg;;;yes;degraded;outdoor;no;vehicle;absent;day;truck;
+expected_A95;0508 - Bx Cenon/IMG_1729.jpg;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1730.jpg;;;no;good;outdoor;no;vehicle;absent;day;undetermined;
+expected_A95;0508 - Bx Cenon/IMG_1732.jpg;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1734.jpg;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1736.jpg;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1737.jpg;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1738.jpg;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1739.jpg;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1744.jpg;;;yes;good;outdoor;no;bridge;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1747.jpg;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1748.jpg;;;yes;good;outdoor;no;bridge;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1749.jpg;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1750.jpg;;;no;good;outdoor;no;religious;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1751.jpg;;;yes;;outdoor;no;street;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1752.jpg;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0508 - Bx Cenon/IMG_1753.jpg;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0508 - Bx Cenon/IMG_1755.jpg;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0508 - Bx/IMG_1796.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0508 - Bx/IMG_1803.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0508 - Bx/IMG_1804.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0508 - Bx/IMG_1809.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0508 - Bx/IMG_1825.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0508 - Bx/IMG_1832.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0508 - Bx/IMG_1834.JPG;;;yes;degraded;outdoor;no;vehicle;absent;day;boat;
+expected_A95;0508 - Bx/IMG_1835.JPG;;;no;degraded;outdoor;no;vehicle;absent;day;boat;
+expected_A95;0508 - Bx/IMG_1841.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0508 - Bx/IMG_1879.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0508 - Bx/IMG_1883.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0508 - Bx/IMG_1891.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0508 - Bx/IMG_1892.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0508 - Bx/IMG_1893.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0508 - Bx/IMG_1895.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0508 - Bx/IMG_1903.JPG;;;yes;;outdoor;no;street;absent;day;;
+expected_A95;0508 - Bx/pontpierreretouch.jpg;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0509 - St Jean Luz/D1000001.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000002.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000005.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000006.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000007.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000010.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000014.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000017.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000020.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000022.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000025.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000032.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000033.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000035.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000039recadr.jpg;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000042.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000042recadr.jpg;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000044.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000045.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000046.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000049.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000050.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000052.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000054.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000055.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000056.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000057.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000058.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000060.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000061.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000066.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000068.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000069.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000073.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000076.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000077.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000078.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000080.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000082.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1000084.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1000089.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0509 - St Jean Luz/D1000091.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;few_clouds
+expected_A95;0509 - St Jean Luz/D1010002.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1010005.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0509 - St Jean Luz/D1010008.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010009.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010010.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010011.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010012.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010013.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010014.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010016.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010018.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010019.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010021.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010025.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010026.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/D1010027.JPG;;;no;;outdoor;;macro;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1010032.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/D1010033.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0509 - St Jean Luz/IMG_2050.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0509 - St Jean Luz/IMG_2051.JPG;;;no;degraded;outdoor;no;vehicle;visible;day;boat;sunny
+expected_A95;0509 - St Jean Luz/IMG_2053.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/IMG_2093.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/IMG_2097.JPG;;painting;yes;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0509 - St Jean Luz/IMG_2110.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0509 - St Jean Luz/IMG_2110recadr.jpg;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/IMG_2112.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0509 - St Jean Luz/IMG_2113.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0509 - St Jean Luz/IMG_2115.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/IMG_2115recadr.jpg;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0509 - St Jean Luz/IMG_2121.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0509 - St Jean Luz/IMG_2122.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0509 - St Jean Luz/IMG_2124.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0509 - St Jean Luz/graph1-2.jpg;;sculpture;no;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0509 - St Jean Luz/graph1-3.jpg;;;yes;ruin;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/graph1.jpg;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/graph2-2.jpg;;;no;ruin;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/graph2-3.jpg;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/graph2-4.jpg;;;no;ruin;outdoor;no;graphic;absent;day;;
+expected_A95;0509 - St Jean Luz/graph2.jpg;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 001.jpg;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 005.jpg;;;no;degraded;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 007.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 008.jpg;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 009.jpg;;;no;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 011.jpg;;;yes;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 013.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 014.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 016-2.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 016.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 018.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 020.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 021.jpg;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 022.jpg;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 023.jpg;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 024.jpg;;;no;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 026.jpg;;;no;good;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0511 - Bruxelles/PhotoBrux1 028.jpg;;;yes;degraded;outdoor;no;facade;visible;day;;few_clouds
+expected_A95;0511 - Bruxelles/PhotoBrux1 030.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 032.jpg;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 035.jpg;;;yes;excellent;outdoor;no;graphic;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 036.jpg;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 038.jpg;;;yes;excellent;outdoor;no;graphic;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 040.jpg;;sculpture;yes;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 043.jpg;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 045.jpg;;;yes;;outdoor;no;street;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 046.jpg;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 047.jpg;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 049.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;bad_weather
+expected_A95;0511 - Bruxelles/PhotoBrux1 051.jpg;;;yes;excellent;outdoor;no;graphic;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 052.jpg;;;yes;;outdoor;no;street;visible;day;;sunny
+expected_A95;0511 - Bruxelles/PhotoBrux1 053.jpg;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 067.jpg;;;no;degraded;outdoor;no;cemetery;visible;day;;few_clouds
+expected_A95;0511 - Bruxelles/PhotoBrux1 069.jpg;;;yes;good;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0511 - Bruxelles/PhotoBrux1 070.jpg;;;yes;;outdoor;no;street;absent;day;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 073.jpg;;;yes;degraded;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0511 - Bruxelles/PhotoBrux1 077.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0511 - Bruxelles/PhotoBrux1 079.jpg;;;yes;excellent;outdoor;no;architecture;visible;dusk;;cloudy
+expected_A95;0511 - Bruxelles/PhotoBrux1 084.jpg;;;yes;excellent;outdoor;no;religious;visible;night;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 089.jpg;;;yes;excellent;outdoor;no;architecture;visible;night;;
+expected_A95;0511 - Bruxelles/PhotoBrux1 094.jpg;;;yes;excellent;outdoor;no;facade;absent;night;;
+expected_A95;0511 - Bruxelles/PhotoBrux2 003.jpg;;;yes;excellent;outdoor;no;architecture;visible;night;;
+expected_A95;0511 - Bruxelles/PhotoBrux2 009.jpg;;;yes;excellent;outdoor;no;architecture;visible;night;;
+expected_A95;0602 - Bx snow/IMG_2506.JPG;;;yes;;outdoor;no;street;visible;day;;cloudy
+expected_A95;0602 - Bx snow/IMG_2510.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0602 - Bx snow/IMG_2513.JPG;;;yes;;outdoor;no;street;visible;day;;cloudy
+expected_A95;0602 - Bx snow/IMG_2514.JPG;;;yes;;outdoor;no;street;visible;day;;cloudy
+expected_A95;0602 - Bx snow/IMG_2515.JPG;;;yes;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2518.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;cloudy
+expected_A95;0602 - Bx snow/IMG_2519.JPG;;;yes;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2520.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;mixed
+expected_A95;0602 - Bx snow/IMG_2521.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0602 - Bx snow/IMG_2523.JPG;;;yes;;outdoor;no;street;absent;day;;
+expected_A95;0602 - Bx snow/IMG_2527.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0602 - Bx snow/IMG_2531.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2533.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0602 - Bx snow/IMG_2534.JPG;;;no;;outdoor;no;street;visible;day;;cloudy
+expected_A95;0602 - Bx snow/IMG_2535.JPG;;;no;excellent;outdoor;no;facade;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2536.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0602 - Bx snow/IMG_2538.JPG;;;yes;good;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2539.JPG;;;yes;good;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2540.JPG;;;yes;;outdoor;no;street;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2541.JPG;;;yes;;outdoor;no;street;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2542.JPG;;;yes;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2544.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2548.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2550.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0602 - Bx snow/IMG_2553.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2554.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2555.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2556.JPG;;;no;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2558.JPG;;;no;;outdoor;no;street;visible;day;;mixed
+expected_A95;0602 - Bx snow/IMG_2559.JPG;;;no;;outdoor;no;street;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2560.JPG;;;no;;outdoor;no;street;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2561.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2562.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2563.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2564.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/IMG_2569.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;mixed
+expected_A95;0602 - Bx snow/IMG_2572.JPG;;;yes;;outdoor;back;street;absent;day;;
+expected_A95;0602 - Bx snow/IMG_2574.JPG;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0602 - Bx snow/IMG_2577.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2581.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2583.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0602 - Bx snow/IMG_2585.JPG;;;no;good;outdoor;no;facade;visible;day;;sunny
+expected_A95;0602 - Bx snow/PanoMairie.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/PanoMeriadeck.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0602 - Bx snow/PanoParkHugo1.jpg;;;no;;outdoor;no;street;visible;day;;sunny
+expected_A95;0602 - Bx snow/PanoQuais.jpg;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0603 - Belgique/IMG_5815.JPG;;;no;good;outdoor;no;architecture;visible;day;;mixed
+expected_A95;0603 - Belgique/IMG_5821.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5822.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5824.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0603 - Belgique/IMG_5828.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5830.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5831.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5838.JPG;;;no;good;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5840.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0603 - Belgique/IMG_5843.JPG;;;no;excellent;outdoor;no;facade;visible;day;;few_clouds
+expected_A95;0603 - Belgique/IMG_5846.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5849.JPG;;;yes;degraded;outdoor;no;religious;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5850.JPG;;;yes;degraded;outdoor;no;religious;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5851.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5857.JPG;;sculpture;yes;good;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0603 - Belgique/IMG_5859.JPG;;sculpture;yes;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0603 - Belgique/IMG_5860.JPG;;sculpture;yes;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0603 - Belgique/IMG_5861.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5862.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5864.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5866.JPG;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5868.JPG;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_5870.JPG;;;yes;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5872.JPG;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_5873.JPG;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_5876.JPG;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_5877.JPG;;;yes;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5879.JPG;;;yes;degraded;outdoor;no;religious;visible;day;;few_clouds
+expected_A95;0603 - Belgique/IMG_5883.JPG;;;no;degraded;outdoor;no;religious;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5887.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_5889.JPG;;;yes;good;outdoor;no;vehicle;absent;day;car;
+expected_A95;0603 - Belgique/IMG_5892.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;cloudy
+expected_A95;0603 - Belgique/IMG_5895.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0603 - Belgique/IMG_5900.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;mixed
+expected_A95;0603 - Belgique/IMG_5909.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;cloudy
+expected_A95;0603 - Belgique/IMG_5910.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;cloudy
+expected_A95;0603 - Belgique/IMG_5911.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;mixed
+expected_A95;0603 - Belgique/IMG_5913.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0603 - Belgique/IMG_5917.JPG;;;yes;degraded;outdoor;no;graphic;absent;dusk;;
+expected_A95;0603 - Belgique/IMG_5919.JPG;;;yes;degraded;outdoor;no;graphic;absent;night;;
+expected_A95;0603 - Belgique/IMG_5925.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5931.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5933.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5935.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_5947.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0603 - Belgique/IMG_5966.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0603 - Belgique/IMG_5967.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0603 - Belgique/IMG_5970.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5971.JPG;;;yes;ruin;outdoor;no;religious;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5974.JPG;;;yes;ruin;outdoor;no;castle;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5978.JPG;;;yes;;outdoor;no;street;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5983.JPG;;;yes;;outdoor;front;landscape;absent;day;;
+expected_A95;0603 - Belgique/IMG_5984.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5985.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0603 - Belgique/IMG_5987.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5989.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0603 - Belgique/IMG_5994.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5998.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_5999.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_6003.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0603 - Belgique/IMG_6004.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_6009.JPG;;;no;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0603 - Belgique/IMG_6012.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0603 - Belgique/IMG_6019.JPG;;;yes;;outdoor;no;street;visible;dusk;;mixed
+expected_A95;0603 - Belgique/IMG_6021.JPG;;;yes;;outdoor;no;urban_landscape;absent;night;;
+expected_A95;0603 - Belgique/IMG_6023.JPG;;;yes;degraded;outdoor;no;graphic;absent;night;;
+expected_A95;0603 - Belgique/IMG_6053.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6055.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6097.JPG;;;no;degraded;outdoor;no;cemetery;absent;day;;
+expected_A95;0603 - Belgique/IMG_6099.JPG;;;no;degraded;outdoor;no;cemetery;absent;day;;
+expected_A95;0603 - Belgique/IMG_6100.JPG;;;yes;degraded;outdoor;no;cemetery;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_6102.JPG;;;yes;good;outdoor;no;cemetery;absent;day;;
+expected_A95;0603 - Belgique/IMG_6104.JPG;;;no;degraded;outdoor;no;cemetery;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_6106.JPG;;;no;degraded;outdoor;no;cemetery;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_6110.JPG;;;yes;degraded;outdoor;no;bridge;absent;day;;
+expected_A95;0603 - Belgique/IMG_6111.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0603 - Belgique/IMG_6112.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_6123.JPG;;;yes;degraded;outdoor;no;castle;visible;day;;bad_weather
+expected_A95;0603 - Belgique/IMG_6126.JPG;;;no;degraded;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_6128.JPG;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_6130.JPG;;;yes;degraded;outdoor;no;vehicle;absent;day;car;
+expected_A95;0603 - Belgique/IMG_6132.JPG;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_6136.JPG;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_6139.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6140.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_6142.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_6146.JPG;;;yes;;outdoor;front;landscape;absent;day;;
+expected_A95;0603 - Belgique/IMG_6148.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_6149.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_6153.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_6155.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0603 - Belgique/IMG_6158.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0603 - Belgique/IMG_6177.JPG;;;yes;excellent;outdoor;front;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_6182.JPG;;;yes;excellent;indoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6184.JPG;;;yes;excellent;indoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6185.JPG;;;yes;excellent;indoor;no;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_6188.JPG;;;yes;excellent;indoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6189.JPG;;;yes;good;indoor;no;vehicle;absent;day;car;
+expected_A95;0603 - Belgique/IMG_6190.JPG;;;yes;excellent;indoor;no;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_6195.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6207.JPG;;;yes;degraded;outdoor;no;cave;absent;night;;
+expected_A95;0603 - Belgique/IMG_6208.JPG;;;yes;degraded;outdoor;no;cave;absent;day;;
+expected_A95;0603 - Belgique/IMG_6210.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0603 - Belgique/IMG_6218.JPG;;;no;degraded;outdoor;no;cave;absent;day;;
+expected_A95;0603 - Belgique/IMG_6220.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0603 - Belgique/IMG_6230.JPG;;;yes;degraded;outdoor;no;cave;absent;night;;
+expected_A95;0603 - Belgique/IMG_6235.JPG;;;yes;degraded;outdoor;no;cave;absent;night;;
+expected_A95;0603 - Belgique/IMG_6239.JPG;;;yes;degraded;outdoor;no;graphic;absent;night;;
+expected_A95;0603 - Belgique/IMG_6243.JPG;;;yes;degraded;outdoor;no;vehicle;absent;day;boat;
+expected_A95;0603 - Belgique/IMG_6244.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6265.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6275.JPG;;sculpture;no;good;indoor;no;plastic_arts;absent;day;;
+expected_A95;0603 - Belgique/IMG_6276.JPG;;sculpture;yes;good;indoor;no;plastic_arts;absent;day;;
+expected_A95;0603 - Belgique/IMG_6279.JPG;;;yes;degraded;indoor;profile;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6284.JPG;;;no;good;outdoor;front;graphic;absent;day;;
+expected_A95;0603 - Belgique/IMG_6286.JPG;;;yes;degraded;outdoor;front;facade;absent;day;;
+expected_A95;0603 - Belgique/IMG_6287.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0603 - Belgique/IMG_6288.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0603 - Belgique/IMG_6290.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;few_clouds
+expected_A95;0603 - Belgique/IMG_6296.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0603 - Belgique/IMG_6297.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0603 - Belgique/IMG_6300.JPG;;;no;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0603 - Belgique/IMG_6304.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_6307.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0603 - Belgique/IMG_6313-2.jpg;;;no;;outdoor;no;urban_landscape;absent;day;;
+expected_A95;0603 - Belgique/IMG_6313.JPG;;;no;;outdoor;no;urban_landscape;absent;day;;
+expected_A95;0603 - Belgique/IMG_6319.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_6322.JPG;;;yes;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0603 - Belgique/IMG_6324-2.jpg;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0603 - Belgique/IMG_6324.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0603 - Belgique/IMG_6328.JPG;;;no;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0603 - Belgique/IMG_6330.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0603 - Belgique/MVI_5968.jpg;;;yes;good;outdoor;no;graphic;absent;night;;
+expected_A95;0603 - Belgique/PhotoBrux1 016-2.jpg;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Belgique/PhotoBrux1 040.jpg;;sculpture;yes;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0603 - Belgique/PhotoBrux2 009.jpg;;;yes;excellent;outdoor;no;architecture;visible;night;;
+expected_A95;0603 - Belgique/Resulting image copie - 3.jpg;;;yes;degraded;outdoor;no;religious;visible;day;;cloudy
+expected_A95;0603 - Belgique/carte belgique.jpg;;;no;degraded;outdoor;no;undetermined;absent;day;;
+expected_A95;0603 - Bx/IMG_6332.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6337.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6342.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6345.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6351.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6358.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6360.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6366.JPG;;;yes;;outdoor;no;street;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6368.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6370.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6372.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6378.JPG;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Bx/IMG_6379.JPG;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Bx/IMG_6381.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6385.JPG;;;yes;;outdoor;no;street;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6387.JPG;;;yes;;outdoor;no;street;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6389.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6392.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6393.JPG;;;yes;excellent;outdoor;no;graphic;absent;day;;
+expected_A95;0603 - Bx/IMG_6397.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6401.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6404.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6405.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;mixed
+expected_A95;0603 - Bx/IMG_6405_tmp.jpg;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6406.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0603 - Bx/IMG_6409.JPG;;;yes;;outdoor;no;street;absent;day;;
+expected_A95;0603 - Bx/IMG_6414.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6415.JPG;;;yes;excellent;outdoor;no;castle;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6418.JPG;;;no;excellent;outdoor;no;castle;visible;day;;sunny
+expected_A95;0603 - Bx/IMG_6423.JPG;;;yes;excellent;outdoor;no;castle;visible;day;;few_clouds
+expected_A95;0603 - Bx/IMG_6427.JPG;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Bx/IMG_6431.JPG;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0603 - Bx/IMG_6433.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0603 - Bx/IMG_6435.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0604 - Bx  Khalid/IMG_6521.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0604 - Bx  Khalid/IMG_6525.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0604 - Bx  Khalid/IMG_6531.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0604 - Bx  Khalid/IMG_6532.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0604 - Bx  Khalid/IMG_6533.JPG;;;yes;good;outdoor;front;vehicle;absent;day;car;
+expected_A95;0604 - Bx  Khalid/IMG_6535.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0604 - Bx  Khalid/IMG_6536.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0604 - Bx Youssef/IMG_6562.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0604 - Bx Youssef/IMG_6563.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0604 - Bx Youssef/IMG_6564.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0604 - Bx Youssef/IMG_6565.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6566.JPG;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6567.JPG;;;no;excellent;outdoor;no;religious;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6568.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;cloudy
+expected_A95;0604 - St Emilion/IMG_6569.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;cloudy
+expected_A95;0604 - St Emilion/IMG_6570.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;cloudy
+expected_A95;0604 - St Emilion/IMG_6571.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0604 - St Emilion/IMG_6572.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;mixed
+expected_A95;0604 - St Emilion/IMG_6573.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;mixed
+expected_A95;0604 - St Emilion/IMG_6575.JPG;;;no;;outdoor;no;street;visible;day;;mixed
+expected_A95;0604 - St Emilion/IMG_6576.JPG;;;yes;ruin;outdoor;no;religious;visible;day;;cloudy
+expected_A95;0604 - St Emilion/IMG_6577.JPG;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6580.JPG;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6581.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6584.JPG;;;yes;ruin;outdoor;no;facade;visible;day;;few_clouds
+expected_A95;0604 - St Emilion/IMG_6588.JPG;;;no;degraded;outdoor;no;facade;visible;day;;bad_weather
+expected_A95;0604 - St Emilion/IMG_6590.JPG;;;no;ruin;outdoor;no;facade;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6593.JPG;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6596.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6598-2.jpg;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6598.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6601.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;cloudy
+expected_A95;0604 - St Emilion/IMG_6603.JPG;;;no;degraded;outdoor;no;religious;visible;day;;few_clouds
+expected_A95;0604 - St Emilion/IMG_6610.JPG;;;yes;ruin;outdoor;no;facade;visible;day;;few_clouds
+expected_A95;0604 - St Emilion/IMG_6613.JPG;;;no;ruin;outdoor;no;facade;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6614.JPG;;;yes;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0604 - St Emilion/IMG_6615.JPG;;;no;;outdoor;;macro;visible;day;;few_clouds
+expected_A95;0604 - St Emilion/IMG_6617.JPG;;;no;;outdoor;;macro;visible;day;;few_clouds
+expected_A95;0604 - St Emilion/IMG_6619.JPG;;;no;ruin;outdoor;no;religious;visible;day;;sunny
+expected_A95;0604 - St Emilion/IMG_6621.JPG;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6628.JPG;;;yes;;outdoor;no;animal;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6629-2.jpg;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6629.JPG;;;no;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0604 - St Emilion/IMG_6631.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0604 - St Emilion/IMG_6632.JPG;;;no;;outdoor;no;urban_landscape;visible;day;;mixed
+expected_A95;0604 - St Emilion/IMG_6634-2.jpg;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0604 - St Emilion/IMG_6634.JPG;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0604 - St Emilion/IMG_6635.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;mixed
+expected_A95;0604 - St Emilion/IMG_6637.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;mixed
+expected_A95;0604 - St Emilion/st-emilion-pano2.jpg;;;yes;;outdoor;no;urban_landscape;visible;day;;cloudy
+expected_A95;0605 - Bx Trip graph/IMG_6778.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0605 - Bx Trip graph/IMG_6789.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0605 - Bx Trip graph/IMG_6791 -2.jpg;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6791.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6794.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0605 - Bx Trip graph/IMG_6796.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0605 - Bx Trip graph/IMG_6797.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0605 - Bx Trip graph/IMG_6804 - 3.jpg;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6806.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6809.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6811.JPG;;;yes;degraded;outdoor;no;bridge;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6817 -2.jpg;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6817.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6822.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6827.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6831 - 2.jpg;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6833 -2.jpg;;;no;;indoor;;street_art;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6833.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6839.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6843.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6849.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0605 - Bx Trip graph/IMG_6856.JPG;;;yes;;outdoor;;street_art;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6858-2.jpg;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6858.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6864.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6869.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6877.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6880.JPG;;;no;excellent;outdoor;no;facade;visible;day;;bad_weather
+expected_A95;0605 - Bx Trip graph/IMG_6883.JPG;;;yes;degraded;outdoor;no;facade;visible;day;;cloudy
+expected_A95;0605 - Bx Trip graph/IMG_6886.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6889 -2.jpg;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6889.JPG;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6897.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6898.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6899 -2.jpg;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6899.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6900 -2.jpg;;;yes;degraded;outdoor;no;factory;visible;day;;sunny
+expected_A95;0605 - Bx Trip graph/IMG_6900.JPG;;;yes;degraded;outdoor;no;facade;visible;day;;few_clouds
+expected_A95;0605 - Bx Trip graph/IMG_6905.JPG;;;yes;degraded;outdoor;no;bridge;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6908.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6912.JPG;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6913.JPG;;;no;degraded;outdoor;no;factory;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6917.JPG;;;yes;degraded;outdoor;no;bridge;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6918.JPG;;;yes;;outdoor;;street_art;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6922.JPG;;;no;excellent;outdoor;no;graphic;visible;day;;mixed
+expected_A95;0605 - Bx Trip graph/IMG_6925.JPG;;;no;;outdoor;;street_art;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6927.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6929.JPG;;;no;degraded;outdoor;no;factory;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6932.JPG;;;no;;outdoor;;street_art;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6933.JPG;;;yes;degraded;outdoor;no;bridge;visible;day;;few_clouds
+expected_A95;0605 - Bx Trip graph/IMG_6935.JPG;;;no;degraded;outdoor;no;bridge;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6938.JPG;;;yes;degraded;outdoor;no;bridge;visible;day;;cloudy
+expected_A95;0605 - Bx Trip graph/IMG_6940.JPG;;;yes;degraded;outdoor;no;bridge;visible;day;;mixed
+expected_A95;0605 - Bx Trip graph/IMG_6945 - 2.jpg;;;yes;degraded;outdoor;no;bridge;visible;day;;sunny
+expected_A95;0605 - Bx Trip graph/IMG_6948.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0605 - Bx Trip graph/IMG_6954.JPG;;;yes;degraded;outdoor;no;bunker;visible;day;;few_clouds
+expected_A95;0605 - Bx Trip graph/IMG_6956.JPG;;;yes;;outdoor;;street_art;visible;day;;cloudy
+expected_A95;0605 - Bx Trip graph/IMG_6958.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0605 - Bx Trip graph/IMG_6962.JPG;;;yes;excellent;outdoor;no;bridge;visible;day;;mixed
+expected_A95;0605 - Bx Trip graph/IMG_6963.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;few_clouds
+expected_A95;0605 - Bx Trip graph/IMG_6966 - 2.jpg;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6966.JPG;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6968.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0605 - Bx Trip graph/IMG_6970.JPG;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0605 - Bx Trip graph/IMG_6971.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;few_clouds
+expected_A95;0605 - Bx w Mum Mille & Serge/IMG_6640.JPG;;painting;yes;degraded;indoor;front;plastic_arts;absent;day;;
+expected_A95;0605 - Bx w Mum Mille & Serge/IMG_6642.JPG;;sculpture;yes;good;indoor;front;plastic_arts;absent;day;;
+expected_A95;0605 - Bx w Mum Mille & Serge/IMG_6644.JPG;;;yes;degraded;indoor;front;graphic;absent;day;;
+expected_A95;0605 - Bx w Mum Mille & Serge/IMG_6646.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0605 - Bx w Mum Mille & Serge/IMG_6647.JPG;;painting;yes;degraded;indoor;front;plastic_arts;absent;day;;
+expected_A95;0606 - Grolejac/IMG_6989 - 2.jpg;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0606 - Grolejac/IMG_6989.JPG;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0606 - Grolejac/IMG_6990.JPG;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0606 - Grolejac/IMG_6998.JPG;;painting;yes;good;outdoor;front;plastic_arts;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7012.JPG;;;yes;degraded;outdoor;no;vehicle;absent;day;undetermined;
+expected_A95;0606 - Grolejac/IMG_7017.JPG;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7020.JPG;;;no;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7022.JPG;;;no;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7025.JPG;;;no;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7026.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7029.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7031.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7033.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7039.JPG;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7042.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7043.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7045.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7047.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7048.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7051.JPG;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7052.JPG;;;yes;good;outdoor;front;facade;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7053.JPG;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7057.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7058.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7061.JPG;;;no;degraded;outdoor;no;factory;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7063.JPG;;;no;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7065.JPG;;;no;degraded;outdoor;no;castle;visible;day;;few_clouds
+expected_A95;0606 - Grolejac/IMG_7068.JPG;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7070.JPG;;;no;degraded;outdoor;no;vineyard_hut;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7073.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7080.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7084.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7088.JPG;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7098.JPG;;;no;degraded;outdoor;no;religious;visible;day;;few_clouds
+expected_A95;0606 - Grolejac/IMG_7101.JPG;;;yes;degraded;outdoor;no;house;visible;day;;few_clouds
+expected_A95;0606 - Grolejac/IMG_7102.JPG;;;yes;ruin;outdoor;no;facade;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7105.JPG;;;no;degraded;outdoor;no;religious;visible;day;;few_clouds
+expected_A95;0606 - Grolejac/IMG_7107.JPG;;;yes;good;outdoor;front;graphic;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7108.JPG;;;yes;good;outdoor;front;undetermined;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7110.JPG;;;yes;;outdoor;back;landscape;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7111.JPG;;;yes;;outdoor;front;urban_landscape;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7114.JPG;;;yes;good;outdoor;front;facade;absent;day;;
+expected_A95;0606 - Grolejac/IMG_7117.JPG;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7118.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7121.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0606 - Grolejac/IMG_7123.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0608 - Bx/IMG_8225.JPG;;;yes;excellent;outdoor;no;religious;visible;dusk;;sunny
+expected_A95;0608 - Bx/IMG_8229.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0608 - Bx/IMG_8234.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0608 - Bx/IMG_8235.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0608 - Bx/IMG_8241.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;sunny
+expected_A95;0608 - Bx/IMG_8242.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;mixed
+expected_A95;0608 - Bx/IMG_8248.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;mixed
+expected_A95;0608 - Bx/IMG_8256.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;few_clouds
+expected_A95;0608 - Bx/IMG_8261.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;mixed
+expected_A95;0608 - Bx/IMG_8262.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;few_clouds
+expected_A95;0608 - Bx/IMG_8267.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0608 - Bx/IMG_8274.JPG;;;no;;outdoor;no;landscape;visible;dusk;;mixed
+expected_A95;0608 - Bx/IMG_8288.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0608 - Bx/IMG_8289.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0608 - Bx/IMG_8294.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0608 - Bx/IMG_8300.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0608 - Bx/IMG_8304.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8305.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8310.JPG;;;no;;outdoor;no;animal;absent;day;;
+expected_A95;0608 - Bx/IMG_8322.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8325.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0608 - Bx/IMG_8332.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;mixed
+expected_A95;0608 - Bx/IMG_8335.JPG;;sculpture;no;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0608 - Bx/IMG_8336.JPG;;sculpture;no;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0608 - Bx/IMG_8338.JPG;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0608 - Bx/IMG_8346.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8351.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8352.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8356.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8359.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8360.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0608 - Bx/IMG_8363.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8365.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8368.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0608 - Bx/IMG_8371.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8373.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8375.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0608 - Bx/IMG_8377.JPG;;;no;;outdoor;;macro;visible;day;;few_clouds
+expected_A95;0608 - Bx/IMG_8378.JPG;;;yes;;outdoor;no;animal;absent;day;;
+expected_A95;0608 - Bx/graph1-2.jpg;;;yes;good;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0608 - Bx/graph1-3.jpg;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0608 - Bx/graph1-4.jpg;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0608 - Bx/graph1-5.jpg;;;yes;;outdoor;no;landscape;visible;dusk;;sunny
+expected_A95;0608 - Bx/graph1.jpg;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0126.JPG;;;yes;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0138 -2.jpg;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0138.JPG;;;yes;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0144.JPG;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0150.JPG;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0154.JPG;;;no;;outdoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0165.JPG;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0166.JPG;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0168.JPG;;;yes;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0169.JPG;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0174.JPG;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0178.JPG;;;no;;indoor;no;animal;absent;day;;
+expected_A95;0609 - Tours Chatom/IMG_0214.JPG;;;yes;;indoor;no;landscape;visible;day;;
+expected_A95;0609 - Tours Chatom/IMG_0223.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0609 - Tours/IMG_0102.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0609 - Tours/IMG_0103.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0609 - Tours/IMG_0106.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0609 - Tours/IMG_0108 - 2.jpg;;;no;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0609 - Tours/IMG_0108.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0609 - Tours/IMG_0111.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0609 - Tours/IMG_0119.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0609 - Tours/IMG_0122.JPG;;;no;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0609 - Tours/IMG_0124.JPG;;;no;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Andernos/IMG_0863.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0610 - Andernos/IMG_0872.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0610 - Andernos/IMG_0873.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0610 - Andernos/IMG_0874.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0610 - Andernos/IMG_0875.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0610 - Andernos/IMG_0878.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0610 - Andernos/IMG_0881.JPG;;;yes;;outdoor;front;landscape;visible;day;;sunny
+expected_A95;0610 - Andernos/IMG_0882.JPG;;;yes;;outdoor;profile;landscape;visible;day;;few_clouds
+expected_A95;0610 - Andernos/IMG_0883.JPG;;;no;;outdoor;front;landscape;visible;day;;few_clouds
+expected_A95;0610 - Andernos/IMG_0885.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0610 - Andernos/IMG_0888.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0610 - Andernos/IMG_0889.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Andernos/IMG_0891.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Andernos/IMG_0894.JPG;;;yes;;outdoor;front;landscape;visible;day;;sunny
+expected_A95;0610 - Andernos/IMG_0896.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Andernos/IMG_0900.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Andernos/IMG_0904.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Andernos/IMG_0906.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0610 - Andernos/IMG_0911.JPG;;;yes;degraded;outdoor;no;bridge;visible;day;;sunny
+expected_A95;0610 - Andernos/IMG_0912.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Andernos/IMG_0913.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Andernos/IMG_0914.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Andernos/IMG_0918.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Andernos/IMG_0919.JPG;;;yes;;outdoor;front;landscape;absent;day;;
+expected_A95;0610 - Andernos/IMG_0920.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Andernos/IMG_0927.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0610 - Andernos/IMG_0928.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0610 - Andernos/IMG_0930.JPG;;;yes;;outdoor;no;animal;absent;day;;
+expected_A95;0610 - Andernos/IMG_0932.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0610 - Andernos/IMG_0937.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Andernos/IMG_0940.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0610 - Andernos/IMG_0941.JPG;;;yes;degraded;outdoor;front;facade;absent;day;;
+expected_A95;0610 - Andernos/PanoBassin 1.jpg;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0610 - Andernos/graph1.jpg;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Andernos/graph22.jpg;;;no;good;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Andernos/graph3-2.jpg;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Andernos/graph3.jpg;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Andernos/graph4-2.jpg;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Andernos/graph4.jpg;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Andernos/panobassin2.jpg;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx Panoroom/IMG_2134.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2135.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2136.JPG;;;yes;excellent;indoor;no;office;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2137.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2138.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2139.JPG;;painting;yes;good;indoor;no;plastic_arts;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2140.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2141.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2142.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2143.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2144.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2145.JPG;;;yes;good;indoor;no;office;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2146.JPG;;;yes;degraded;indoor;no;house;absent;day;;
+expected_A95;0610 - Bx Panoroom/IMG_2147.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx w Dad & Mom/IMG_0467.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;few_clouds
+expected_A95;0610 - Bx w Dad & Mom/IMG_0470.JPG;;;yes;excellent;outdoor;front;facade;absent;day;;
+expected_A95;0610 - Bx w Dad & Mom/IMG_0472.JPG;;;yes;excellent;outdoor;front;facade;absent;day;;
+expected_A95;0610 - Bx w Dad & Mom/IMG_0477.JPG;;;yes;excellent;outdoor;front;undetermined;absent;day;;
+expected_A95;0610 - Bx w Dad & Mom/IMG_0478.JPG;;;yes;excellent;outdoor;front;undetermined;absent;day;;
+expected_A95;0610 - Bx w Dad & Mom/IMG_0480.JPG;;;yes;good;outdoor;front;undetermined;absent;day;;
+expected_A95;0610 - Bx w Dad & Mom/IMG_0486.JPG;;;yes;excellent;outdoor;front;undetermined;absent;day;;
+expected_A95;0610 - Bx w Dad & Mom/IMG_0489.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0610 - Bx/IMG_0263.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0267.JPG;;;yes;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0269.JPG;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0610 - Bx/IMG_0274.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0275.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0276.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0278.JPG;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0610 - Bx/IMG_0279 - 2 - 1.jpg;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0610 - Bx/IMG_0279 - 2 - 2.jpg;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0610 - Bx/IMG_0280.JPG;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0610 - Bx/IMG_0287.JPG;;;yes;excellent;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0289.JPG;;;yes;excellent;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0298.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0305.JPG;;;no;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0313 - 2.jpg;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0313.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0317.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0318.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0322.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0327.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0610 - Bx/IMG_0328.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0331.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0334.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0339.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0341.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0343.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0347.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0349.JPG;;;yes;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0350.JPG;;;no;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0353.JPG;;;yes;good;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0355.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0362.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0369.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0372.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0374.JPG;;;no;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0376.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0378.JPG;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0610 - Bx/IMG_0381.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0384.JPG;;;yes;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0394.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0396.JPG;;;yes;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0399.JPG;;;yes;excellent;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0402.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0409.JPG;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0410.JPG;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0610 - Bx/IMG_0412.JPG;;;no;excellent;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0414.JPG;;;no;good;indoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0427.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0610 - Bx/IMG_0428.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0610 - Bx/IMG_0433.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0610 - Bx/IMG_0434.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0610 - Bx/IMG_0435.JPG;;;yes;;outdoor;no;street;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0443.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0447.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0453.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0459.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0463.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0501 - 2.jpg;;;yes;degraded;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0501.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0513.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;sunny
+expected_A95;0610 - Bx/IMG_0516.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;few_clouds
+expected_A95;0610 - Bx/IMG_0518.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0610 - Bx/IMG_0519.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0610 - Bx/IMG_0520.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0610 - Bx/IMG_0521.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0610 - Bx/IMG_0525.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0610 - Bx/IMG_0535.JPG;;;yes;degraded;outdoor;no;graphic;visible;dusk;;cloudy
+expected_A95;0610 - Bx/IMG_0546.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;cloudy
+expected_A95;0610 - Bx/IMG_0549 - 2.jpg;;;yes;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0549 - 3.jpg;;sculpture;yes;ruin;outdoor;no;plastic_arts;visible;day;;cloudy
+expected_A95;0610 - Bx/IMG_0549.JPG;;;yes;degraded;outdoor;no;undetermined;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0560.JPG;;;yes;good;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0567.JPG;;sculpture;yes;degraded;outdoor;no;plastic_arts;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0572.JPG;;sculpture;yes;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0610 - Bx/IMG_0577.JPG;;sculpture;yes;ruin;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0610 - Bx/IMG_0579.JPG;;sculpture;yes;degraded;outdoor;no;plastic_arts;visible;day;;cloudy
+expected_A95;0610 - Bx/IMG_0585.JPG;;sculpture;yes;degraded;outdoor;no;plastic_arts;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0595.JPG;;;yes;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0598.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0599.JPG;;;yes;;outdoor;no;street;absent;day;;
+expected_A95;0610 - Bx/IMG_0609.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0610.JPG;;;no;;outdoor;no;street;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0614.JPG;;;yes;excellent;outdoor;no;architecture;absent;day;;
+expected_A95;0610 - Bx/IMG_0618.JPG;;;yes;excellent;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0625.JPG;;;yes;;outdoor;no;street;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0632.JPG;;;yes;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0645.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0647.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0654.JPG;;;yes;good;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0657.JPG;;;no;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0662.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0663.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0668.JPG;;;no;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0610 - Bx/IMG_0672.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0679.JPG;;;no;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0680.JPG;;;yes;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0684.JPG;;;no;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0687.JPG;;;no;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0688.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0691.JPG;;;no;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0696 - 2.jpg;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0696.JPG;;;no;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0697.JPG;;;no;ruin;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0701.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0703.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0705.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0708.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0714.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0715.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0720.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0721.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0728 - 2.jpg;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0728.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0736.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0741 - 2.jpg;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0610 - Bx/IMG_0741 - 3.jpg;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0741.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0610 - Bx/IMG_0746 - 2.jpg;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0746 - 3.jpg;;;yes;;indoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0746.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0751.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0754 - 2.jpg;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0754.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0758.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0762 - 2.jpg;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0762.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0765.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0768.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0773.JPG;;;no;;indoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0776.JPG;;;yes;;outdoor;;macro;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0781 - 2.jpg;;;yes;;outdoor;;macro;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0781.JPG;;;yes;;outdoor;;macro;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0782.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0610 - Bx/IMG_0785 - 2.jpg;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0787.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0790.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0791.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0793.JPG;;;no;;outdoor;;macro;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0799.JPG;;;no;;outdoor;;macro;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0800 - 2.jpg;;;no;;outdoor;;macro;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0800.JPG;;;no;;outdoor;;macro;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0801.JPG;;;no;;outdoor;;macro;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0804.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0809.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0610 - Bx/IMG_0811.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0813.JPG;;;no;good;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0815.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0816.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0819.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0821.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0825.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0827.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0830.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0833.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0838.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0841.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0610 - Bx/IMG_0844.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0846.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0851.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0852.JPG;;;yes;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0854.JPG;;;yes;excellent;outdoor;no;castle;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0856.JPG;;;no;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_0858.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_1038.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0610 - Bx/IMG_1041.JPG;;;yes;excellent;outdoor;no;castle;visible;day;;sunny
+expected_A95;0610 - Bx/Pano Pey 1.jpg;;;yes;good;outdoor;no;religious;visible;day;;sunny
+expected_A95;0610 - Bx/graph1.jpg;;;yes;good;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1309.JPG;;;no;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0611 - Andernos/IMG_1310.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1315.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1320.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1323.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1325.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1328.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1331.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1334.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1335.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1336.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1338.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1340.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0611 - Andernos/IMG_1348.JPG;;;yes;;outdoor;front;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1350.JPG;;;yes;;outdoor;front;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1353.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0611 - Andernos/IMG_1356.JPG;;;yes;good;outdoor;no;vehicle;absent;day;boat;
+expected_A95;0611 - Andernos/IMG_1357.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1362.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1365.JPG;;;yes;good;outdoor;no;vehicle;visible;day;boat;sunny
+expected_A95;0611 - Andernos/IMG_1366.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1371.JPG;;sculpture;no;good;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0611 - Andernos/IMG_1373.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1374.JPG;;;no;degraded;outdoor;no;house;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1377.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1380.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1383.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1390.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1399.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0611 - Andernos/IMG_1401.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0611 - Andernos/IMG_1403.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Andernos/IMG_1406.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1408.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1409.JPG;;sculpture;yes;good;indoor;no;plastic_arts;absent;day;;
+expected_A95;0611 - Andernos/IMG_1411.JPG;;;yes;degraded;outdoor;no;vehicle;absent;day;undetermined;
+expected_A95;0611 - Andernos/IMG_1415.JPG;;;yes;degraded;outdoor;no;vehicle;absent;day;undetermined;
+expected_A95;0611 - Andernos/IMG_1416.JPG;;;yes;degraded;outdoor;back;vehicle;absent;day;undetermined;
+expected_A95;0611 - Andernos/IMG_1417.JPG;;;yes;degraded;outdoor;front;vehicle;absent;day;undetermined;
+expected_A95;0611 - Andernos/IMG_1425.JPG;;;yes;;outdoor;back;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1426.JPG;;;yes;degraded;outdoor;no;facade;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1429.JPG;;;yes;degraded;outdoor;front;graphic;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1432.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1435.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1438.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1441.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1444.JPG;;;yes;excellent;outdoor;front;facade;absent;day;;
+expected_A95;0611 - Andernos/IMG_1445.JPG;;;yes;degraded;outdoor;front;facade;absent;day;;
+expected_A95;0611 - Andernos/IMG_1447.JPG;;;yes;;outdoor;no;animal;absent;day;;
+expected_A95;0611 - Andernos/IMG_1451.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0611 - Andernos/IMG_1457.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1466.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0611 - Andernos/IMG_1472.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0611 - Andernos/IMG_1475.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1479.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1481.JPG;;;no;degraded;outdoor;no;bridge;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1483.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1484.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1488.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Andernos/IMG_1491.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1495.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1497.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1499.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Andernos/IMG_1501.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1502.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1506.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1509.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1510.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1515.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1518.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1521.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1524.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1525.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1526.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1528.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1529.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Andernos/IMG_1532.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Andernos/IMG_1535.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1538.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Andernos/IMG_1541.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1543.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Andernos/IMG_1544.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1545.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1547.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0611 - Andernos/IMG_1549.JPG;;;no;good;outdoor;no;graphic;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1550.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1552.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1553.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1555.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1558.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1560.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1563.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Andernos/IMG_1567.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0611 - Andernos/IMG_1570.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0611 - Andernos/IMG_1571.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1573.JPG;;;yes;degraded;outdoor;back;undetermined;absent;day;;
+expected_A95;0611 - Andernos/IMG_1579.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Andernos/IMG_1582.JPG;;;no;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0611 - Andernos/IMG_1584.JPG;;;no;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0611 - Andernos/IMG_1586.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0611 - Andernos/IMG_1588.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0611 - Bx/IMG_1171.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1177.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1179.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1181.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1184.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1185.JPG;;;yes;;outdoor;;street_art;absent;day;;
+expected_A95;0611 - Bx/IMG_1190.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1194.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1196.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1205.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1207.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;few_clouds
+expected_A95;0611 - Bx/IMG_1209.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1212.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1214.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1219.JPG;;;no;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1223.JPG;;;yes;excellent;outdoor;no;religious;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1229.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1231.JPG;;;yes;degraded;outdoor;no;religious;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1234.JPG;;;no;good;outdoor;no;religious;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1238.JPG;;;no;good;outdoor;no;religious;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1239.JPG;;;no;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0611 - Bx/IMG_1244.JPG;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0611 - Bx/IMG_1248.JPG;;;no;excellent;outdoor;no;facade;visible;day;;sunny
+expected_A95;0611 - Bx/graph_1.jpg;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Annecy/IMG_2171.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0612 - Annecy/IMG_2173.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;few_clouds
+expected_A95;0612 - Annecy/IMG_2175.JPG;;;yes;excellent;outdoor;no;facade;absent;day;;
+expected_A95;0612 - Bx Geneve Avion/IMG_2043.JPG;;;yes;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0612 - Bx Geneve Avion/IMG_2046.JPG;;;yes;good;outdoor;no;vehicle;visible;day;plane;sunny
+expected_A95;0612 - Bx Geneve Avion/IMG_2047.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;sunny
+expected_A95;0612 - Bx Geneve Avion/IMG_2051.JPG;;;no;;outdoor;no;landscape;visible;day;;mixed
+expected_A95;0612 - Bx Geneve Avion/IMG_2054.JPG;;;yes;;outdoor;no;landscape;visible;day;;sunny
+expected_A95;0612 - Bx Geneve Avion/IMG_2058.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;sunny
+expected_A95;0612 - Bx w Dad & Mille/IMG_1727.JPG;;;yes;good;outdoor;front;graphic;absent;day;;
+expected_A95;0612 - Bx w Dad & Mille/IMG_1728.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Bx w Dad & Mille/IMG_1730.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0612 - Bx w Dad & Mille/IMG_1732.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Bx w Dad & Mille/IMG_1735.JPG;;sculpture;yes;good;outdoor;front;plastic_arts;absent;day;;
+expected_A95;0612 - Bx w Dad & Mille/IMG_1737.JPG;;sculpture;yes;good;outdoor;front;plastic_arts;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0001.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0004.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0006.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0007.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0009.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0014.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0017.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0018.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0022.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0055.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0059.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0060.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0064.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0065.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0068.JPG;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0069.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0072.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0074.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0076.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0078.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0080.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0083.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0085.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0098.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0107.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0108.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0121.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0123.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0126.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0127.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0128.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0131.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0132.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0134.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian  Macro D70/DSC_0135.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2176.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2183.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2187.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2198.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2208.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2209.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2212.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2215.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2217.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2220.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2228-2.jpg;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2228.JPG;;;yes;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2231.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2235.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2238.JPG;;;no;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2246.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2248.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2252.JPG;;;no;;outdoor;no;animal;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2254.JPG;;;no;;outdoor;no;animal;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2257.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2264.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2272.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2274.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2279.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2281.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2307.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2309.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2313-2.jpg;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2313.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2314.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2317.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2320.JPG;;;yes;degraded;outdoor;no;graphic;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2321.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2326.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2328.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2343.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2344.JPG;;;yes;good;outdoor;front;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2345.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2346.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2347.JPG;;;yes;good;outdoor;front;undetermined;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2348.JPG;;;yes;;outdoor;front;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2350.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2351.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2354.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2357.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2359.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2363.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2366.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2368.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2370-2.jpg;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2370.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2372.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2374.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2376.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2378.JPG;;;no;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2380.JPG;;;no;degraded;outdoor;no;graphic;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2382.JPG;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2384.JPG;;;no;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2385.JPG;;;yes;;outdoor;no;landscape;visible;day;;bad_weather
+expected_A95;0612 - Evian Ballade/IMG_2386.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2389.JPG;;;no;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2391.JPG;;;no;;outdoor;;macro;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2393.JPG;;;no;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/IMG_2395.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2400.JPG;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/IMG_2401.JPG;;;yes;;outdoor;no;landscape;visible;day;;cloudy
+expected_A95;0612 - Evian Ballade/gtraph1-2.jpg;;;no;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/gtraph1-3.jpg;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/gtraph1.jpg;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/gtraph2-1.jpg;;;yes;;outdoor;no;landscape;absent;day;;
+expected_A95;0612 - Evian Ballade/gtraph2-2.jpg;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/gtraph2-3.jpg;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Ballade/gtraph2.jpg;;;no;good;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2330.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2331.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2332.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2333.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2334.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2335.JPG;;;yes;good;indoor;no;house;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2336.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2337.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2338.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2339.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian Trip feu/IMG_2340.JPG;;;yes;good;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Evian/IMG_2075.JPG;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0612 - Evian/IMG_2078.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0612 - Evian/IMG_2080.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0612 - Evian/IMG_2082.JPG;;;yes;;outdoor;no;landscape;visible;day;;few_clouds
+expected_A95;0612 - Evian/IMG_2084.JPG;;;yes;degraded;outdoor;no;bridge;visible;day;;few_clouds
+expected_A95;0612 - Evian/IMG_2086.JPG;;;yes;degraded;outdoor;no;vehicle;visible;day;boat;few_clouds
+expected_A95;0612 - Evian/IMG_2089.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;few_clouds
+expected_A95;0612 - Evian/IMG_2090.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;sunny
+expected_A95;0612 - Evian/IMG_2092.JPG;;;yes;;outdoor;no;urban_landscape;visible;day;;sunny
+expected_A95;0612 - Evian/IMG_2094.JPG;;;yes;excellent;outdoor;no;architecture;visible;night;;
+expected_A95;0612 - Evian/IMG_2101.JPG;;;yes;excellent;outdoor;no;architecture;visible;night;;
+expected_A95;0612 - Evian/IMG_2102.JPG;;;yes;excellent;outdoor;no;architecture;visible;dusk;;sunny
+expected_A95;0612 - Evian/IMG_2119.JPG;;;yes;;outdoor;no;landscape;visible;dusk;;few_clouds
+expected_A95;0612 - Evian/IMG_2122.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;mixed
+expected_A95;0612 - Evian/IMG_2126.JPG;;;yes;degraded;outdoor;no;graphic;visible;dusk;;few_clouds
+expected_A95;0612 - Evian/IMG_2133.JPG;;;yes;excellent;outdoor;no;architecture;visible;night;;
+expected_A95;0612 - Evian/IMG_2138.JPG;;;yes;excellent;outdoor;no;architecture;visible;night;;
+expected_A95;0612 - Evian/IMG_2142.JPG;;sculpture;yes;excellent;outdoor;no;plastic_arts;visible;night;;
+expected_A95;0612 - Evian/IMG_2149.JPG;;;yes;;outdoor;no;landscape;absent;dusk;;
+expected_A95;0612 - Evian/IMG_2167.JPG;;;yes;;outdoor;no;animal;absent;night;;
+expected_A95;0612 - Tours Diterzi/IMG_1764.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1767.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1776.JPG;;sculpture;yes;degraded;indoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1779.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1780.JPG;;sculpture;yes;good;indoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1786.JPG;;sculpture;yes;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1790.JPG;;sculpture;yes;degraded;outdoor;front;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1791.JPG;;sculpture;yes;degraded;indoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1796.JPG;;sculpture;yes;degraded;indoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1809.JPG;;sculpture;yes;degraded;indoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1815.JPG;;sculpture;yes;degraded;outdoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1818.JPG;;sculpture;yes;degraded;indoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1822.JPG;;sculpture;yes;degraded;indoor;front;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1835.JPG;;sculpture;yes;degraded;indoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1837.JPG;;sculpture;yes;degraded;indoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Diterzi/IMG_1839.JPG;;sculpture;yes;degraded;indoor;no;plastic_arts;absent;day;;
+expected_A95;0612 - Tours Matin/IMG_1988.JPG;;;yes;;outdoor;no;street;visible;night;;
+expected_A95;0612 - Tours Matin/IMG_1995.JPG;;;yes;;outdoor;no;urban_landscape;visible;night;;
+expected_A95;0612 - Tours Matin/IMG_1998.JPG;;;yes;good;outdoor;no;architecture;visible;night;;
+expected_A95;0612 - Tours Matin/IMG_2000.JPG;;;yes;excellent;outdoor;no;architecture;visible;night;;
+expected_A95;0612 - Tours Matin/IMG_2003-2.jpg;;;yes;;outdoor;no;urban_landscape;visible;night;;
+expected_A95;0612 - Tours Matin/IMG_2003.JPG;;;yes;;outdoor;no;urban_landscape;visible;night;;
+expected_A95;0612 - Tours Matin/IMG_2006.JPG;;;yes;;outdoor;no;urban_landscape;visible;night;;
+expected_A95;0612 - Tours Matin/IMG_2009.JPG;;;yes;;outdoor;no;urban_landscape;visible;night;;
+expected_A95;0612 - Tours Matin/IMG_2012.JPG;;;yes;excellent;outdoor;no;facade;absent;night;;
+expected_A95;0612 - Tours Matin/IMG_2013.JPG;;;yes;degraded;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Tours Matin/IMG_2019.JPG;;;yes;;outdoor;no;street;visible;dusk;;cloudy
+expected_A95;0612 - Tours Matin/IMG_2020.JPG;;;yes;;outdoor;no;street;visible;dusk;;few_clouds
+expected_A95;0612 - Tours Matin/IMG_2023.JPG;;;yes;;outdoor;no;street;visible;night;;
+expected_A95;0612 - Tours Matin/IMG_2024.JPG;;;yes;;outdoor;no;street;visible;dusk;;cloudy
+expected_A95;0612 - Tours Matin/IMG_2026.JPG;;;yes;excellent;outdoor;no;architecture;visible;dusk;;cloudy
+expected_A95;0612 - Tours Matin/IMG_2027.JPG;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Tours Matin/IMG_2028.JPG;;;yes;good;outdoor;no;graphic;absent;day;;
+expected_A95;0612 - Tours Matin/IMG_2030.JPG;;;yes;excellent;outdoor;no;architecture;visible;day;;cloudy
+expected_A95;0612 - Tours Matin/IMG_2031.JPG;;;yes;;outdoor;no;street;visible;dusk;;few_clouds
+expected_A95;0612 - Tours Matin/IMG_2032.JPG;;;yes;;outdoor;no;street;visible;day;;cloudy
+expected_A95;0612 - Tours Matin/IMG_2033.JPG;;;yes;;outdoor;no;street;visible;day;;cloudy
+expected_A95;0612 - Tours People/IMG_1852.JPG;;;yes;;outdoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1855.JPG;;;yes;;indoor;front;urban_landscape;absent;day;;
+expected_A95;0612 - Tours People/IMG_1856.JPG;;;yes;excellent;outdoor;no;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1859.JPG;;;yes;good;indoor;front;house;absent;day;;
+expected_A95;0612 - Tours People/IMG_1860.JPG;;;yes;excellent;indoor;front;house;absent;day;;
+expected_A95;0612 - Tours People/IMG_1863.JPG;;;yes;good;indoor;front;house;absent;day;;
+expected_A95;0612 - Tours People/IMG_1864.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1868.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1870.JPG;;;yes;good;indoor;front;house;absent;day;;
+expected_A95;0612 - Tours People/IMG_1871.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1872.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1874.JPG;;;yes;degraded;indoor;no;graphic;absent;day;;
+expected_A95;0612 - Tours People/IMG_1876.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1878.JPG;;;no;;outdoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1879.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1886.JPG;;sculpture;yes;degraded;indoor;front;plastic_arts;absent;day;;
+expected_A95;0612 - Tours People/IMG_1890.JPG;;;yes;excellent;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1893.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1894.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1897.JPG;;painting;yes;good;indoor;front;plastic_arts;absent;day;;
+expected_A95;0612 - Tours People/IMG_1899.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1900.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1902.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1904.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1905.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1906.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1915.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1917.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1919.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1921.JPG;;sculpture;yes;degraded;indoor;front;plastic_arts;absent;day;;
+expected_A95;0612 - Tours People/IMG_1929.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1930.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1931.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1932.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1933.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1934.JPG;;sculpture;no;good;indoor;front;plastic_arts;absent;day;;
+expected_A95;0612 - Tours People/IMG_1937.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1940.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1942.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1944.JPG;;;yes;degraded;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1945.JPG;;;yes;;indoor;front;animal;absent;day;;
+expected_A95;0612 - Tours People/IMG_1947.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1948.JPG;;;yes;good;indoor;front;undetermined;absent;day;;
+expected_A95;0612 - Tours People/IMG_1956.JPG;;sculpture;yes;good;indoor;front;plastic_arts;absent;day;;
+expected_A95;0612 - Tours People/IMG_1957.JPG;;;no;degraded;outdoor;profile;graphic;absent;day;;
+expected_A95;0612 - Tours/IMG_1642.JPG;;;yes;;indoor;no;animal;absent;day;;
+expected_A95;0612 - Tours/IMG_1645.JPG;;;yes;;indoor;no;animal;absent;day;;
+expected_A95;0612 - Tours/IMG_1652.JPG;;;yes;;indoor;no;animal;absent;day;;
+expected_A95;0612 - Tours/IMG_1662.JPG;;;yes;;indoor;no;animal;absent;day;;
+expected_A95;0612 - Tours/IMG_1665.JPG;;;no;;indoor;;macro;absent;day;;
+expected_A95;0612 - Tours/IMG_1674.JPG;;;yes;;indoor;;macro;absent;day;;
+expected_A95;0612 - Tours/IMG_1681.JPG;;;yes;;indoor;no;animal;absent;day;;
+expected_A95;0612 - Tours/IMG_1683.JPG;;;yes;;indoor;no;animal;absent;day;;
+expected_A95;0612 - Tours/IMG_1691.JPG;;;yes;degraded;outdoor;no;facade;absent;day;;
+expected_A95;0612 - Tours/IMG_1693.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;sunny
+expected_A95;0612 - Tours/IMG_1712.JPG;;;yes;;outdoor;no;urban_landscape;visible;dusk;;cloudy
